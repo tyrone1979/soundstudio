@@ -197,6 +197,7 @@ EXACT = {
     '暂无铺满可能性（先写至少一个音）': 'No fill-in possibilities yet (write at least one note)',
     # 对话面板
     '对话': 'Chat', '新对话': 'New chat', '新建': 'New', '删除': 'Delete', '风格': 'Style',
+    '新乐谱': 'New Score', '对话创曲': 'Chat composition',
     '发送': 'Send',
     '点选小节/音符后对话只改选区；无选区则整曲。可用下方「风格」下拉选择，或输入 /style 弹出列表，选完后继续写描述。创曲需等 LLM（约1–3分钟）。Ctrl多选 · Esc清除 · /help':
         'With measures/notes selected, chat edits only the selection; otherwise the whole piece. '

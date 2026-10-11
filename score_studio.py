@@ -5952,8 +5952,11 @@ class StudioWindow(QMainWindow):
             # 异常时也必须复位，否则对话切换被永久抑制
             self._suppress_chat_switch = False
 
-    def _clear_displayed_score(self, title: str = '新乐谱', layout: str = 'single'):
+    def _clear_displayed_score(self, title: str = None, layout: str = 'single'):
         """Blank the staff view with a writable measure grid (assist-ready)."""
+        is_en = i18n.language() == 'en'
+        if title is None:
+            title = 'New Score' if is_en else '新乐谱'
         self.view.clear_selection()
         self.m21_score = None
         # 从会话偏好取调号/拍号/速度；否则 C major 4/4 ♩=120、16 小节
@@ -5977,11 +5980,18 @@ class StudioWindow(QMainWindow):
         self.export_wav_btn.setEnabled(False)
         self.audio_path = None
         self._score_audio = None
-        layout_label = '钢琴大谱表' if str(layout).lower() in (
-            'piano', 'grand', 'satb', 'four-part', 'four_part') else '单行'
-        self.info_label.setText(
-            f"♪ {title} ｜ {bars} 小节空谱（{layout_label}）｜ 辅助作曲可直接点写")
-        self.setWindowTitle(f"乐谱工作室 - {title}")
+        if is_en:
+            layout_label = 'Piano Grand Staff' if str(layout).lower() in (
+                'piano', 'grand', 'satb', 'four-part', 'four_part') else 'Single'
+            self.info_label.setText(
+                f"♪ {title} ｜ {bars}-measure empty score ({layout_label}) ｜ Click to enter notes in assist mode")
+            self.setWindowTitle(f"Score Studio - {title}")
+        else:
+            layout_label = '钢琴大谱表' if str(layout).lower() in (
+                'piano', 'grand', 'satb', 'four-part', 'four_part') else '单行'
+            self.info_label.setText(
+                f"♪ {title} ｜ {bars} 小节空谱（{layout_label}）｜ 辅助作曲可直接点写")
+            self.setWindowTitle(f"乐谱工作室 - {title}")
         self._set_skill_trace([])
         # 同步辅助引擎风格
         self._sync_assist_style_from_prefs()
@@ -6504,19 +6514,25 @@ class StudioWindow(QMainWindow):
         if hasattr(self, '_edit_sync_timer'):
             self._edit_sync_timer.start()
 
-    def _create_chat_session(self, activate=True, title='新对话'):
+    def _create_chat_session(self, activate=True, title=None):
         from llm_compose import ComposeSession
+        is_en = i18n.language() == 'en'
+        if title is None:
+            title = 'New chat' if is_en else '新对话'
         chat_id = uuid.uuid4().hex[:10]
         now = datetime.now().isoformat(timespec='seconds')
+        greeting = (
+            'Hello! Describe what you want, or select measures/notes and ask for changes. Type /help.'
+            if is_en else
+            '你好！可直接描述想要的曲子；或点选小节/音符后再说怎么改。输入 /help。'
+        )
         data = {
             'id': chat_id,
             'title': title,
             'created_at': now,
             'updated_at': now,
             'messages': [
-                {'role': 'assistant', 'text':
-                 '你好！可直接描述想要的曲子；或点选小节/音符后再说怎么改。输入 /help。',
-                 'ts': now},
+                {'role': 'assistant', 'text': greeting, 'ts': now},
             ],
             'compose': None,
         }
@@ -6537,7 +6553,7 @@ class StudioWindow(QMainWindow):
             self._chat_id = chat_id
             self._chat_messages = list(data['messages'])
             self._render_chat_log()
-            self._clear_displayed_score(title='新乐谱')
+            self._clear_displayed_score()
             # 新建 → 自动进入编辑 + 辅助作曲
             self._enter_assist_compose()
         return chat_id
@@ -6735,7 +6751,8 @@ class StudioWindow(QMainWindow):
             self._switch_chat_session(chat_id)
 
     def _new_chat_session(self):
-        self._create_chat_session(activate=True, title='新对话')
+        title = 'New chat' if i18n.language() == 'en' else '新对话'
+        self._create_chat_session(activate=True, title=title)
 
     def _delete_chat_session(self):
         if not self._chat_id:
@@ -7493,7 +7510,7 @@ class StudioWindow(QMainWindow):
             llm_available=bool((load_llm_config() or {}).get('api_key')),
         )
     def _chat_append(self, who: str, text: str, skills=None):
-        role = 'user' if who == '你' else 'assistant'
+        role = 'user' if who in ('你', 'You') else 'assistant'
         entry = {
             'role': role,
             'text': text,
@@ -7502,7 +7519,10 @@ class StudioWindow(QMainWindow):
         if skills:
             entry['skills'] = list(skills)
         self._chat_messages.append(entry)
-        self.chat_log.appendPlainText(f"{who}：{text}\n")
+        is_en = i18n.language() == 'en'
+        display_who = ('You' if role == 'user' else 'Assistant') if is_en else who
+        sep = ': ' if is_en else '：'
+        self.chat_log.appendPlainText(f"{display_who}{sep}{text}\n")
         self.chat_log.verticalScrollBar().setValue(self.chat_log.verticalScrollBar().maximum())
         self._schedule_chat_persist()
 
@@ -7554,13 +7574,21 @@ class StudioWindow(QMainWindow):
 
     def _render_chat_log(self):
         lines = []
+        is_en = i18n.language() == 'en'
         for m in self._chat_messages:
-            who = '你' if m.get('role') == 'user' else '助手'
-            lines.append(f"{who}：{m.get('text', '')}\n")
+            role = m.get('role')
+            if is_en:
+                who = 'You' if role == 'user' else 'Assistant'
+                sep = ': '
+            else:
+                who = '你' if role == 'user' else '助手'
+                sep = '：'
+            lines.append(f"{who}{sep}{m.get('text', '')}\n")
             skills = m.get('skills')
             if skills:
                 import composition_skills as skill_lib
-                lines.append(f"（Skill：{skill_lib.format_skill_label(skills)}）\n")
+                lbl = skill_lib.format_skill_label(skills)
+                lines.append(f"(Skill: {lbl})\n" if is_en else f"（Skill：{lbl}）\n")
         self.chat_log.setPlainText('\n'.join(lines) if lines else '')
         self.chat_log.verticalScrollBar().setValue(self.chat_log.verticalScrollBar().maximum())
 
@@ -7594,30 +7622,36 @@ class StudioWindow(QMainWindow):
                 "检测到整曲修改说明，已忽略当前选区，将按整曲重写处理。",
             )
         display = text
+        is_en = i18n.language() == 'en'
         if sel:
             from llm_compose import describe_selection
-            display = f"[选区 {describe_selection(sel)}]\n{text}"
-        self._chat_append("你", display)
+            display = f"[Selection {describe_selection(sel)}]\n{text}" if is_en else f"[选区 {describe_selection(sel)}]\n{text}"
+        self._chat_append("You" if is_en else "你", display)
         try:
             skill_ids, pipeline = self._preview_skills_for_message(text, sel)
         except Exception as e:
-            self._chat_append("助手", f"路由失败：{e}")
+            err_who = "Assistant" if is_en else "助手"
+            err_msg = f"Routing failed: {e}" if is_en else f"路由失败：{e}"
+            self._chat_append(err_who, err_msg)
             return
         self._set_skill_trace(skill_ids, pipeline)
         if pipeline != 'command':
             report = skill_lib.format_skill_report(skill_ids, pipeline)
             if pipeline == 'advice':
-                wait_line = '分析中（解析乐谱 → 给出修改建议，通常 1–2 分钟）…'
+                wait_line = 'Analyzing (analyzing score -> generating advice, usually 1-2 min)...' if is_en else '分析中（解析乐谱 → 给出修改建议，通常 1–2 分钟）…'
             elif pipeline == 'compose-grammar':
-                wait_line = '语法作曲中（确定性 /compose-grammar，不调 LLM）…'
-                report = '【调用】可解释语法作曲（/compose-grammar）\n主流程: compose-grammar'
+                wait_line = 'Composing with grammar (deterministic /compose-grammar, no LLM call)...' if is_en else '语法作曲中（确定性 /compose-grammar，不调 LLM）…'
+                report = ('[Call] Interpretable grammar composition (/compose-grammar)\nMain flow: compose-grammar'
+                          if is_en else
+                          '【调用】可解释语法作曲（/compose-grammar）\n主流程: compose-grammar')
             elif sel:
-                wait_line = '改选区中（调用 LLM，通常 1–3 分钟）…'
+                wait_line = 'Editing selection (calling LLM, usually 1-3 min)...' if is_en else '改选区中（调用 LLM，通常 1–3 分钟）…'
             else:
-                wait_line = '创曲中（Planner 翻译意图 → 作曲，通常 1–3 分钟）…'
+                wait_line = 'Composing (Planner translating intent -> composing, usually 1-3 min)...' if is_en else '创曲中（Planner 翻译意图 → 作曲，通常 1–3 分钟）…'
+            preview_title = 'Routing preview:' if is_en else '路由预览：'
             self._chat_append(
-                "助手",
-                f"路由预览：\n{report}\n{wait_line}",
+                "Assistant" if is_en else "助手",
+                f"{preview_title}\n{report}\n{wait_line}",
                 skills=skill_ids,
             )
         self._chat_busy = True
@@ -7992,8 +8026,9 @@ class StudioWindow(QMainWindow):
             }
         )
         self.musicxml_path = paths.get('xml', LLM_MUSICXML_PATH)
-        title = str(spec.get('title') or '对话创曲')
-        composer = str(spec.get('composer') or '对话创曲')
+        is_en = i18n.language() == 'en'
+        title = str(spec.get('title') or ('Chat composition' if is_en else '对话创曲'))
+        composer = str(spec.get('composer') or ('Chat composition' if is_en else '对话创曲'))
         self.score = m21_to_model(m21_score, title=title, composer=composer)
         self.edit_controller.score = self.score
         self.renderer.set_violations([])
@@ -8003,12 +8038,21 @@ class StudioWindow(QMainWindow):
         self.report_path = paths.get('report', LLM_REPORT_PATH)
         n = len(self.score.staves[0].measures) if self.score.staves else 0
         key_name, _ = _key_info(self.score.key_signature.sharps)
-        self.info_label.setText(
-            f"♪ {self.score.title} ｜ {key_name} ｜ "
-            f"{self.score.time_signature.numerator}/{self.score.time_signature.denominator} ｜ "
-            f"♩={self.score.tempo} ｜ {n} 小节 ｜ 源: {os.path.basename(self.musicxml_path)}"
-        )
-        self.setWindowTitle(f"乐谱工作室 - {self.score.title}")
+        if is_en:
+            k_name = i18n.tr(key_name)
+            self.info_label.setText(
+                f"♪ {self.score.title} ｜ {k_name} ｜ "
+                f"{self.score.time_signature.numerator}/{self.score.time_signature.denominator} ｜ "
+                f"♩={self.score.tempo} ｜ {n} measures ｜ Source: {os.path.basename(self.musicxml_path)}"
+            )
+            self.setWindowTitle(f"Score Studio - {self.score.title}")
+        else:
+            self.info_label.setText(
+                f"♪ {self.score.title} ｜ {key_name} ｜ "
+                f"{self.score.time_signature.numerator}/{self.score.time_signature.denominator} ｜ "
+                f"♩={self.score.tempo} ｜ {n} 小节 ｜ 源: {os.path.basename(self.musicxml_path)}"
+            )
+            self.setWindowTitle(f"乐谱工作室 - {self.score.title}")
         self._rebuild_mixer()
         self._update_lcd(0.0)
         # Keep chat dropdown title aligned with the score name
@@ -8104,7 +8148,8 @@ class StudioWindow(QMainWindow):
             return
         _, m21_score, spec, note, paths = result
         try:
-            title = str(spec.get('title') or '对话创曲')
+            is_en = i18n.language() == 'en'
+            title = str(spec.get('title') or ('Chat composition' if is_en else '对话创曲'))
             bars = spec.get('bars', '?')
             tempo_n = spec.get('tempo', '?')
             self._apply_composed_score(m21_score, spec, note=note, paths=paths)
@@ -8112,19 +8157,33 @@ class StudioWindow(QMainWindow):
             skill_block = ''
             if used:
                 skill_block = '\n' + skill_lib.format_skill_report(used)
-            self._chat_append(
-                "助手",
-                f"{note}{skill_block}\n已载入《{title}》（{bars} 小节，♩={tempo_n}），"
-                f"正在合成音频…\n文件：{paths.get('xml', LLM_MUSICXML_PATH)}",
-                skills=used or None,
-            )
-            self._chat_append_think()
-            self.tabs.setCurrentIndex(0)
-            label = skill_lib.format_skill_label(used) if used else title
-            self.statusBar().showMessage(f"已生成：{title} ｜ Skill: {label}")
+            if is_en:
+                self._chat_append(
+                    "Assistant",
+                    f"{note}{skill_block}\nLoaded \"{title}\" ({bars} measures, ♩={tempo_n}), "
+                    f"synthesizing audio...\nFile: {paths.get('xml', LLM_MUSICXML_PATH)}",
+                    skills=used or None,
+                )
+                self._chat_append_think()
+                self.tabs.setCurrentIndex(0)
+                label = skill_lib.format_skill_label(used) if used else title
+                self.statusBar().showMessage(f"Generated: {title} ｜ Skill: {label}")
+            else:
+                self._chat_append(
+                    "助手",
+                    f"{note}{skill_block}\n已载入《{title}》（{bars} 小节，♩={tempo_n}），"
+                    f"正在合成音频…\n文件：{paths.get('xml', LLM_MUSICXML_PATH)}",
+                    skills=used or None,
+                )
+                self._chat_append_think()
+                self.tabs.setCurrentIndex(0)
+                label = skill_lib.format_skill_label(used) if used else title
+                self.statusBar().showMessage(f"已生成：{title} ｜ Skill: {label}")
         except Exception as e:
-            self._chat_append("助手", f"乐谱已生成但载入失败：{e}")
-            self.statusBar().showMessage("载入失败")
+            err_who = "Assistant" if is_en else "助手"
+            err_prefix = "Score generated but failed to load: " if is_en else "乐谱已生成但载入失败："
+            self._chat_append(err_who, f"{err_prefix}{e}")
+            self.statusBar().showMessage("Load failed" if is_en else "载入失败")
 
     def reload_score_from_xml(self, path, rebuild_report=True):
         """以 MusicXML 为源刷新五线谱显示（不生成 PNG）。"""

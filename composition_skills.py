@@ -938,23 +938,37 @@ def format_skill_label(skill_ids: List[str]) -> str:
             names.append(item.get('name') or sid)
         else:
             names.append(sid)
-    return ' · '.join(names) if names else '默认'
+    try:
+        import i18n
+        def_label = 'default' if i18n.language() == 'en' else '默认'
+    except Exception:
+        def_label = '默认'
+    return ' · '.join(names) if names else def_label
 
 
 def format_skill_report(skill_ids: List[str], pipeline: str = '') -> str:
     """Multi-line report of skills used (for chat UI)."""
-    lines = ['【调用 Skill】']
+    try:
+        import i18n
+        is_en = i18n.language() == 'en'
+    except Exception:
+        is_en = False
+    lines = ['[Call Skill]'] if is_en else ['【调用 Skill】']
     if not skill_ids:
-        lines.append('  （默认）')
+        lines.append('  (default)' if is_en else '  （默认）')
     for sid in skill_ids:
         item = get_skill(sid) or get_genre(sid) or {}
         name = item.get('name') or sid
-        kind = '风格' if is_genre_id(sid) else '任务'
+        if is_en:
+            kind = 'Style' if is_genre_id(sid) else 'Task'
+        else:
+            kind = '风格' if is_genre_id(sid) else '任务'
         pipe = item.get('pipeline') or ''
         lines.append(f'  · [{kind}] {name}')
         lines.append(f'      id: {sid}' + (f'  pipeline: {pipe}' if pipe else ''))
     if pipeline:
-        lines.append(f'主流程: {pipeline}')
+        main_flow = 'Main flow: ' if is_en else '主流程: '
+        lines.append(f'{main_flow}{pipeline}')
     return '\n'.join(lines)
 
 

@@ -2940,24 +2940,66 @@ def _learn_chorale_report() -> str:
     return '\n'.join(lines)
 
 
+def _contour_name_en(name: str) -> str:
+    if not name:
+        return ''
+    s = str(name)
+    s = re.sub(r'，幅度\s*(\d+)\s*半音', r', span \1 semitones', s)
+    s = re.sub(r'幅度\s*(\d+)\s*半音', r'span \1 semitones', s)
+    s = s.replace('拱形（高点在中段，落低', 'arch (peak in middle, falling')
+    s = s.replace('拱形（高点在前段，落低', 'arch (peak early, falling')
+    s = s.replace('拱形（高点在后段，落低', 'arch (peak late, falling')
+    s = s.replace('拱形（高点在中段', 'arch (peak in middle')
+    s = s.replace('拱形（高点在前段', 'arch (peak early')
+    s = s.replace('拱形（高点在后段', 'arch (peak late')
+    s = s.replace('谷形（低点在中段', 'valley (low in middle')
+    s = s.replace('谷形（低点在前段', 'valley (low early')
+    s = s.replace('谷形（低点在后段', 'valley (low late')
+    s = s.replace('下行', 'downward')
+    s = s.replace('上行', 'upward')
+    s = s.replace('平稳波形', 'undulating')
+    s = s.replace('（', '(').replace('）', ')')
+    return s
+
+
 def _compose_grammar_cmd(session, arg: str, overrides: Optional[Dict[str, Any]] = None):
     """/compose-grammar [major|minor] [小节数] [pickup|downbeat] [seed=…] [t=温度]：
     确定性 SATB 众赞歌。首个参数是风格词（folk / jig / 爵士 / bebop / 流行 / 牧歌 …）时
     改走旋律 + 钢琴的语法作曲。overrides 可带 key_sharps / tempo / title（LLM 路由用）。"""
     import compose_kernel as _K
+    try:
+        import i18n
+        is_en = i18n.language() == 'en'
+    except Exception:
+        is_en = False
     toks = (arg or '').split()
     ov = overrides or {}
     style_hit = [t for t in toks if t.lower() in _LEADSHEET_ALIASES]
     if style_hit:
         return _compose_leadsheet_cmd(session, toks, ov)
-    prefs = getattr(session, 'prefs', None) or {}
-    ex = prefs.get('_explicit') or {}
+    prefs = getattr(session, 'prefs', None)
+    if prefs is None:
+        prefs = {}
+        if session is not None:
+            session.prefs = prefs
+    ex = prefs.setdefault('_explicit', {})
     mode = str(prefs.get('mode') or 'major') if ex.get('mode') else 'major'
     bars = int(prefs.get('bars') or 12) if ex.get('bars') else 12
     seed, temp, layout = '', 1.0, 'auto'
     for tok in (arg or '').split():
-        tl = tok.lower()
-        if tl in ('major', '大调'):
+        tl = tok.lower().strip()
+        tl_key = tl.replace('_', '-').strip()
+        if tl_key in KEY_ALIASES:
+            sharps, mode = KEY_ALIASES[tl_key]
+            prefs['key_sharps'], prefs['mode'] = sharps, mode
+            ex['key_sharps'] = True
+            ex['mode'] = True
+        elif tl_key in ('g-major', 'g-maj', 'gmaj'):
+            sharps, mode = 1, 'major'
+            prefs['key_sharps'], prefs['mode'] = sharps, mode
+            ex['key_sharps'] = True
+            ex['mode'] = True
+        elif tl in ('major', '大调'):
             mode = 'major'
         elif tl in ('minor', '小调'):
             mode = 'minor'
@@ -2981,9 +3023,11 @@ def _compose_grammar_cmd(session, arg: str, overrides: Optional[Dict[str, Any]] 
     if ov.get('key_sharps') is not None:
         sharps = int(ov['key_sharps'])
     tempo_bpm = int(ov.get('tempo') or tempo_bpm)
+    default_title = 'Chorale (Bach grammar)' if is_en else '众赞歌（巴赫语法）'
+    score_title = str(ov.get('title') or prefs.get('title') or default_title)
     program = {'calls': [
         {'script': 'new_score', 'args': {
-            'title': str(ov.get('title') or prefs.get('title') or '众赞歌（巴赫语法）'),
+            'title': score_title,
             'key_sharps': sharps,
             'mode': mode, 'meter': '4/4', 'tempo': tempo_bpm,
             'bars': bars, 'voices': 4, 'instruments': ['soprano', 'alto', 'tenor', 'bass'],
@@ -2995,21 +3039,33 @@ def _compose_grammar_cmd(session, arg: str, overrides: Optional[Dict[str, Any]] 
     try:
         spec = _K.run_program(program)
     except Exception as e:
-        raise CommandOnly(f'语法作曲失败：{e}')
+        fail_msg = f'Grammar composition failed: {e}' if is_en else f'语法作曲失败：{e}'
+        raise CommandOnly(fail_msg)
     session.score_spec = spec
     session.plan = {'title': spec.get('title'), 'bars': spec.get('bars'),
                     'tempo': spec.get('tempo'), 'meter': '4/4',
-                    'summary': '可解释语法作曲（巴赫众赞歌，确定性，不调 LLM）'}
+                    'summary': ('Interpretable grammar composition (Bach chorale, deterministic, no LLM)'
+                                if is_en else '可解释语法作曲（巴赫众赞歌，确定性，不调 LLM）')}
     session.revision += 1
     session.last_skill_ids = ['chorale-grammar']
     g = spec.get('grammar') or {}
-    lay_say = '一拍弱起 + ' if spec.get('pickup_ql') else '强拍起 · '
-    lines = [f"按学到的巴赫众赞歌语法作曲（确定性，不调 LLM）· {spec.get('title')} · "
-             f"{lay_say}{bars} 小节 · seed={spec.get('seed')} · 硬规则违例 0"]
-    for p in g.get('phrases') or []:
-        lines.append(f"第{p['phrase']}句（{p['bars']}小节）终止于 {p['target']}"
-                     f" [{p['plan_rule']} / {p['formula']} / {p['contour']} {p['contour_name']}]："
-                     f"{p['harmony']}")
+    if is_en:
+        lay_say = '1-beat pickup + ' if spec.get('pickup_ql') else 'downbeat · '
+        lines = [f"Composed with learned Bach chorale grammar (deterministic, no LLM) · {spec.get('title')} · "
+                 f"{lay_say}{bars} measures · seed={spec.get('seed')} · hard violations 0"]
+        for p in g.get('phrases') or []:
+            c_desc = _contour_name_en(p.get('contour_name') or '')
+            lines.append(f"Phrase {p['phrase']} ({p['bars']} measures) ends on {p['target']}"
+                         f" [{p['plan_rule']} / {p['formula']} / {p['contour']} {c_desc}]:"
+                         f" {p['harmony']}")
+    else:
+        lay_say = '一拍弱起 + ' if spec.get('pickup_ql') else '强拍起 · '
+        lines = [f"按学到的巴赫众赞歌语法作曲（确定性，不调 LLM）· {spec.get('title')} · "
+                 f"{lay_say}{bars} 小节 · seed={spec.get('seed')} · 硬规则违例 0"]
+        for p in g.get('phrases') or []:
+            lines.append(f"第{p['phrase']}句（{p['bars']}小节）终止于 {p['target']}"
+                         f" [{p['plan_rule']} / {p['formula']} / {p['contour']} {p['contour_name']}]："
+                         f"{p['harmony']}")
     return spec_to_music21(spec), spec, '\n'.join(lines)
 
 
