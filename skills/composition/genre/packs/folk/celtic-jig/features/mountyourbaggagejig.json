@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "MOUNT YOUR BAGGAGE -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/mountyourbaggagejig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4461885328
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 72.51,
+    "stepwise_ratio": 0.641,
+    "leap_ratio": 0.087,
+    "large_leap_ratio": 0.043,
+    "repeated_note_ratio": 0.054,
+    "interval_hist": {
+      "2": 46,
+      "1": 13,
+      "3": 10,
+      "4": 10,
+      "0": 5,
+      "12": 3,
+      "5": 2,
+      "11": 1,
+      "14": 1,
+      "9": 1
+    },
+    "dur_hist": {
+      "8th": 84,
+      "dotted_8th": 1,
+      "16th": 1,
+      "quarter": 5,
+      "0": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.2796,
+      "1": 0.0,
+      "2": 0.2151,
+      "3": 0.1183,
+      "4": 0.0,
+      "5": 0.1183,
+      "6": 0.0,
+      "7": 0.1075,
+      "8": 0.0,
+      "9": 0.0108,
+      "10": 0.1183,
+      "11": 0.0323
+    },
+    "chromatic_ratio": 0.043,
+    "leading_tone_ratio": 0.0323
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 84,
+      "quarter": 5,
+      "0": 2,
+      "dotted_8th": 1,
+      "16th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.215,
+      "2": 0.161,
+      "3": 0.172,
+      "4": 0.172,
+      "5": 0.129,
+      "6": 0.151
+    },
+    "beat1_onset_share": 0.215,
+    "syncopation_proxy": 0.785,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

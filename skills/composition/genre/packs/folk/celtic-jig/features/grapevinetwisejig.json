@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "GRAPE-VINE TWISE -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/grapevinetwisejig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 17,
+    "parts": [
+      4478700304
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "B",
+      "bars": "3"
+    },
+    {
+      "section": "D",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "B",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "H",
+      "bars": "13"
+    },
+    {
+      "section": "G",
+      "bars": "14"
+    },
+    {
+      "section": "J",
+      "bars": "15"
+    },
+    {
+      "section": "K",
+      "bars": "16"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.353,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G3",
+      "G5"
+    ],
+    "mean_midi": 69.67,
+    "stepwise_ratio": 0.404,
+    "leap_ratio": 0.132,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.088,
+    "interval_hist": {
+      "2": 42,
+      "3": 30,
+      "4": 13,
+      "0": 10,
+      "5": 9,
+      "1": 4,
+      "9": 3,
+      "8": 3
+    },
+    "dur_hist": {
+      "8th": 9,
+      "0": 7,
+      "16th": 98,
+      "dotted_8th": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2522,
+      "1": 0.0,
+      "2": 0.0957,
+      "3": 0.0,
+      "4": 0.1913,
+      "5": 0.0174,
+      "6": 0.0,
+      "7": 0.2609,
+      "8": 0.0,
+      "9": 0.1652,
+      "10": 0.0,
+      "11": 0.0174
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0174
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 98,
+      "8th": 9,
+      "0": 7,
+      "dotted_8th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.574,
+      "2": 0.426
+    },
+    "beat1_onset_share": 0.574,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.085,
+    "density_notes_per_bar": 6.76,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

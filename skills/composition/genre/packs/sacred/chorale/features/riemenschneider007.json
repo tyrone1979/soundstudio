@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "Nun lob, mein Seel, den Herren",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider007.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 3,
+    "meter": "3/4",
+    "tempo": null,
+    "bars": 38,
+    "parts": [
+      4791738960
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 35,
+    "repetition_ratio": 0.079,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 59,
+      "half": 23,
+      "8th": 6,
+      "dotted_half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.449,
+      "2": 0.146,
+      "3": 0.404
+    },
+    "beat1_onset_share": 0.449,
+    "syncopation_proxy": 0.551,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 2.34,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 10,
+    "chords_estimated": 88,
+    "harmonic_rhythm_chords_per_bar": 2.32,
+    "root_pair_top": {
+      "E-A": 10,
+      "B-E": 7,
+      "C#-F#": 6,
+      "A-B": 5,
+      "F#-B": 5,
+      "A-F#": 3,
+      "C#-D": 3,
+      "D-E": 3
+    },
+    "root_sample": [
+      "A",
+      "F#",
+      "C#",
+      "D",
+      "E",
+      "A",
+      "B",
+      "E",
+      "A",
+      "C#",
+      "F#",
+      "E",
+      "A",
+      "B",
+      "E",
+      "A",
+      "D",
+      "A",
+      "E#",
+      "C#",
+      "F#",
+      "G#",
+      "C#",
+      "F#"
+    ],
+    "quality_hist": {
+      "triad": 0.75,
+      "dominant7": 0.1705,
+      "minor7": 0.0455,
+      "half_diminished7": 0.0341
+    },
+    "seventh_ratio": 0.25
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

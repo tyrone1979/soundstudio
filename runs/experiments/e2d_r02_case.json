@@ -1,0 +1,65 @@
+{
+ "question": "Disable R02 and re-decode: what changes, and what does the unchanged checker report?",
+ "seed": "abl1",
+ "mode": "major",
+ "key_sharps": 1,
+ "total_bars": 12,
+ "beats_differing": 6,
+ "n_beats": 43,
+ "violations_on": [],
+ "violations_off": [
+  [
+   "R02",
+   29.0,
+   "外声部隐伏五/八度"
+  ]
+ ],
+ "first_r02": {
+  "t": 29.0,
+  "msg": "外声部隐伏五/八度"
+ },
+ "window": [
+  {
+   "t": 28.0,
+   "on": {
+    "midi": [
+     67,
+     64,
+     60,
+     52
+    ],
+    "chord": "5:M:1"
+   },
+   "off": {
+    "midi": [
+     72,
+     67,
+     60,
+     52
+    ],
+    "chord": "5:M:1"
+   }
+  },
+  {
+   "t": 29.0,
+   "on": {
+    "midi": [
+     69,
+     66,
+     57,
+     50
+    ],
+    "chord": "7:M:0"
+   },
+   "off": {
+    "midi": [
+     69,
+     66,
+     62,
+     50
+    ],
+    "chord": "7:M:0"
+   }
+  }
+ ]
+}

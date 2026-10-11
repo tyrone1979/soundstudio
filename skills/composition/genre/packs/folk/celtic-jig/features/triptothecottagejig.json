@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "Trip to the Cottage -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/triptothecottagejig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4491083664
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 70.84,
+    "stepwise_ratio": 0.468,
+    "leap_ratio": 0.106,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.223,
+    "interval_hist": {
+      "2": 28,
+      "0": 21,
+      "1": 16,
+      "4": 10,
+      "3": 9,
+      "5": 6,
+      "6": 2,
+      "7": 1,
+      "17": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "8th": 91,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1789,
+      "1": 0.0,
+      "2": 0.1368,
+      "3": 0.0,
+      "4": 0.1684,
+      "5": 0.0737,
+      "6": 0.0421,
+      "7": 0.2,
+      "8": 0.0,
+      "9": 0.0947,
+      "10": 0.0,
+      "11": 0.1053
+    },
+    "chromatic_ratio": 0.0421,
+    "leading_tone_ratio": 0.1053
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 91,
+      "16th": 2,
+      "quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.2,
+      "2": 0.168,
+      "3": 0.168,
+      "4": 0.168,
+      "5": 0.147,
+      "6": 0.147
+    },
+    "beat1_onset_share": 0.2,
+    "syncopation_proxy": 0.8,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.28,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

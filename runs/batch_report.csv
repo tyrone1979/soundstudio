@@ -1,0 +1,2 @@
+pack_id,family,generated,avg_overlap,min_overlap,max_overlap,fp_sources,issues,outputs_dir
+fugue,,1,0.3147,0.3147,0.3147,"{""generated"": 3, ""corpus"": 48}",,scores/batch/__fugue__0.mid

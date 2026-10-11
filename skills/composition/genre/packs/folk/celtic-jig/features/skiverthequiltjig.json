@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "SKIVER THE QUILT -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/skiverthequiltjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 3,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4501672464
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G#4",
+      "B5"
+    ],
+    "mean_midi": 74.47,
+    "stepwise_ratio": 0.593,
+    "leap_ratio": 0.099,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.121,
+    "interval_hist": {
+      "2": 33,
+      "1": 21,
+      "3": 12,
+      "0": 11,
+      "5": 6,
+      "4": 5,
+      "9": 2,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 84,
+      "quarter": 6,
+      "0": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.0761,
+      "1": 0.0,
+      "2": 0.1739,
+      "3": 0.0,
+      "4": 0.1413,
+      "5": 0.0761,
+      "6": 0.0543,
+      "7": 0.2609,
+      "8": 0.0,
+      "9": 0.1413,
+      "10": 0.0,
+      "11": 0.0761
+    },
+    "chromatic_ratio": 0.0543,
+    "leading_tone_ratio": 0.0761
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 84,
+      "quarter": 6,
+      "0": 2
+    },
+    "onset_beat_share": {
+      "1": 0.196,
+      "2": 0.152,
+      "3": 0.174,
+      "4": 0.196,
+      "5": 0.13,
+      "6": 0.152
+    },
+    "beat1_onset_share": 0.196,
+    "syncopation_proxy": 0.804,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.11,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

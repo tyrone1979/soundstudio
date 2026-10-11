@@ -1,0 +1,5949 @@
+{
+  "id": "5f648f9393",
+  "title": "Bb Swing Standard",
+  "updated_at": "2026-09-28T21:51:52",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "你好！可直接描述想要的曲子；或点选小节/音符后再说怎么改。输入 /help。",
+      "ts": "2026-09-28T21:44:22"
+    },
+    {
+      "role": "user",
+      "text": "/style 摇摆标准曲（爵士） 写一首Bb大调，中速摇摆",
+      "ts": "2026-09-28T21:44:23"
+    },
+    {
+      "role": "assistant",
+      "text": "路由预览：\n【调用 Skill】\n  · [任务] 整曲创作\n      id: compose-full  pipeline: planner_composer\n  · [风格] 摇摆标准曲（爵士）\n      id: genre:jazz/swing-standard  pipeline: overlay\n主流程: planner_composer\n创曲中（调用 LLM，通常 1–3 分钟）…",
+      "ts": "2026-09-28T21:44:23",
+      "skills": [
+        "compose-full",
+        "genre:jazz/swing-standard"
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "风格 → 摇摆标准曲（爵士）（已绑定 genre:jazz/swing-standard）\n创作描述已记下，将开始生成：Bb大调，中速摇摆\nA 32-bar Bb major swing standard with a syncopated motif, ii-V-I harmony, and a trumpet-led AABA form.\n（已本地强化段落织体对比：高潮段八度加厚 77 个音（旋律声部））\n[Skill: 整曲创作 · 摇摆标准曲（爵士）]\n实际小节数：32（规格：摇摆标准曲（爵士） / ['A', \"A'\", 'B', \"A''\"]）\n【调用 Skill】\n  · [任务] 整曲创作\n      id: compose-full  pipeline: planner_composer\n  · [风格] 摇摆标准曲（爵士）\n      id: genre:jazz/swing-standard  pipeline: overlay\n已载入《Bb Swing Standard》（32 小节，♩=120），正在合成音频…\n文件：scores/chats/5f648f9393.xml",
+      "ts": "2026-09-28T21:44:51",
+      "skills": [
+        "compose-full",
+        "genre:jazz/swing-standard"
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "\n🧠 思考过程 / 翻译追溯\n────────────────────────────────\n【意图解析】\n  风格：摇摆标准曲（爵士）\n  情绪：urban, relaxed, swinging, warm\n  速度：♩=120   调式：major   拍号：4/4   曲式：['A', \"A'\", 'B', \"A''\"]   小节：32\n【翻译推理（LLM）】\n  识别为爵士摇摆标准曲（plan.genre_id=jazz/swing-standard），Bb大调、4/4、中速♩=120，符合摇摆标准曲 92–240 的中速区间。按 AABA 32 小节：A(8)/A'(8)/B(8)/A''(8)，B 段为高潮 f，A'' 作再现收束。编制按 plan.instrumentation 传 trumpet/piano/contrabass/timpani 四声部，solo_instrument=trumpet 让旋律路由到小号。和声全程以七和弦为颗粒（Imaj7–vi7–ii7–V7、ii–V–I），B 段用副属/关系小调偏离制造调性对比，A'' 回归主调终止。旋律节奏逐段对比：A flowing+arch、A' driving+ascending、B fragmented+wave、A'' flowing+descending，末段 cadence。\n【调用的脚本】\n  new_score(♩=120, 4/4, voices=4)\n  set_sections([A(8)/A'(8)/B(8)/A''(8)])\n  set_harmony(A, progression=['Imaj7', 'vi7', 'ii7', 'V7', 'Imaj7', 'VI7', 'ii7', 'V7'])\n  accompaniment(A, pattern=block_chords, register=low, density=1)\n  melody(A, register=mid, rhythm=flowing, contour=arch, motif=[[5, 'quarter'], [1, 'eighth'], [3, 'eighth'], [2, 'half']])\n  set_harmony(A', progression=['Imaj7', 'vi7', 'ii7', 'V7', 'iii7', 'VI7', 'ii7', 'V7'])\n  accompaniment(A', pattern=broken_arpeggio, register=low, density=1)\n  melody(A', register=high, rhythm=driving, contour=ascending)\n  set_harmony(B, progression=['ii7', 'V7', 'Imaj7', 'VI7', 'ii7', 'V7', 'iii7', 'VI7'], key_sharps=-3, mode=minor)\n  accompaniment(B, pattern=octave_pulse, register=low, density=2)\n  melody(B, register=very_high, rhythm=fragmented, contour=wave)\n  thicken(B)\n  set_harmony(A'', progression=['Imaj7', 'vi7', 'ii7', 'V7', 'IVmaj7', 'iii7', 'ii7', 'V7'])\n  accompaniment(A'', pattern=block_chords, register=low, density=1)\n  melody(A'', register=mid, rhythm=flowing, contour=descending)\n  cadence(A'', bars=2)\n  finalize",
+      "ts": "2026-09-28T21:44:51"
+    }
+  ],
+  "compose": {
+    "composition_id": "9590a30a",
+    "revision": 1,
+    "prefs": {
+      "key_sharps": 0,
+      "mode": "major",
+      "tempo": 120,
+      "bars": 32,
+      "meter": "4/4",
+      "style": "摇摆标准曲（爵士）",
+      "genre_id": "genre:jazz/swing-standard",
+      "instrumentation": "",
+      "fugue": "auto",
+      "voices": 0,
+      "_explicit": {}
+    },
+    "plan": {
+      "title": "Bb Swing Standard",
+      "genre": "摇摆标准曲（爵士）",
+      "genre_id": "genre:jazz/swing-standard",
+      "mood": [
+        "urban",
+        "relaxed",
+        "swinging",
+        "warm"
+      ],
+      "tempo": 120,
+      "meter": "4/4",
+      "key_sharps": -2,
+      "mode": "major",
+      "instrumentation": [
+        "trumpet",
+        "piano",
+        "contrabass",
+        "timpani"
+      ],
+      "form": [
+        "A",
+        "A'",
+        "B",
+        "A''"
+      ],
+      "bars": 32,
+      "motif": {
+        "character": "syncopated 3-note head with a rising fourth, answered by a relaxed off-beat tail",
+        "development": [
+          "repetition",
+          "sequence",
+          "rhythmic displacement",
+          "inversion"
+        ]
+      },
+      "harmony": {
+        "language": "extended functional jazz harmony with ii-V-I cadences, secondary dominants, and seventh-chord vocabulary",
+        "density": "moderate"
+      },
+      "rhythm": {
+        "character": "swing eighth feel, walking bass, syncopated comping, off-beat phrasing with clear motivic identity"
+      },
+      "texture": "homophonic",
+      "climax": {
+        "location": "section B",
+        "dynamic": "f"
+      },
+      "difficulty": "medium",
+      "summary": "A 32-bar Bb major swing standard with a syncopated motif, ii-V-I harmony, and a trumpet-led AABA form.",
+      "edit_intent": null,
+      "user_brief": "Bb大调，中速摇摆 摇摆标准曲（爵士）"
+    },
+    "score_spec": {
+      "title": "Bb Swing Standard",
+      "key_sharps": -2,
+      "mode": "major",
+      "time_signature": "4/4",
+      "tempo": 120,
+      "bars": 32,
+      "seed": "7b3fc7f9",
+      "voices": 4,
+      "fugue": false,
+      "tempo_marks": [
+        [
+          1,
+          "Medium Swing",
+          120
+        ],
+        [
+          9,
+          "Medium Swing",
+          126
+        ],
+        [
+          17,
+          "Swing",
+          132
+        ],
+        [
+          25,
+          "Medium Swing",
+          120
+        ]
+      ],
+      "meter_changes": [],
+      "key_changes": [
+        [
+          17,
+          -3,
+          "minor"
+        ]
+      ],
+      "parts": [
+        {
+          "name": "Trumpet",
+          "program": null,
+          "clef": "treble",
+          "events": [
+            [
+              "F5",
+              "quarter",
+              "legato"
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "half",
+              null
+            ],
+            [
+              "Bb4",
+              "quarter",
+              "legato"
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "half",
+              null
+            ],
+            [
+              "Eb5",
+              "eighth",
+              "legato"
+            ],
+            [
+              "Eb5",
+              "16th",
+              null
+            ],
+            [
+              "F5",
+              "16th",
+              null
+            ],
+            [
+              "Eb5",
+              "quarter",
+              null
+            ],
+            [
+              "C5",
+              "half",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              "legato"
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              "F5",
+              "eighth",
+              null
+            ],
+            [
+              "Eb5",
+              "half",
+              "slur-end"
+            ],
+            [
+              "G5",
+              "quarter",
+              "slur-start"
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "Eb5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "half",
+              null
+            ],
+            [
+              "F5",
+              "quarter",
+              null
+            ],
+            [
+              "C6",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "Bb5",
+              "half",
+              null
+            ],
+            [
+              "Eb5",
+              "eighth",
+              null
+            ],
+            [
+              "Eb5",
+              "eighth",
+              null
+            ],
+            [
+              "F5",
+              "half",
+              null
+            ],
+            [
+              "C5",
+              "quarter",
+              null
+            ],
+            [
+              "Eb5",
+              "quarter",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "half",
+              "slur-end"
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "quarter",
+              "slur-start"
+            ],
+            [
+              [
+                "Eb5",
+                "E-6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B-4",
+                "Bb5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "half",
+              null
+            ],
+            [
+              [
+                "B-4",
+                "Bb5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "16th",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "16th",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "16th",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "16th",
+              null
+            ],
+            [
+              [
+                "Eb5",
+                "E-6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B-4",
+                "Bb5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "B-4",
+                "Bb5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "A4",
+                "A5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "half",
+              "slur-end"
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "quarter",
+              "slur-start"
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "half",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B-4",
+                "Bb5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "B4",
+                "B5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "B4",
+                "B5"
+              ],
+              "half",
+              null
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B-4",
+                "Bb5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A4",
+                "A5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "E-5",
+                "Eb6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "E-5",
+                "Eb6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B-4",
+                "Bb5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "half",
+              null
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "quarter",
+              "tenuto"
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A4",
+                "A5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B4",
+                "B5"
+              ],
+              "quarter",
+              "tenuto"
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B4",
+                "B5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "E5",
+                "E6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G#4",
+                "Ab5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F#5",
+                "F#6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F#5",
+                "F#6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "quarter",
+              "slur-end"
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A4",
+                "A5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "half",
+              null
+            ],
+            [
+              [
+                "B4",
+                "B5"
+              ],
+              "quarter",
+              "tenuto"
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C#5",
+                "C#6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B-4",
+                "Bb5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "E-5",
+                "Eb6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "E-5",
+                "Eb6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "C5",
+                "C6"
+              ],
+              "quarter",
+              "slur-end"
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "quarter",
+              "slur-start"
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F5",
+                "F6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "half",
+              null
+            ],
+            [
+              "D5",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "Bb4",
+              "half",
+              null
+            ],
+            [
+              "Eb5",
+              "quarter",
+              null
+            ],
+            [
+              "C5",
+              "half",
+              null
+            ],
+            [
+              "Bb4",
+              "quarter",
+              null
+            ],
+            [
+              "Eb5",
+              "quarter",
+              null
+            ],
+            [
+              "C5",
+              "quarter",
+              null
+            ],
+            [
+              "Bb4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              "slur-end"
+            ],
+            [
+              "Eb5",
+              "quarter",
+              "slur-start"
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "Eb5",
+              "quarter",
+              null
+            ],
+            [
+              "G5",
+              "quarter",
+              null
+            ],
+            [
+              "F5",
+              "quarter",
+              null
+            ],
+            [
+              "D5",
+              "half",
+              null
+            ],
+            [
+              "C5",
+              "quarter",
+              null
+            ],
+            [
+              [
+                "Bb4",
+                "Bb5"
+              ],
+              "whole",
+              null
+            ],
+            [
+              [
+                "Bb4",
+                "Bb5"
+              ],
+              "whole",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "mf"
+            ],
+            [
+              8,
+              "f"
+            ],
+            [
+              9,
+              "ff"
+            ],
+            [
+              14,
+              "ff"
+            ],
+            [
+              25,
+              "ff"
+            ],
+            [
+              26,
+              "f"
+            ],
+            [
+              32,
+              "mf"
+            ]
+          ]
+        },
+        {
+          "name": "Piano",
+          "program": null,
+          "clef": "treble",
+          "events": [
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "Bb5",
+              "eighth",
+              null
+            ],
+            [
+              "Bb4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "Bb4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "Bb4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "Eb4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "Eb4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "F5",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "Bb5",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B3",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B3",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "C5",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "F5",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "Bb5",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "C5",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "F5",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B3",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B3",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "C5",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "F5",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "B3",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "B3",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Ab4",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "Eb4",
+              "eighth",
+              null
+            ],
+            [
+              "Ab5",
+              "eighth",
+              null
+            ],
+            [
+              "Ab4",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "Eb4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "B3",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "B3",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "Bb4",
+              "eighth",
+              null
+            ],
+            [
+              "Eb5",
+              "eighth",
+              null
+            ],
+            [
+              "Eb4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "Bb4",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Ab4",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "Ab5",
+              "eighth"
+            ],
+            [
+              "Ab4",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "Bb5",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "C5",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "F5",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "Eb5",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "whole",
+              null
+            ],
+            [
+              "D4",
+              "whole",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ],
+            [
+              8,
+              "p"
+            ],
+            [
+              9,
+              "mp"
+            ],
+            [
+              14,
+              "mf"
+            ],
+            [
+              25,
+              "mp"
+            ],
+            [
+              26,
+              "p"
+            ],
+            [
+              32,
+              "pp"
+            ]
+          ]
+        },
+        {
+          "name": "Contrabass",
+          "program": null,
+          "clef": "bass",
+          "events": [
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              "Bb3",
+              "eighth",
+              null
+            ],
+            [
+              "Bb2",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              "Bb2",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              "G3",
+              "eighth",
+              null
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              "Bb2",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              "Eb3",
+              "eighth",
+              null
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              "Eb3",
+              "eighth",
+              null
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              "A2",
+              "eighth",
+              null
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              "A2",
+              "eighth",
+              null
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "Bb3",
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "B2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "G3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "B2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A2",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A2",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "Bb3",
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "E-4",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A3",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A3",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A2",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A2",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "B2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "B2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "E-4",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              "A3",
+              "eighth",
+              null
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              "F4",
+              "eighth",
+              null
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              "A3",
+              "eighth",
+              null
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              "A2",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              "A2",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              "B2",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              "G3",
+              "eighth",
+              null
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              "B2",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              "E3",
+              "eighth",
+              null
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              "C4",
+              "eighth",
+              null
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              "E3",
+              "eighth",
+              null
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Ab2",
+              "eighth",
+              null
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              "Eb3",
+              "eighth",
+              null
+            ],
+            [
+              "Ab3",
+              "eighth",
+              null
+            ],
+            [
+              "Ab2",
+              "eighth",
+              null
+            ],
+            [
+              "C3",
+              "eighth",
+              null
+            ],
+            [
+              "Eb3",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              "A2",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              "F3",
+              "eighth",
+              null
+            ],
+            [
+              "A2",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              "B2",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              "G3",
+              "eighth",
+              null
+            ],
+            [
+              "G2",
+              "eighth",
+              null
+            ],
+            [
+              "B2",
+              "eighth",
+              null
+            ],
+            [
+              "D3",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth",
+              null
+            ],
+            [
+              "F#2",
+              "eighth",
+              null
+            ],
+            [
+              "Bb2",
+              "eighth",
+              null
+            ],
+            [
+              "Eb4",
+              "eighth",
+              null
+            ],
+            [
+              "Eb3",
+              "eighth",
+              null
+            ],
+            [
+              "F#2",
+              "eighth",
+              null
+            ],
+            [
+              "Bb2",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Ab2",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              "Ab3",
+              "eighth"
+            ],
+            [
+              "Ab2",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "Bb3",
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "G3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "C4",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A2",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              "F4",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A2",
+              "eighth"
+            ],
+            [
+              "C3",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              "Eb4",
+              "eighth"
+            ],
+            [
+              "Eb3",
+              "eighth"
+            ],
+            [
+              "G2",
+              "eighth"
+            ],
+            [
+              "Bb2",
+              "eighth"
+            ],
+            [
+              null,
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A2",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "D3",
+              "eighth"
+            ],
+            [
+              "F3",
+              "eighth"
+            ],
+            [
+              "A2",
+              "eighth"
+            ],
+            [
+              "F3",
+              "whole",
+              null
+            ],
+            [
+              "F3",
+              "whole",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ],
+            [
+              8,
+              "p"
+            ],
+            [
+              9,
+              "mp"
+            ],
+            [
+              14,
+              "mf"
+            ],
+            [
+              25,
+              "mp"
+            ],
+            [
+              26,
+              "p"
+            ],
+            [
+              32,
+              "pp"
+            ]
+          ]
+        },
+        {
+          "name": "Timpani",
+          "program": null,
+          "clef": "bass",
+          "events": [
+            [
+              [
+                "Bb2",
+                "D3",
+                "F3",
+                "A3"
+              ],
+              "half",
+              "legato"
+            ],
+            [
+              [
+                "Bb2",
+                "D3",
+                "F3",
+                "A3"
+              ],
+              "half",
+              null
+            ],
+            [
+              [
+                "G2",
+                "Bb3",
+                "D3",
+                "F3"
+              ],
+              "half",
+              "legato"
+            ],
+            [
+              [
+                "G2",
+                "Bb3",
+                "D3",
+                "F3"
+              ],
+              "half",
+              null
+            ],
+            [
+              [
+                "C2",
+                "Eb3",
+                "G3",
+                "Bb3"
+              ],
+              "half",
+              "legato"
+            ],
+            [
+              [
+                "C2",
+                "Eb3",
+                "G3",
+                "Bb3"
+              ],
+              "half",
+              null
+            ],
+            [
+              [
+                "F2",
+                "A3",
+                "C3",
+                "Eb3"
+              ],
+              "half",
+              "legato"
+            ],
+            [
+              [
+                "F2",
+                "A3",
+                "C3",
+                "Eb3"
+              ],
+              "half",
+              null
+            ],
+            [
+              [
+                "Bb2",
+                "D3",
+                "F3",
+                "A3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "Bb2",
+                "D3",
+                "F3",
+                "A3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "G2",
+                "B3",
+                "D3",
+                "F3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "G2",
+                "B3",
+                "D3",
+                "F3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "C2",
+                "Eb3",
+                "G3",
+                "Bb3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "C2",
+                "Eb3",
+                "G3",
+                "Bb3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "F2",
+                "A3",
+                "C3",
+                "Eb3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "F2",
+                "A3",
+                "C3",
+                "Eb3"
+              ],
+              "half"
+            ],
+            [
+              "Bb2",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "F3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "G2",
+              "quarter"
+            ],
+            [
+              "Bb3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "F3",
+              "quarter"
+            ],
+            [
+              "C2",
+              "quarter"
+            ],
+            [
+              "Eb3",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "Bb3",
+              "quarter"
+            ],
+            [
+              "F2",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "C3",
+              "quarter"
+            ],
+            [
+              "Eb3",
+              "quarter"
+            ],
+            [
+              "D2",
+              "quarter"
+            ],
+            [
+              "F3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "C3",
+              "quarter"
+            ],
+            [
+              "G2",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "F3",
+              "quarter"
+            ],
+            [
+              "C2",
+              "quarter"
+            ],
+            [
+              "Eb3",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "Bb3",
+              "quarter"
+            ],
+            [
+              "F2",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "C3",
+              "quarter",
+              null
+            ],
+            [
+              "Eb3",
+              "quarter",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              "tenuto"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              "tenuto"
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C2",
+                "C3"
+              ],
+              "eighth",
+              "tenuto"
+            ],
+            [
+              [
+                "C2",
+                "C3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C2",
+                "C3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C2",
+                "C3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C2",
+                "C3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C2",
+                "C3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C2",
+                "C3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C2",
+                "C3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth",
+              "accent"
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              "tenuto"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              "tenuto"
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Eb2",
+                "Eb3"
+              ],
+              "eighth",
+              "tenuto"
+            ],
+            [
+              [
+                "Eb2",
+                "Eb3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Eb2",
+                "Eb3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Eb2",
+                "Eb3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Eb2",
+                "Eb3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Eb2",
+                "Eb3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Eb2",
+                "Eb3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Eb2",
+                "Eb3"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth"
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth"
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth"
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth"
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth"
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth"
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth"
+            ],
+            [
+              [
+                "Ab2",
+                "Ab3"
+              ],
+              "eighth"
+            ],
+            [
+              [
+                "Bb2",
+                "D3",
+                "F3",
+                "A3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "Bb2",
+                "D3",
+                "F3",
+                "A3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "G2",
+                "Bb3",
+                "D3",
+                "F3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "G2",
+                "Bb3",
+                "D3",
+                "F3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "C2",
+                "Eb3",
+                "G3",
+                "Bb3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "C2",
+                "Eb3",
+                "G3",
+                "Bb3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "F2",
+                "A3",
+                "C3",
+                "Eb3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "F2",
+                "A3",
+                "C3",
+                "Eb3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "Eb2",
+                "G3",
+                "Bb3",
+                "D3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "Eb2",
+                "G3",
+                "Bb3",
+                "D3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "D2",
+                "F3",
+                "A3",
+                "C3"
+              ],
+              "half"
+            ],
+            [
+              [
+                "D2",
+                "F3",
+                "A3",
+                "C3"
+              ],
+              "half"
+            ],
+            [
+              "F2",
+              "whole"
+            ],
+            [
+              "Bb2",
+              "whole"
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ],
+            [
+              8,
+              "p"
+            ],
+            [
+              9,
+              "mp"
+            ],
+            [
+              14,
+              "mf"
+            ],
+            [
+              25,
+              "mp"
+            ],
+            [
+              26,
+              "p"
+            ],
+            [
+              32,
+              "pp"
+            ]
+          ]
+        }
+      ],
+      "harmony": {
+        "1": [
+          "Bb",
+          "D",
+          "F",
+          "A"
+        ],
+        "2": [
+          "G",
+          "Bb",
+          "D",
+          "F"
+        ],
+        "3": [
+          "C",
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "4": [
+          "F",
+          "A",
+          "C",
+          "Eb"
+        ],
+        "5": [
+          "Bb",
+          "D",
+          "F",
+          "A"
+        ],
+        "6": [
+          "G",
+          "B",
+          "D",
+          "F"
+        ],
+        "7": [
+          "C",
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "8": [
+          "F",
+          "A",
+          "C",
+          "Eb"
+        ],
+        "9": [
+          "Bb",
+          "D",
+          "F",
+          "A"
+        ],
+        "10": [
+          "G",
+          "Bb",
+          "D",
+          "F"
+        ],
+        "11": [
+          "C",
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "12": [
+          "F",
+          "A",
+          "C",
+          "Eb"
+        ],
+        "13": [
+          "D",
+          "F",
+          "A",
+          "C"
+        ],
+        "14": [
+          "G",
+          "B",
+          "D",
+          "F"
+        ],
+        "15": [
+          "C",
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "16": [
+          "F",
+          "A",
+          "C",
+          "Eb"
+        ],
+        "17": [
+          "D",
+          "F",
+          "A",
+          "C"
+        ],
+        "18": [
+          "Bb",
+          "C#",
+          "F",
+          "Ab"
+        ],
+        "19": [
+          "C",
+          "E",
+          "G",
+          "B"
+        ],
+        "20": [
+          "Ab",
+          "C",
+          "Eb",
+          "F#"
+        ],
+        "21": [
+          "D",
+          "F",
+          "A",
+          "C"
+        ],
+        "22": [
+          "G",
+          "B",
+          "D",
+          "F"
+        ],
+        "23": [
+          "Eb",
+          "F#",
+          "Bb",
+          "C#"
+        ],
+        "24": [
+          "Ab",
+          "C",
+          "Eb",
+          "F#"
+        ],
+        "25": [
+          "Bb",
+          "D",
+          "F",
+          "A"
+        ],
+        "26": [
+          "G",
+          "Bb",
+          "D",
+          "F"
+        ],
+        "27": [
+          "C",
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "28": [
+          "F",
+          "A",
+          "C",
+          "Eb"
+        ],
+        "29": [
+          "Eb",
+          "G",
+          "Bb",
+          "D"
+        ],
+        "30": [
+          "D",
+          "F",
+          "A",
+          "C"
+        ],
+        "31": [
+          "C",
+          "Eb",
+          "G",
+          "Bb"
+        ],
+        "32": [
+          "F",
+          "A",
+          "C",
+          "Eb"
+        ]
+      },
+      "narrative": {
+        "bars": 32,
+        "climax_bar": 20,
+        "intensity": 1.0,
+        "tension_actual": [
+          0.6172,
+          0.6335,
+          0.6523,
+          0.6706,
+          0.6682,
+          0.6801,
+          0.6596,
+          0.6495,
+          0.6182,
+          0.6178,
+          0.6172,
+          0.6479,
+          0.6618,
+          0.6905,
+          0.677,
+          0.6926,
+          0.6937,
+          0.7348,
+          0.7347,
+          0.7375,
+          0.7173,
+          0.7354,
+          0.7264,
+          0.714,
+          0.6671,
+          0.6547,
+          0.6391,
+          0.6393,
+          0.5941,
+          0.543,
+          0.4708,
+          0.4438
+        ],
+        "tension_target": [
+          0.25,
+          0.2567,
+          0.2705,
+          0.2891,
+          0.312,
+          0.3386,
+          0.3686,
+          0.4018,
+          0.4379,
+          0.4769,
+          0.5186,
+          0.5628,
+          0.6095,
+          0.6587,
+          0.7101,
+          0.7638,
+          0.8197,
+          0.8777,
+          0.9378,
+          1.0,
+          0.8992,
+          0.8304,
+          0.7702,
+          0.7149,
+          0.6629,
+          0.6135,
+          0.5661,
+          0.5204,
+          0.4761,
+          0.4331,
+          0.3911,
+          0.35
+        ],
+        "dynamics": {
+          "1": "mp",
+          "2": "mp",
+          "3": "mp",
+          "4": "mp",
+          "5": "mp",
+          "6": "mp",
+          "7": "mp",
+          "8": "mf",
+          "9": "f",
+          "10": "f",
+          "11": "f",
+          "12": "f",
+          "13": "f",
+          "14": "ff",
+          "15": "ff",
+          "16": "ff",
+          "17": "ff",
+          "18": "ff",
+          "19": "ff",
+          "20": "ff",
+          "21": "ff",
+          "22": "ff",
+          "23": "ff",
+          "24": "ff",
+          "25": "f",
+          "26": "mf",
+          "27": "mf",
+          "28": "mf",
+          "29": "mf",
+          "30": "mf",
+          "31": "mf",
+          "32": "mp"
+        },
+        "marks": {
+          "1": "legato",
+          "2": "legato",
+          "3": "legato",
+          "4": "legato",
+          "16": "tenuto",
+          "17": "tenuto",
+          "18": "tenuto",
+          "19": "tenuto",
+          "20": "accent",
+          "21": "tenuto",
+          "22": "tenuto",
+          "23": "tenuto"
+        },
+        "appearances": [
+          {
+            "bar": 1,
+            "role": "statement",
+            "transform": "original",
+            "motif": "subject@statement",
+            "note": "原型呈示",
+            "applied": false
+          },
+          {
+            "bar": 6,
+            "role": "development",
+            "transform": "invert",
+            "motif": "subject_I@development",
+            "note": "发展（变形）",
+            "applied": true
+          },
+          {
+            "bar": 11,
+            "role": "development",
+            "transform": "sequence",
+            "motif": "subject_S@development",
+            "note": "发展（变形）",
+            "applied": true
+          },
+          {
+            "bar": 16,
+            "role": "development",
+            "transform": "invert",
+            "motif": "subject_I@development",
+            "note": "发展（变形）",
+            "applied": true
+          },
+          {
+            "bar": 21,
+            "role": "stretto",
+            "transform": "diminish",
+            "motif": "subject_D@stretto",
+            "note": "密接（减时/碎片）",
+            "applied": true
+          },
+          {
+            "bar": 26,
+            "role": "recap",
+            "transform": "original",
+            "motif": "subject@recap",
+            "note": "再现（原型回归）",
+            "applied": true
+          },
+          {
+            "bar": 31,
+            "role": "coda",
+            "transform": "augment",
+            "motif": "subject_A@coda",
+            "note": "尾声（碎片收束）",
+            "applied": false
+          }
+        ],
+        "surprises": [
+          {
+            "bar": 18,
+            "roman": "vii7",
+            "kind": "vii7",
+            "note": "副属减七（强倾向）",
+            "weight": 0.85,
+            "applied": true,
+            "notes": [
+              "Bb",
+              "C#",
+              "F",
+              "Ab"
+            ]
+          }
+        ],
+        "silences": [
+          {
+            "bar": 21,
+            "beats": 1.0,
+            "reason": "高潮后留白：让峰值被\"听见\"，也给出句读",
+            "applied": true
+          }
+        ],
+        "motif_registry": {
+          "motifs": {
+            "subject": {
+              "name": "subject",
+              "intervals": [
+                0,
+                -8,
+                -3,
+                -5
+              ],
+              "durs": [
+                1.0,
+                0.5,
+                0.5,
+                2.0
+              ],
+              "length_ql": 4.0
+            },
+            "subject@statement": {
+              "name": "subject@statement",
+              "intervals": [
+                0,
+                -8,
+                -3,
+                -5
+              ],
+              "durs": [
+                1.0,
+                0.5,
+                0.5,
+                2.0
+              ],
+              "length_ql": 4.0
+            },
+            "subject_I@development": {
+              "name": "subject_I@development",
+              "intervals": [
+                0,
+                8,
+                3,
+                5
+              ],
+              "durs": [
+                1.0,
+                0.5,
+                0.5,
+                2.0
+              ],
+              "length_ql": 4.0
+            },
+            "subject_S@development": {
+              "name": "subject_S@development",
+              "intervals": [
+                0,
+                -8,
+                -3,
+                -5,
+                -2,
+                -10,
+                -5,
+                -7
+              ],
+              "durs": [
+                1.0,
+                0.5,
+                0.5,
+                2.0,
+                1.0,
+                0.5,
+                0.5,
+                2.0
+              ],
+              "length_ql": 8.0
+            },
+            "subject_D@stretto": {
+              "name": "subject_D@stretto",
+              "intervals": [
+                0,
+                -8,
+                -3,
+                -5
+              ],
+              "durs": [
+                0.5,
+                0.25,
+                0.25,
+                1.0
+              ],
+              "length_ql": 2.0
+            },
+            "subject@recap": {
+              "name": "subject@recap",
+              "intervals": [
+                0,
+                -8,
+                -3,
+                -5
+              ],
+              "durs": [
+                1.0,
+                0.5,
+                0.5,
+                2.0
+              ],
+              "length_ql": 4.0
+            },
+            "subject_A@coda": {
+              "name": "subject_A@coda",
+              "intervals": [
+                0,
+                -8,
+                -3,
+                -5
+              ],
+              "durs": [
+                2.0,
+                1.0,
+                1.0,
+                4.0
+              ],
+              "length_ql": 8.0
+            }
+          },
+          "lineage": [
+            {
+              "motif": "subject",
+              "role": "subject",
+              "transform": "original",
+              "parent": ""
+            },
+            {
+              "motif": "subject@statement",
+              "role": "statement",
+              "transform": "original",
+              "parent": "subject"
+            },
+            {
+              "motif": "subject_I@development",
+              "role": "development",
+              "transform": "invert",
+              "parent": "subject"
+            },
+            {
+              "motif": "subject_S@development",
+              "role": "development",
+              "transform": "sequence",
+              "parent": "subject"
+            },
+            {
+              "motif": "subject_D@stretto",
+              "role": "stretto",
+              "transform": "diminish",
+              "parent": "subject"
+            },
+            {
+              "motif": "subject@recap",
+              "role": "recap",
+              "transform": "original",
+              "parent": "subject"
+            },
+            {
+              "motif": "subject_A@coda",
+              "role": "coda",
+              "transform": "augment",
+              "parent": "subject"
+            }
+          ]
+        },
+        "log": [
+          "高潮定位：第 20 小节（客观张力 0.74，目标 1.00）",
+          "惊喜：第 18 小节 vii7（副属减七（强倾向））",
+          "静默：第 21 小节留白 1.0 拍"
+        ],
+        "seed": "9a5f6f015e82",
+        "source_motif_bar": 1
+      },
+      "subseeds": {
+        "melody": "1f2d81381824",
+        "harmony": "e5eaa0c248f8",
+        "texture": "b4e7dfde9af9",
+        "narrative": "9a5f6f015e82",
+        "decor": "59e78e5ad6ad",
+        "rhythm": "739ea55cb923",
+        "fugue": "c54ed559dbfe"
+      },
+      "soft_weights": {},
+      "fugue_roles": [],
+      "style_notes": [],
+      "composer": "translated-kernel"
+    },
+    "last_skill_ids": [
+      "compose-full",
+      "genre:jazz/swing-standard"
+    ],
+    "last_advice": null,
+    "compose_trace": {
+      "user_text": "/style 摇摆标准曲（爵士） 写一首Bb大调，中速摇摆",
+      "pipeline": "translator（LLM 翻译 + 确定性内核）",
+      "skill_ids": [
+        "compose-full",
+        "genre:jazz/swing-standard"
+      ],
+      "llm_calls": [
+        {
+          "stage": "planner",
+          "title": "Planner（意图解析）",
+          "system": "You are a professional composer and music theorist acting as an Intent Parser.\n\nTransform the user's natural-language request (and optional slash-commands already applied as preferences) into a Composition Plan JSON only.\n\nThink like a composer first: infer genre, mood, form, motif character, harmony language, climax — do NOT invent note lists yet.\n\nA **风格目录（仅已学包）** is injected at the end of this system prompt. Use it to set `genre_id`.\n\nOutput ONE JSON object, no Markdown:\n{\n  \"title\": \"string\",\n  \"genre\": \"string (human label, e.g. 摇摆标准曲（爵士）)\",\n  \"genre_id\": \"family/pack_id from 风格目录, e.g. jazz/swing-standard; empty if none\",\n  \"mood\": [\"...\"],\n  \"tempo\": 72,\n  \"meter\": \"4/4\",\n  \"key_sharps\": 0,\n  \"mode\": \"major|minor\",\n  \"instrumentation\": [\"trumpet\",\"piano\",\"contrabass\"] (kernel English names; map fiddle→violin, double bass→contrabass, tin whistle→flute; avoid unknown names),\n  \"form\": [\"A\",\"B\",\"A\"],\n  \"bars\": 16,\n  \"motif\": {\"character\": \"...\", \"development\": [\"repetition\",\"sequence\"]},\n  \"harmony\": {\"language\": \"...\", \"density\": \"sparse|moderate|dense\"},\n  \"rhythm\": {\"character\": \"...\"},\n  \"texture\": \"homophonic|polyphonic|sparse|orchestral\",\n  \"climax\": {\"location\": \"section B\", \"dynamic\": \"f\"},\n  \"difficulty\": \"easy|medium\",\n  \"summary\": \"one sentence for the user\",\n  \"edit_intent\": null\n}\nRules:\n- Original music only; no copyrighted melodies.\n- If user is vague, choose\n…（已截断，完整 6842 字；固定指令模板见 skills/composition/base/ 与内核 kernel_docs）",
+          "user": "{\"user_request\": \"Bb大调，中速摇摆\", \"preferences\": {\"key_sharps\": 0, \"mode\": \"major\", \"tempo\": 120, \"bars\": 8, \"meter\": \"4/4\", \"style\": \"摇摆标准曲（爵士）\", \"genre_id\": \"genre:jazz/swing-standard\", \"instrumentation\": \"\", \"fugue\": \"auto\", \"voices\": 0, \"_explicit\": {}}, \"edit_intent\": null, \"skills\": [\"compose-full\", \"genre:jazz/swing-standard\"], \"existing_plan\": null, \"revision_edits\": null, \"existing_score_summary\": null}",
+          "assistant": "{\n  \"title\": \"Bb Swing Standard\",\n  \"genre\": \"摇摆标准曲（爵士）\",\n  \"genre_id\": \"jazz/swing-standard\",\n  \"mood\": [\"urban\", \"relaxed\", \"swinging\", \"warm\"],\n  \"tempo\": 120,\n  \"meter\": \"4/4\",\n  \"key_sharps\": -2,\n  \"mode\": \"major\",\n  \"instrumentation\": [\"trumpet\", \"piano\", \"contrabass\", \"drum_set\"],\n  \"form\": [\"A\", \"A'\", \"B\", \"A''\"],\n  \"bars\": 32,\n  \"motif\": {\n    \"character\": \"syncopated 3-note head with a rising fourth, answered by a relaxed off-beat tail\",\n    \"development\": [\"repetition\", \"sequence\", \"rhythmic displacement\", \"inversion\"]\n  },\n  \"harmony\": {\n    \"language\": \"extended functional jazz harmony with ii-V-I cadences, secondary dominants, and seventh-chord vocabulary\",\n    \"density\": \"moderate\"\n  },\n  \"rhythm\": {\n    \"character\": \"swing eighth feel, walking bass, syncopated comping, off-beat phrasing with clear motivic identity\"\n  },\n  \"texture\": \"homophonic\",\n  \"climax\": {\n    \"location\": \"section B\",\n    \"dynamic\": \"f\"\n  },\n  \"difficulty\": \"medium\",\n  \"summary\": \"A 32-bar Bb major swing standard with a syncopated motif, ii-V-I harmony, and a trumpet-led AABA form.\",\n  \"edit_intent\": null\n}",
+          "parsed": {
+            "title": "Bb Swing Standard",
+            "genre": "摇摆标准曲（爵士）",
+            "genre_id": "genre:jazz/swing-standard",
+            "mood": [
+              "urban",
+              "relaxed",
+              "swinging",
+              "warm"
+            ],
+            "tempo": 120,
+            "meter": "4/4",
+            "key_sharps": -2,
+            "mode": "major",
+            "instrumentation": [
+              "trumpet",
+              "piano",
+              "contrabass",
+              "timpani"
+            ],
+            "form": [
+              "A",
+              "A'",
+              "B",
+              "A''"
+            ],
+            "bars": 32,
+            "motif": {
+              "character": "syncopated 3-note head with a rising fourth, answered by a relaxed off-beat tail",
+              "development": [
+                "repetition",
+                "sequence",
+                "rhythmic displacement",
+                "inversion"
+              ]
+            },
+            "harmony": {
+              "language": "extended functional jazz harmony with ii-V-I cadences, secondary dominants, and seventh-chord vocabulary",
+              "density": "moderate"
+            },
+            "rhythm": {
+              "character": "swing eighth feel, walking bass, syncopated comping, off-beat phrasing with clear motivic identity"
+            },
+            "texture": "homophonic",
+            "climax": {
+              "location": "section B",
+              "dynamic": "f"
+            },
+            "difficulty": "medium",
+            "summary": "A 32-bar Bb major swing standard with a syncopated motif, ii-V-I harmony, and a trumpet-led AABA form.",
+            "edit_intent": null,
+            "user_brief": "Bb大调，中速摇摆 摇摆标准曲（爵士）"
+          }
+        },
+        {
+          "stage": "translator",
+          "title": "Translator（脚本翻译）",
+          "system": "# 翻译器（Translator）\n\n你不是作曲家，是**翻译器**：把用户的自然语言音乐需求与 plan 翻译成\n对确定性脚本的调用序列。你**不写任何音符**——所有音符由脚本生成并保证\n正确（时值、调性、织体、力度、终止）。你的职责是选对脚本、给对参数。\n\n## 输出格式（只输出 JSON，不要任何解释文字）\n\n```\n{\"reasoning\": \"用中文简述你如何把需求翻译成参数与脚本（2–5 句）：识别了什么风格/情绪，怎么决定速度/调式/织体，段落如何安排，调用了哪些脚本。\", \"calls\": [{\"script\": \"脚本名\", \"args\": {...}}, ...]}\n```\n\n## 硬规则\n\n1. 调用顺序：`new_score` → `set_sections` → 对每个段落 `{ set_harmony →\n   accompaniment → melody }` →（高潮段可加 `thicken`）→（最后一段可加\n   `cadence`）→（**可选** `narrative(...)`：仅当你需要关掉自动叙事层的\n   动机变形/惊喜和弦时，见下「叙事层」）→ `finalize`\n2. `new_score` 与 `finalize` 必须各恰好一次，且分别在最前/最后\n3. **每个段落**都必须调用 set_harmony / accompaniment / melody，\n   一次都不许漏（漏了 finalize 会报错）\n4. args 必须严格符合脚本文档的字段名与取值范围；不要发明不存在的参数\n5. 脚本执行失败时你会收到错误信息——修正 calls 后完整重新输出\n6. `plan.tempo` / `plan.mode` / `plan.mood` / `plan.tempo_text` /\n   `plan._emotion_hint` 是已解析的**明确约束**（来自用户情绪/速度词或\n   `/tempo`），**优先级最高**——调用 `new_score` / `set_harmony` / `melody`\n   时直接采用，不要用风格基线默认值覆盖。`reasoning` 字段必须如实写出你\n   如何据此翻译，便于用户核查。\n7. **乐器编制**：brief 提到管弦乐/弦乐/铜管/木管/具体乐器（小提琴、长笛、\n   圆号、定音鼓…）或某种编制（弦乐四重奏、铜管五重奏…）时，`new_score`\n   **必须传 `instruments`**（长度=voices，从高音到低音，低音乐器放最后），\n   可用名：flute/oboe/**piccolo**/clarinet/bassoon/horn/trumpet/trombone/\n   tuba/violin/viola/cello/contrabass/timpani/**harp**/piano/soprano/alto/\n   tenor/bass。例：「弦乐四重奏」→ voices=4 +\n   `[\"violin\",\"violin\",\"viola\",\"cello\"]`；「管弦乐小品」→ voices=4 +\n   `[\"flute\",\"violin\",\"cello\",\"timpani\"]` 之类按 brief\n…（已截断，完整 21165 字；固定指令模板见 skills/composition/base/ 与内核 kernel_docs）",
+          "user": "{\"plan\": {\"title\": \"Bb Swing Standard\", \"genre\": \"摇摆标准曲（爵士）\", \"mood\": [\"urban\", \"relaxed\", \"swinging\", \"warm\"], \"tempo\": 120, \"tempo_text\": null, \"meter\": \"4/4\", \"key_sharps\": -2, \"mode\": \"major\", \"_emotion_hint\": null, \"instrumentation\": [\"trumpet\", \"piano\", \"contrabass\", \"timpani\"], \"form\": [\"A\", \"A'\", \"B\", \"A''\"], \"bars\": 32, \"motif\": {\"character\": \"syncopated 3-note head with a rising fourth, answered by a relaxed off-beat tail\", \"development\": [\"repetition\", \"sequence\", \"rhythmic displacement\", \"inversion\"]}, \"harmony\": {\"language\": \"extended functional jazz harmony with ii-V-I cadences, secondary dominants, and seventh-chord vocabulary\", \"density\": \"moderate\"}, \"rhythm\": {\"character\": \"swing eighth feel, walking bass, syncopated comping, off-beat phrasing with clear motivic identity\"}, \"texture\": \"homophonic\", \"climax\": {\"location\": \"section B\", \"dynamic\": \"f\"}, \"summary\": \"A 32-bar Bb major swing standard with a syncopated motif, ii-V-I harmony, and a trumpet-led AABA form.\"}, \"user_brief\": \"Bb大调，中速摇摆 摇摆标准曲（爵士）\"}",
+          "assistant": "{\"reasoning\": \"识别为爵士摇摆标准曲（plan.genre_id=jazz/swing-standard），Bb大调、4/4、中速♩=120，符合摇摆标准曲 92–240 的中速区间。按 AABA 32 小节：A(8)/A'(8)/B(8)/A''(8)，B 段为高潮 f，A'' 作再现收束。编制按 plan.instrumentation 传 trumpet/piano/contrabass/timpani 四声部，solo_instrument=trumpet 让旋律路由到小号。和声全程以七和弦为颗粒（Imaj7–vi7–ii7–V7、ii–V–I），B 段用副属/关系小调偏离制造调性对比，A'' 回归主调终止。旋律节奏逐段对比：A flowing+arch、A' driving+ascending、B fragmented+wave、A'' flowing+descending，末段 cadence。\", \"calls\": [{\"script\": \"new_score\", \"args\": {\"title\": \"Bb Swing Standard\", \"key_sharps\": -2, \"mode\": \"major\", \"meter\": \"4/4\", \"tempo\": 120, \"bars\": 32, \"voices\": 4, \"instruments\": [\"trumpet\", \"piano\", \"contrabass\", \"timpani\"], \"solo_instrument\": \"trumpet\", \"style\": \"jazz/swing-standard\"}}, {\"script\": \"set_sections\", \"args\": {\"sections\": [{\"name\": \"A\", \"bars\": 8, \"meter\": \"4/4\", \"dynamic\": \"mf\", \"tempo_text\": \"Medium Swing\", \"bpm\": 120}, {\"name\": \"A'\", \"bars\": 8, \"meter\": \"4/4\", \"dynamic\": \"f\", \"tempo_text\": \"Medium Swing\", \"bpm\": 126}, {\"name\": \"B\", \"bars\": 8, \"meter\": \"4/4\", \"dynamic\": \"ff\", \"tempo_text\": \"Swing\", \"bpm\": 132}, {\"name\": \"A''\", \"bars\": 8, \"meter\": \"4/4\", \"dynamic\": \"mf\", \"tempo_text\": \"Medium Swing\", \"bpm\": 120}]}}, {\"script\": \"set_harmony\", \"args\": {\"section\": \"A\", \"progression\": [\"Imaj7\", \"vi7\", \"ii7\", \"V7\", \"Imaj7\", \"VI7\", \"ii7\", \"V7\"]}}, {\"script\": \"accompaniment\", \"args\": {\"section\": \"A\", \"pattern\": \"block_chords\", \"register\": \"low\", \"density\": 1}}, {\"script\": \"melody\", \"args\": {\"section\": \"A\", \"register\": \"mid\", \"rhythm\": \"flowing\", \"contour\": \"arch\", \"motif\": [[5, \"quarter\"], [1, \"eighth\"], [3, \"eighth\"], [2, \"half\"]]}}, {\"script\": \"set_harmony\", \"args\": {\"section\": \"A'\", \"progression\": [\"Imaj7\", \"vi7\", \"ii7\", \"V7\", \"iii7\", \"VI7\", \"ii7\", \"V7\"]}}, {\"script\": \"accompaniment\", \"args\": {\"section\": \"A'\", \"pattern\": \"broken_arpeggio\", \"register\": \"low\", \"density\": 1}}, {\"script\": \"melody\", \"args\": {\"section\": \"A'\", \"register\": \"high\", \"rhythm\": \"driving\", \"contour\": \"ascending\"}}, {\"script\": \"set_harmony\", \"args\": {\"section\": \"B\", \"progression\": [\"ii7\", \"V7\", \"Imaj7\", \"VI7\", \"ii7\", \"V7\", \"iii7\", \"VI7\"], \"key_sharps\": -3, \"mode\": \"minor\"}}, {\"script\": \"accompaniment\", \"args\": {\"section\": \"B\", \"pattern\": \"octave_pulse\", \"register\": \"low\", \"density\": 2}}, {\"script\": \"melody\", \"args\": {\"section\": \"B\", \"register\": \"very_high\", \"rhythm\": \"fragmented\", \"contour\": \"wave\"}}, {\"script\": \"thicken\", \"args\": {\"section\": \"B\"}}, {\"script\": \"set_harmony\", \"args\": {\"section\": \"A''\", \"progression\": [\"Imaj7\", \"vi7\", \"ii7\", \"V7\", \"IVmaj7\", \"iii7\", \"ii7\", \"V7\"]}}, {\"script\": \"accompaniment\", \"args\": {\"section\": \"A''\", \"pattern\": \"block_chords\", \"register\": \"low\", \"density\": 1}}, {\"script\": \"melody\", \"args\": {\"section\": \"A''\", \"register\": \"mid\", \"rhythm\": \"flowing\", \"contour\": \"descending\"}}, {\"script\": \"cadence\", \"args\": {\"bars\": 2, \"section\": \"A''\"}}, {\"script\": \"finalize\", \"args\": {}}]}",
+          "parsed": {
+            "reasoning": "识别为爵士摇摆标准曲（plan.genre_id=jazz/swing-standard），Bb大调、4/4、中速♩=120，符合摇摆标准曲 92–240 的中速区间。按 AABA 32 小节：A(8)/A'(8)/B(8)/A''(8)，B 段为高潮 f，A'' 作再现收束。编制按 plan.instrumentation 传 trumpet/piano/contrabass/timpani 四声部，solo_instrument=trumpet 让旋律路由到小号。和声全程以七和弦为颗粒（Imaj7–vi7–ii7–V7、ii–V–I），B 段用副属/关系小调偏离制造调性对比，A'' 回归主调终止。旋律节奏逐段对比：A flowing+arch、A' driving+ascending、B fragmented+wave、A'' flowing+descending，末段 cadence。",
+            "calls": [
+              {
+                "script": "new_score",
+                "args": {
+                  "title": "Bb Swing Standard",
+                  "key_sharps": -2,
+                  "mode": "major",
+                  "meter": "4/4",
+                  "tempo": 120,
+                  "bars": 32,
+                  "voices": 4,
+                  "instruments": [
+                    "trumpet",
+                    "piano",
+                    "contrabass",
+                    "timpani"
+                  ],
+                  "solo_instrument": "trumpet",
+                  "style": "jazz/swing-standard"
+                }
+              },
+              {
+                "script": "set_sections",
+                "args": {
+                  "sections": [
+                    {
+                      "name": "A",
+                      "bars": 8,
+                      "meter": "4/4",
+                      "dynamic": "mf",
+                      "tempo_text": "Medium Swing",
+                      "bpm": 120
+                    },
+                    {
+                      "name": "A'",
+                      "bars": 8,
+                      "meter": "4/4",
+                      "dynamic": "f",
+                      "tempo_text": "Medium Swing",
+                      "bpm": 126
+                    },
+                    {
+                      "name": "B",
+                      "bars": 8,
+                      "meter": "4/4",
+                      "dynamic": "ff",
+                      "tempo_text": "Swing",
+                      "bpm": 132
+                    },
+                    {
+                      "name": "A''",
+                      "bars": 8,
+                      "meter": "4/4",
+                      "dynamic": "mf",
+                      "tempo_text": "Medium Swing",
+                      "bpm": 120
+                    }
+                  ]
+                }
+              },
+              {
+                "script": "set_harmony",
+                "args": {
+                  "section": "A",
+                  "progression": [
+                    "Imaj7",
+                    "vi7",
+                    "ii7",
+                    "V7",
+                    "Imaj7",
+                    "VI7",
+                    "ii7",
+                    "V7"
+                  ]
+                }
+              },
+              {
+                "script": "accompaniment",
+                "args": {
+                  "section": "A",
+                  "pattern": "block_chords",
+                  "register": "low",
+                  "density": 1
+                }
+              },
+              {
+                "script": "melody",
+                "args": {
+                  "section": "A",
+                  "register": "mid",
+                  "rhythm": "flowing",
+                  "contour": "arch",
+                  "motif": [
+                    [
+                      5,
+                      "quarter"
+                    ],
+                    [
+                      1,
+                      "eighth"
+                    ],
+                    [
+                      3,
+                      "eighth"
+                    ],
+                    [
+                      2,
+                      "half"
+                    ]
+                  ]
+                }
+              },
+              {
+                "script": "set_harmony",
+                "args": {
+                  "section": "A'",
+                  "progression": [
+                    "Imaj7",
+                    "vi7",
+                    "ii7",
+                    "V7",
+                    "iii7",
+                    "VI7",
+                    "ii7",
+                    "V7"
+                  ]
+                }
+              },
+              {
+                "script": "accompaniment",
+                "args": {
+                  "section": "A'",
+                  "pattern": "broken_arpeggio",
+                  "register": "low",
+                  "density": 1
+                }
+              },
+              {
+                "script": "melody",
+                "args": {
+                  "section": "A'",
+                  "register": "high",
+                  "rhythm": "driving",
+                  "contour": "ascending"
+                }
+              },
+              {
+                "script": "set_harmony",
+                "args": {
+                  "section": "B",
+                  "progression": [
+                    "ii7",
+                    "V7",
+                    "Imaj7",
+                    "VI7",
+                    "ii7",
+                    "V7",
+                    "iii7",
+                    "VI7"
+                  ],
+                  "key_sharps": -3,
+                  "mode": "minor"
+                }
+              },
+              {
+                "script": "accompaniment",
+                "args": {
+                  "section": "B",
+                  "pattern": "octave_pulse",
+                  "register": "low",
+                  "density": 2
+                }
+              },
+              {
+                "script": "melody",
+                "args": {
+                  "section": "B",
+                  "register": "very_high",
+                  "rhythm": "fragmented",
+                  "contour": "wave"
+                }
+              },
+              {
+                "script": "thicken",
+                "args": {
+                  "section": "B"
+                }
+              },
+              {
+                "script": "set_harmony",
+                "args": {
+                  "section": "A''",
+                  "progression": [
+                    "Imaj7",
+                    "vi7",
+                    "ii7",
+                    "V7",
+                    "IVmaj7",
+                    "iii7",
+                    "ii7",
+                    "V7"
+                  ]
+                }
+              },
+              {
+                "script": "accompaniment",
+                "args": {
+                  "section": "A''",
+                  "pattern": "block_chords",
+                  "register": "low",
+                  "density": 1
+                }
+              },
+              {
+                "script": "melody",
+                "args": {
+                  "section": "A''",
+                  "register": "mid",
+                  "rhythm": "flowing",
+                  "contour": "descending"
+                }
+              },
+              {
+                "script": "cadence",
+                "args": {
+                  "bars": 2,
+                  "section": "A''"
+                }
+              },
+              {
+                "script": "finalize",
+                "args": {}
+              }
+            ]
+          }
+        }
+      ],
+      "emotion": null,
+      "emotion_applied": false,
+      "constraint_fixes": [],
+      "kernel_calls": [
+        {
+          "script": "new_score",
+          "input": {
+            "title": "Bb Swing Standard",
+            "key_sharps": -2,
+            "mode": "major",
+            "meter": "4/4",
+            "tempo": 120,
+            "bars": 32,
+            "voices": 4,
+            "instruments": [
+              "trumpet",
+              "piano",
+              "contrabass",
+              "timpani"
+            ],
+            "solo_instrument": "trumpet",
+            "style": "jazz/swing-standard"
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 0,
+              "harmony": 0
+            },
+            "note": "建立乐曲：4/4 ♩=120 4声部 major"
+          }
+        },
+        {
+          "script": "set_sections",
+          "input": {
+            "sections": [
+              {
+                "name": "A",
+                "bars": 8,
+                "meter": "4/4",
+                "dynamic": "mf",
+                "tempo_text": "Medium Swing",
+                "bpm": 120
+              },
+              {
+                "name": "A'",
+                "bars": 8,
+                "meter": "4/4",
+                "dynamic": "f",
+                "tempo_text": "Medium Swing",
+                "bpm": 126
+              },
+              {
+                "name": "B",
+                "bars": 8,
+                "meter": "4/4",
+                "dynamic": "ff",
+                "tempo_text": "Swing",
+                "bpm": 132
+              },
+              {
+                "name": "A''",
+                "bars": 8,
+                "meter": "4/4",
+                "dynamic": "mf",
+                "tempo_text": "Medium Swing",
+                "bpm": 120
+              }
+            ]
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 0
+            },
+            "note": "分段：A(8小节)，A'(8小节)，B(8小节)，A''(8小节)"
+          }
+        },
+        {
+          "script": "set_harmony",
+          "input": {
+            "section": "A",
+            "progression": [
+              "Imaj7",
+              "vi7",
+              "ii7",
+              "V7",
+              "Imaj7",
+              "VI7",
+              "ii7",
+              "V7"
+            ]
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 8
+            },
+            "note": "和声：段落A 进行['Imaj7', 'vi7', 'ii7', 'V7', 'Imaj7', 'VI7', 'ii7', 'V7']"
+          }
+        },
+        {
+          "script": "accompaniment",
+          "input": {
+            "section": "A",
+            "pattern": "block_chords",
+            "register": "low",
+            "density": 1
+          },
+          "output": {
+            "added_counts": [
+              0,
+              64,
+              64,
+              16
+            ],
+            "added_sample": [
+              [],
+              [
+                "None:eighth",
+                "Bb4:eighth",
+                "D4:eighth",
+                "F4:eighth",
+                "Bb5:eighth",
+                "Bb4:eighth",
+                "D4:eighth",
+                "F4:eighth"
+              ],
+              [
+                "None:eighth",
+                "Bb2:eighth",
+                "D3:eighth",
+                "F3:eighth",
+                "Bb3:eighth",
+                "Bb2:eighth",
+                "D3:eighth",
+                "F3:eighth"
+              ],
+              [
+                "Bb2+D3+F3+A3:half",
+                "Bb2+D3+F3+A3:half",
+                "G2+Bb3+D3+F3:half",
+                "G2+Bb3+D3+F3:half",
+                "C2+Eb3+G3+Bb3:half",
+                "C2+Eb3+G3+Bb3:half",
+                "F2+A3+C3+Eb3:half",
+                "F2+A3+C3+Eb3:half"
+              ]
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 8
+            },
+            "note": "伴奏：段落A pattern=block_chords register=low density=1"
+          }
+        },
+        {
+          "script": "melody",
+          "input": {
+            "section": "A",
+            "register": "mid",
+            "rhythm": "flowing",
+            "contour": "arch",
+            "motif": [
+              [
+                5,
+                "quarter"
+              ],
+              [
+                1,
+                "eighth"
+              ],
+              [
+                3,
+                "eighth"
+              ],
+              [
+                2,
+                "half"
+              ]
+            ]
+          },
+          "output": {
+            "added_counts": [
+              34,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [
+                "F5:quarter",
+                "A4:eighth",
+                "D5:eighth",
+                "C5:half",
+                "Bb4:quarter",
+                "C5:eighth",
+                "None:eighth",
+                "D5:half"
+              ],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 8
+            },
+            "note": "旋律：段落A rhythm=flowing"
+          }
+        },
+        {
+          "script": "set_harmony",
+          "input": {
+            "section": "A'",
+            "progression": [
+              "Imaj7",
+              "vi7",
+              "ii7",
+              "V7",
+              "iii7",
+              "VI7",
+              "ii7",
+              "V7"
+            ]
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 16
+            },
+            "note": "和声：段落A' 进行['Imaj7', 'vi7', 'ii7', 'V7', 'iii7', 'VI7', 'ii7', 'V7']"
+          }
+        },
+        {
+          "script": "accompaniment",
+          "input": {
+            "section": "A'",
+            "pattern": "broken_arpeggio",
+            "register": "low",
+            "density": 1
+          },
+          "output": {
+            "added_counts": [
+              0,
+              64,
+              64,
+              32
+            ],
+            "added_sample": [
+              [],
+              [
+                "None:eighth",
+                "Bb4:eighth",
+                "D4:eighth",
+                "F4:eighth",
+                "Bb5:eighth",
+                "Bb4:eighth",
+                "D4:eighth",
+                "F4:eighth"
+              ],
+              [
+                "None:eighth",
+                "Bb2:eighth",
+                "D3:eighth",
+                "F3:eighth",
+                "Bb3:eighth",
+                "Bb2:eighth",
+                "D4:eighth",
+                "F3:eighth"
+              ],
+              [
+                "Bb2:quarter",
+                "D3:quarter",
+                "F3:quarter",
+                "A3:quarter",
+                "G2:quarter",
+                "Bb3:quarter",
+                "D3:quarter",
+                "F3:quarter"
+              ]
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 16
+            },
+            "note": "伴奏：段落A' pattern=broken_arpeggio register=low density=1"
+          }
+        },
+        {
+          "script": "melody",
+          "input": {
+            "section": "A'",
+            "register": "high",
+            "rhythm": "driving",
+            "contour": "ascending"
+          },
+          "output": {
+            "added_counts": [
+              36,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [
+                "D5:quarter",
+                "Eb5:eighth",
+                "F5:eighth",
+                "F5:quarter",
+                "A5:quarter",
+                "G5:quarter",
+                "F5:eighth",
+                "F5:eighth"
+              ],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 16
+            },
+            "note": "旋律：段落A' rhythm=driving"
+          }
+        },
+        {
+          "script": "set_harmony",
+          "input": {
+            "section": "B",
+            "progression": [
+              "ii7",
+              "V7",
+              "Imaj7",
+              "VI7",
+              "ii7",
+              "V7",
+              "iii7",
+              "VI7"
+            ],
+            "key_sharps": -3,
+            "mode": "minor"
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 24
+            },
+            "note": "和声：段落B 进行['ii7', 'V7', 'Imaj7', 'VI7', 'ii7', 'V7', 'iii7', 'VI7']"
+          }
+        },
+        {
+          "script": "accompaniment",
+          "input": {
+            "section": "B",
+            "pattern": "octave_pulse",
+            "register": "low",
+            "density": 2
+          },
+          "output": {
+            "added_counts": [
+              0,
+              64,
+              64,
+              64
+            ],
+            "added_sample": [
+              [],
+              [
+                "None:eighth",
+                "D4:eighth",
+                "F4:eighth",
+                "A4:eighth",
+                "D5:eighth",
+                "D4:eighth",
+                "F4:eighth",
+                "A4:eighth"
+              ],
+              [
+                "None:eighth",
+                "D3:eighth",
+                "F3:eighth",
+                "A2:eighth",
+                "D4:eighth",
+                "D3:eighth",
+                "F3:eighth",
+                "A2:eighth"
+              ],
+              [
+                "D2+D3:eighth",
+                "D2+D3:eighth",
+                "D2+D3:eighth",
+                "D2+D3:eighth",
+                "D2+D3:eighth",
+                "D2+D3:eighth",
+                "D2+D3:eighth",
+                "D2+D3:eighth"
+              ]
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 24
+            },
+            "note": "伴奏：段落B pattern=octave_pulse register=low density=2"
+          }
+        },
+        {
+          "script": "melody",
+          "input": {
+            "section": "B",
+            "register": "very_high",
+            "rhythm": "fragmented",
+            "contour": "wave"
+          },
+          "output": {
+            "added_counts": [
+              44,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [
+                "C6:quarter",
+                "None:eighth",
+                "D6:eighth",
+                "D6:quarter",
+                "A5:quarter",
+                "B5:quarter",
+                "C6:eighth",
+                "D6:eighth"
+              ],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 24
+            },
+            "note": "旋律：段落B rhythm=fragmented"
+          }
+        },
+        {
+          "script": "thicken",
+          "input": {
+            "section": "B"
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 24
+            },
+            "note": "加厚：段落B"
+          }
+        },
+        {
+          "script": "set_harmony",
+          "input": {
+            "section": "A''",
+            "progression": [
+              "Imaj7",
+              "vi7",
+              "ii7",
+              "V7",
+              "IVmaj7",
+              "iii7",
+              "ii7",
+              "V7"
+            ]
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "和声：段落A'' 进行['Imaj7', 'vi7', 'ii7', 'V7', 'IVmaj7', 'iii7', 'ii7', 'V7']"
+          }
+        },
+        {
+          "script": "accompaniment",
+          "input": {
+            "section": "A''",
+            "pattern": "block_chords",
+            "register": "low",
+            "density": 1
+          },
+          "output": {
+            "added_counts": [
+              0,
+              64,
+              64,
+              16
+            ],
+            "added_sample": [
+              [],
+              [
+                "None:eighth",
+                "Bb4:eighth",
+                "D4:eighth",
+                "F4:eighth",
+                "Bb5:eighth",
+                "Bb4:eighth",
+                "D4:eighth",
+                "F4:eighth"
+              ],
+              [
+                "None:eighth",
+                "Bb2:eighth",
+                "D3:eighth",
+                "F3:eighth",
+                "Bb3:eighth",
+                "Bb2:eighth",
+                "D3:eighth",
+                "F3:eighth"
+              ],
+              [
+                "Bb2+D3+F3+A3:half",
+                "Bb2+D3+F3+A3:half",
+                "G2+Bb3+D3+F3:half",
+                "G2+Bb3+D3+F3:half",
+                "C2+Eb3+G3+Bb3:half",
+                "C2+Eb3+G3+Bb3:half",
+                "F2+A3+C3+Eb3:half",
+                "F2+A3+C3+Eb3:half"
+              ]
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "伴奏：段落A'' pattern=block_chords register=low density=1"
+          }
+        },
+        {
+          "script": "melody",
+          "input": {
+            "section": "A''",
+            "register": "mid",
+            "rhythm": "flowing",
+            "contour": "descending"
+          },
+          "output": {
+            "added_counts": [
+              34,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [
+                "F5:quarter",
+                "G5:eighth",
+                "F5:eighth",
+                "D5:half",
+                "Eb5:16th",
+                "F5:16th",
+                "G5:quarter",
+                "F5:quarter"
+              ],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "旋律：段落A'' rhythm=flowing"
+          }
+        },
+        {
+          "script": "cadence",
+          "input": {
+            "bars": 2,
+            "section": "A''"
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "终止：bars=2"
+          }
+        },
+        {
+          "script": "finalize",
+          "input": {},
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 120,
+              "bars": 32,
+              "voices": 4,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "收束装配：32小节 / 4声部"
+          }
+        }
+      ],
+      "repair": {
+        "triggered": true,
+        "issues": [
+          "各段织体密度相同且高潮段无八度加厚——安静段（pp/p）须用 half/whole 长音稀疏织体，冲突段用八分音符与休止的碎片化，高潮段旋律以八度和弦（双 pitch 列表）加厚。禁止全曲统一四分（或八分）音符"
+        ]
+      },
+      "result": {
+        "title": "Bb Swing Standard",
+        "time_signature": "4/4",
+        "tempo": 120,
+        "mode": "major",
+        "key_sharps": -2,
+        "bars_target": 32,
+        "bars_actual": 32,
+        "voices": 4,
+        "parts": [
+          "Trumpet",
+          "Piano",
+          "Contrabass",
+          "Timpani"
+        ],
+        "has_fugue": false,
+        "composer": "translated-kernel"
+      },
+      "generated_at": "2026-09-28T21:44:23",
+      "bound_genre": "genre:jazz/swing-standard",
+      "translator_attempts": 1
+    }
+  },
+  "created_at": "2026-09-28T21:44:22"
+}

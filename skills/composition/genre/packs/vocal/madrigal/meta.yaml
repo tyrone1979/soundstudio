@@ -1,0 +1,61 @@
+id: madrigal
+name: 蒙特威尔第牧歌
+name_en: Monteverdi Madrigal
+enabled: true
+version: '1.0'
+dimensions:
+  form: song
+  tempo_energy: andante
+  mood: lyrical
+  medium: choir
+  tradition: western_classical
+  tonal_language: functional_tonal
+  rhythmic_identity: metrical_clear
+  family: vocal
+triggers:
+  keywords:
+  - 牧歌
+  - 蒙特威尔第
+  - madrigal
+  - monteverdi
+  style_tags:
+  - madrigal
+  - renaissance
+  - vocal
+summary: 蒙特威尔第牧歌：可解释语法作曲，最高声部旋律 + 钢琴和声衬底。
+profile:
+  mode: 大小调；语料含大量小调。
+  tempo:
+    unit: quarter_note
+    min: 60
+    max: 96
+    default: 72
+    character: 中速歌唱。
+  meter:
+    primary: 4/4
+    allowed: [4/4]
+    description: 四拍子。
+  phrase:
+    preferred: [4+4]
+    description: 乐句随歌词呼吸。
+  harmony:
+    vocabulary_basic: [I, IV, V, V7, vi, ii]
+    progressions: [I–V–I]
+    forbidden: []
+  melody:
+    character: 最高声部主导，音节式与花唱兼有
+    contour_preferred: [stepwise, arch]
+    range_default: {low: C4, high: G5}
+  texture:
+    primary: melody_plus_homophony
+    density: voice_plus_piano
+  color:
+    medium_note: 女高音 + 钢琴
+    character: 人声旋律，和声衬底。
+generation:
+  foundation:
+    bars: {default: 24, min: 8, max: 32}
+    complexity: 2
+    instruments_default: [soprano, piano, piano]
+  composition:
+    bars_default: 24

@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "title": "The Soldier's Cloak -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/soldierscloakjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4461497424
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8"
+    },
+    {
+      "section": "I",
+      "bars": "9"
+    },
+    {
+      "section": "J",
+      "bars": "10"
+    },
+    {
+      "section": "K",
+      "bars": "11"
+    },
+    {
+      "section": "D",
+      "bars": "12"
+    },
+    {
+      "section": "E",
+      "bars": "13"
+    },
+    {
+      "section": "B",
+      "bars": "14"
+    },
+    {
+      "section": "F",
+      "bars": "15"
+    },
+    {
+      "section": "L",
+      "bars": "16"
+    },
+    {
+      "section": "M",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "A5"
+    ],
+    "mean_midi": 72.19,
+    "stepwise_ratio": 0.512,
+    "leap_ratio": 0.071,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.131,
+    "interval_hist": {
+      "2": 31,
+      "3": 16,
+      "1": 12,
+      "0": 11,
+      "4": 8,
+      "5": 6
+    },
+    "dur_hist": {
+      "8th": 66,
+      "quarter": 10,
+      "dotted_quarter": 7,
+      "16th": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1765,
+      "1": 0.0,
+      "2": 0.1294,
+      "3": 0.0,
+      "4": 0.1529,
+      "5": 0.1176,
+      "6": 0.0,
+      "7": 0.2471,
+      "8": 0.0,
+      "9": 0.0824,
+      "10": 0.0,
+      "11": 0.0941
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0941
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 66,
+      "quarter": 10,
+      "dotted_quarter": 7,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.212,
+      "2": 0.094,
+      "3": 0.129,
+      "4": 0.224,
+      "5": 0.129,
+      "6": 0.212
+    },
+    "beat1_onset_share": 0.212,
+    "syncopation_proxy": 0.788,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 4.72,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

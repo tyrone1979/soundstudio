@@ -1,0 +1,10 @@
+key_id,pack_id,seed,ok_symbolic,style_top3,corpus_piece_ok,corpus_piece_sim,corpus_frag_ok,corpus_frag_sim,overlap,xml,wav
+mazurka__0,mazurka,master-mazurka-0,True,True,True,0.9018,True,0.9715,0.6373,/Users/leizhao/Documents/prj/composerchat/scores/master_audit/mazurka__0.musicxml,
+mazurka__1,mazurka,master-mazurka-1,True,True,True,0.8963,True,0.9743,0.7531,/Users/leizhao/Documents/prj/composerchat/scores/master_audit/mazurka__1.musicxml,
+mazurka__2,mazurka,master-mazurka-2,True,True,True,0.8848,True,0.975,0.7849,/Users/leizhao/Documents/prj/composerchat/scores/master_audit/mazurka__2.musicxml,
+fugue__0,fugue,master-fugue-0,True,True,True,0.8695,True,0.9869,0.8701,/Users/leizhao/Documents/prj/composerchat/scores/master_audit/fugue__0.musicxml,
+fugue__1,fugue,master-fugue-1,True,True,True,0.8665,True,0.9869,0.8364,/Users/leizhao/Documents/prj/composerchat/scores/master_audit/fugue__1.musicxml,
+fugue__2,fugue,master-fugue-2,True,True,True,0.8845,True,0.9865,0.9548,/Users/leizhao/Documents/prj/composerchat/scores/master_audit/fugue__2.musicxml,
+swing-standard__0,swing-standard,master-swing-standard-0,False,False,True,0.9296,True,0.8682,-0.2571,/Users/leizhao/Documents/prj/composerchat/scores/master_audit/swing-standard__0.musicxml,
+swing-standard__1,swing-standard,master-swing-standard-1,True,True,True,0.9235,True,0.8789,0.3403,/Users/leizhao/Documents/prj/composerchat/scores/master_audit/swing-standard__1.musicxml,
+swing-standard__2,swing-standard,master-swing-standard-2,True,True,True,0.936,True,0.8593,0.3252,/Users/leizhao/Documents/prj/composerchat/scores/master_audit/swing-standard__2.musicxml,

@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Menschenkind, merk eben",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider018.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 13,
+    "parts": [
+      4755799632
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 32,
+      "8th": 12,
+      "half": 5,
+      "whole": 1
+    },
+    "onset_beat_share": {
+      "1": 0.28,
+      "2": 0.32,
+      "3": 0.24,
+      "4": 0.16
+    },
+    "beat1_onset_share": 0.28,
+    "syncopation_proxy": 0.72,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 3.85,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 8,
+    "chords_estimated": 50,
+    "harmonic_rhythm_chords_per_bar": 3.85,
+    "root_pair_top": {
+      "D-G": 7,
+      "G-C": 5,
+      "A-D": 5,
+      "C-G": 4,
+      "G-D": 3,
+      "D-E": 2,
+      "D-A": 2,
+      "E-D": 2
+    },
+    "root_sample": [
+      "G",
+      "C",
+      "G",
+      "F#",
+      "B",
+      "D",
+      "E",
+      "A",
+      "D",
+      "A",
+      "D",
+      "E",
+      "D",
+      "G",
+      "A",
+      "D",
+      "C",
+      "D",
+      "G",
+      "C",
+      "G",
+      "D",
+      "G",
+      "D"
+    ],
+    "quality_hist": {
+      "triad": 0.86,
+      "minor7": 0.02,
+      "dominant7": 0.1,
+      "half_diminished7": 0.02
+    },
+    "seventh_ratio": 0.14
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

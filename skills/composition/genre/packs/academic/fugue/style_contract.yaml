@@ -1,0 +1,86 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: fugue
+family: academic
+schema: style-contract/v1
+evidence_n: 48
+evidence_weight: 1.0
+tempo:
+  default: 84
+  min: 56
+  max: 124
+  source: empirical
+  evidence_n: 48
+meter:
+  primary: 4/4
+  allowed:
+  - 4/4
+  - 2/2
+  - 3/4
+  - 3/8
+  - 6/4
+  - 6/8
+  - 9/8
+  - 2/4
+  - 12/16
+  - 4/2
+  - 6/16
+  - 3/2
+  weights:
+    4/4: 0.4792
+    2/2: 0.1458
+    3/4: 0.1042
+    3/8: 0.0625
+    6/4: 0.0208
+    6/8: 0.0417
+    9/8: 0.0208
+    2/4: 0.0417
+    12/16: 0.0208
+    4/2: 0.0208
+    6/16: 0.0208
+    3/2: 0.0208
+  source: empirical
+  evidence_n: 48
+harmony:
+  chords_per_bar: 6.0
+  quality_weights:
+    triad: 0.658
+    dominant7: 0.021
+    major7: 0.006
+    minor7: 0.013
+    diminished7: 0.006
+    half_diminished7: 0.029
+    augmented: 0.017
+    other: 0.252
+  unique_roots_mean: 12.319
+  evidence_n: 47
+melody:
+  stepwise_ratio: 0.636
+  leap_ratio: 0.14
+  repeated_note_ratio: 0.111
+  range_center: 72.66
+  range_width: null
+  mean_midi: 72.66
+  evidence_n: 48
+rhythm:
+  density_notes_per_bar: 20.625
+  beat1_onset_share: 0.317
+  syncopation: 0.594
+  swing_ratio: 2.0
+  swing_pair_share: 0.023
+  triplet_ratio: 0.016
+  evidence_n: 48
+texture:
+  voice_count: 3.0
+  evidence_n: 48
+form:
+  phrase_len: 1.055
+  repetition_ratio: 0.198
+  unique_motifs: 40.0
+  evidence_n: 48
+provenance:
+  built_from: features
+  scores_analyzed: 48
+  scores_with_harmony: 47
+  min_evidence: 8

@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "CATHOLIC BOYS -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/catholicboysjig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 17,
+    "parts": [
+      4531067536
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.059,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 71.27,
+    "stepwise_ratio": 0.432,
+    "leap_ratio": 0.147,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.232,
+    "interval_hist": {
+      "2": 29,
+      "0": 22,
+      "3": 15,
+      "1": 12,
+      "8": 7,
+      "5": 6,
+      "4": 3,
+      "10": 1
+    },
+    "dur_hist": {
+      "dotted_8th": 6,
+      "16th": 6,
+      "8th": 75,
+      "quarter": 4,
+      "0": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.2188,
+      "1": 0.0,
+      "2": 0.0625,
+      "3": 0.1667,
+      "4": 0.0,
+      "5": 0.1042,
+      "6": 0.0,
+      "7": 0.2708,
+      "8": 0.0104,
+      "9": 0.0208,
+      "10": 0.1458,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0208,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 75,
+      "dotted_8th": 6,
+      "16th": 6,
+      "0": 5,
+      "quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.188,
+      "2": 0.156,
+      "3": 0.167,
+      "4": 0.208,
+      "5": 0.135,
+      "6": 0.146
+    },
+    "beat1_onset_share": 0.188,
+    "syncopation_proxy": 0.812,
+    "rest_ratio": 0.069,
+    "density_notes_per_bar": 5.65,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

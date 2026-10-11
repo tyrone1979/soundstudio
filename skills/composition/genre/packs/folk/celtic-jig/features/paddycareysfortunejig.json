@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "PADDY CAREY'S FORTUNE -- JIG.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/paddycareysfortunejig.musicxml"
+  },
+  "global": {
+    "key": "C major",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4494177552
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "A",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "E",
+      "bars": "6"
+    },
+    {
+      "section": "F",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "H",
+      "bars": "13"
+    },
+    {
+      "section": "K",
+      "bars": "14"
+    },
+    {
+      "section": "F",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.312,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "A5"
+    ],
+    "mean_midi": 73.41,
+    "stepwise_ratio": 0.597,
+    "leap_ratio": 0.039,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.104,
+    "interval_hist": {
+      "2": 30,
+      "1": 16,
+      "4": 14,
+      "0": 8,
+      "3": 6,
+      "5": 3
+    },
+    "dur_hist": {
+      "quarter": 18,
+      "8th": 57,
+      "0": 2,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 0,
+    "degree_hist": {
+      "0": 0.2949,
+      "1": 0.0,
+      "2": 0.1282,
+      "3": 0.0,
+      "4": 0.141,
+      "5": 0.0513,
+      "6": 0.0,
+      "7": 0.141,
+      "8": 0.0,
+      "9": 0.1282,
+      "10": 0.0,
+      "11": 0.1154
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1154
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 57,
+      "quarter": 18,
+      "0": 2,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.205,
+      "2": 0.064,
+      "3": 0.205,
+      "4": 0.231,
+      "5": 0.103,
+      "6": 0.192
+    },
+    "beat1_onset_share": 0.205,
+    "syncopation_proxy": 0.795,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 4.88,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "The Gobby O -- Jig (or Jefferson and Liberty)",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/gobbyojigorjeffersonandliberty.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4461526160
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "A5"
+    ],
+    "mean_midi": 71.12,
+    "stepwise_ratio": 0.541,
+    "leap_ratio": 0.149,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.135,
+    "interval_hist": {
+      "2": 24,
+      "1": 16,
+      "0": 10,
+      "3": 9,
+      "5": 8,
+      "4": 4,
+      "7": 3
+    },
+    "dur_hist": {
+      "16th": 2,
+      "quarter": 18,
+      "8th": 53,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.28,
+      "1": 0.0,
+      "2": 0.1733,
+      "3": 0.12,
+      "4": 0.0,
+      "5": 0.08,
+      "6": 0.0,
+      "7": 0.16,
+      "8": 0.04,
+      "9": 0.0,
+      "10": 0.12,
+      "11": 0.0267
+    },
+    "chromatic_ratio": 0.0267,
+    "leading_tone_ratio": 0.0267
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 53,
+      "quarter": 18,
+      "16th": 2,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.253,
+      "2": 0.067,
+      "3": 0.213,
+      "4": 0.213,
+      "5": 0.093,
+      "6": 0.16
+    },
+    "beat1_onset_share": 0.253,
+    "syncopation_proxy": 0.747,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

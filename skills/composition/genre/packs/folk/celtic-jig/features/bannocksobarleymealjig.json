@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "title": "BANNOCKS' O' BARLEY MEAL- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/bannocksobarleymealjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4482007504
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "L",
+      "bars": "14"
+    },
+    {
+      "section": "M",
+      "bars": "15"
+    },
+    {
+      "section": "D",
+      "bars": "16"
+    },
+    {
+      "section": "F",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A4",
+      "B5"
+    ],
+    "mean_midi": 75.62,
+    "stepwise_ratio": 0.506,
+    "leap_ratio": 0.101,
+    "large_leap_ratio": 0.045,
+    "repeated_note_ratio": 0.18,
+    "interval_hist": {
+      "2": 30,
+      "0": 16,
+      "1": 15,
+      "4": 10,
+      "3": 9,
+      "5": 4,
+      "12": 4,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 72,
+      "0": 2,
+      "quarter": 8,
+      "16th": 4,
+      "dotted_8th": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2111,
+      "1": 0.0,
+      "2": 0.1444,
+      "3": 0.0,
+      "4": 0.1778,
+      "5": 0.0889,
+      "6": 0.0,
+      "7": 0.2667,
+      "8": 0.0,
+      "9": 0.0556,
+      "10": 0.0,
+      "11": 0.0556
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0556
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 72,
+      "quarter": 8,
+      "16th": 4,
+      "dotted_8th": 4,
+      "0": 2
+    },
+    "onset_beat_share": {
+      "1": 0.2,
+      "2": 0.178,
+      "3": 0.178,
+      "4": 0.233,
+      "5": 0.056,
+      "6": 0.156
+    },
+    "beat1_onset_share": 0.2,
+    "syncopation_proxy": 0.8,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,65 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Secrets — never commit API keys
+llm_config.json
+.env
+.env.*
+
+# Large binaries / generated audio
+soundfonts/
+fluidsynth/
+*.sf2
+*.wav
+*.mp3
+*.flac
+
+# Project data / memory (not source)
+.workbuddy/
+
+# Local / temp
+# runs/ 下是每次生成的归档产物（spec/xml/midi/ly/report），现已入库；
+# 仅排除 UI 截图（体积大、可随时重截）。
+# 注意 .gitignore 不支持行内注释，规则必须单独成行
+runs/ui_shots/
+# 专家盲评的答案键：评审结束前不得公开（同种子可由 expert_pack 重建）
+runs/private/
+scores/_tmp_report.md
+scores/_prob_*.txt
+scores/llm_compose_state.json
+# 外部乐谱语料：machines can re-fetch it via `python -m score_learning fetch`,
+# 且多数源的许可禁止再分发 —— 入库的是「怎么再取一遍」，不是数据本身。
+scores/corpus/
+# 风格包的逐曲特征（每首一个 JSON，近 2000 个 / 约 10MB）。纯中间产物：
+# `python -m score_learning mine --family X --pack-id Y` 一条命令即可重建，
+# 真正被内核消费的是同目录的 style_contract.yaml（几 KB）。
+skills/composition/genre/packs/**/features/
+**/__pycache__/
+*_test_*.py
+_test_*.py
+mel_spectrogram.png
+runs/soundfont_compare/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Generated design previews / AI renders (regenerable via tools/make_icons.py)
+assets/previews/
+generated-images/
+papers/eswa/.figenv/
+
+# 盲评材料打包件：内含全部 WAV（52MB），由
+# `venv/bin/python scripts/eval/blind_review_export.py` + 一次 zip 即可完全重建。
+# 同目录的 pdf / xlsx / musicxml / midi 与答案 json 仍入库。
+docs/blind_review/*.zip

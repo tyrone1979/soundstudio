@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "HOLE IN THE WALL -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/holeinthewalljig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 24,
+    "parts": [
+      4532230544
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 20,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.04
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "B5"
+    ],
+    "mean_midi": 66.92,
+    "stepwise_ratio": 0.626,
+    "leap_ratio": 0.168,
+    "large_leap_ratio": 0.006,
+    "repeated_note_ratio": 0.065,
+    "interval_hist": {
+      "2": 60,
+      "1": 37,
+      "3": 14,
+      "5": 11,
+      "7": 11,
+      "0": 10,
+      "4": 8,
+      "11": 2,
+      "9": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "quarter": 32,
+      "16th": 43,
+      "dotted_8th": 40,
+      "8th": 3,
+      "half": 2,
+      "triplet": 36
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.1346,
+      "1": 0.0,
+      "2": 0.1218,
+      "3": 0.1731,
+      "4": 0.0,
+      "5": 0.1538,
+      "6": 0.0,
+      "7": 0.1667,
+      "8": 0.1154,
+      "9": 0.0,
+      "10": 0.109,
+      "11": 0.0256
+    },
+    "chromatic_ratio": 0.0256,
+    "leading_tone_ratio": 0.0256
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.2308,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 43,
+      "dotted_8th": 40,
+      "triplet": 36,
+      "quarter": 32,
+      "8th": 3,
+      "half": 2
+    },
+    "onset_beat_share": {
+      "1": 0.487,
+      "2": 0.513
+    },
+    "beat1_onset_share": 0.487,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.06,
+    "density_notes_per_bar": 6.5,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "genre": "吉格",
+  "techniques": {
+    "rhythmic": [
+      {
+        "name": "meter_6/8",
+        "description": "meter=6/8",
+        "frequency": 0.865,
+        "confidence": "high",
+        "universality": "core"
+      }
+    ],
+    "melodic": [
+      {
+        "name": "stepwise_lyrical_motion",
+        "description": "Mean stepwise_ratio=0.506",
+        "frequency": null,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "harmonic": [],
+    "phrase": [],
+    "accompaniment": [],
+    "orchestration": [],
+    "development": [],
+    "cadence": [],
+    "stylistic_constraints": {
+      "must": [
+        "Use meter 6/8"
+      ],
+      "should": [],
+      "avoid": []
+    }
+  },
+  "_fallback": true,
+  "_source_stats_total": 613
+}

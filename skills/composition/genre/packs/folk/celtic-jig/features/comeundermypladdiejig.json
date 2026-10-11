@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "COME UNDER MY PLADDIE -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/comeundermypladdiejig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4478533712
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 73.49,
+    "stepwise_ratio": 0.411,
+    "leap_ratio": 0.1,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.222,
+    "interval_hist": {
+      "2": 32,
+      "0": 20,
+      "3": 19,
+      "5": 6,
+      "4": 5,
+      "1": 5,
+      "8": 1,
+      "15": 1,
+      "10": 1
+    },
+    "dur_hist": {
+      "8th": 82,
+      "quarter": 5,
+      "dotted_8th": 2,
+      "16th": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1648,
+      "1": 0.0,
+      "2": 0.044,
+      "3": 0.2308,
+      "4": 0.0,
+      "5": 0.1758,
+      "6": 0.0,
+      "7": 0.2967,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0879,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 82,
+      "quarter": 5,
+      "dotted_8th": 2,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.198,
+      "2": 0.176,
+      "3": 0.176,
+      "4": 0.176,
+      "5": 0.121,
+      "6": 0.154
+    },
+    "beat1_onset_share": 0.198,
+    "syncopation_proxy": 0.802,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.06,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

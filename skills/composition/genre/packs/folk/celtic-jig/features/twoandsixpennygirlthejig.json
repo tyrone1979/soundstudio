@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "Two and Sixpenny Girl The -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/twoandsixpennygirlthejig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4466447248
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 70.23,
+    "stepwise_ratio": 0.391,
+    "leap_ratio": 0.08,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.264,
+    "interval_hist": {
+      "0": 23,
+      "2": 19,
+      "1": 15,
+      "3": 14,
+      "4": 9,
+      "5": 3,
+      "8": 2,
+      "9": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 80,
+      "quarter": 8
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2159,
+      "1": 0.0,
+      "2": 0.125,
+      "3": 0.0,
+      "4": 0.2273,
+      "5": 0.125,
+      "6": 0.0,
+      "7": 0.1932,
+      "8": 0.0,
+      "9": 0.0341,
+      "10": 0.0,
+      "11": 0.0795
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0795
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 80,
+      "quarter": 8
+    },
+    "onset_beat_share": {
+      "1": 0.205,
+      "2": 0.182,
+      "3": 0.182,
+      "4": 0.182,
+      "5": 0.091,
+      "6": 0.159
+    },
+    "beat1_onset_share": 0.205,
+    "syncopation_proxy": 0.795,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.89,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

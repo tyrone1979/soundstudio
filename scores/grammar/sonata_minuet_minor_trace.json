@@ -1,0 +1,313 @@
+{
+ "plan": {
+  "form": "AA",
+  "form_rule": "学到的曲式 AA（段落反复展开）",
+  "units": 2,
+  "bars": 16,
+  "layout": "downbeat",
+  "pickup": null
+ },
+ "units": [
+  {
+   "unit": 1,
+   "letter": "A",
+   "copy_of": null,
+   "bars": [
+    1,
+    8
+   ],
+   "cadence": "C016",
+   "cadence_say": "V → i",
+   "contours": [
+    "M002",
+    "M001"
+   ],
+   "rhythm": [
+    "R003",
+    "R003←1",
+    "R003←2",
+    "R105",
+    "R004",
+    "R011",
+    "R004←5",
+    "R122"
+   ],
+   "chords": "Cm | Fm Ddim | Ddim | Ab Cm | Cm | G Ab G | G | Cm",
+   "roman": "i iv ii° ii° VI i i V VI V V i"
+  },
+  {
+   "unit": 2,
+   "letter": "A",
+   "copy_of": 1,
+   "bars": [
+    9,
+    16
+   ],
+   "cadence": "C016",
+   "cadence_say": "V → i",
+   "contours": [
+    "M002",
+    "M001"
+   ],
+   "rhythm": [
+    "R003",
+    "R003←1",
+    "R003←2",
+    "R105",
+    "R004",
+    "R011",
+    "R004←5",
+    "R122"
+   ],
+   "chords": "Cm | Fm Ddim | Ddim | Ab Cm | Cm | G Ab G | G | Cm",
+   "roman": "i iv ii° ii° VI i i V VI V V i"
+  }
+ ],
+ "slots": [
+  {
+   "bar": 1,
+   "beat": 1,
+   "tok": "0:m",
+   "pos": "0",
+   "chord": "Cm",
+   "roman": "i",
+   "rule": "H602",
+   "bass": 48
+  },
+  {
+   "bar": 2,
+   "beat": 1,
+   "tok": "5:m",
+   "pos": "o",
+   "chord": "Fm",
+   "roman": "iv",
+   "rule": "H604",
+   "bass": 48
+  },
+  {
+   "bar": 2,
+   "beat": 2,
+   "tok": "2:d",
+   "pos": "om",
+   "chord": "Ddim",
+   "roman": "ii°",
+   "rule": "H633",
+   "bass": 50
+  },
+  {
+   "bar": 3,
+   "beat": 1,
+   "tok": "2:d",
+   "pos": "o",
+   "chord": "Ddim",
+   "roman": "ii°",
+   "rule": "H573",
+   "bass": 50
+  },
+  {
+   "bar": 4,
+   "beat": 1,
+   "tok": "8:M",
+   "pos": "3",
+   "chord": "Ab",
+   "roman": "VI",
+   "rule": "H511",
+   "bass": 51
+  },
+  {
+   "bar": 4,
+   "beat": 2,
+   "tok": "0:m",
+   "pos": "3m",
+   "chord": "Cm",
+   "roman": "i",
+   "rule": "H563",
+   "bass": 48
+  },
+  {
+   "bar": 5,
+   "beat": 1,
+   "tok": "0:m",
+   "pos": "o",
+   "chord": "Cm",
+   "roman": "i",
+   "rule": "H659",
+   "bass": 48
+  },
+  {
+   "bar": 6,
+   "beat": 1,
+   "tok": "7:M",
+   "pos": "o",
+   "chord": "G",
+   "roman": "V",
+   "rule": "H605",
+   "bass": 43
+  },
+  {
+   "bar": 6,
+   "beat": 2,
+   "tok": "8:M",
+   "pos": "om",
+   "chord": "Ab",
+   "roman": "VI",
+   "rule": "H619",
+   "bass": 44
+  },
+  {
+   "bar": 6,
+   "beat": 3,
+   "tok": "7:M",
+   "pos": "om",
+   "chord": "G",
+   "roman": "V",
+   "rule": "H654",
+   "bass": 43
+  },
+  {
+   "bar": 7,
+   "beat": 1,
+   "tok": "7:M",
+   "pos": "o",
+   "chord": "G",
+   "roman": "V",
+   "rule": "C016",
+   "bass": 43
+  },
+  {
+   "bar": 8,
+   "beat": 1,
+   "tok": "0:m",
+   "pos": "F",
+   "chord": "Cm",
+   "roman": "i",
+   "rule": "C016",
+   "bass": 48
+  },
+  {
+   "bar": 9,
+   "beat": 1,
+   "tok": "0:m",
+   "pos": "0",
+   "chord": "Cm",
+   "roman": "i",
+   "rule": "H602",
+   "bass": 48
+  },
+  {
+   "bar": 10,
+   "beat": 1,
+   "tok": "5:m",
+   "pos": "o",
+   "chord": "Fm",
+   "roman": "iv",
+   "rule": "H604",
+   "bass": 48
+  },
+  {
+   "bar": 10,
+   "beat": 2,
+   "tok": "2:d",
+   "pos": "om",
+   "chord": "Ddim",
+   "roman": "ii°",
+   "rule": "H633",
+   "bass": 50
+  },
+  {
+   "bar": 11,
+   "beat": 1,
+   "tok": "2:d",
+   "pos": "o",
+   "chord": "Ddim",
+   "roman": "ii°",
+   "rule": "H573",
+   "bass": 50
+  },
+  {
+   "bar": 12,
+   "beat": 1,
+   "tok": "8:M",
+   "pos": "3",
+   "chord": "Ab",
+   "roman": "VI",
+   "rule": "H511",
+   "bass": 51
+  },
+  {
+   "bar": 12,
+   "beat": 2,
+   "tok": "0:m",
+   "pos": "3m",
+   "chord": "Cm",
+   "roman": "i",
+   "rule": "H563",
+   "bass": 48
+  },
+  {
+   "bar": 13,
+   "beat": 1,
+   "tok": "0:m",
+   "pos": "o",
+   "chord": "Cm",
+   "roman": "i",
+   "rule": "H659",
+   "bass": 48
+  },
+  {
+   "bar": 14,
+   "beat": 1,
+   "tok": "7:M",
+   "pos": "o",
+   "chord": "G",
+   "roman": "V",
+   "rule": "H605",
+   "bass": 43
+  },
+  {
+   "bar": 14,
+   "beat": 2,
+   "tok": "8:M",
+   "pos": "om",
+   "chord": "Ab",
+   "roman": "VI",
+   "rule": "H619",
+   "bass": 44
+  },
+  {
+   "bar": 14,
+   "beat": 3,
+   "tok": "7:M",
+   "pos": "om",
+   "chord": "G",
+   "roman": "V",
+   "rule": "H654",
+   "bass": 43
+  },
+  {
+   "bar": 15,
+   "beat": 1,
+   "tok": "7:M",
+   "pos": "o",
+   "chord": "G",
+   "roman": "V",
+   "rule": "C016",
+   "bass": 43
+  },
+  {
+   "bar": 16,
+   "beat": 1,
+   "tok": "0:m",
+   "pos": "F",
+   "chord": "Cm",
+   "roman": "i",
+   "rule": "C016",
+   "bass": 43
+  }
+ ],
+ "seed_used": "2",
+ "range": [
+  60,
+  88
+ ]
+}

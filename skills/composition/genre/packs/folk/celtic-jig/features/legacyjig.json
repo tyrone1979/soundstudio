@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "title": "The Legacy -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/legacyjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4514615248
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "L",
+      "bars": "14"
+    },
+    {
+      "section": "M",
+      "bars": "15"
+    },
+    {
+      "section": "D",
+      "bars": "16"
+    },
+    {
+      "section": "F",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F#4",
+      "D6"
+    ],
+    "mean_midi": 77.6,
+    "stepwise_ratio": 0.425,
+    "leap_ratio": 0.175,
+    "large_leap_ratio": 0.025,
+    "repeated_note_ratio": 0.188,
+    "interval_hist": {
+      "2": 24,
+      "0": 15,
+      "3": 11,
+      "1": 10,
+      "5": 9,
+      "4": 6,
+      "7": 3,
+      "15": 2
+    },
+    "dur_hist": {
+      "8th": 60,
+      "quarter": 18,
+      "0": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.284,
+      "1": 0.0,
+      "2": 0.0741,
+      "3": 0.0,
+      "4": 0.1728,
+      "5": 0.037,
+      "6": 0.0,
+      "7": 0.2222,
+      "8": 0.0,
+      "9": 0.1235,
+      "10": 0.0,
+      "11": 0.0864
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0864
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 60,
+      "quarter": 18,
+      "0": 3
+    },
+    "onset_beat_share": {
+      "1": 0.222,
+      "2": 0.049,
+      "3": 0.198,
+      "4": 0.235,
+      "5": 0.123,
+      "6": 0.173
+    },
+    "beat1_onset_share": 0.222,
+    "syncopation_proxy": 0.778,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.5,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

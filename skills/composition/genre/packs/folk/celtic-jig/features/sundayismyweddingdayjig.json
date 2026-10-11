@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "SUNDAY IS MY WEDDING-DAY -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/sundayismyweddingdayjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4516752144
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 70.78,
+    "stepwise_ratio": 0.419,
+    "leap_ratio": 0.194,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.14,
+    "interval_hist": {
+      "2": 34,
+      "0": 13,
+      "3": 12,
+      "4": 11,
+      "5": 7,
+      "1": 5,
+      "10": 5,
+      "7": 4,
+      "14": 1,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 90,
+      "dotted_8th": 1,
+      "16th": 1,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2128,
+      "1": 0.0,
+      "2": 0.3298,
+      "3": 0.0,
+      "4": 0.2553,
+      "5": 0.0213,
+      "6": 0.0,
+      "7": 0.0745,
+      "8": 0.0,
+      "9": 0.0851,
+      "10": 0.0213,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0213,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 90,
+      "quarter": 2,
+      "dotted_8th": 1,
+      "16th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.191,
+      "2": 0.17,
+      "3": 0.17,
+      "4": 0.17,
+      "5": 0.149,
+      "6": 0.149
+    },
+    "beat1_onset_share": 0.191,
+    "syncopation_proxy": 0.809,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.22,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

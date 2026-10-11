@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "THE DOUBLE HEAD -- JIG",
+    "composer": "R. NAGLE",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/doubleheadjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4531717968
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "G5"
+    ],
+    "mean_midi": 72.26,
+    "stepwise_ratio": 0.422,
+    "leap_ratio": 0.1,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.156,
+    "interval_hist": {
+      "2": 19,
+      "1": 19,
+      "3": 19,
+      "0": 14,
+      "4": 10,
+      "5": 6,
+      "9": 2,
+      "11": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "8th": 83,
+      "quarter": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2198,
+      "1": 0.0,
+      "2": 0.1429,
+      "3": 0.0,
+      "4": 0.1648,
+      "5": 0.1429,
+      "6": 0.0,
+      "7": 0.1319,
+      "8": 0.0,
+      "9": 0.1429,
+      "10": 0.0,
+      "11": 0.0549
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0549
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 83,
+      "quarter": 6,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.209,
+      "2": 0.176,
+      "3": 0.176,
+      "4": 0.176,
+      "5": 0.11,
+      "6": 0.154
+    },
+    "beat1_onset_share": 0.209,
+    "syncopation_proxy": 0.791,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.06,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "Tidal Wave -- Jig",
+    "composer": "EDDIE FOX.",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/tidalwavejig.musicxml"
+  },
+  "global": {
+    "key": "F major",
+    "key_sharps": -1,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 42,
+    "parts": [
+      4463404560
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 38,
+    "repetition_ratio": 0.095,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "B5"
+    ],
+    "mean_midi": 72.6,
+    "stepwise_ratio": 0.489,
+    "leap_ratio": 0.234,
+    "large_leap_ratio": 0.03,
+    "repeated_note_ratio": 0.013,
+    "interval_hist": {
+      "2": 63,
+      "1": 52,
+      "3": 38,
+      "4": 24,
+      "5": 24,
+      "8": 9,
+      "7": 6,
+      "12": 6,
+      "10": 5,
+      "0": 3,
+      "9": 2,
+      "17": 1
+    },
+    "dur_hist": {
+      "quarter": 12,
+      "16th": 84,
+      "ql=0.38": 34,
+      "ql=0.12": 35,
+      "ql=0.17": 24,
+      "8th": 47
+    }
+  },
+  "tonal": {
+    "tonic_pc": 5,
+    "degree_hist": {
+      "0": 0.1314,
+      "1": 0.0508,
+      "2": 0.1695,
+      "3": 0.0127,
+      "4": 0.1271,
+      "5": 0.0847,
+      "6": 0.0339,
+      "7": 0.1229,
+      "8": 0.0212,
+      "9": 0.1314,
+      "10": 0.0297,
+      "11": 0.0847
+    },
+    "chromatic_ratio": 0.1483,
+    "leading_tone_ratio": 0.0847
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 84,
+      "8th": 47,
+      "ql=0.12": 35,
+      "ql=0.38": 34,
+      "ql=0.17": 24,
+      "quarter": 12
+    },
+    "onset_beat_share": {
+      "1": 0.534,
+      "2": 0.466
+    },
+    "beat1_onset_share": 0.534,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.076,
+    "density_notes_per_bar": 5.62,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

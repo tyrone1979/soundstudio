@@ -1,0 +1,61 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: waltz
+family: dance
+schema: style-contract/v1
+evidence_n: 52
+evidence_weight: 1.0
+tempo:
+  default: 72.0
+  min: 69.0
+  max: 80.0
+  source: expert
+  evidence_n: 52
+meter:
+  primary: 3/4
+  allowed:
+  - 3/4
+  weights:
+    3/4: 1.0
+  source: empirical
+  evidence_n: 52
+harmony:
+  chords_per_bar: 1.0
+  quality_weights:
+    triad: 0.768
+    dominant7: 0.21
+    minor7: 0.001
+    augmented: 0.017
+    other: 0.005
+  unique_roots_mean: 5.294
+  evidence_n: 51
+melody:
+  stepwise_ratio: 0.546
+  leap_ratio: 0.132
+  repeated_note_ratio: 0.134
+  range_center: 71.59
+  range_width: null
+  mean_midi: 71.59
+  evidence_n: 52
+rhythm:
+  density_notes_per_bar: 3.66
+  beat1_onset_share: 0.544
+  syncopation: 0.456
+  swing_ratio: null
+  swing_pair_share: 0.0
+  triplet_ratio: 0.004
+  evidence_n: 52
+texture:
+  voice_count: 1.0
+  evidence_n: 52
+form:
+  phrase_len: 1.0
+  repetition_ratio: 0.275
+  unique_motifs: 23.0
+  evidence_n: 52
+provenance:
+  built_from: features
+  scores_analyzed: 52
+  scores_with_harmony: 51
+  min_evidence: 8

@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Maid of Selma -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/maidofselmajig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 24,
+    "parts": [
+      4465461968
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 20,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 72.12,
+    "stepwise_ratio": 0.527,
+    "leap_ratio": 0.108,
+    "large_leap_ratio": 0.032,
+    "repeated_note_ratio": 0.129,
+    "interval_hist": {
+      "2": 41,
+      "3": 19,
+      "0": 12,
+      "1": 8,
+      "5": 4,
+      "12": 3,
+      "4": 3,
+      "7": 3
+    },
+    "dur_hist": {
+      "quarter": 19,
+      "8th": 60,
+      "dotted_quarter": 15
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.2447,
+      "1": 0.0,
+      "2": 0.0426,
+      "3": 0.2447,
+      "4": 0.0,
+      "5": 0.1383,
+      "6": 0.0,
+      "7": 0.1596,
+      "8": 0.0213,
+      "9": 0.0,
+      "10": 0.1489,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 60,
+      "quarter": 19,
+      "dotted_quarter": 15
+    },
+    "onset_beat_share": {
+      "1": 0.255,
+      "2": 0.021,
+      "3": 0.149,
+      "4": 0.255,
+      "5": 0.128,
+      "6": 0.191
+    },
+    "beat1_onset_share": 0.255,
+    "syncopation_proxy": 0.745,
+    "rest_ratio": 0.007,
+    "density_notes_per_bar": 3.92,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

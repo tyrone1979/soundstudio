@@ -1,0 +1,251 @@
+id: mazurka
+name: 玛祖卡
+name_en: Mazurka
+enabled: true
+version: '2.2'
+dimensions:
+  form: mazurka
+  tempo_energy: moderato
+  mood: lyrical
+  medium: solo_piano
+  tradition: european
+  tonal_language: functional_tonal
+  rhythmic_identity: triple_meter_dance
+  family: dance
+triggers:
+  keywords:
+  - 玛祖卡
+  - mazurka
+  - 波兰舞曲
+  - 肖邦风格玛祖卡
+  style_tags:
+  - mazurka
+  - polish
+  - triple
+  - piano
+summary: 波兰三拍玛祖卡：重音常在第二或第三拍、乡土与抒情并存、钢琴语汇。
+profile:
+  mode: 大小调交替常见；可用调式色彩（利底亚升4等）点缀，勿喧宾夺主。
+  tonal_center:
+    preferred:
+    - A minor
+    - F
+    - Bb
+    - C
+    secondary:
+    - C# minor
+    - D minor
+    - G
+    empirical_key_dist:
+      A minor: 0.096
+      C major: 0.135
+      F# minor: 0.058
+      C# minor: 0.096
+      E major: 0.019
+      E- minor: 0.019
+      B- major: 0.038
+      D major: 0.038
+      F minor: 0.058
+      A- major: 0.096
+      E- major: 0.019
+      E minor: 0.038
+      G# minor: 0.019
+      G minor: 0.038
+      B- minor: 0.019
+      C minor: 0.019
+      C# major: 0.038
+      B major: 0.077
+      G major: 0.038
+      B minor: 0.019
+      F major: 0.019
+  tempo:
+    unit: quarter_note
+    min: 100
+    max: 140
+    default: 120
+    character: 中速偏活；有弹性，但不失三拍舞步。
+  meter:
+    primary: 3/4
+    allowed:
+    - 3/4
+    forbidden:
+    - 4/4
+    accent:
+      often_beat_2_or_3: true
+    description: 3/4；重音常落在第2或第3拍（区别于圆舞第1拍）。
+    empirical_note: 'From 52 scores: 3/4=100%'
+  rhythm:
+    identity: mazurka accent on 2 or 3; dotted figures
+    accompaniment:
+      default: chordal_with_shifted_accent
+    melodic_preferred:
+    - dotted
+    - grace
+    - syncopated_triple
+    melodic_avoid:
+    - strict_waltz_beat1_only
+  phrase:
+    preferred:
+    - 4+4
+    - 8+8
+    description: 民歌式短句与抒情长句交替。
+  cadence:
+    eight_bar: modal_or_V–I
+    final: 可乡土收束，勿过度歌剧化。
+  harmony:
+    vocabulary_basic:
+    - i
+    - I
+    - IV
+    - V
+    - VI
+    vocabulary_extended:
+    - Lydian_color
+    - drone
+    progressions:
+    - i–VII–i
+    - I–V–I
+    - i–iv–V–i
+    harmonic_rhythm_empirical: 语料约 3.01 和弦/小节
+  melody:
+    character: 乡土歌唱 + 钢琴装饰
+    ornamentation:
+    - grace
+    - trill
+    - turn
+    range_default:
+      low: E4
+      high: A5
+    stepwise_ratio_target: 0.51
+    contour_preferred:
+    - stepwise
+    - balanced
+    rules: 语料级进比约 51%；大跳比约 23%。以级进为主。
+    leap_ratio_target: 0.227
+  motif:
+    length_bars:
+      min: 2
+      max: 4
+    traits:
+    - folk
+    - shifted_accent
+  texture:
+    primary: melody_plus_chordal
+    density: transparent_to_medium
+  register:
+    melody:
+      low: E4
+      high: A5
+    bass:
+      low: C2
+      high: C3
+  dynamics:
+    default:
+      min: p
+      max: mf
+    shape: ' Rubato 暗示的表情起伏。'
+  articulation:
+    melody:
+    - legato
+    - accent_on_2_or_3
+    avoid:
+    - even_waltz_oom_pah_pah
+  color: 钢琴独奏语汇；可想象乡土风笛/弦乐，但仍写钢琴。忌圆舞标准 oom-pah-pah 全程。
+  instrumentation:
+    preferred:
+    - solo_piano
+    avoid:
+    - orchestra_tutti
+  form:
+    foundation_bars: 16
+    full_bars_default: 48
+    full_shapes:
+    - A-B-A
+    - A-A-B-A
+  constraints:
+    must:
+    - 3/4；重音偏 2/3 拍；舞曲身份可识别。
+    - 拍号以 3/4 为主（语料 100%）。
+    avoid:
+    - 标准维也纳圆舞全程第1拍重；4/4。
+  priority:
+  - shifted_accent
+  - folk_lyricism
+  - triple
+  empirical:
+    source: score_learning
+    total_scores: 52
+    means:
+      tempo: 144.84
+      stepwise_ratio: 0.51
+      leap_ratio: 0.227
+      bass_beat1_ratio: 0.897
+      beat1_onset_share: 0.401
+      density_notes_per_bar: 5.003
+      harmonic_rhythm_chords_per_bar: 3.012
+    updated_at: '2026-09-28T22:47:56'
+    core_rules:
+    - rule: meter=3/4
+      evidence_count: 52
+      total_scores: 52
+      frequency: 1.0
+      confidence: high
+      universality: core
+      detail:
+        3/4: 52
+    - rule: bass_emphasizes_beat_1
+      evidence_count: 48
+      total_scores: 52
+      frequency: 0.923
+      confidence: high
+      universality: core
+      detail: 0.897
+    - rule: beat1_onset_weight
+      evidence_count: 49
+      total_scores: 52
+      frequency: 0.942
+      confidence: high
+      universality: core
+      detail: 0.401
+    fingerprint: ac866eebe0d7
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 16
+    complexity: 2
+    instruments_default:
+    - piano
+    required:
+    - melody
+    - bass
+    - motif
+    - phrase
+    - cadence
+  composition:
+    bars_default: 48
+    complexity: 3
+    preserve:
+    - meter
+    - tonal_language
+    - melodic_character
+    - rhythmic_identity
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - harmonic_complexity
+    - form
+foundation_score:
+  length: 16
+  key: A_minor
+  tempo: 120
+  meter: 3/4
+  map:
+    1-4: 偏拍重音主题
+    5-8: 应答
+    9-12: 对比
+    13-16: 收束
+llm_instruction: 落实玛祖卡：3/4 且重音常在2/3拍，乡土抒情，勿抄肖邦可识别旋律。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

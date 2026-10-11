@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "Rub the Bag -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/rubthebagjig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 22,
+    "parts": [
+      4513305936
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8"
+    },
+    {
+      "section": "I",
+      "bars": "9"
+    },
+    {
+      "section": "J",
+      "bars": "10"
+    },
+    {
+      "section": "K",
+      "bars": "11"
+    },
+    {
+      "section": "L",
+      "bars": "12"
+    },
+    {
+      "section": "M",
+      "bars": "13"
+    },
+    {
+      "section": "N",
+      "bars": "14"
+    },
+    {
+      "section": "B",
+      "bars": "15"
+    },
+    {
+      "section": "C",
+      "bars": "16"
+    },
+    {
+      "section": "O",
+      "bars": "17"
+    },
+    {
+      "section": "E",
+      "bars": "18"
+    },
+    {
+      "section": "B",
+      "bars": "19"
+    },
+    {
+      "section": "F",
+      "bars": "20"
+    },
+    {
+      "section": "P",
+      "bars": "21"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.273,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "A5"
+    ],
+    "mean_midi": 72.11,
+    "stepwise_ratio": 0.397,
+    "leap_ratio": 0.091,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.182,
+    "interval_hist": {
+      "2": 40,
+      "0": 22,
+      "4": 20,
+      "3": 20,
+      "1": 8,
+      "7": 8,
+      "5": 3
+    },
+    "dur_hist": {
+      "dotted_quarter": 4,
+      "8th": 110,
+      "16th": 4,
+      "quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.1721,
+      "1": 0.0,
+      "2": 0.1721,
+      "3": 0.1393,
+      "4": 0.0,
+      "5": 0.1721,
+      "6": 0.0,
+      "7": 0.1475,
+      "8": 0.0082,
+      "9": 0.0164,
+      "10": 0.1721,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0164,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 110,
+      "dotted_quarter": 4,
+      "16th": 4,
+      "quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.197,
+      "2": 0.148,
+      "3": 0.148,
+      "4": 0.18,
+      "5": 0.148,
+      "6": 0.18
+    },
+    "beat1_onset_share": 0.197,
+    "syncopation_proxy": 0.803,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.55,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

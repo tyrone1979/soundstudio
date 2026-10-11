@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "Connaught-Man's Ramble -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/connaughtmansramblejig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4485267152
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F#4",
+      "B5"
+    ],
+    "mean_midi": 74.6,
+    "stepwise_ratio": 0.447,
+    "leap_ratio": 0.138,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.202,
+    "interval_hist": {
+      "2": 33,
+      "0": 19,
+      "3": 17,
+      "5": 12,
+      "1": 9,
+      "4": 3,
+      "8": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "8th": 89,
+      "0": 1,
+      "quarter": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1579,
+      "1": 0.0,
+      "2": 0.1263,
+      "3": 0.0,
+      "4": 0.2,
+      "5": 0.0842,
+      "6": 0.0,
+      "7": 0.2316,
+      "8": 0.0,
+      "9": 0.2,
+      "10": 0.0,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 89,
+      "quarter": 3,
+      "16th": 2,
+      "0": 1
+    },
+    "onset_beat_share": {
+      "1": 0.211,
+      "2": 0.168,
+      "3": 0.168,
+      "4": 0.168,
+      "5": 0.137,
+      "6": 0.147
+    },
+    "beat1_onset_share": 0.211,
+    "syncopation_proxy": 0.789,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.28,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

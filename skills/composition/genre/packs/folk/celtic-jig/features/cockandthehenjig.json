@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "THE COCK AND THE HEN -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/cockandthehenjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4526413904
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 7,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A4",
+      "A5"
+    ],
+    "mean_midi": 74.31,
+    "stepwise_ratio": 0.516,
+    "leap_ratio": 0.125,
+    "large_leap_ratio": 0.016,
+    "repeated_note_ratio": 0.109,
+    "interval_hist": {
+      "2": 22,
+      "3": 12,
+      "1": 11,
+      "0": 7,
+      "5": 5,
+      "4": 4,
+      "8": 2,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 58,
+      "quarter": 7
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1692,
+      "1": 0.0,
+      "2": 0.1385,
+      "3": 0.0769,
+      "4": 0.0,
+      "5": 0.1231,
+      "6": 0.0,
+      "7": 0.2615,
+      "8": 0.0615,
+      "9": 0.0,
+      "10": 0.1692,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 58,
+      "quarter": 7
+    },
+    "onset_beat_share": {
+      "1": 0.123,
+      "2": 0.108,
+      "3": 0.123,
+      "4": 0.123,
+      "5": 0.092,
+      "6": 0.123,
+      "7": 0.123,
+      "8": 0.062,
+      "9": 0.123
+    },
+    "beat1_onset_share": 0.123,
+    "syncopation_proxy": 0.877,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.12,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

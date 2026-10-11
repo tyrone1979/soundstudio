@@ -1,0 +1,109 @@
+{
+  "total_scores": 613,
+  "means": {
+    "tempo": 76.667,
+    "stepwise_ratio": 0.506,
+    "leap_ratio": 0.131,
+    "bass_beat1_ratio": null,
+    "beat1_onset_share": 0.298,
+    "density_notes_per_bar": 5.681,
+    "harmonic_rhythm_chords_per_bar": 1.2
+  },
+  "distributions": {
+    "meter": {
+      "9/8": 40,
+      "2/4": 27,
+      "6/8": 530,
+      "2/2": 14,
+      "6/4": 1,
+      "12/8": 1
+    },
+    "key": {
+      "D major": 171,
+      "G minor": 9,
+      "G major": 161,
+      "E minor": 78,
+      "F# minor": 7,
+      "A major": 65,
+      "B- major": 5,
+      "A minor": 38,
+      "C major": 27,
+      "D minor": 11,
+      "F major": 12,
+      "B minor": 28,
+      "E major": 1
+    }
+  },
+  "rules": [
+    {
+      "rule": "meter=6/8",
+      "evidence_count": 530,
+      "total_scores": 613,
+      "frequency": 0.865,
+      "confidence": "high",
+      "universality": "core",
+      "detail": {
+        "9/8": 40,
+        "2/4": 27,
+        "6/8": 530,
+        "2/2": 14,
+        "6/4": 1,
+        "12/8": 1
+      }
+    },
+    {
+      "rule": "key=D major",
+      "evidence_count": 171,
+      "total_scores": 613,
+      "frequency": 0.279,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=G major",
+      "evidence_count": 161,
+      "total_scores": 613,
+      "frequency": 0.263,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=E minor",
+      "evidence_count": 78,
+      "total_scores": 613,
+      "frequency": 0.127,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=A major",
+      "evidence_count": 65,
+      "total_scores": 613,
+      "frequency": 0.106,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=A minor",
+      "evidence_count": 38,
+      "total_scores": 613,
+      "frequency": 0.062,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=B minor",
+      "evidence_count": 28,
+      "total_scores": 613,
+      "frequency": 0.046,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    }
+  ]
+}

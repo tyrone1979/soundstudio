@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "Barney Brallagan's -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/barneybrallagansjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4460756816
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.188,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 72.8,
+    "stepwise_ratio": 0.614,
+    "leap_ratio": 0.061,
+    "large_leap_ratio": 0.018,
+    "repeated_note_ratio": 0.105,
+    "interval_hist": {
+      "2": 57,
+      "3": 22,
+      "1": 13,
+      "0": 12,
+      "4": 3,
+      "9": 3,
+      "12": 2,
+      "7": 1,
+      "5": 1
+    },
+    "dur_hist": {
+      "quarter": 23,
+      "8th": 92
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1043,
+      "1": 0.0,
+      "2": 0.1043,
+      "3": 0.0,
+      "4": 0.2,
+      "5": 0.0435,
+      "6": 0.0,
+      "7": 0.313,
+      "8": 0.0,
+      "9": 0.1565,
+      "10": 0.0,
+      "11": 0.0783
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0783
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 92,
+      "quarter": 23
+    },
+    "onset_beat_share": {
+      "1": 0.139,
+      "2": 0.026,
+      "3": 0.122,
+      "4": 0.139,
+      "5": 0.078,
+      "6": 0.122,
+      "7": 0.139,
+      "8": 0.113,
+      "9": 0.122
+    },
+    "beat1_onset_share": 0.139,
+    "syncopation_proxy": 0.861,
+    "rest_ratio": 0.042,
+    "density_notes_per_bar": 7.19,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

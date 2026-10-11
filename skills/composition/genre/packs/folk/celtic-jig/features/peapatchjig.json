@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "PEA PATCH -- JIG.",
+    "composer": "DAN EMMETT.",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/peapatchjig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "2/4",
+    "tempo": 60,
+    "bars": 18,
+    "parts": [
+      4519496528
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 18,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "G5"
+    ],
+    "mean_midi": 67.6,
+    "stepwise_ratio": 0.559,
+    "leap_ratio": 0.075,
+    "large_leap_ratio": 0.032,
+    "repeated_note_ratio": 0.097,
+    "interval_hist": {
+      "2": 33,
+      "1": 19,
+      "3": 18,
+      "0": 9,
+      "4": 7,
+      "12": 3,
+      "5": 3,
+      "7": 1
+    },
+    "dur_hist": {
+      "ql=0.17": 6,
+      "8th": 9,
+      "16th": 71,
+      "ql=0.12": 2,
+      "ql=0.38": 2,
+      "half": 1,
+      "quarter": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.117,
+      "1": 0.0,
+      "2": 0.1596,
+      "3": 0.3085,
+      "4": 0.0,
+      "5": 0.117,
+      "6": 0.0,
+      "7": 0.1064,
+      "8": 0.0532,
+      "9": 0.0,
+      "10": 0.1383,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 71,
+      "8th": 9,
+      "ql=0.17": 6,
+      "quarter": 3,
+      "ql=0.12": 2,
+      "ql=0.38": 2,
+      "half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.521,
+      "2": 0.479
+    },
+    "beat1_onset_share": 0.521,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.107,
+    "density_notes_per_bar": 5.22,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

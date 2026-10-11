@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "LILLIBULLERO, or PROTESTANT BOYS' -- JIG",
+    "composer": "Edwin Christie",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/lillibulleroorprotestantboys.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4466838544
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "A",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "J",
+      "bars": "13"
+    },
+    {
+      "section": "K",
+      "bars": "14"
+    },
+    {
+      "section": "D",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.312,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "A5"
+    ],
+    "mean_midi": 73.01,
+    "stepwise_ratio": 0.671,
+    "leap_ratio": 0.132,
+    "large_leap_ratio": 0.013,
+    "repeated_note_ratio": 0.092,
+    "interval_hist": {
+      "2": 37,
+      "1": 14,
+      "0": 7,
+      "5": 6,
+      "3": 5,
+      "4": 3,
+      "7": 3,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 62,
+      "quarter": 13,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.2078,
+      "1": 0.0,
+      "2": 0.1429,
+      "3": 0.2078,
+      "4": 0.0,
+      "5": 0.1558,
+      "6": 0.0,
+      "7": 0.1558,
+      "8": 0.0,
+      "9": 0.0649,
+      "10": 0.0649,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0649,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 62,
+      "quarter": 13,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.208,
+      "2": 0.182,
+      "3": 0.208,
+      "4": 0.208,
+      "5": 0.039,
+      "6": 0.156
+    },
+    "beat1_onset_share": 0.208,
+    "syncopation_proxy": 0.792,
+    "rest_ratio": 0.021,
+    "density_notes_per_bar": 4.81,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

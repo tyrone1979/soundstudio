@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "Drunken Ganger's The -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/drunkengangersthejig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 3,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4503836752
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8"
+    },
+    {
+      "section": "I",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "J",
+      "bars": "11"
+    },
+    {
+      "section": "K",
+      "bars": "12"
+    },
+    {
+      "section": "I",
+      "bars": "13"
+    },
+    {
+      "section": "H",
+      "bars": "14"
+    },
+    {
+      "section": "J",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.312,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "A5"
+    ],
+    "mean_midi": 72.12,
+    "stepwise_ratio": 0.593,
+    "leap_ratio": 0.036,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.029,
+    "interval_hist": {
+      "2": 66,
+      "3": 34,
+      "1": 17,
+      "4": 14,
+      "0": 4,
+      "5": 3,
+      "9": 2
+    },
+    "dur_hist": {
+      "8th": 119,
+      "16th": 14,
+      "quarter": 6,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.305,
+      "1": 0.0,
+      "2": 0.1702,
+      "3": 0.0,
+      "4": 0.1702,
+      "5": 0.0355,
+      "6": 0.0,
+      "7": 0.1135,
+      "8": 0.0,
+      "9": 0.1418,
+      "10": 0.0,
+      "11": 0.0638
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0638
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 119,
+      "16th": 14,
+      "quarter": 6,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.128,
+      "2": 0.113,
+      "3": 0.113,
+      "4": 0.149,
+      "5": 0.113,
+      "6": 0.113,
+      "7": 0.113,
+      "8": 0.057,
+      "9": 0.099
+    },
+    "beat1_onset_share": 0.128,
+    "syncopation_proxy": 0.872,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.81,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

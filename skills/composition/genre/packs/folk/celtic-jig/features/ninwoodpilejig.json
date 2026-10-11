@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "N...... IN DE WOOD PILE -- JIG.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/ninwoodpilejig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "2/4",
+    "tempo": 95,
+    "bars": 19,
+    "parts": [
+      4500372240
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.211,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 71.53,
+    "stepwise_ratio": 0.475,
+    "leap_ratio": 0.158,
+    "large_leap_ratio": 0.02,
+    "repeated_note_ratio": 0.059,
+    "interval_hist": {
+      "2": 29,
+      "1": 19,
+      "4": 18,
+      "3": 13,
+      "7": 8,
+      "0": 6,
+      "5": 4,
+      "12": 2,
+      "6": 1,
+      "10": 1
+    },
+    "dur_hist": {
+      "0": 4,
+      "8th": 27,
+      "16th": 58,
+      "ql=0.38": 5,
+      "ql=0.12": 5,
+      "ql=0.17": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2451,
+      "1": 0.0,
+      "2": 0.1275,
+      "3": 0.0,
+      "4": 0.2059,
+      "5": 0.0686,
+      "6": 0.0294,
+      "7": 0.1373,
+      "8": 0.0,
+      "9": 0.1275,
+      "10": 0.0,
+      "11": 0.0588
+    },
+    "chromatic_ratio": 0.0294,
+    "leading_tone_ratio": 0.0588
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 58,
+      "8th": 27,
+      "ql=0.38": 5,
+      "ql=0.12": 5,
+      "0": 4,
+      "ql=0.17": 3
+    },
+    "onset_beat_share": {
+      "1": 0.578,
+      "2": 0.422
+    },
+    "beat1_onset_share": 0.578,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.151,
+    "density_notes_per_bar": 5.37,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

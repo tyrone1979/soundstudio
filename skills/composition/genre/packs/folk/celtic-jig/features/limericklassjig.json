@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "THE LIMERICK LASS -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/limericklassjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4521215952
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.188,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 72.65,
+    "stepwise_ratio": 0.553,
+    "leap_ratio": 0.024,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.282,
+    "interval_hist": {
+      "2": 40,
+      "0": 24,
+      "3": 10,
+      "1": 7,
+      "4": 2,
+      "5": 2
+    },
+    "dur_hist": {
+      "0": 1,
+      "8th": 74,
+      "quarter": 11
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1744,
+      "1": 0.0,
+      "2": 0.1279,
+      "3": 0.186,
+      "4": 0.0,
+      "5": 0.1977,
+      "6": 0.0,
+      "7": 0.1512,
+      "8": 0.0116,
+      "9": 0.0,
+      "10": 0.1512,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 74,
+      "quarter": 11,
+      "0": 1
+    },
+    "onset_beat_share": {
+      "1": 0.198,
+      "2": 0.151,
+      "3": 0.186,
+      "4": 0.186,
+      "5": 0.093,
+      "6": 0.186
+    },
+    "beat1_onset_share": 0.198,
+    "syncopation_proxy": 0.802,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.38,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

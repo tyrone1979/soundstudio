@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "title": "LAFRICAN'S -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/lafricansjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4501934416
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 72.66,
+    "stepwise_ratio": 0.258,
+    "leap_ratio": 0.056,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.213,
+    "interval_hist": {
+      "3": 21,
+      "4": 21,
+      "0": 19,
+      "2": 17,
+      "1": 6,
+      "5": 4,
+      "9": 1
+    },
+    "dur_hist": {
+      "8th": 84,
+      "quarter": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.4,
+      "1": 0.0,
+      "2": 0.1,
+      "3": 0.0,
+      "4": 0.2444,
+      "5": 0.0222,
+      "6": 0.0,
+      "7": 0.1333,
+      "8": 0.0,
+      "9": 0.0667,
+      "10": 0.0,
+      "11": 0.0333
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0333
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 84,
+      "quarter": 6
+    },
+    "onset_beat_share": {
+      "1": 0.2,
+      "2": 0.178,
+      "3": 0.178,
+      "4": 0.178,
+      "5": 0.111,
+      "6": 0.156
+    },
+    "beat1_onset_share": 0.2,
+    "syncopation_proxy": 0.8,
+    "rest_ratio": 0.059,
+    "density_notes_per_bar": 5.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

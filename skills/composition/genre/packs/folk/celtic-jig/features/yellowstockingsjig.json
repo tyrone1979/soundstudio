@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "YELLOW STOCKINGS' -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/yellowstockingsjig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 9,
+    "parts": [
+      4484746832
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 9,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A4",
+      "A5"
+    ],
+    "mean_midi": 74.78,
+    "stepwise_ratio": 0.364,
+    "leap_ratio": 0.167,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.106,
+    "interval_hist": {
+      "2": 16,
+      "4": 13,
+      "3": 11,
+      "1": 8,
+      "0": 7,
+      "7": 6,
+      "5": 5
+    },
+    "dur_hist": {
+      "16th": 2,
+      "quarter": 7,
+      "8th": 58
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.209,
+      "1": 0.0,
+      "2": 0.0746,
+      "3": 0.2836,
+      "4": 0.0,
+      "5": 0.0746,
+      "6": 0.0,
+      "7": 0.1642,
+      "8": 0.0746,
+      "9": 0.0,
+      "10": 0.1194,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 58,
+      "quarter": 7,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.149,
+      "2": 0.015,
+      "3": 0.119,
+      "4": 0.119,
+      "5": 0.119,
+      "6": 0.119,
+      "7": 0.119,
+      "8": 0.119,
+      "9": 0.119
+    },
+    "beat1_onset_share": 0.149,
+    "syncopation_proxy": 0.851,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 7.44,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

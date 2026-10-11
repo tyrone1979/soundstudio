@@ -1,0 +1,63 @@
+id: piano-sonata
+name: 古典钢琴奏鸣曲
+name_en: Classical Piano Sonata
+enabled: true
+version: '1.0'
+dimensions:
+  form: sonata_or_binary
+  tempo_energy: varies
+  mood: classical_balance
+  medium: solo_piano
+  tradition: western_classical
+  tonal_language: functional_tonal
+  rhythmic_identity: metrical_clear
+  family: classical
+triggers:
+  keywords:
+  - 钢琴奏鸣曲
+  - 古典钢琴
+  - 奏鸣曲快板
+  - 钢琴小步舞曲
+  - piano sonata
+  - sonata allegro
+  style_tags:
+  - sonata
+  - piano
+  - classical_era
+summary: 古典钢琴奏鸣曲乐章（贝多芬 / 莫扎特 / 海顿）：可解释语法作曲，右手旋律 + 左手音型。
+profile:
+  mode: 大小调功能和声；转调服务于结构。
+  tempo:
+    unit: quarter_note
+    min: 66
+    max: 168
+    default: 112
+    character: 与乐章标记一致。
+  meter:
+    primary: 4/4
+    allowed: [4/4, 2/4, 3/4, 6/8]
+    description: 拍点清晰。
+  phrase:
+    preferred: [4+4, 8+8]
+    description: 周期性前句-后句。
+  harmony:
+    vocabulary_basic: [I, IV, V, V7, vi, ii]
+    progressions: [I–IV–V–I]
+    forbidden: [chromatic_without_function]
+  melody:
+    character: 歌唱性与周期性并重
+    contour_preferred: [stepwise, balanced, arch]
+    range_default: {low: C4, high: G5}
+  texture:
+    primary: melody_plus_alberti
+    density: piano_solo
+  color:
+    medium_note: 钢琴大谱表
+    character: 织体透明；阿尔贝蒂 / 低音-和弦-和弦 / 分解和弦。
+generation:
+  foundation:
+    bars: {default: 32, min: 8, max: 32}
+    complexity: 3
+    instruments_default: [piano, piano]
+  composition:
+    bars_default: 32

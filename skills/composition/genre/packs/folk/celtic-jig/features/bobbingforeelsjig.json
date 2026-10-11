@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "BOBBING FOR EELS -- JIG",
+    "composer": "G.Knowlton",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/bobbingforeelsjig.musicxml"
+  },
+  "global": {
+    "key": "F# minor",
+    "key_sharps": 3,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4471544976
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.211,
+    "phrase_len": 1.06
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "D6"
+    ],
+    "mean_midi": 75.05,
+    "stepwise_ratio": 0.587,
+    "leap_ratio": 0.092,
+    "large_leap_ratio": 0.028,
+    "repeated_note_ratio": 0.009,
+    "interval_hist": {
+      "2": 47,
+      "1": 17,
+      "3": 17,
+      "4": 17,
+      "5": 6,
+      "12": 3,
+      "7": 1,
+      "0": 1
+    },
+    "dur_hist": {
+      "0": 12,
+      "quarter": 7,
+      "8th": 91
+    }
+  },
+  "tonal": {
+    "tonic_pc": 6,
+    "degree_hist": {
+      "0": 0.0909,
+      "1": 0.0,
+      "2": 0.1091,
+      "3": 0.2909,
+      "4": 0.0,
+      "5": 0.1727,
+      "6": 0.0,
+      "7": 0.1818,
+      "8": 0.0455,
+      "9": 0.0,
+      "10": 0.1091,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 91,
+      "0": 12,
+      "quarter": 7
+    },
+    "onset_beat_share": {
+      "1": 0.282,
+      "2": 0.136,
+      "3": 0.164,
+      "4": 0.164,
+      "5": 0.127,
+      "6": 0.127
+    },
+    "beat1_onset_share": 0.282,
+    "syncopation_proxy": 0.718,
+    "rest_ratio": 0.079,
+    "density_notes_per_bar": 5.79,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 1,
+    "chords_estimated": 1,
+    "harmonic_rhythm_chords_per_bar": 0.05,
+    "root_pair_top": {},
+    "root_sample": [
+      "F#"
+    ],
+    "quality_hist": {
+      "other": 1.0
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

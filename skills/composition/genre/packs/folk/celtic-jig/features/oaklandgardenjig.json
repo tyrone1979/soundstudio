@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "OAKLAND GARDEN -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/oaklandgardenjig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 27,
+    "parts": [
+      4484588560
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 27,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G3",
+      "C6"
+    ],
+    "mean_midi": 69.96,
+    "stepwise_ratio": 0.497,
+    "leap_ratio": 0.206,
+    "large_leap_ratio": 0.077,
+    "repeated_note_ratio": 0.026,
+    "interval_hist": {
+      "2": 53,
+      "1": 24,
+      "3": 24,
+      "4": 18,
+      "5": 12,
+      "12": 5,
+      "0": 4,
+      "8": 4,
+      "15": 4,
+      "16": 3,
+      "7": 2,
+      "10": 1
+    },
+    "dur_hist": {
+      "triplet": 3,
+      "quarter": 15,
+      "8th": 129,
+      "0": 7,
+      "half": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.1538,
+      "1": 0.0,
+      "2": 0.1218,
+      "3": 0.1859,
+      "4": 0.0064,
+      "5": 0.1218,
+      "6": 0.0,
+      "7": 0.1731,
+      "8": 0.0769,
+      "9": 0.0,
+      "10": 0.1474,
+      "11": 0.0128
+    },
+    "chromatic_ratio": 0.0192,
+    "leading_tone_ratio": 0.0128
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0201,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 129,
+      "quarter": 15,
+      "0": 7,
+      "triplet": 3,
+      "half": 2
+    },
+    "onset_beat_share": {
+      "1": 0.487,
+      "2": 0.513
+    },
+    "beat1_onset_share": 0.487,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.195,
+    "density_notes_per_bar": 5.78,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 3,
+    "chords_estimated": 3,
+    "harmonic_rhythm_chords_per_bar": 0.11,
+    "root_pair_top": {
+      "B-A": 1,
+      "A-G#": 1
+    },
+    "root_sample": [
+      "B",
+      "A",
+      "G#"
+    ],
+    "quality_hist": {
+      "other": 0.6667,
+      "triad": 0.3333
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

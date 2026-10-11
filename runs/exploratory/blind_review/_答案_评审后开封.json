@@ -1,0 +1,422 @@
+{
+ "note": "评审完成后方可开封。machine=本仓库 /compose-grammar 内核生成（seed 见 items[].seed，可用 blind_review_export.py 重跑复现）；human=music21 bach 语料中未参与训练的作品（bwv 编号见 items[].source）。",
+ "shuffle_seed": 20261004,
+ "items": [
+  {
+   "code": "A01",
+   "truth": "machine",
+   "seed": "blind02",
+   "mode": "major",
+   "sharps": 0,
+   "tonic_pc": 0,
+   "bars": 13,
+   "requested_bars": 13,
+   "voices": 4,
+   "completeness": {
+    "measures": 13,
+    "short_bars": [],
+    "final_chord": "C5-E4-G3-C3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A02",
+   "truth": "human",
+   "seed": null,
+   "mode": "major",
+   "sharps": 1,
+   "tonic_pc": 7,
+   "source": "bwv245.14",
+   "transpose": -2,
+   "measures": "整首",
+   "bars": 16,
+   "voices": 4,
+   "completeness": {
+    "measures": 16,
+    "short_bars": [],
+    "final_chord": "G4-D4-B3-G2",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A03",
+   "truth": "machine",
+   "seed": "blind09",
+   "mode": "minor",
+   "sharps": 2,
+   "tonic_pc": 11,
+   "bars": 16,
+   "requested_bars": 16,
+   "voices": 4,
+   "completeness": {
+    "measures": 16,
+    "short_bars": [],
+    "final_chord": "B4-D#4-F#3-B2",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A04",
+   "truth": "human",
+   "seed": null,
+   "mode": "minor",
+   "sharps": 2,
+   "tonic_pc": 4,
+   "source": "bwv357",
+   "transpose": 4,
+   "measures": "整首",
+   "bars": 16,
+   "voices": 4,
+   "completeness": {
+    "measures": 16,
+    "short_bars": [],
+    "final_chord": "E4-B3-G#3-E3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A05",
+   "truth": "machine",
+   "seed": "blind05",
+   "mode": "minor",
+   "sharps": -2,
+   "tonic_pc": 7,
+   "bars": 15,
+   "requested_bars": 15,
+   "voices": 4,
+   "completeness": {
+    "measures": 15,
+    "short_bars": [],
+    "final_chord": "G4-D4-B3-G2",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A06",
+   "truth": "human",
+   "seed": null,
+   "mode": "minor",
+   "sharps": 3,
+   "tonic_pc": 11,
+   "source": "bwv412",
+   "transpose": 4,
+   "measures": "整首",
+   "bars": 14,
+   "voices": 4,
+   "completeness": {
+    "measures": 14,
+    "short_bars": [],
+    "final_chord": "B4-F#4-D4-B2",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A07",
+   "truth": "machine",
+   "seed": "blind00",
+   "mode": "major",
+   "sharps": -2,
+   "tonic_pc": 10,
+   "bars": 16,
+   "requested_bars": 16,
+   "voices": 4,
+   "completeness": {
+    "measures": 16,
+    "short_bars": [],
+    "final_chord": "B-4-D4-F3-B-2",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A08",
+   "truth": "machine",
+   "seed": "blind08",
+   "mode": "major",
+   "sharps": 1,
+   "tonic_pc": 7,
+   "bars": 16,
+   "requested_bars": 16,
+   "voices": 4,
+   "completeness": {
+    "measures": 16,
+    "short_bars": [],
+    "final_chord": "G4-D4-B3-G3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A09",
+   "truth": "human",
+   "seed": null,
+   "mode": "minor",
+   "sharps": -2,
+   "tonic_pc": 7,
+   "source": "bwv10.7",
+   "transpose": 0,
+   "measures": "整首",
+   "bars": 22,
+   "voices": 4,
+   "completeness": {
+    "measures": 22,
+    "short_bars": [],
+    "final_chord": "G4-D4-B3-G2",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A10",
+   "truth": "human",
+   "seed": null,
+   "mode": "minor",
+   "sharps": 0,
+   "tonic_pc": 9,
+   "source": "bwv381",
+   "transpose": 5,
+   "measures": "整首",
+   "bars": 15,
+   "voices": 4,
+   "completeness": {
+    "measures": 15,
+    "short_bars": [],
+    "final_chord": "A4-E4-C#4-A3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A11",
+   "truth": "machine",
+   "seed": "blind10",
+   "mode": "major",
+   "sharps": -2,
+   "tonic_pc": 10,
+   "bars": 13,
+   "requested_bars": 13,
+   "voices": 4,
+   "completeness": {
+    "measures": 13,
+    "short_bars": [],
+    "final_chord": "B-4-D4-F3-B-2",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A12",
+   "truth": "human",
+   "seed": null,
+   "mode": "major",
+   "sharps": 0,
+   "tonic_pc": 0,
+   "source": "bwv153.9",
+   "transpose": 0,
+   "measures": "整首",
+   "bars": 16,
+   "voices": 4,
+   "completeness": {
+    "measures": 16,
+    "short_bars": [],
+    "final_chord": "C5-G4-E4-C3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A13",
+   "truth": "human",
+   "seed": null,
+   "mode": "major",
+   "sharps": -1,
+   "tonic_pc": 5,
+   "source": "bwv292",
+   "transpose": 5,
+   "measures": "整首",
+   "bars": 14,
+   "voices": 4,
+   "completeness": {
+    "measures": 14,
+    "short_bars": [],
+    "final_chord": "F4-C4-A3-F2",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A14",
+   "truth": "machine",
+   "seed": "blind06",
+   "mode": "major",
+   "sharps": -1,
+   "tonic_pc": 5,
+   "bars": 16,
+   "requested_bars": 16,
+   "voices": 4,
+   "completeness": {
+    "measures": 16,
+    "short_bars": [],
+    "final_chord": "F4-C4-A3-F3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A15",
+   "truth": "machine",
+   "seed": "blind04",
+   "mode": "major",
+   "sharps": 2,
+   "tonic_pc": 2,
+   "bars": 14,
+   "requested_bars": 14,
+   "voices": 4,
+   "completeness": {
+    "measures": 14,
+    "short_bars": [],
+    "final_chord": "D5-F#4-A3-D3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A16",
+   "truth": "human",
+   "seed": null,
+   "mode": "major",
+   "sharps": 2,
+   "tonic_pc": 2,
+   "source": "bwv361",
+   "transpose": 4,
+   "measures": "整首",
+   "bars": 13,
+   "voices": 4,
+   "completeness": {
+    "measures": 13,
+    "short_bars": [],
+    "final_chord": "D5-A4-F#4-D3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A17",
+   "truth": "machine",
+   "seed": "blind11",
+   "mode": "minor",
+   "sharps": -1,
+   "tonic_pc": 2,
+   "bars": 22,
+   "requested_bars": 22,
+   "voices": 4,
+   "completeness": {
+    "measures": 22,
+    "short_bars": [],
+    "final_chord": "D4-A3-F#3-D3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A18",
+   "truth": "machine",
+   "seed": "blind07",
+   "mode": "minor",
+   "sharps": 0,
+   "tonic_pc": 9,
+   "bars": 14,
+   "requested_bars": 14,
+   "voices": 4,
+   "completeness": {
+    "measures": 14,
+    "short_bars": [],
+    "final_chord": "A4-E4-C#4-A2",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A19",
+   "truth": "machine",
+   "seed": "blind03",
+   "mode": "minor",
+   "sharps": 1,
+   "tonic_pc": 4,
+   "bars": 22,
+   "requested_bars": 22,
+   "voices": 4,
+   "completeness": {
+    "measures": 22,
+    "short_bars": [],
+    "final_chord": "E4-B3-G#3-E3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  },
+  {
+   "code": "A20",
+   "truth": "machine",
+   "seed": "blind01",
+   "mode": "minor",
+   "sharps": -1,
+   "tonic_pc": 2,
+   "bars": 16,
+   "requested_bars": 16,
+   "voices": 4,
+   "completeness": {
+    "measures": 16,
+    "short_bars": [],
+    "final_chord": "D5-A4-F#4-D3",
+    "final_root_tonic": true,
+    "final_bass_tonic": true,
+    "voices_to_end": true,
+    "ok": true
+   }
+  }
+ ]
+}

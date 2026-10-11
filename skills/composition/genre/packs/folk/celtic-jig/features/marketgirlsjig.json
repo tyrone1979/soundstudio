@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "THE MARKET GIRL'S -- JIG",
+    "composer": "J.Sullivan",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/marketgirlsjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4524290960
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 69.64,
+    "stepwise_ratio": 0.404,
+    "leap_ratio": 0.064,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.117,
+    "interval_hist": {
+      "2": 31,
+      "3": 30,
+      "0": 11,
+      "4": 9,
+      "1": 7,
+      "5": 3,
+      "9": 2,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 94,
+      "quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2211,
+      "1": 0.0,
+      "2": 0.0947,
+      "3": 0.0,
+      "4": 0.1895,
+      "5": 0.0211,
+      "6": 0.0,
+      "7": 0.2526,
+      "8": 0.0,
+      "9": 0.1684,
+      "10": 0.0,
+      "11": 0.0526
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0526
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 94,
+      "quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.168,
+      "2": 0.168,
+      "3": 0.168,
+      "4": 0.168,
+      "5": 0.158,
+      "6": 0.168
+    },
+    "beat1_onset_share": 0.168,
+    "syncopation_proxy": 0.832,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.94,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

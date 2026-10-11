@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Es woll uns Gott genaedig sein 2",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider016.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4474616272
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 18,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 47,
+      "8th": 20,
+      "dotted_half": 3,
+      "half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.31,
+      "2": 0.211,
+      "3": 0.225,
+      "4": 0.254
+    },
+    "beat1_onset_share": 0.31,
+    "syncopation_proxy": 0.69,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 3.94,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 10,
+    "chords_estimated": 71,
+    "harmonic_rhythm_chords_per_bar": 3.94,
+    "root_pair_top": {
+      "F#-B": 8,
+      "B-F#": 6,
+      "E-F#": 5,
+      "A#-B": 4,
+      "F#-E": 3,
+      "D-A": 3,
+      "C#-D": 2,
+      "A-D": 2
+    },
+    "root_sample": [
+      "F#",
+      "B",
+      "F#",
+      "E",
+      "F#",
+      "E",
+      "C#",
+      "D",
+      "A#",
+      "B",
+      "F#",
+      "B",
+      "C#",
+      "D",
+      "G",
+      "A",
+      "D",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "D",
+      "A",
+      "F#"
+    ],
+    "quality_hist": {
+      "triad": 0.831,
+      "dominant7": 0.1408,
+      "diminished7": 0.0141,
+      "half_diminished7": 0.0141
+    },
+    "seventh_ratio": 0.169
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

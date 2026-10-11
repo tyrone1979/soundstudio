@@ -1,0 +1,41 @@
+version: 1
+pass_avg: 4.0
+hard_fail_max: 2
+common_dimensions:
+- id: melody_memorable
+  label: 旋律可记性
+- id: phrase_breath
+  label: 乐句呼吸
+- id: harmony_clear
+  label: 和声功能清晰
+- id: texture_balance
+  label: 织体主次
+- id: genre_identity
+  label: 体裁辨识度
+pack_hard:
+  mazurka:
+  - id: mazurka_accent
+    label: 重音在二/三拍可感
+  - id: mazurka_dance
+    label: 舞步感而非匀速练习曲
+  - id: mazurka_piano
+    label: 钢琴语汇可信
+  fugue:
+  - id: fugue_subject
+    label: 主题可辨
+  - id: fugue_answer
+    label: 答题/模仿清楚
+  - id: fugue_independence
+    label: 声部独立
+  swing-standard:
+  - id: jazz_walking
+    label: 走动低音
+  - id: jazz_comping
+    label: comping/2&4 空间
+  - id: jazz_harmony
+    label: 七和弦/ii–V 色彩
+  chorale:
+  - id: cadence_persuasion
+    label: 终止式说服力
+  - id: voice_leading
+    label: 声部进行正确性

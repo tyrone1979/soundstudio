@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "PADDY, NOW WONT YOU BE EASY? -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/paddynowwontyoubeeasyjig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4461837008
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "G",
+      "bars": "6"
+    },
+    {
+      "section": "H",
+      "bars": "7"
+    },
+    {
+      "section": "I",
+      "bars": "8"
+    },
+    {
+      "section": "J",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "D",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "J",
+      "bars": "13"
+    },
+    {
+      "section": "I",
+      "bars": "14"
+    },
+    {
+      "section": "D",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 10,
+    "repetition_ratio": 0.375,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 69.62,
+    "stepwise_ratio": 0.415,
+    "leap_ratio": 0.23,
+    "large_leap_ratio": 0.111,
+    "repeated_note_ratio": 0.2,
+    "interval_hist": {
+      "2": 35,
+      "0": 27,
+      "1": 21,
+      "3": 20,
+      "12": 15,
+      "5": 9,
+      "7": 5,
+      "8": 2,
+      "4": 1
+    },
+    "dur_hist": {
+      "8th": 128,
+      "quarter": 8
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.1397,
+      "1": 0.0,
+      "2": 0.0809,
+      "3": 0.4265,
+      "4": 0.0,
+      "5": 0.125,
+      "6": 0.0,
+      "7": 0.0809,
+      "8": 0.0074,
+      "9": 0.0,
+      "10": 0.1397,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 128,
+      "quarter": 8
+    },
+    "onset_beat_share": {
+      "1": 0.118,
+      "2": 0.118,
+      "3": 0.118,
+      "4": 0.118,
+      "5": 0.118,
+      "6": 0.118,
+      "7": 0.118,
+      "8": 0.059,
+      "9": 0.118
+    },
+    "beat1_onset_share": 0.118,
+    "syncopation_proxy": 0.882,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.5,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

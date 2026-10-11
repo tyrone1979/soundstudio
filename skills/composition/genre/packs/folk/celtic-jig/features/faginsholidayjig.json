@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "FAGIN'S HOLIDAY -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/faginsholidayjig.musicxml"
+  },
+  "global": {
+    "key": "F major",
+    "key_sharps": -1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4493369296
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.062,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 72.07,
+    "stepwise_ratio": 0.383,
+    "leap_ratio": 0.15,
+    "large_leap_ratio": 0.017,
+    "repeated_note_ratio": 0.167,
+    "interval_hist": {
+      "2": 19,
+      "3": 12,
+      "0": 10,
+      "5": 7,
+      "4": 6,
+      "1": 4,
+      "12": 1,
+      "7": 1
+    },
+    "dur_hist": {
+      "quarter": 21,
+      "8th": 40
+    }
+  },
+  "tonal": {
+    "tonic_pc": 5,
+    "degree_hist": {
+      "0": 0.2787,
+      "1": 0.0,
+      "2": 0.1311,
+      "3": 0.0,
+      "4": 0.1475,
+      "5": 0.0164,
+      "6": 0.0,
+      "7": 0.1967,
+      "8": 0.0,
+      "9": 0.1639,
+      "10": 0.0,
+      "11": 0.0656
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0656
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 40,
+      "quarter": 21
+    },
+    "onset_beat_share": {
+      "1": 0.262,
+      "2": 0.148,
+      "3": 0.197,
+      "4": 0.262,
+      "5": 0.033,
+      "6": 0.098
+    },
+    "beat1_onset_share": 0.262,
+    "syncopation_proxy": 0.738,
+    "rest_ratio": 0.146,
+    "density_notes_per_bar": 3.81,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

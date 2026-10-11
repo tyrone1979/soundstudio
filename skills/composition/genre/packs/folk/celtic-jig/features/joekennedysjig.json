@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "JOE KENNEDY'S -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/joekennedysjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4485390096
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 71.31,
+    "stepwise_ratio": 0.448,
+    "leap_ratio": 0.135,
+    "large_leap_ratio": 0.01,
+    "repeated_note_ratio": 0.146,
+    "interval_hist": {
+      "2": 36,
+      "3": 15,
+      "0": 14,
+      "4": 11,
+      "1": 7,
+      "7": 5,
+      "5": 4,
+      "8": 2,
+      "10": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 89,
+      "quarter": 2,
+      "16th": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1856,
+      "1": 0.0,
+      "2": 0.299,
+      "3": 0.0,
+      "4": 0.2371,
+      "5": 0.0619,
+      "6": 0.0,
+      "7": 0.1031,
+      "8": 0.0,
+      "9": 0.1031,
+      "10": 0.0,
+      "11": 0.0103
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0103
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 89,
+      "16th": 6,
+      "quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.216,
+      "2": 0.165,
+      "3": 0.165,
+      "4": 0.165,
+      "5": 0.144,
+      "6": 0.144
+    },
+    "beat1_onset_share": 0.216,
+    "syncopation_proxy": 0.784,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.39,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

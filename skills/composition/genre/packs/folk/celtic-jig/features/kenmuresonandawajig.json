@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "title": "Kenmure's on and Awa' -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/kenmuresonandawajig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4484535824
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 72.69,
+    "stepwise_ratio": 0.531,
+    "leap_ratio": 0.146,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.135,
+    "interval_hist": {
+      "2": 38,
+      "3": 14,
+      "0": 13,
+      "1": 13,
+      "5": 12,
+      "4": 4,
+      "7": 2
+    },
+    "dur_hist": {
+      "8th": 50,
+      "dotted_8th": 14,
+      "16th": 14,
+      "quarter": 8,
+      "0": 9,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2062,
+      "1": 0.0,
+      "2": 0.1134,
+      "3": 0.0,
+      "4": 0.1649,
+      "5": 0.0412,
+      "6": 0.0,
+      "7": 0.2784,
+      "8": 0.0,
+      "9": 0.1237,
+      "10": 0.0,
+      "11": 0.0722
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0722
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 50,
+      "dotted_8th": 14,
+      "16th": 14,
+      "0": 9,
+      "quarter": 8,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.278,
+      "2": 0.144,
+      "3": 0.175,
+      "4": 0.175,
+      "5": 0.103,
+      "6": 0.124
+    },
+    "beat1_onset_share": 0.278,
+    "syncopation_proxy": 0.722,
+    "rest_ratio": 0.029,
+    "density_notes_per_bar": 5.39,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 1,
+    "chords_estimated": 3,
+    "harmonic_rhythm_chords_per_bar": 0.17,
+    "root_pair_top": {},
+    "root_sample": [
+      "E"
+    ],
+    "quality_hist": {
+      "other": 1.0
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

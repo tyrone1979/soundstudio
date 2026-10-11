@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "title": "PARNELL AND IRELAND -- JIG",
+    "composer": "Tom Doyle",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/parnellandirelandjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4431752912
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "H",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    },
+    {
+      "section": "L",
+      "bars": "16"
+    },
+    {
+      "section": "M",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A4",
+      "D6"
+    ],
+    "mean_midi": 77.25,
+    "stepwise_ratio": 0.429,
+    "leap_ratio": 0.132,
+    "large_leap_ratio": 0.033,
+    "repeated_note_ratio": 0.099,
+    "interval_hist": {
+      "2": 28,
+      "3": 17,
+      "4": 14,
+      "1": 11,
+      "0": 9,
+      "5": 5,
+      "12": 3,
+      "9": 2,
+      "7": 2
+    },
+    "dur_hist": {
+      "8th": 88,
+      "quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1957,
+      "1": 0.0,
+      "2": 0.1739,
+      "3": 0.0,
+      "4": 0.2283,
+      "5": 0.0978,
+      "6": 0.0,
+      "7": 0.2174,
+      "8": 0.0,
+      "9": 0.0326,
+      "10": 0.0,
+      "11": 0.0543
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0543
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 88,
+      "quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.196,
+      "2": 0.174,
+      "3": 0.174,
+      "4": 0.174,
+      "5": 0.13,
+      "6": 0.152
+    },
+    "beat1_onset_share": 0.196,
+    "syncopation_proxy": 0.804,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.11,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

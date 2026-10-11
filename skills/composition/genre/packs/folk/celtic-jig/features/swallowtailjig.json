@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "SWALLOW-TAIL -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/swallowtailjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4496305936
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "F#5"
+    ],
+    "mean_midi": 69.71,
+    "stepwise_ratio": 0.453,
+    "leap_ratio": 0.163,
+    "large_leap_ratio": 0.012,
+    "repeated_note_ratio": 0.163,
+    "interval_hist": {
+      "2": 20,
+      "1": 19,
+      "3": 18,
+      "0": 14,
+      "7": 10,
+      "5": 3,
+      "4": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "8th": 76,
+      "quarter": 8,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.3333,
+      "1": 0.0,
+      "2": 0.1149,
+      "3": 0.1149,
+      "4": 0.0,
+      "5": 0.0575,
+      "6": 0.0,
+      "7": 0.1264,
+      "8": 0.0345,
+      "9": 0.046,
+      "10": 0.1379,
+      "11": 0.0345
+    },
+    "chromatic_ratio": 0.0805,
+    "leading_tone_ratio": 0.0345
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 76,
+      "quarter": 8,
+      "16th": 2,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.218,
+      "2": 0.161,
+      "3": 0.184,
+      "4": 0.184,
+      "5": 0.103,
+      "6": 0.149
+    },
+    "beat1_onset_share": 0.218,
+    "syncopation_proxy": 0.782,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.83,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

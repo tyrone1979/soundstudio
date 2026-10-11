@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "THE DUSTY MILLER'S -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/dustymillersjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4456721424
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 8,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 71.72,
+    "stepwise_ratio": 0.5,
+    "leap_ratio": 0.065,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.043,
+    "interval_hist": {
+      "2": 17,
+      "3": 12,
+      "4": 6,
+      "1": 6,
+      "5": 2,
+      "0": 2,
+      "12": 1
+    },
+    "dur_hist": {
+      "quarter": 23,
+      "8th": 23,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1702,
+      "1": 0.0,
+      "2": 0.234,
+      "3": 0.0,
+      "4": 0.2128,
+      "5": 0.1064,
+      "6": 0.0,
+      "7": 0.1277,
+      "8": 0.0,
+      "9": 0.0851,
+      "10": 0.0,
+      "11": 0.0638
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0638
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 23,
+      "8th": 23,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.17,
+      "2": 0.0,
+      "3": 0.17,
+      "4": 0.17,
+      "5": 0.0,
+      "6": 0.17,
+      "7": 0.17,
+      "8": 0.128,
+      "9": 0.021
+    },
+    "beat1_onset_share": 0.17,
+    "syncopation_proxy": 0.83,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.88,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,647 @@
+[
+ {
+  "stage": "chorale",
+  "desc": "巴赫众赞歌 → sacred/chorale 规则",
+  "ok": true,
+  "secs": 1.33,
+  "detail": {
+   "pieces": 350,
+   "smoother": "wb",
+   "yaml": "/Users/leizhao/Documents/prj/composerchat/skills/composition/genre/packs/sacred/chorale/grammar.yaml",
+   "perplexity": {
+    "major": {
+     "script": 15.23,
+     "unigram": 23.1
+    },
+    "minor": {
+     "script": 14.6,
+     "unigram": 31.1
+    }
+   }
+  },
+  "error": ""
+ },
+ {
+  "stage": "leadsheet:folk",
+  "desc": "folk → 风格包规则",
+  "ok": true,
+  "secs": 1.31,
+  "detail": {
+   "pieces": 908,
+   "yaml": "/Users/leizhao/Documents/prj/composerchat/skills/composition/genre/packs/folk/british-folk-tune/grammar.yaml",
+   "subs": {
+    "jig": {
+     "train": 304,
+     "heldout": 33,
+     "modes": {
+      "major": 268,
+      "minor": 36
+     }
+    },
+    "reel": {
+     "train": 384,
+     "heldout": 41,
+     "modes": {
+      "major": 360,
+      "minor": 24
+     }
+    },
+    "hornpipe": {
+     "train": 58,
+     "heldout": 6,
+     "modes": {
+      "major": 53,
+      "minor": 5
+     }
+    },
+    "waltz": {
+     "train": 43,
+     "heldout": 8,
+     "modes": {
+      "major": 39,
+      "minor": 4
+     }
+    }
+   },
+   "evaluation": [
+    {
+     "sub": "jig",
+     "mode": "major",
+     "script": 4.52,
+     "unigram": 6.78,
+     "prune_kept": false,
+     "nopos": 4.96
+    },
+    {
+     "sub": "jig",
+     "mode": "minor",
+     "script": 9.28,
+     "unigram": 8.76,
+     "prune_kept": true,
+     "nopos": 9.0
+    },
+    {
+     "sub": "reel",
+     "mode": "major",
+     "script": 4.32,
+     "unigram": 6.66,
+     "prune_kept": true,
+     "nopos": 4.63
+    },
+    {
+     "sub": "reel",
+     "mode": "minor",
+     "script": 5.52,
+     "unigram": 6.01,
+     "prune_kept": true,
+     "nopos": 5.97
+    },
+    {
+     "sub": "hornpipe",
+     "mode": "major",
+     "script": 2.89,
+     "unigram": 4.78,
+     "prune_kept": true,
+     "nopos": 3.63
+    },
+    {
+     "sub": "waltz",
+     "mode": "major",
+     "script": 7.53,
+     "unigram": 8.07,
+     "prune_kept": true,
+     "nopos": 6.82
+    }
+   ],
+   "worse_than_unigram": 1,
+   "prune_reverted": 1
+  },
+  "error": ""
+ },
+ {
+  "stage": "leadsheet:jazz",
+  "desc": "jazz → 风格包规则",
+  "ok": true,
+  "secs": 1.59,
+  "detail": {
+   "pieces": 410,
+   "yaml": "/Users/leizhao/Documents/prj/composerchat/skills/composition/genre/packs/jazz/swing-standard/grammar.yaml",
+   "subs": {
+    "swing": {
+     "train": 56,
+     "heldout": 10,
+     "modes": {
+      "major": 51,
+      "minor": 5
+     }
+    },
+    "bebop": {
+     "train": 49,
+     "heldout": 7,
+     "modes": {
+      "major": 37,
+      "minor": 12
+     }
+    },
+    "cool": {
+     "train": 46,
+     "heldout": 8,
+     "modes": {
+      "major": 35,
+      "minor": 11
+     }
+    },
+    "hardbop": {
+     "train": 68,
+     "heldout": 5,
+     "modes": {
+      "major": 49,
+      "minor": 19
+     }
+    },
+    "postbop": {
+     "train": 114,
+     "heldout": 10,
+     "modes": {
+      "major": 80,
+      "minor": 34
+     }
+    },
+    "traditional": {
+     "train": 28,
+     "heldout": 4,
+     "modes": {
+      "major": 27,
+      "minor": 1
+     }
+    }
+   },
+   "evaluation": [
+    {
+     "sub": "swing",
+     "mode": "major",
+     "script": 8.35,
+     "unigram": 15.57,
+     "prune_kept": false,
+     "nopos": 10.15
+    },
+    {
+     "sub": "bebop",
+     "mode": "major",
+     "script": 7.08,
+     "unigram": 17.06,
+     "prune_kept": false,
+     "nopos": 6.98
+    },
+    {
+     "sub": "cool",
+     "mode": "major",
+     "script": 3.9,
+     "unigram": 21.33,
+     "prune_kept": false,
+     "nopos": 6.06
+    },
+    {
+     "sub": "hardbop",
+     "mode": "major",
+     "script": 10.86,
+     "unigram": 20.32,
+     "prune_kept": true,
+     "nopos": 8.86
+    },
+    {
+     "sub": "hardbop",
+     "mode": "minor",
+     "script": 12.89,
+     "unigram": 17.37,
+     "prune_kept": false,
+     "nopos": 23.11
+    },
+    {
+     "sub": "postbop",
+     "mode": "major",
+     "script": 9.42,
+     "unigram": 29.56,
+     "prune_kept": false,
+     "nopos": 15.54
+    },
+    {
+     "sub": "postbop",
+     "mode": "minor",
+     "script": 11.09,
+     "unigram": 24.19,
+     "prune_kept": true,
+     "nopos": 10.87
+    },
+    {
+     "sub": "traditional",
+     "mode": "major",
+     "script": 8.42,
+     "unigram": 14.47,
+     "prune_kept": false,
+     "nopos": 10.66
+    }
+   ],
+   "worse_than_unigram": 0,
+   "prune_reverted": 6
+  },
+  "error": ""
+ },
+ {
+  "stage": "leadsheet:pop",
+  "desc": "pop → 风格包规则",
+  "ok": true,
+  "secs": 0.95,
+  "detail": {
+   "pieces": 198,
+   "yaml": "/Users/leizhao/Documents/prj/composerchat/skills/composition/genre/packs/pop/pop-standard/grammar.yaml",
+   "subs": {
+    "pop": {
+     "train": 167,
+     "heldout": 23,
+     "modes": {
+      "major": 140,
+      "minor": 27
+     }
+    }
+   },
+   "evaluation": [
+    {
+     "sub": "pop",
+     "mode": "major",
+     "script": 8.29,
+     "unigram": 15.61,
+     "prune_kept": true,
+     "nopos": 7.78
+    },
+    {
+     "sub": "pop",
+     "mode": "minor",
+     "script": 10.73,
+     "unigram": 15.12,
+     "prune_kept": true,
+     "nopos": 10.73
+    }
+   ],
+   "worse_than_unigram": 0,
+   "prune_reverted": 0
+  },
+  "error": ""
+ },
+ {
+  "stage": "leadsheet:madrigal",
+  "desc": "madrigal → 风格包规则",
+  "ok": true,
+  "secs": 0.49,
+  "detail": {
+   "pieces": 48,
+   "yaml": "/Users/leizhao/Documents/prj/composerchat/skills/composition/genre/packs/vocal/madrigal/grammar.yaml",
+   "subs": {
+    "madrigal": {
+     "train": 47,
+     "heldout": 1,
+     "modes": {
+      "major": 16,
+      "minor": 31
+     }
+    }
+   },
+   "evaluation": [
+    {
+     "sub": "madrigal",
+     "mode": "minor",
+     "script": 10.78,
+     "unigram": 11.64,
+     "prune_kept": true,
+     "nopos": 9.35
+    }
+   ],
+   "worse_than_unigram": 0,
+   "prune_reverted": 0
+  },
+  "error": ""
+ },
+ {
+  "stage": "leadsheet:sonata",
+  "desc": "sonata → 风格包规则",
+  "ok": true,
+  "secs": 2.29,
+  "detail": {
+   "pieces": 724,
+   "yaml": "/Users/leizhao/Documents/prj/composerchat/skills/composition/genre/packs/classical/piano-sonata/grammar.yaml",
+   "subs": {
+    "allegro": {
+     "train": 181,
+     "heldout": 20,
+     "modes": {
+      "major": 117,
+      "minor": 64
+     }
+    },
+    "minuet": {
+     "train": 196,
+     "heldout": 11,
+     "modes": {
+      "major": 141,
+      "minor": 55
+     }
+    },
+    "duple": {
+     "train": 190,
+     "heldout": 35,
+     "modes": {
+      "major": 145,
+      "minor": 45
+     }
+    },
+    "compound": {
+     "train": 90,
+     "heldout": 1,
+     "modes": {
+      "major": 67,
+      "minor": 23
+     }
+    }
+   },
+   "evaluation": [
+    {
+     "sub": "allegro",
+     "mode": "major",
+     "script": 6.77,
+     "unigram": 6.99,
+     "prune_kept": true,
+     "nopos": 6.78
+    },
+    {
+     "sub": "allegro",
+     "mode": "minor",
+     "script": 7.85,
+     "unigram": 8.41,
+     "prune_kept": true,
+     "nopos": 7.73
+    },
+    {
+     "sub": "minuet",
+     "mode": "major",
+     "script": 7.04,
+     "unigram": 7.75,
+     "prune_kept": true,
+     "nopos": 7.16
+    },
+    {
+     "sub": "minuet",
+     "mode": "minor",
+     "script": 6.42,
+     "unigram": 6.87,
+     "prune_kept": false,
+     "nopos": 6.25
+    },
+    {
+     "sub": "duple",
+     "mode": "major",
+     "script": 6.63,
+     "unigram": 7.25,
+     "prune_kept": true,
+     "nopos": 6.83
+    },
+    {
+     "sub": "duple",
+     "mode": "minor",
+     "script": 7.16,
+     "unigram": 7.44,
+     "prune_kept": true,
+     "nopos": 7.34
+    },
+    {
+     "sub": "compound",
+     "mode": "major",
+     "script": 6.49,
+     "unigram": 6.93,
+     "prune_kept": false,
+     "nopos": 6.91
+    }
+   ],
+   "worse_than_unigram": 0,
+   "prune_reverted": 2
+  },
+  "error": ""
+ },
+ {
+  "stage": "leadsheet:strings",
+  "desc": "strings → 风格包规则",
+  "ok": true,
+  "secs": 0.72,
+  "detail": {
+   "pieces": 190,
+   "yaml": "/Users/leizhao/Documents/prj/composerchat/skills/composition/genre/packs/classical/string-quartet/grammar.yaml",
+   "subs": {
+    "allegro": {
+     "train": 59,
+     "heldout": 2,
+     "modes": {
+      "major": 38,
+      "minor": 21
+     }
+    },
+    "minuet": {
+     "train": 21,
+     "heldout": 27,
+     "modes": {
+      "major": 17,
+      "minor": 4
+     }
+    },
+    "duple": {
+     "train": 48,
+     "heldout": 9,
+     "modes": {
+      "major": 31,
+      "minor": 17
+     }
+    },
+    "compound": {
+     "train": 24,
+     "heldout": 0,
+     "modes": {
+      "minor": 11,
+      "major": 13
+     }
+    }
+   },
+   "evaluation": [
+    {
+     "sub": "allegro",
+     "mode": "major",
+     "script": 6.44,
+     "unigram": 6.7,
+     "prune_kept": true,
+     "nopos": 6.43
+    },
+    {
+     "sub": "minuet",
+     "mode": "major",
+     "script": 8.36,
+     "unigram": 8.76,
+     "prune_kept": true,
+     "nopos": 8.35
+    },
+    {
+     "sub": "duple",
+     "mode": "major",
+     "script": 7.99,
+     "unigram": 7.96,
+     "prune_kept": true,
+     "nopos": 7.9
+    },
+    {
+     "sub": "duple",
+     "mode": "minor",
+     "script": 11.01,
+     "unigram": 10.01,
+     "prune_kept": true,
+     "nopos": 10.0
+    }
+   ],
+   "worse_than_unigram": 2,
+   "prune_reverted": 0
+  },
+  "error": ""
+ },
+ {
+  "stage": "leadsheet:symphony",
+  "desc": "symphony → 风格包规则",
+  "ok": true,
+  "secs": 2.23,
+  "detail": {
+   "pieces": 640,
+   "yaml": "/Users/leizhao/Documents/prj/composerchat/skills/composition/genre/packs/classical/symphony/grammar.yaml",
+   "subs": {
+    "allegro": {
+     "train": 193,
+     "heldout": 0,
+     "modes": {
+      "major": 126,
+      "minor": 67
+     }
+    },
+    "minuet": {
+     "train": 220,
+     "heldout": 13,
+     "modes": {
+      "major": 150,
+      "minor": 70
+     }
+    },
+    "duple": {
+     "train": 193,
+     "heldout": 0,
+     "modes": {
+      "major": 117,
+      "minor": 76
+     }
+    },
+    "compound": {
+     "train": 21,
+     "heldout": 0,
+     "modes": {
+      "major": 19,
+      "minor": 2
+     }
+    }
+   },
+   "evaluation": [
+    {
+     "sub": "minuet",
+     "mode": "major",
+     "script": 6.75,
+     "unigram": 7.95,
+     "prune_kept": true,
+     "nopos": 7.28
+    },
+    {
+     "sub": "minuet",
+     "mode": "minor",
+     "script": 2.52,
+     "unigram": 3.4,
+     "prune_kept": false,
+     "nopos": 3.22
+    }
+   ],
+   "worse_than_unigram": 0,
+   "prune_reverted": 1
+  },
+  "error": ""
+ },
+ {
+  "stage": "leadsheet:chopin",
+  "desc": "chopin → 风格包规则",
+  "ok": true,
+  "secs": 0.58,
+  "detail": {
+   "pieces": 242,
+   "yaml": "/Users/leizhao/Documents/prj/composerchat/skills/composition/genre/packs/romantic/chopin-piano/grammar.yaml",
+   "subs": {
+    "mazurka": {
+     "train": 201,
+     "heldout": 6,
+     "modes": {
+      "minor": 87,
+      "major": 114
+     }
+    }
+   },
+   "evaluation": [
+    {
+     "sub": "mazurka",
+     "mode": "major",
+     "script": 8.57,
+     "unigram": 10.1,
+     "prune_kept": false,
+     "nopos": 10.3
+    },
+    {
+     "sub": "mazurka",
+     "mode": "minor",
+     "script": 8.93,
+     "unigram": 10.37,
+     "prune_kept": true,
+     "nopos": 8.99
+    }
+   ],
+   "worse_than_unigram": 0,
+   "prune_reverted": 1
+  },
+  "error": ""
+ },
+ {
+  "stage": "relation",
+  "desc": "人工段落标注 → form_plan（段落结构与关系）",
+  "ok": true,
+  "secs": 6.65,
+  "detail": {
+   "solos": 456,
+   "bars": 35412,
+   "edges": 8802,
+   "rel_kinds": {
+    "introduce": 1073,
+    "cause": 2836,
+    "contrast": 1589,
+    "continue": 776,
+    "sequence": 426,
+    "quote": 1443,
+    "unclear": 659
+   },
+   "styles": 7,
+   "injected": [
+    "jazz/swing-standard/swing ← SWING（8 种段数）",
+    "jazz/swing-standard/bebop ← BEBOP（7 种段数）",
+    "jazz/swing-standard/cool ← COOL（9 种段数）",
+    "jazz/swing-standard/hardbop ← HARDBOP（9 种段数）",
+    "jazz/swing-standard/postbop ← POSTBOP（9 种段数）",
+    "jazz/swing-standard/traditional ← TRADITIONAL（5 种段数）"
+   ],
+   "no_match": []
+  },
+  "error": ""
+ }
+]

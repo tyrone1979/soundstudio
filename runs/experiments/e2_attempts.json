@@ -1,0 +1,22 @@
+{
+ "note": "§5.2 报告的 SATB 搜索尝试次数分布（accept/reject loop 的重试率）",
+ "total_bars": 12,
+ "modes": {
+  "major": {
+   "n": 20,
+   "attempts_hist": {
+    "1": 20
+   },
+   "max_attempts": 1,
+   "first_seed_rate": 1.0
+  },
+  "minor": {
+   "n": 16,
+   "attempts_hist": {
+    "1": 16
+   },
+   "max_attempts": 1,
+   "first_seed_rate": 1.0
+  }
+ }
+}

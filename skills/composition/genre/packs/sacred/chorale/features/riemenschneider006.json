@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Christus, der ist mein Leben",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider006.musicxml"
+  },
+  "global": {
+    "key": "F major",
+    "key_sharps": -1,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 9,
+    "parts": [
+      4771086544
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 9,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 22,
+      "8th": 2,
+      "dotted_half": 2,
+      "half": 1,
+      "dotted_8th": 1,
+      "16th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.31,
+      "2": 0.207,
+      "3": 0.207,
+      "4": 0.276
+    },
+    "beat1_onset_share": 0.31,
+    "syncopation_proxy": 0.69,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 3.22,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 7,
+    "chords_estimated": 29,
+    "harmonic_rhythm_chords_per_bar": 3.22,
+    "root_pair_top": {
+      "C-F": 5,
+      "F-G": 3,
+      "G-C": 3,
+      "F-C": 2,
+      "F-B-": 2,
+      "E-F": 2,
+      "B--C": 1,
+      "B--F": 1
+    },
+    "root_sample": [
+      "F",
+      "C",
+      "F",
+      "B-",
+      "C",
+      "F",
+      "B-",
+      "F",
+      "G",
+      "E",
+      "F",
+      "C",
+      "F",
+      "G",
+      "C",
+      "D",
+      "A",
+      "D",
+      "G",
+      "C",
+      "F",
+      "E",
+      "F",
+      "G"
+    ],
+    "quality_hist": {
+      "triad": 0.7931,
+      "dominant7": 0.1034,
+      "minor7": 0.1034
+    },
+    "seventh_ratio": 0.2069
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

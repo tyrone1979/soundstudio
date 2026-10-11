@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "title": "Christ lag in Todesbanden",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider015.musicxml"
+  },
+  "global": {
+    "key": "D minor",
+    "key_sharps": -1,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 13,
+    "parts": [
+      4470752848
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 32,
+      "quarter": 18,
+      "half": 5,
+      "16th": 4,
+      "dotted_half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.333,
+      "2": 0.3,
+      "3": 0.183,
+      "4": 0.183
+    },
+    "beat1_onset_share": 0.333,
+    "syncopation_proxy": 0.667,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 4.62,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 10,
+    "chords_estimated": 60,
+    "harmonic_rhythm_chords_per_bar": 4.62,
+    "root_pair_top": {
+      "E-A": 6,
+      "A-D": 6,
+      "D-E": 3,
+      "B-E": 3,
+      "D-A": 3,
+      "D-G": 3,
+      "A-B": 2,
+      "A-F": 2
+    },
+    "root_sample": [
+      "D",
+      "E",
+      "A",
+      "G#",
+      "A",
+      "B",
+      "E",
+      "A",
+      "F",
+      "B",
+      "E",
+      "A",
+      "D",
+      "C#",
+      "A",
+      "D",
+      "A",
+      "D",
+      "A",
+      "D",
+      "G",
+      "D",
+      "G",
+      "C"
+    ],
+    "quality_hist": {
+      "triad": 0.7167,
+      "dominant7": 0.15,
+      "half_diminished7": 0.0833,
+      "diminished7": 0.0167,
+      "minor7": 0.0167,
+      "augmented": 0.0167
+    },
+    "seventh_ratio": 0.2667
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

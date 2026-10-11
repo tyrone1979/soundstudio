@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "Ach Gott, vom Himmel sieh' darein",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider003.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 11,
+    "parts": [
+      4790158608
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 31,
+      "8th": 13,
+      "dotted_quarter": 1,
+      "half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.304,
+      "2": 0.217,
+      "3": 0.239,
+      "4": 0.239
+    },
+    "beat1_onset_share": 0.304,
+    "syncopation_proxy": 0.696,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 4.18,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 9,
+    "chords_estimated": 46,
+    "harmonic_rhythm_chords_per_bar": 4.18,
+    "root_pair_top": {
+      "E-A": 8,
+      "A-E": 8,
+      "D#-E": 3,
+      "G#-A": 2,
+      "E-F": 2,
+      "A-D": 2,
+      "B-E": 2,
+      "A-G#": 1
+    },
+    "root_sample": [
+      "E",
+      "A",
+      "G#",
+      "A",
+      "E",
+      "A",
+      "E",
+      "A",
+      "E",
+      "G#",
+      "A",
+      "E",
+      "F",
+      "B",
+      "A",
+      "E",
+      "A",
+      "D",
+      "G",
+      "D#",
+      "E",
+      "B",
+      "E",
+      "D#"
+    ],
+    "quality_hist": {
+      "triad": 0.8478,
+      "dominant7": 0.087,
+      "diminished7": 0.0652
+    },
+    "seventh_ratio": 0.1522
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "KITTY TIRRELL'S -- JIG.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/kittytirrellsjig.musicxml"
+  },
+  "global": {
+    "key": "B- major",
+    "key_sharps": -2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4434448080
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 68.0,
+    "stepwise_ratio": 0.604,
+    "leap_ratio": 0.135,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.115,
+    "interval_hist": {
+      "2": 36,
+      "1": 22,
+      "0": 11,
+      "3": 9,
+      "5": 6,
+      "9": 5,
+      "4": 5,
+      "7": 1,
+      "10": 1
+    },
+    "dur_hist": {
+      "8th": 88,
+      "0": 5,
+      "quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 10,
+    "degree_hist": {
+      "0": 0.1959,
+      "1": 0.0,
+      "2": 0.0722,
+      "3": 0.0,
+      "4": 0.1031,
+      "5": 0.0722,
+      "6": 0.0309,
+      "7": 0.2474,
+      "8": 0.0206,
+      "9": 0.1443,
+      "10": 0.0,
+      "11": 0.1134
+    },
+    "chromatic_ratio": 0.0515,
+    "leading_tone_ratio": 0.1134
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 88,
+      "0": 5,
+      "quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.216,
+      "2": 0.155,
+      "3": 0.165,
+      "4": 0.186,
+      "5": 0.134,
+      "6": 0.144
+    },
+    "beat1_onset_share": 0.216,
+    "syncopation_proxy": 0.784,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.39,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

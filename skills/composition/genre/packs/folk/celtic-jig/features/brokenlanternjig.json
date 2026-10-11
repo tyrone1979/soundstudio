@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "title": "THE BROKEN LANTERN -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/brokenlanternjig.musicxml"
+  },
+  "global": {
+    "key": "C major",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4465103760
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "F",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "J",
+      "bars": "11"
+    },
+    {
+      "section": "K",
+      "bars": "12"
+    },
+    {
+      "section": "L",
+      "bars": "13"
+    },
+    {
+      "section": "I",
+      "bars": "14"
+    },
+    {
+      "section": "J",
+      "bars": "15"
+    },
+    {
+      "section": "K",
+      "bars": "16"
+    },
+    {
+      "section": "M",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "C4",
+      "A5"
+    ],
+    "mean_midi": 73.65,
+    "stepwise_ratio": 0.385,
+    "leap_ratio": 0.231,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.077,
+    "interval_hist": {
+      "2": 24,
+      "3": 17,
+      "1": 11,
+      "4": 11,
+      "7": 9,
+      "5": 8,
+      "0": 7,
+      "8": 2,
+      "12": 2
+    },
+    "dur_hist": {
+      "8th": 80,
+      "0": 4,
+      "quarter": 8
+    }
+  },
+  "tonal": {
+    "tonic_pc": 0,
+    "degree_hist": {
+      "0": 0.1957,
+      "1": 0.0217,
+      "2": 0.1739,
+      "3": 0.0,
+      "4": 0.1522,
+      "5": 0.0435,
+      "6": 0.0,
+      "7": 0.2717,
+      "8": 0.0,
+      "9": 0.0652,
+      "10": 0.0,
+      "11": 0.0761
+    },
+    "chromatic_ratio": 0.0217,
+    "leading_tone_ratio": 0.0761
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 80,
+      "quarter": 8,
+      "0": 4
+    },
+    "onset_beat_share": {
+      "1": 0.196,
+      "2": 0.163,
+      "3": 0.174,
+      "4": 0.217,
+      "5": 0.098,
+      "6": 0.152
+    },
+    "beat1_onset_share": 0.196,
+    "syncopation_proxy": 0.804,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.11,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

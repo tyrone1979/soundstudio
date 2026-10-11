@@ -1,0 +1,150 @@
+{
+  "total_scores": 48,
+  "means": {
+    "tempo": 85.979,
+    "stepwise_ratio": 0.636,
+    "leap_ratio": 0.14,
+    "bass_beat1_ratio": 0.94,
+    "beat1_onset_share": 0.317,
+    "density_notes_per_bar": 20.198,
+    "harmonic_rhythm_chords_per_bar": 6.203
+  },
+  "distributions": {
+    "meter": {
+      "4/4": 23,
+      "2/2": 7,
+      "3/4": 5,
+      "3/8": 3,
+      "6/4": 1,
+      "6/8": 2,
+      "9/8": 1,
+      "2/4": 2,
+      "12/16": 1,
+      "4/2": 1,
+      "6/16": 1,
+      "3/2": 1
+    },
+    "key": {
+      "C major": 2,
+      "C minor": 2,
+      "C# major": 2,
+      "C# minor": 2,
+      "D major": 2,
+      "D minor": 2,
+      "E- major": 2,
+      "E- minor": 2,
+      "E major": 2,
+      "E minor": 2,
+      "F major": 2,
+      "F minor": 2,
+      "F# major": 2,
+      "F# minor": 3,
+      "G major": 2,
+      "G minor": 2,
+      "A- major": 2,
+      "G# minor": 3,
+      "A major": 1,
+      "A minor": 2,
+      "B- major": 2,
+      "B- minor": 2,
+      "B major": 1,
+      "B minor": 2
+    }
+  },
+  "rules": [
+    {
+      "rule": "meter=4/4",
+      "evidence_count": 23,
+      "total_scores": 48,
+      "frequency": 0.479,
+      "confidence": "medium",
+      "universality": "common",
+      "detail": {
+        "4/4": 23,
+        "2/2": 7,
+        "3/4": 5,
+        "3/8": 3,
+        "6/4": 1,
+        "6/8": 2,
+        "9/8": 1,
+        "2/4": 2,
+        "12/16": 1,
+        "4/2": 1,
+        "6/16": 1,
+        "3/2": 1
+      }
+    },
+    {
+      "rule": "key=F# minor",
+      "evidence_count": 3,
+      "total_scores": 48,
+      "frequency": 0.062,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=G# minor",
+      "evidence_count": 3,
+      "total_scores": 48,
+      "frequency": 0.062,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=C major",
+      "evidence_count": 2,
+      "total_scores": 48,
+      "frequency": 0.042,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=C minor",
+      "evidence_count": 2,
+      "total_scores": 48,
+      "frequency": 0.042,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=C# major",
+      "evidence_count": 2,
+      "total_scores": 48,
+      "frequency": 0.042,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=C# minor",
+      "evidence_count": 2,
+      "total_scores": 48,
+      "frequency": 0.042,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "melody_stepwise_tendency",
+      "evidence_count": 41,
+      "total_scores": 48,
+      "frequency": 0.854,
+      "confidence": "high",
+      "universality": "core",
+      "detail": 0.636
+    },
+    {
+      "rule": "bass_emphasizes_beat_1",
+      "evidence_count": 9,
+      "total_scores": 48,
+      "frequency": 0.188,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": 0.94
+    }
+  ]
+}

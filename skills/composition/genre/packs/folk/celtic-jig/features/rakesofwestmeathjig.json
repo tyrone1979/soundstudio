@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "THE RAKES OF WESTMEATH -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/rakesofwestmeathjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4485324304
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 8,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 71.17,
+    "stepwise_ratio": 0.466,
+    "leap_ratio": 0.224,
+    "large_leap_ratio": 0.017,
+    "repeated_note_ratio": 0.034,
+    "interval_hist": {
+      "2": 15,
+      "1": 12,
+      "5": 8,
+      "3": 8,
+      "4": 8,
+      "0": 2,
+      "10": 2,
+      "9": 2,
+      "12": 1
+    },
+    "dur_hist": {
+      "dotted_quarter": 2,
+      "8th": 48,
+      "quarter": 9
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2203,
+      "1": 0.0,
+      "2": 0.1695,
+      "3": 0.0,
+      "4": 0.1864,
+      "5": 0.1525,
+      "6": 0.0,
+      "7": 0.1017,
+      "8": 0.0,
+      "9": 0.0508,
+      "10": 0.0339,
+      "11": 0.0847
+    },
+    "chromatic_ratio": 0.0339,
+    "leading_tone_ratio": 0.0847
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 48,
+      "quarter": 9,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.136,
+      "2": 0.051,
+      "3": 0.102,
+      "4": 0.136,
+      "5": 0.102,
+      "6": 0.136,
+      "7": 0.136,
+      "8": 0.068,
+      "9": 0.136
+    },
+    "beat1_onset_share": 0.136,
+    "syncopation_proxy": 0.864,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 7.38,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

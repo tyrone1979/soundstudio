@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "title": "Moll Shurkie's -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/mollshurkiesjig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 1,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4457344656
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "F",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "L",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    },
+    {
+      "section": "M",
+      "bars": "16"
+    },
+    {
+      "section": "F",
+      "bars": "17"
+    },
+    {
+      "section": "N",
+      "bars": "18"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.263,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G3",
+      "A5"
+    ],
+    "mean_midi": 70.28,
+    "stepwise_ratio": 0.476,
+    "leap_ratio": 0.202,
+    "large_leap_ratio": 0.024,
+    "repeated_note_ratio": 0.226,
+    "interval_hist": {
+      "2": 21,
+      "0": 19,
+      "1": 19,
+      "3": 6,
+      "5": 5,
+      "7": 4,
+      "9": 2,
+      "10": 2,
+      "4": 2,
+      "14": 1,
+      "21": 1,
+      "11": 1
+    },
+    "dur_hist": {
+      "16th": 36,
+      "8th": 16,
+      "ql=0.38": 8,
+      "ql=0.12": 5,
+      "dotted_8th": 2,
+      "ql=0.88": 1,
+      "0": 14,
+      "quarter": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.3176,
+      "1": 0.0,
+      "2": 0.2471,
+      "3": 0.1412,
+      "4": 0.0,
+      "5": 0.0353,
+      "6": 0.0,
+      "7": 0.1176,
+      "8": 0.0,
+      "9": 0.0118,
+      "10": 0.0471,
+      "11": 0.0824
+    },
+    "chromatic_ratio": 0.0941,
+    "leading_tone_ratio": 0.0824
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 37,
+      "8th": 21,
+      "0": 14,
+      "ql=0.12": 9,
+      "ql=0.38": 8,
+      "quarter": 3,
+      "dotted_8th": 2,
+      "ql=0.88": 1
+    },
+    "onset_beat_share": {
+      "1": 0.453,
+      "2": 0.547
+    },
+    "beat1_onset_share": 0.453,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.158,
+    "density_notes_per_bar": 5.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 2,
+    "chords_estimated": 3,
+    "harmonic_rhythm_chords_per_bar": 0.16,
+    "root_pair_top": {
+      "A-C": 1,
+      "C-A": 1
+    },
+    "root_sample": [
+      "A",
+      "C",
+      "A"
+    ],
+    "quality_hist": {
+      "other": 1.0
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

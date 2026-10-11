@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "H -- ' on the Wabash -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/honthewabashjig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4457306064
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "A5"
+    ],
+    "mean_midi": 73.51,
+    "stepwise_ratio": 0.396,
+    "leap_ratio": 0.079,
+    "large_leap_ratio": 0.04,
+    "repeated_note_ratio": 0.139,
+    "interval_hist": {
+      "3": 23,
+      "1": 21,
+      "2": 19,
+      "4": 16,
+      "0": 14,
+      "5": 3,
+      "12": 2,
+      "11": 1,
+      "14": 1,
+      "13": 1
+    },
+    "dur_hist": {
+      "0": 6,
+      "16th": 71,
+      "8th": 16,
+      "ql=0.17": 9
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.2451,
+      "1": 0.0,
+      "2": 0.1176,
+      "3": 0.1667,
+      "4": 0.0,
+      "5": 0.1078,
+      "6": 0.0,
+      "7": 0.1765,
+      "8": 0.0392,
+      "9": 0.0,
+      "10": 0.049,
+      "11": 0.098
+    },
+    "chromatic_ratio": 0.098,
+    "leading_tone_ratio": 0.098
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 71,
+      "8th": 16,
+      "ql=0.17": 9,
+      "0": 6
+    },
+    "onset_beat_share": {
+      "1": 0.569,
+      "2": 0.431
+    },
+    "beat1_onset_share": 0.569,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.204,
+    "density_notes_per_bar": 5.67,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

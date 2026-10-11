@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "title": "HASTE TO THE WEDDING -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/hastetotheweddingjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4457540880
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8"
+    },
+    {
+      "section": "I",
+      "bars": "9"
+    },
+    {
+      "section": "J",
+      "bars": "10"
+    },
+    {
+      "section": "K",
+      "bars": "11"
+    },
+    {
+      "section": "L",
+      "bars": "12"
+    },
+    {
+      "section": "E",
+      "bars": "13"
+    },
+    {
+      "section": "M",
+      "bars": "14"
+    },
+    {
+      "section": "C",
+      "bars": "15"
+    },
+    {
+      "section": "G",
+      "bars": "16"
+    },
+    {
+      "section": "H",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 74.45,
+    "stepwise_ratio": 0.467,
+    "leap_ratio": 0.067,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.144,
+    "interval_hist": {
+      "2": 33,
+      "3": 21,
+      "0": 13,
+      "1": 9,
+      "4": 8,
+      "9": 2,
+      "10": 1,
+      "5": 1,
+      "8": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 82,
+      "quarter": 3,
+      "16th": 4,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1648,
+      "1": 0.0,
+      "2": 0.1319,
+      "3": 0.0,
+      "4": 0.2747,
+      "5": 0.1099,
+      "6": 0.0,
+      "7": 0.2527,
+      "8": 0.0,
+      "9": 0.0659,
+      "10": 0.0,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 82,
+      "16th": 4,
+      "quarter": 3,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.209,
+      "2": 0.165,
+      "3": 0.165,
+      "4": 0.176,
+      "5": 0.132,
+      "6": 0.154
+    },
+    "beat1_onset_share": 0.209,
+    "syncopation_proxy": 0.791,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.06,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

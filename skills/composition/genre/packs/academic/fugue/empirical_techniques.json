@@ -1,0 +1,51 @@
+{
+  "genre": "fugue",
+  "techniques": {
+    "rhythmic": [
+      {
+        "name": "meter_4/4",
+        "description": "meter=4/4",
+        "frequency": 0.479,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "melodic": [
+      {
+        "name": "melody_stepwise_tendency",
+        "description": "melody_stepwise_tendency",
+        "frequency": 0.854,
+        "confidence": "high",
+        "universality": "core"
+      },
+      {
+        "name": "stepwise_lyrical_motion",
+        "description": "Mean stepwise_ratio=0.636",
+        "frequency": null,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "harmonic": [],
+    "phrase": [],
+    "accompaniment": [
+      {
+        "name": "bass_emphasizes_beat_1",
+        "description": "bass_emphasizes_beat_1",
+        "frequency": 0.188,
+        "confidence": "low",
+        "universality": "optional"
+      }
+    ],
+    "orchestration": [],
+    "development": [],
+    "cadence": [],
+    "stylistic_constraints": {
+      "must": [],
+      "should": [],
+      "avoid": []
+    }
+  },
+  "_fallback": true,
+  "_source_stats_total": 48
+}

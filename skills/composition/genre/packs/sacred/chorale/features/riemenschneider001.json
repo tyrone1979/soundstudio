@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "title": "Aus meines Herzens Grunde",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider001.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "3/4",
+    "tempo": null,
+    "bars": 22,
+    "parts": [
+      4790030480
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 21,
+    "repetition_ratio": 0.045,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 38,
+      "8th": 12,
+      "half": 8,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.383,
+      "2": 0.233,
+      "3": 0.383
+    },
+    "beat1_onset_share": 0.383,
+    "syncopation_proxy": 0.617,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 2.73,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 7,
+    "chords_estimated": 60,
+    "harmonic_rhythm_chords_per_bar": 2.73,
+    "root_pair_top": {
+      "G-D": 10,
+      "D-G": 8,
+      "D-E": 4,
+      "F#-G": 4,
+      "G-C": 2,
+      "E-C": 2,
+      "G-A": 2,
+      "A-D": 2
+    },
+    "root_sample": [
+      "G",
+      "C",
+      "D",
+      "G",
+      "D",
+      "E",
+      "C",
+      "F#",
+      "G",
+      "D",
+      "G",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "D",
+      "G",
+      "A",
+      "F#",
+      "G",
+      "D",
+      "G",
+      "D"
+    ],
+    "quality_hist": {
+      "triad": 0.8333,
+      "minor7": 0.05,
+      "dominant7": 0.1167
+    },
+    "seventh_ratio": 0.1667
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

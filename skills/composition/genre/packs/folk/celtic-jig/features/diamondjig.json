@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "The Diamond -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/diamondjig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4429944976
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "C4",
+      "F5"
+    ],
+    "mean_midi": 67.76,
+    "stepwise_ratio": 0.477,
+    "leap_ratio": 0.128,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.198,
+    "interval_hist": {
+      "2": 33,
+      "0": 17,
+      "3": 13,
+      "1": 8,
+      "8": 8,
+      "4": 4,
+      "5": 2,
+      "7": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "8th": 75,
+      "quarter": 10
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.1494,
+      "1": 0.0,
+      "2": 0.0345,
+      "3": 0.1034,
+      "4": 0.0,
+      "5": 0.2184,
+      "6": 0.0,
+      "7": 0.2529,
+      "8": 0.023,
+      "9": 0.092,
+      "10": 0.1264,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.092,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 75,
+      "quarter": 10,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.218,
+      "2": 0.115,
+      "3": 0.184,
+      "4": 0.184,
+      "5": 0.138,
+      "6": 0.161
+    },
+    "beat1_onset_share": 0.218,
+    "syncopation_proxy": 0.782,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.83,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

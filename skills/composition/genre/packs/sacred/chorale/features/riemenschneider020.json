@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Ein feste Burg ist unser Gott",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider020.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 13,
+    "parts": [
+      4791735952
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 37,
+      "8th": 13,
+      "16th": 3,
+      "half": 2,
+      "dotted_8th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.286,
+      "2": 0.268,
+      "3": 0.25,
+      "4": 0.196
+    },
+    "beat1_onset_share": 0.286,
+    "syncopation_proxy": 0.714,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 4.31,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 10,
+    "chords_estimated": 56,
+    "harmonic_rhythm_chords_per_bar": 4.31,
+    "root_pair_top": {
+      "A-D": 6,
+      "E-A": 5,
+      "D-E": 3,
+      "G-D": 2,
+      "C#-D": 2,
+      "A-B": 2,
+      "B-F#": 2,
+      "F#-G": 2
+    },
+    "root_sample": [
+      "D",
+      "B",
+      "G",
+      "D",
+      "C#",
+      "D",
+      "E",
+      "A",
+      "B",
+      "A#",
+      "B",
+      "F#",
+      "G",
+      "C#",
+      "D",
+      "A",
+      "D",
+      "F#",
+      "E",
+      "A",
+      "D",
+      "E",
+      "A",
+      "D"
+    ],
+    "quality_hist": {
+      "triad": 0.8571,
+      "dominant7": 0.1071,
+      "minor7": 0.0357
+    },
+    "seventh_ratio": 0.1429
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

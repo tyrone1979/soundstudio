@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "Bird on the Wing -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/birdonthewingjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4468278928
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "F",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8-9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "G",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "G",
+      "bars": "13"
+    },
+    {
+      "section": "J",
+      "bars": "14"
+    },
+    {
+      "section": "K",
+      "bars": "15"
+    },
+    {
+      "section": "L",
+      "bars": "16"
+    },
+    {
+      "section": "D",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.06
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 70.25,
+    "stepwise_ratio": 0.527,
+    "leap_ratio": 0.155,
+    "large_leap_ratio": 0.018,
+    "repeated_note_ratio": 0.036,
+    "interval_hist": {
+      "2": 36,
+      "1": 22,
+      "4": 22,
+      "5": 10,
+      "3": 9,
+      "0": 4,
+      "7": 2,
+      "8": 2,
+      "12": 2,
+      "9": 1
+    },
+    "dur_hist": {
+      "8th": 7,
+      "quarter": 4,
+      "16th": 94,
+      "ql=0.17": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2072,
+      "1": 0.0,
+      "2": 0.1441,
+      "3": 0.0,
+      "4": 0.1532,
+      "5": 0.1171,
+      "6": 0.0,
+      "7": 0.1802,
+      "8": 0.036,
+      "9": 0.0811,
+      "10": 0.0,
+      "11": 0.0811
+    },
+    "chromatic_ratio": 0.036,
+    "leading_tone_ratio": 0.0811
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 94,
+      "8th": 7,
+      "ql=0.17": 6,
+      "quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.505,
+      "2": 0.495
+    },
+    "beat1_onset_share": 0.505,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.111,
+    "density_notes_per_bar": 6.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

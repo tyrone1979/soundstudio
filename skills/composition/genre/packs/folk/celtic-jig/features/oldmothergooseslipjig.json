@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "Old Mother Goose -- SlipJig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/oldmothergooseslipjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4469050768
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "A",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "F",
+      "bars": "13"
+    },
+    {
+      "section": "G",
+      "bars": "14"
+    },
+    {
+      "section": "H",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 9,
+    "repetition_ratio": 0.438,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 72.75,
+    "stepwise_ratio": 0.752,
+    "leap_ratio": 0.077,
+    "large_leap_ratio": 0.017,
+    "repeated_note_ratio": 0.085,
+    "interval_hist": {
+      "2": 54,
+      "1": 34,
+      "0": 10,
+      "4": 8,
+      "5": 4,
+      "7": 2,
+      "17": 2,
+      "3": 2,
+      "8": 1
+    },
+    "dur_hist": {
+      "quarter": 18,
+      "8th": 96,
+      "dotted_quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1186,
+      "1": 0.0,
+      "2": 0.0508,
+      "3": 0.0,
+      "4": 0.1525,
+      "5": 0.1949,
+      "6": 0.0,
+      "7": 0.2458,
+      "8": 0.0,
+      "9": 0.1356,
+      "10": 0.0,
+      "11": 0.1017
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1017
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 96,
+      "quarter": 18,
+      "dotted_quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.136,
+      "2": 0.017,
+      "3": 0.136,
+      "4": 0.136,
+      "5": 0.102,
+      "6": 0.136,
+      "7": 0.136,
+      "8": 0.102,
+      "9": 0.102
+    },
+    "beat1_onset_share": 0.136,
+    "syncopation_proxy": 0.864,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 7.38,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

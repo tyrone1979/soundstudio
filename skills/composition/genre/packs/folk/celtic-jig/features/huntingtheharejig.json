@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "title": "HUNTING THE HARE -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/huntingtheharejig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4459214992
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8-9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "F",
+      "bars": "13"
+    },
+    {
+      "section": "G",
+      "bars": "14"
+    },
+    {
+      "section": "H",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 9,
+    "repetition_ratio": 0.438,
+    "phrase_len": 1.07
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 73.09,
+    "stepwise_ratio": 0.73,
+    "leap_ratio": 0.056,
+    "large_leap_ratio": 0.045,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {
+      "2": 43,
+      "1": 22,
+      "4": 11,
+      "3": 8,
+      "12": 4,
+      "5": 1
+    },
+    "dur_hist": {
+      "0": 6,
+      "quarter": 4,
+      "8th": 76,
+      "dotted_quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.0667,
+      "1": 0.0,
+      "2": 0.1333,
+      "3": 0.3111,
+      "4": 0.0,
+      "5": 0.2,
+      "6": 0.0,
+      "7": 0.1556,
+      "8": 0.0667,
+      "9": 0.0,
+      "10": 0.0667,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 76,
+      "0": 6,
+      "quarter": 4,
+      "dotted_quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.244,
+      "2": 0.133,
+      "3": 0.178,
+      "4": 0.178,
+      "5": 0.133,
+      "6": 0.133
+    },
+    "beat1_onset_share": 0.244,
+    "syncopation_proxy": 0.756,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.62,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 1,
+    "chords_estimated": 2,
+    "harmonic_rhythm_chords_per_bar": 0.12,
+    "root_pair_top": {},
+    "root_sample": [
+      "B"
+    ],
+    "quality_hist": {
+      "other": 1.0
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

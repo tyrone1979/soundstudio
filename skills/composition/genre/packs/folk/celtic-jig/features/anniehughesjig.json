@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "ANNIE HUGHES' -- JIG",
+    "composer": "Eddie Fox",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/anniehughesjig.musicxml"
+  },
+  "global": {
+    "key": "G minor",
+    "key_sharps": -2,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4520969744
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B-5"
+    ],
+    "mean_midi": 73.39,
+    "stepwise_ratio": 0.703,
+    "leap_ratio": 0.144,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.034,
+    "interval_hist": {
+      "2": 52,
+      "1": 31,
+      "3": 8,
+      "5": 8,
+      "4": 6,
+      "8": 4,
+      "0": 4,
+      "9": 4,
+      "7": 1
+    },
+    "dur_hist": {
+      "16th": 27,
+      "8th": 6,
+      "ql=0.38": 37,
+      "ql=0.12": 37,
+      "0": 4,
+      "dotted_8th": 2,
+      "ql=0.17": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1429,
+      "1": 0.0,
+      "2": 0.1597,
+      "3": 0.1849,
+      "4": 0.0084,
+      "5": 0.1597,
+      "6": 0.0,
+      "7": 0.1429,
+      "8": 0.084,
+      "9": 0.0,
+      "10": 0.1008,
+      "11": 0.0168
+    },
+    "chromatic_ratio": 0.0252,
+    "leading_tone_ratio": 0.0168
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "ql=0.38": 37,
+      "ql=0.12": 37,
+      "16th": 27,
+      "8th": 6,
+      "ql=0.17": 6,
+      "0": 4,
+      "dotted_8th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.571,
+      "2": 0.429
+    },
+    "beat1_onset_share": 0.571,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.109,
+    "density_notes_per_bar": 6.61,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

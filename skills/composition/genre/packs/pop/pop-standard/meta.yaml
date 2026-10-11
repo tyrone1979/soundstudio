@@ -1,0 +1,205 @@
+id: pop-standard
+name: 流行标准曲
+name_en: Pop Standard
+enabled: true
+version: '1.2'
+dimensions:
+  form: verse_chorus
+  tempo_energy: medium
+  mood: contemporary
+  medium: band_and_voice
+  tradition: anglo_american_pop
+  tonal_language: diatonic_loop
+  rhythmic_identity: backbeat_groove
+  family: pop
+triggers:
+  keywords:
+  - 流行
+  - 流行歌
+  - 流行歌写法
+  - 副歌
+  - 主歌
+  - loop 和弦
+  - Billboard
+  - pop
+  - pop song
+  - verse chorus
+  - radio hit
+  style_tags:
+  - pop
+  - verse_chorus
+  - loop_progression
+  - radio
+summary: 流行标准曲：主歌-副歌结构、循环和弦进行、钩子旋律在副歌集中重复、纺织服务于人声/主旋律。
+profile:
+  mode: 自然音级为主，偶借用和弦；较少强有力的功能属进行。
+  tonal_center:
+    preferred:
+    - C major
+    - G major
+    - D major
+    - A major
+    secondary:
+    - A minor
+    - E minor
+    empirical_key_dist:
+      A major: 0.076
+      F major: 0.052
+      D minor: 0.067
+      C major: 0.071
+      G minor: 0.081
+      D major: 0.076
+      B- minor: 0.019
+      F# minor: 0.029
+      G major: 0.09
+      E minor: 0.052
+      B minor: 0.052
+      A- major: 0.01
+      A minor: 0.067
+      C# minor: 0.038
+      E major: 0.043
+      C minor: 0.014
+      F minor: 0.024
+      B major: 0.033
+      E- major: 0.01
+      F# major: 0.024
+      E- minor: 0.019
+      B- major: 0.029
+      C# major: 0.019
+      G# minor: 0.005
+  tempo:
+    unit: quarter_note
+    min: 76
+    max: 156
+    default: 112
+    character: 稳定拍，律动先行。
+  meter:
+    primary: 4/4
+    allowed:
+    - 4/4
+    - 2/4
+    - 6/8
+    description: 绝大多数为 4/4。
+    empirical_note: 'From 210 scores: 4/4=90%, 2/4=1%, 3/4=1%, 12/8=5%, 6/8=1%, 6/4=0%,
+      7/4=0%'
+  rhythm:
+    identity: backbeat groove
+    accompaniment:
+      default: rhythm_section_comping
+    melodic_preferred:
+    - hook_repetition
+    - short_motif
+    - syncopated_antecedent
+    melodic_avoid:
+    - long_development_section
+  phrase:
+    preferred:
+    - 4+4
+    - 8+8
+    description: 主歌多为 8 小节，副歌多为 8 小节，通常整体重复。
+  cadence:
+    four_bar: loose
+    eight_bar: loose_or_half
+    final: 副歌尾句重复并模糊收束，整体靠织体渐弱或渐强收尾。
+  harmony:
+    vocabulary_basic:
+    - I
+    - V
+    - vi
+    - IV
+    - ii
+    progressions:
+    - I–V–vi–IV
+    - vi–IV–I–V
+    - I–vi–IV–V
+    forbidden:
+    - long_modulating_development
+    harmonic_rhythm_empirical: 语料约 0.87 和弦/小节
+  melody:
+    character: 钩子短小易记，同句式反复；音区窄于艺术歌曲
+    contour_preferred:
+    - stepwise
+    - repeated_hook
+    range_default:
+      low: A3
+      high: E5
+    stepwise_ratio_target: 0.33
+    rules: 语料级进比约 33%；大跳比约 17%。以级进为主。
+    leap_ratio_target: 0.168
+  texture:
+    primary: lead_vocal_plus_band
+    density: groove_layers
+  register:
+    melody:
+      low: A3
+      high: E5
+  color:
+    instrumentation: 乐队 + 主唱
+    character: 主歌收薄、副歌加层；反拍与循环进行是主要推动力。
+  constraints:
+    must:
+    - 主歌与副歌有清晰的织体/音区对比。
+    - 和弦进行循环并贯穿段落。
+    - 拍号以 4/4 为主（语料 90%）。
+    avoid:
+    - 长篇转调 develop；把流行歌写成古典发展部。
+  priority:
+  - hook_repetition
+  - loop_harmony
+  - section_contrast
+  empirical:
+    source: score_learning
+    total_scores: 210
+    means:
+      tempo: null
+      stepwise_ratio: 0.33
+      leap_ratio: 0.168
+      bass_beat1_ratio: 0.874
+      beat1_onset_share: 0.32
+      density_notes_per_bar: 4.492
+      harmonic_rhythm_chords_per_bar: 0.869
+    updated_at: '2026-09-28T20:42:11'
+    core_rules:
+    - rule: meter=4/4
+      evidence_count: 190
+      total_scores: 210
+      frequency: 0.905
+      confidence: high
+      universality: core
+      detail:
+        4/4: 190
+        2/4: 3
+        3/4: 3
+        12/8: 10
+        6/8: 2
+        6/4: 1
+        7/4: 1
+    fingerprint: c872f248e0ae
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 16
+    complexity: 2
+    instruments_default:
+    - piano
+    - guitar
+    - bass
+    - drum_set
+    required:
+    - cadence
+  composition:
+    bars_default: 32
+    complexity: 3
+    preserve:
+    - meter
+    - melodic_character
+    - harmonic_loop
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - form
+llm_instruction: 落实流行标准曲：主歌-副歌两段对比、循环和弦进行、短钩子旋律反复；织体服务于主唱声部。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

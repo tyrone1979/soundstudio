@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "title": "Moll Roe",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/mollroe.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 14,
+    "parts": [
+      4474519120
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.143,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A4",
+      "B5"
+    ],
+    "mean_midi": 76.65,
+    "stepwise_ratio": 0.552,
+    "leap_ratio": 0.119,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.06,
+    "interval_hist": {
+      "2": 24,
+      "3": 16,
+      "1": 13,
+      "5": 6,
+      "0": 4,
+      "4": 2,
+      "7": 2
+    },
+    "dur_hist": {
+      "8th": 64,
+      "quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2059,
+      "1": 0.0,
+      "2": 0.2206,
+      "3": 0.0,
+      "4": 0.1324,
+      "5": 0.1176,
+      "6": 0.0,
+      "7": 0.2059,
+      "8": 0.0,
+      "9": 0.0294,
+      "10": 0.0,
+      "11": 0.0882
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0882
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 64,
+      "quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.206,
+      "2": 0.176,
+      "3": 0.176,
+      "4": 0.176,
+      "5": 0.118,
+      "6": 0.147
+    },
+    "beat1_onset_share": 0.206,
+    "syncopation_proxy": 0.794,
+    "rest_ratio": 0.089,
+    "density_notes_per_bar": 4.86,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

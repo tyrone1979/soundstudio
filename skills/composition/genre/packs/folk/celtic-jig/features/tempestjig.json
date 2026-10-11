@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "THE TEMPEST -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/tempestjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4509242256
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 75.21,
+    "stepwise_ratio": 0.58,
+    "leap_ratio": 0.125,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.193,
+    "interval_hist": {
+      "2": 32,
+      "1": 19,
+      "0": 17,
+      "5": 7,
+      "3": 6,
+      "4": 3,
+      "8": 2,
+      "12": 1,
+      "10": 1
+    },
+    "dur_hist": {
+      "16th": 8,
+      "quarter": 12,
+      "8th": 69
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1348,
+      "1": 0.0,
+      "2": 0.1348,
+      "3": 0.2022,
+      "4": 0.0,
+      "5": 0.1573,
+      "6": 0.0,
+      "7": 0.1573,
+      "8": 0.0787,
+      "9": 0.0,
+      "10": 0.1348,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 69,
+      "quarter": 12,
+      "16th": 8
+    },
+    "onset_beat_share": {
+      "1": 0.225,
+      "2": 0.112,
+      "3": 0.18,
+      "4": 0.18,
+      "5": 0.112,
+      "6": 0.191
+    },
+    "beat1_onset_share": 0.225,
+    "syncopation_proxy": 0.775,
+    "rest_ratio": 0.058,
+    "density_notes_per_bar": 4.94,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

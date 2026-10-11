@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "MORGAN RATTLER -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/morganrattlerjig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 17,
+    "parts": [
+      4480350864
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.235,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 70.94,
+    "stepwise_ratio": 0.75,
+    "leap_ratio": 0.174,
+    "large_leap_ratio": 0.076,
+    "repeated_note_ratio": 0.011,
+    "interval_hist": {
+      "2": 44,
+      "1": 25,
+      "12": 6,
+      "5": 4,
+      "4": 4,
+      "10": 3,
+      "11": 2,
+      "3": 2,
+      "0": 1,
+      "14": 1
+    },
+    "dur_hist": {
+      "0": 7,
+      "8th": 73,
+      "dotted_8th": 1,
+      "16th": 1,
+      "quarter": 11
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.0968,
+      "1": 0.0,
+      "2": 0.1398,
+      "3": 0.2688,
+      "4": 0.0,
+      "5": 0.172,
+      "6": 0.0,
+      "7": 0.1398,
+      "8": 0.086,
+      "9": 0.0,
+      "10": 0.0968,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 73,
+      "quarter": 11,
+      "0": 7,
+      "dotted_8th": 1,
+      "16th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.194,
+      "2": 0.075,
+      "3": 0.172,
+      "4": 0.215,
+      "5": 0.151,
+      "6": 0.194
+    },
+    "beat1_onset_share": 0.194,
+    "syncopation_proxy": 0.806,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.47,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "title": "Off to Donnybrook -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/offtodonnybrookjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4521351120
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "G",
+      "bars": "13"
+    },
+    {
+      "section": "H",
+      "bars": "14"
+    },
+    {
+      "section": "K",
+      "bars": "15"
+    },
+    {
+      "section": "L",
+      "bars": "16"
+    },
+    {
+      "section": "M",
+      "bars": "17"
+    },
+    {
+      "section": "N",
+      "bars": "18"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.263,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 72.74,
+    "stepwise_ratio": 0.5,
+    "leap_ratio": 0.067,
+    "large_leap_ratio": 0.01,
+    "repeated_note_ratio": 0.125,
+    "interval_hist": {
+      "2": 35,
+      "3": 17,
+      "1": 17,
+      "4": 15,
+      "0": 13,
+      "5": 5,
+      "11": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 102,
+      "quarter": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1333,
+      "1": 0.0,
+      "2": 0.1333,
+      "3": 0.3714,
+      "4": 0.0,
+      "5": 0.0857,
+      "6": 0.0,
+      "7": 0.1333,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.1429,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 102,
+      "quarter": 3
+    },
+    "onset_beat_share": {
+      "1": 0.181,
+      "2": 0.171,
+      "3": 0.171,
+      "4": 0.171,
+      "5": 0.143,
+      "6": 0.162
+    },
+    "beat1_onset_share": 0.181,
+    "syncopation_proxy": 0.819,
+    "rest_ratio": 0.009,
+    "density_notes_per_bar": 5.53,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "The Blooming Meadows -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/bloomingmeadowsjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4507745232
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G3",
+      "B5"
+    ],
+    "mean_midi": 71.8,
+    "stepwise_ratio": 0.616,
+    "leap_ratio": 0.11,
+    "large_leap_ratio": 0.041,
+    "repeated_note_ratio": 0.123,
+    "interval_hist": {
+      "2": 35,
+      "1": 10,
+      "0": 9,
+      "3": 6,
+      "5": 5,
+      "4": 5,
+      "12": 2,
+      "24": 1
+    },
+    "dur_hist": {
+      "quarter": 14,
+      "8th": 57,
+      "dotted_quarter": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2432,
+      "1": 0.0,
+      "2": 0.1622,
+      "3": 0.0,
+      "4": 0.0946,
+      "5": 0.0541,
+      "6": 0.0,
+      "7": 0.2297,
+      "8": 0.0,
+      "9": 0.0811,
+      "10": 0.0,
+      "11": 0.1351
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1351
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 57,
+      "quarter": 14,
+      "dotted_quarter": 3
+    },
+    "onset_beat_share": {
+      "1": 0.216,
+      "2": 0.041,
+      "3": 0.176,
+      "4": 0.216,
+      "5": 0.162,
+      "6": 0.189
+    },
+    "beat1_onset_share": 0.216,
+    "syncopation_proxy": 0.784,
+    "rest_ratio": 0.021,
+    "density_notes_per_bar": 4.62,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

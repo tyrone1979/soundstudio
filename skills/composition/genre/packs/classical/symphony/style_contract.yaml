@@ -1,0 +1,72 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: symphony
+family: classical
+schema: style-contract/v1
+evidence_n: 24
+evidence_weight: 1.0
+tempo:
+  default: 96.0
+  min: 60.0
+  max: 152.0
+  source: expert
+  evidence_n: 24
+meter:
+  primary: 3/4
+  allowed:
+  - 2/2
+  - 3/4
+  - 2/4
+  - 6/8
+  - 4/4
+  weights:
+    2/2: 0.25
+    3/4: 0.4167
+    2/4: 0.2083
+    6/8: 0.0417
+    4/4: 0.0833
+  source: empirical
+  evidence_n: 24
+harmony:
+  chords_per_bar: 4.19
+  quality_weights:
+    triad: 0.589
+    dominant7: 0.16
+    major7: 0.021
+    minor7: 0.031
+    diminished7: 0.025
+    half_diminished7: 0.011
+    augmented: 0.023
+    other: 0.14
+  unique_roots_mean: 14.208
+  evidence_n: 24
+melody:
+  stepwise_ratio: 0.493
+  leap_ratio: 0.158
+  repeated_note_ratio: 0.187
+  range_center: 79.92
+  range_width: null
+  mean_midi: 79.92
+  evidence_n: 24
+rhythm:
+  density_notes_per_bar: 30.325
+  beat1_onset_share: 0.475
+  syncopation: 0.32
+  swing_ratio: null
+  swing_pair_share: 0.0
+  triplet_ratio: 0.002
+  evidence_n: 24
+texture:
+  voice_count: 18.0
+  evidence_n: 24
+form:
+  phrase_len: 1.435
+  repetition_ratio: 0.587
+  unique_motifs: 81.0
+  evidence_n: 24
+provenance:
+  built_from: features
+  scores_analyzed: 24
+  scores_with_harmony: 24
+  min_evidence: 8

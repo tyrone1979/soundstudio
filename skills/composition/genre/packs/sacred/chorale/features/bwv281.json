@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "title": "28. Christus, der ist mein Leben",
+    "composer": "Bach, Johann Sebastian",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/bwv281.musicxml"
+  },
+  "global": {
+    "key": "F major",
+    "key_sharps": -1,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 9,
+    "parts": [
+      4752683600,
+      4538423248,
+      4793381136,
+      4774351056
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 9,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F4",
+      "F5"
+    ],
+    "mean_midi": 70.38,
+    "stepwise_ratio": 0.76,
+    "leap_ratio": 0.04,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.04,
+    "interval_hist": {
+      "2": 13,
+      "1": 6,
+      "3": 3,
+      "4": 1,
+      "5": 1,
+      "0": 1
+    },
+    "dur_hist": {
+      "quarter": 22,
+      "half": 3,
+      "dotted_half": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 5,
+    "degree_hist": {
+      "0": 0.1154,
+      "1": 0.0,
+      "2": 0.1538,
+      "3": 0.0,
+      "4": 0.2692,
+      "5": 0.1154,
+      "6": 0.0,
+      "7": 0.1538,
+      "8": 0.0,
+      "9": 0.1154,
+      "10": 0.0,
+      "11": 0.0769
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0769
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 82,
+      "8th": 27,
+      "half": 6,
+      "dotted_half": 4,
+      "16th": 3,
+      "dotted_quarter": 2,
+      "dotted_8th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.328,
+      "2": 0.216,
+      "3": 0.216,
+      "4": 0.24
+    },
+    "beat1_onset_share": 0.328,
+    "syncopation_proxy": 0.672,
+    "rest_ratio": 0.061,
+    "density_notes_per_bar": 13.89,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 8,
+    "chords_estimated": 39,
+    "harmonic_rhythm_chords_per_bar": 4.33,
+    "root_pair_top": {
+      "C-F": 5,
+      "F-G": 3,
+      "G-C": 3,
+      "F-C": 2,
+      "F-B-": 2,
+      "C-D": 2,
+      "G-E": 2,
+      "E-F": 2
+    },
+    "root_sample": [
+      "F",
+      "C",
+      "F",
+      "B-",
+      "C",
+      "D",
+      "C",
+      "F",
+      "B-",
+      "F",
+      "G",
+      "E",
+      "F",
+      "C",
+      "F",
+      "B",
+      "G",
+      "C",
+      "D",
+      "A",
+      "D",
+      "G",
+      "C",
+      "F"
+    ],
+    "quality_hist": {
+      "triad": 0.6923,
+      "dominant7": 0.0769,
+      "other": 0.1026,
+      "minor7": 0.1026,
+      "half_diminished7": 0.0256
+    },
+    "seventh_ratio": 0.2051
+  },
+  "texture": {
+    "voice_count": 4,
+    "bass_part": null
+  }
+}

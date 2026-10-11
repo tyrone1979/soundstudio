@@ -1,0 +1,29 @@
+{
+ "summary": [
+  {
+   "mode": "major",
+   "folds": 10,
+   "ppl_paper": 13.4612,
+   "ppl_paper_lo": 11.9649,
+   "ppl_paper_hi": 14.9575,
+   "ppl_nested": 13.7916,
+   "ppl_nested_lo": 12.2803,
+   "ppl_nested_hi": 15.3029,
+   "bias_pct": -2.396,
+   "p_paired": 0.566
+  },
+  {
+   "mode": "minor",
+   "folds": 10,
+   "ppl_paper": 14.2644,
+   "ppl_paper_lo": 12.6705,
+   "ppl_paper_hi": 15.8584,
+   "ppl_nested": 14.5639,
+   "ppl_nested_lo": 12.2914,
+   "ppl_nested_hi": 16.8365,
+   "bias_pct": -2.057,
+   "p_paired": 0.655
+  }
+ ],
+ "note": "论文口径在留出集上选剪枝并报数；嵌套口径内外分离"
+}

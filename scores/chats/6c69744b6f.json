@@ -1,0 +1,4701 @@
+{
+  "id": "6c69744b6f",
+  "title": "小步舞曲（3/4）（古典交响曲语法）",
+  "updated_at": "2026-10-02T19:42:50",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "你好！可直接描述想要的曲子；或点选小节/音符后再说怎么改。输入 /help。",
+      "ts": "2026-10-02T19:13:21"
+    },
+    {
+      "role": "user",
+      "text": "/compose-grammar symphony",
+      "ts": "2026-10-02T19:13:22"
+    },
+    {
+      "role": "assistant",
+      "text": "路由预览：\n【调用】可解释语法作曲（/compose-grammar）\n主流程: compose-grammar\n语法作曲中（确定性 /compose-grammar，不调 LLM）…",
+      "ts": "2026-10-02T19:13:22",
+      "skills": [
+        "compose-grammar"
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "按学到的古典交响曲语法作曲（快板乐章（4/4），确定性，不调 LLM）· 快板乐章（4/4）（古典交响曲语法） · 强拍起 · 32 小节 · 曲式 ABCD（学到的长曲前 4 段曲式 ABCD）· seed=5a59c75c · 硬规则违例 0\n第1段 A 第1–8小节 [C006 I → IV]：D | D | D | D A7 | D A7 | D | D G | D G\n第2段 B 第9–16小节 [C009 ii → I]：D Em | Em G | C#dim A7 | A | D | A | A Em | Em D\n第3段 C 第17–24小节 [C004 I → V]：A | D A7 | Bm | Bm Em | A G | G | C#dim D | A\n第4段 D 第25–32小节 [C001 V → I]：D B | Em Dm | A D | A | A | A | D A | D\n【调用 Skill】\n  · [任务] symphony-grammar\n      id: symphony-grammar\n已载入《快板乐章（4/4）（古典交响曲语法）》（32 小节，♩=132），正在合成音频…\n文件：scores/chats/6c69744b6f.xml",
+      "ts": "2026-10-02T19:13:25",
+      "skills": [
+        "symphony-grammar"
+      ]
+    },
+    {
+      "role": "user",
+      "text": "/compose-grammar 交响曲 小步舞曲 minor",
+      "ts": "2026-10-02T19:22:01"
+    },
+    {
+      "role": "assistant",
+      "text": "路由预览：\n【调用】可解释语法作曲（/compose-grammar）\n主流程: compose-grammar\n语法作曲中（确定性 /compose-grammar，不调 LLM）…",
+      "ts": "2026-10-02T19:22:01",
+      "skills": [
+        "compose-grammar"
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "小步舞曲（3/4）的语料里小调曲子不足，没有学到这个调式；可用：major",
+      "ts": "2026-10-02T19:22:02",
+      "skills": [
+        "symphony-grammar"
+      ]
+    },
+    {
+      "role": "user",
+      "text": "/compose-grammar 交响曲 小步舞曲 major",
+      "ts": "2026-10-02T19:22:54"
+    },
+    {
+      "role": "assistant",
+      "text": "路由预览：\n【调用】可解释语法作曲（/compose-grammar）\n主流程: compose-grammar\n语法作曲中（确定性 /compose-grammar，不调 LLM）…",
+      "ts": "2026-10-02T19:22:54",
+      "skills": [
+        "compose-grammar"
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "按学到的古典交响曲语法作曲（小步舞曲（3/4），确定性，不调 LLM）· 小步舞曲（3/4）（古典交响曲语法） · 强拍起 · 32 小节 · 曲式 ABCC（学到的曲式 ABCC）· seed=80b3bdc5 · 硬规则违例 0\n第1段 A 第1–8小节 [C007 I → V7]：D A7 | D Em D | A A7 | D G | D F#m | F#m | D | A7\n第2段 B 第9–16小节 [C002 V7 → I]：F# | F# Bm | G F#m | D | F#m | C Bm | A7 | A7 D\n第3段 C 第17–24小节 [C001 V7 → I]：Bm Em D | G C#dim D | D Em | Em | F#m | D G | A7 | D\n第4段 C（再现第 3 段） 第25–32小节 [C001 V7 → I]：Bm Em D | G C#dim D | D Em | Em | F#m | D G | A7 | D\n【调用 Skill】\n  · [任务] symphony-grammar\n      id: symphony-grammar\n已载入《小步舞曲（3/4）（古典交响曲语法）》（32 小节，♩=126），正在合成音频…\n文件：scores/chats/6c69744b6f.xml",
+      "ts": "2026-10-02T19:22:57",
+      "skills": [
+        "symphony-grammar"
+      ]
+    }
+  ],
+  "compose": {
+    "composition_id": "54c96292",
+    "revision": 2,
+    "prefs": {
+      "key_sharps": 0,
+      "mode": "major",
+      "tempo": 120,
+      "bars": 8,
+      "meter": "4/4",
+      "style": "",
+      "genre_id": "",
+      "instrumentation": "",
+      "fugue": "auto",
+      "voices": 0,
+      "_explicit": {}
+    },
+    "plan": {
+      "title": "小步舞曲（3/4）（古典交响曲语法）",
+      "bars": 32,
+      "tempo": 126,
+      "meter": "3/4",
+      "summary": "可解释语法作曲（古典交响曲 · 小步舞曲（3/4），确定性，不调 LLM）"
+    },
+    "score_spec": {
+      "title": "小步舞曲（3/4）（古典交响曲语法）",
+      "key_sharps": 2,
+      "mode": "major",
+      "time_signature": "3/4",
+      "tempo": 126,
+      "bars": 32,
+      "seed": "80b3bdc5",
+      "voices": 9,
+      "fugue": false,
+      "tempo_marks": [
+        [
+          1,
+          "♩=126",
+          126
+        ]
+      ],
+      "meter_changes": [],
+      "key_changes": [],
+      "parts": [
+        {
+          "name": "Flute",
+          "program": null,
+          "clef": "treble",
+          "events": [
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "C#6",
+              "16th",
+              null
+            ],
+            [
+              "E-6",
+              "dotted_eighth",
+              null
+            ],
+            [
+              "E6",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              "D6",
+              "quarter",
+              null
+            ],
+            [
+              "C#6",
+              "eighth",
+              null
+            ],
+            [
+              "C#6",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "D6",
+              "eighth",
+              null
+            ],
+            [
+              "C#6",
+              "quarter",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "C#6",
+              "eighth",
+              null
+            ],
+            [
+              "C6",
+              "eighth",
+              null
+            ],
+            [
+              "D6",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "C#6",
+              "eighth",
+              null
+            ],
+            [
+              "C6",
+              "eighth",
+              null
+            ],
+            [
+              "C#6",
+              "eighth",
+              null
+            ],
+            [
+              "F#6",
+              "eighth",
+              null
+            ],
+            [
+              "E6",
+              "eighth",
+              null
+            ],
+            [
+              "C#6",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "D6",
+              "eighth",
+              null
+            ],
+            [
+              "F#6",
+              "eighth",
+              null
+            ],
+            [
+              "E6",
+              "eighth",
+              null
+            ],
+            [
+              "E6",
+              "eighth",
+              null
+            ],
+            [
+              "D6",
+              "eighth",
+              null
+            ],
+            [
+              "D6",
+              "eighth",
+              null
+            ],
+            [
+              "C#6",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "B-5",
+              "eighth",
+              null
+            ],
+            [
+              "C6",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "quarter",
+              null
+            ],
+            [
+              "D5",
+              "quarter",
+              null
+            ],
+            [
+              "B4",
+              "quarter",
+              null
+            ],
+            [
+              "G5",
+              "quarter",
+              null
+            ],
+            [
+              "E5",
+              "quarter",
+              null
+            ],
+            [
+              "G5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "B-5",
+              "eighth",
+              null
+            ],
+            [
+              "D6",
+              "eighth",
+              null
+            ],
+            [
+              "C#6",
+              "eighth",
+              null
+            ],
+            [
+              "E6",
+              "eighth",
+              null
+            ],
+            [
+              "D6",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "f"
+            ]
+          ]
+        },
+        {
+          "name": "Oboe",
+          "program": null,
+          "clef": "treble",
+          "events": [
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "C#5",
+              "16th",
+              null
+            ],
+            [
+              "E-5",
+              "dotted_eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "quarter",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "quarter",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B-4",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "E4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B-4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ]
+          ]
+        },
+        {
+          "name": "Horn",
+          "program": null,
+          "clef": "treble",
+          "events": [
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "half",
+              null
+            ],
+            [
+              "D4",
+              "half",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "dotted_half",
+              null
+            ],
+            [
+              "A3",
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "half",
+              null
+            ],
+            [
+              "A3",
+              "dotted_half",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "half",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "half",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "A3",
+              "dotted_half",
+              null
+            ],
+            [
+              "A3",
+              "half",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "dotted_half",
+              null
+            ],
+            [
+              "A3",
+              "dotted_half",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ]
+          ]
+        },
+        {
+          "name": "Bassoon",
+          "program": null,
+          "clef": "bass",
+          "events": [
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C3",
+              "quarter",
+              null
+            ],
+            [
+              "B2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "B2",
+              "quarter",
+              null
+            ],
+            [
+              "B2",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "dotted_half",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ]
+          ]
+        },
+        {
+          "name": "Timpani",
+          "program": null,
+          "clef": "bass",
+          "events": [
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              "D3",
+              "dotted_half",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ]
+          ]
+        },
+        {
+          "name": "Violin I",
+          "program": null,
+          "clef": "treble",
+          "events": [
+            [
+              "F#5",
+              "quarter",
+              null
+            ],
+            [
+              "F5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "quarter",
+              null
+            ],
+            [
+              "G5",
+              "quarter",
+              null
+            ],
+            [
+              "F5",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              null
+            ],
+            [
+              "C#5",
+              "quarter",
+              null
+            ],
+            [
+              "B4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              null
+            ],
+            [
+              "G#4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "quarter",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              null
+            ],
+            [
+              "B4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              null
+            ],
+            [
+              "C#5",
+              "16th",
+              null
+            ],
+            [
+              "E-5",
+              "dotted_eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "quarter",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "quarter",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "dotted_half",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B-4",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "E4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B-4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B-4",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "E4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B-4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "half",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "p"
+            ]
+          ]
+        },
+        {
+          "name": "Violin II",
+          "program": null,
+          "clef": "treble",
+          "events": [
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "E4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "E4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "E4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "G4",
+              "quarter",
+              null
+            ],
+            [
+              "F#4",
+              "dotted_half",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ]
+          ]
+        },
+        {
+          "name": "Viola",
+          "program": null,
+          "clef": "alto",
+          "events": [
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A#3",
+              "quarter",
+              null
+            ],
+            [
+              "A#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "E4",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "E4",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              "C#4",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "dotted_half",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ]
+          ]
+        },
+        {
+          "name": "Violoncello",
+          "program": null,
+          "clef": "bass",
+          "events": [
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "C3",
+              "quarter",
+              null
+            ],
+            [
+              "B2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "B2",
+              "quarter",
+              null
+            ],
+            [
+              "B2",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "G2",
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "B2",
+              "quarter",
+              null
+            ],
+            [
+              "B2",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "dotted_half",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "pp"
+            ]
+          ]
+        }
+      ],
+      "harmony": {
+        "1": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "2": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "3": [
+          "A",
+          "C#",
+          "E"
+        ],
+        "4": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "5": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "6": [
+          "F#",
+          "A",
+          "C#"
+        ],
+        "7": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "8": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "9": [
+          "F#",
+          "A#",
+          "C#"
+        ],
+        "10": [
+          "F#",
+          "A#",
+          "C#"
+        ],
+        "11": [
+          "G",
+          "B",
+          "D"
+        ],
+        "12": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "13": [
+          "F#",
+          "A",
+          "C#"
+        ],
+        "14": [
+          "C",
+          "E",
+          "G"
+        ],
+        "15": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "16": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "17": [
+          "B",
+          "D",
+          "F#"
+        ],
+        "18": [
+          "G",
+          "B",
+          "D"
+        ],
+        "19": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "20": [
+          "E",
+          "G",
+          "B"
+        ],
+        "21": [
+          "F#",
+          "A",
+          "C#"
+        ],
+        "22": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "23": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "24": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "25": [
+          "B",
+          "D",
+          "F#"
+        ],
+        "26": [
+          "G",
+          "B",
+          "D"
+        ],
+        "27": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "28": [
+          "E",
+          "G",
+          "B"
+        ],
+        "29": [
+          "F#",
+          "A",
+          "C#"
+        ],
+        "30": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "31": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "32": [
+          "D",
+          "F#",
+          "A"
+        ]
+      },
+      "narrative": null,
+      "subseeds": {
+        "melody": "40af6ba8f623",
+        "harmony": "371b805245bc",
+        "texture": "fdd88d87db85",
+        "narrative": "e7d80a4f4cc4",
+        "decor": "38ede47e75f0",
+        "rhythm": "41828d608a0c",
+        "fugue": "d462d1f44b29"
+      },
+      "soft_weights": {},
+      "fugue_roles": [],
+      "style_notes": [
+        "grammar:symphony/minuet 曲式 ABCC，强拍起，4 段，硬规则违例 0"
+      ],
+      "grammar": {
+        "grammar": "symphony/minuet",
+        "seed": "0.021647438763021776",
+        "layout": "downbeat",
+        "form": "ABCC",
+        "form_rule": "学到的曲式 ABCC",
+        "units": [
+          {
+            "unit": 1,
+            "letter": "A",
+            "copy_of": null,
+            "bars": [
+              1,
+              8
+            ],
+            "cadence": "C007",
+            "cadence_say": "I → V7",
+            "contours": [
+              "M007",
+              "M009"
+            ],
+            "rhythm": [
+              "R001",
+              "R001",
+              "R001←1",
+              "R001←2",
+              "R001←3",
+              "R001←4",
+              "R002",
+              "R001←6"
+            ],
+            "chords": "D A7 | D Em D | A A7 | D G | D F#m | F#m | D | A7",
+            "roman": "I V7 I ii I V V7 I IV I iii iii I V7"
+          },
+          {
+            "unit": 2,
+            "letter": "B",
+            "copy_of": null,
+            "bars": [
+              9,
+              16
+            ],
+            "cadence": "C002",
+            "cadence_say": "V7 → I",
+            "contours": [
+              "M007",
+              "M004"
+            ],
+            "rhythm": [
+              "R029",
+              "R020",
+              "R002",
+              "R020←2",
+              "R020←4",
+              "R005",
+              "R002←3",
+              "R005←6"
+            ],
+            "chords": "F# | F# Bm | G F#m | D | F#m | C Bm | A7 | A7 D",
+            "roman": "V/vi V/vi vi IV iii I iii bVII vi V7 V7 I"
+          },
+          {
+            "unit": 3,
+            "letter": "C",
+            "copy_of": null,
+            "bars": [
+              17,
+              24
+            ],
+            "cadence": "C001",
+            "cadence_say": "V7 → I",
+            "contours": [
+              "M012",
+              "M001"
+            ],
+            "rhythm": [
+              "R002",
+              "R002←1",
+              "R001",
+              "R001←3",
+              "R002←1",
+              "R002",
+              "R002←5",
+              "R033"
+            ],
+            "chords": "Bm Em D | G C#dim D | D Em | Em | F#m | D G | A7 | D",
+            "roman": "vi ii I IV vii° I I ii ii iii I IV V7 I"
+          },
+          {
+            "unit": 4,
+            "letter": "C",
+            "copy_of": 3,
+            "bars": [
+              25,
+              32
+            ],
+            "cadence": "C001",
+            "cadence_say": "V7 → I",
+            "contours": [
+              "M012",
+              "M001"
+            ],
+            "rhythm": [
+              "R002",
+              "R002←1",
+              "R001",
+              "R001←3",
+              "R002←1",
+              "R002",
+              "R002←5",
+              "R033"
+            ],
+            "chords": "Bm Em D | G C#dim D | D Em | Em | F#m | D G | A7 | D",
+            "roman": "vi ii I IV vii° I I ii ii iii I IV V7 I"
+          }
+        ],
+        "beats": [
+          {
+            "bar": 1,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H121"
+          },
+          {
+            "bar": 1,
+            "beat": 3,
+            "chord": "V7",
+            "symbol": "A7",
+            "rule": "H199"
+          },
+          {
+            "bar": 2,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H129"
+          },
+          {
+            "bar": 2,
+            "beat": 2,
+            "chord": "ii",
+            "symbol": "Em",
+            "rule": "H134"
+          },
+          {
+            "bar": 2,
+            "beat": 3,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H148"
+          },
+          {
+            "bar": 3,
+            "beat": 1,
+            "chord": "V",
+            "symbol": "A",
+            "rule": "H128"
+          },
+          {
+            "bar": 3,
+            "beat": 3,
+            "chord": "V7",
+            "symbol": "A7",
+            "rule": "H161"
+          },
+          {
+            "bar": 4,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H055"
+          },
+          {
+            "bar": 4,
+            "beat": 3,
+            "chord": "IV",
+            "symbol": "G",
+            "rule": "H286"
+          },
+          {
+            "bar": 5,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H131"
+          },
+          {
+            "bar": 5,
+            "beat": 2,
+            "chord": "iii",
+            "symbol": "F#m",
+            "rule": "H142"
+          },
+          {
+            "bar": 6,
+            "beat": 1,
+            "chord": "iii",
+            "symbol": "F#m",
+            "rule": "H248"
+          },
+          {
+            "bar": 7,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "C007"
+          },
+          {
+            "bar": 8,
+            "beat": 1,
+            "chord": "V7",
+            "symbol": "A7",
+            "rule": "C007"
+          },
+          {
+            "bar": 9,
+            "beat": 1,
+            "chord": "V/vi",
+            "symbol": "F#",
+            "rule": "H190"
+          },
+          {
+            "bar": 10,
+            "beat": 1,
+            "chord": "V/vi",
+            "symbol": "F#",
+            "rule": "H091"
+          },
+          {
+            "bar": 10,
+            "beat": 2,
+            "chord": "vi",
+            "symbol": "Bm",
+            "rule": "H110"
+          },
+          {
+            "bar": 11,
+            "beat": 1,
+            "chord": "IV",
+            "symbol": "G",
+            "rule": "H043"
+          },
+          {
+            "bar": 11,
+            "beat": 3,
+            "chord": "iii",
+            "symbol": "F#m",
+            "rule": "H037"
+          },
+          {
+            "bar": 12,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H261"
+          },
+          {
+            "bar": 13,
+            "beat": 1,
+            "chord": "iii",
+            "symbol": "F#m",
+            "rule": "H136"
+          },
+          {
+            "bar": 14,
+            "beat": 1,
+            "chord": "bVII",
+            "symbol": "C",
+            "rule": "H248"
+          },
+          {
+            "bar": 14,
+            "beat": 2,
+            "chord": "vi",
+            "symbol": "Bm",
+            "rule": "H073"
+          },
+          {
+            "bar": 15,
+            "beat": 1,
+            "chord": "V7",
+            "symbol": "A7",
+            "rule": "H225"
+          },
+          {
+            "bar": 16,
+            "beat": 1,
+            "chord": "V7",
+            "symbol": "A7",
+            "rule": "C002"
+          },
+          {
+            "bar": 16,
+            "beat": 2,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "C002"
+          },
+          {
+            "bar": 17,
+            "beat": 1,
+            "chord": "vi",
+            "symbol": "Bm",
+            "rule": "H149"
+          },
+          {
+            "bar": 17,
+            "beat": 2,
+            "chord": "ii",
+            "symbol": "Em",
+            "rule": "H083"
+          },
+          {
+            "bar": 17,
+            "beat": 3,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H072"
+          },
+          {
+            "bar": 18,
+            "beat": 1,
+            "chord": "IV",
+            "symbol": "G",
+            "rule": "H128"
+          },
+          {
+            "bar": 18,
+            "beat": 2,
+            "chord": "vii°",
+            "symbol": "C#dim",
+            "rule": "H127"
+          },
+          {
+            "bar": 18,
+            "beat": 3,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H229"
+          },
+          {
+            "bar": 19,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H147"
+          },
+          {
+            "bar": 19,
+            "beat": 3,
+            "chord": "ii",
+            "symbol": "Em",
+            "rule": "H123"
+          },
+          {
+            "bar": 20,
+            "beat": 1,
+            "chord": "ii",
+            "symbol": "Em",
+            "rule": "H212"
+          },
+          {
+            "bar": 21,
+            "beat": 1,
+            "chord": "iii",
+            "symbol": "F#m",
+            "rule": "H213"
+          },
+          {
+            "bar": 22,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H211"
+          },
+          {
+            "bar": 22,
+            "beat": 3,
+            "chord": "IV",
+            "symbol": "G",
+            "rule": "H030"
+          },
+          {
+            "bar": 23,
+            "beat": 1,
+            "chord": "V7",
+            "symbol": "A7",
+            "rule": "C001"
+          },
+          {
+            "bar": 24,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "C001"
+          },
+          {
+            "bar": 25,
+            "beat": 1,
+            "chord": "vi",
+            "symbol": "Bm",
+            "rule": "H149"
+          },
+          {
+            "bar": 25,
+            "beat": 2,
+            "chord": "ii",
+            "symbol": "Em",
+            "rule": "H083"
+          },
+          {
+            "bar": 25,
+            "beat": 3,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H072"
+          },
+          {
+            "bar": 26,
+            "beat": 1,
+            "chord": "IV",
+            "symbol": "G",
+            "rule": "H128"
+          },
+          {
+            "bar": 26,
+            "beat": 2,
+            "chord": "vii°",
+            "symbol": "C#dim",
+            "rule": "H127"
+          },
+          {
+            "bar": 26,
+            "beat": 3,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H229"
+          },
+          {
+            "bar": 27,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H147"
+          },
+          {
+            "bar": 27,
+            "beat": 3,
+            "chord": "ii",
+            "symbol": "Em",
+            "rule": "H123"
+          },
+          {
+            "bar": 28,
+            "beat": 1,
+            "chord": "ii",
+            "symbol": "Em",
+            "rule": "H212"
+          },
+          {
+            "bar": 29,
+            "beat": 1,
+            "chord": "iii",
+            "symbol": "F#m",
+            "rule": "H213"
+          },
+          {
+            "bar": 30,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "H211"
+          },
+          {
+            "bar": 30,
+            "beat": 3,
+            "chord": "IV",
+            "symbol": "G",
+            "rule": "H030"
+          },
+          {
+            "bar": 31,
+            "beat": 1,
+            "chord": "V7",
+            "symbol": "A7",
+            "rule": "C001"
+          },
+          {
+            "bar": 32,
+            "beat": 1,
+            "chord": "I",
+            "symbol": "D",
+            "rule": "C001"
+          }
+        ]
+      },
+      "spelling_locked": true
+    },
+    "last_skill_ids": [
+      "symphony-grammar"
+    ],
+    "last_advice": null,
+    "compose_trace": {
+      "user_text": "/compose-grammar 交响曲 小步舞曲 major",
+      "pipeline": null,
+      "skill_ids": [],
+      "llm_calls": [],
+      "emotion": null,
+      "emotion_applied": false,
+      "constraint_fixes": [],
+      "kernel_calls": [],
+      "repair": null,
+      "result": {},
+      "generated_at": "2026-10-02T19:22:54"
+    }
+  },
+  "created_at": "2026-10-02T19:13:21"
+}

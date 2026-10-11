@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "Tom Brigg's -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/tombriggsjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 17,
+    "parts": [
+      4496742800
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.176,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 74.08,
+    "stepwise_ratio": 0.284,
+    "leap_ratio": 0.159,
+    "large_leap_ratio": 0.023,
+    "repeated_note_ratio": 0.011,
+    "interval_hist": {
+      "3": 29,
+      "4": 19,
+      "2": 19,
+      "5": 12,
+      "1": 6,
+      "0": 1,
+      "17": 1,
+      "16": 1
+    },
+    "dur_hist": {
+      "8th": 9,
+      "16th": 75,
+      "quarter": 4,
+      "half": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2247,
+      "1": 0.0,
+      "2": 0.1236,
+      "3": 0.0,
+      "4": 0.2809,
+      "5": 0.1011,
+      "6": 0.0,
+      "7": 0.1798,
+      "8": 0.0,
+      "9": 0.0674,
+      "10": 0.0,
+      "11": 0.0225
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0225
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 75,
+      "8th": 9,
+      "quarter": 4,
+      "half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.551,
+      "2": 0.449
+    },
+    "beat1_onset_share": 0.551,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.1,
+    "density_notes_per_bar": 5.24,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "ROCKY ROAD TO DUBLIN -- JIG.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/rockyroadtodublinjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4505772496
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 7,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "A5"
+    ],
+    "mean_midi": 73.54,
+    "stepwise_ratio": 0.529,
+    "leap_ratio": 0.137,
+    "large_leap_ratio": 0.02,
+    "repeated_note_ratio": 0.098,
+    "interval_hist": {
+      "2": 21,
+      "3": 8,
+      "1": 6,
+      "5": 5,
+      "0": 5,
+      "4": 4,
+      "7": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "quarter": 12,
+      "8th": 36,
+      "dotted_quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1538,
+      "1": 0.0,
+      "2": 0.1154,
+      "3": 0.0,
+      "4": 0.0385,
+      "5": 0.1154,
+      "6": 0.0,
+      "7": 0.2308,
+      "8": 0.0,
+      "9": 0.1923,
+      "10": 0.0,
+      "11": 0.1538
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1538
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 36,
+      "quarter": 12,
+      "dotted_quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.154,
+      "2": 0.038,
+      "3": 0.154,
+      "4": 0.154,
+      "5": 0.038,
+      "6": 0.154,
+      "7": 0.154,
+      "8": 0.077,
+      "9": 0.077
+    },
+    "beat1_onset_share": 0.154,
+    "syncopation_proxy": 0.846,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 6.5,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

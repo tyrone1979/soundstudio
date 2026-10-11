@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Ich hab mein Sach Gott heimgestellt",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider019.musicxml"
+  },
+  "global": {
+    "key": "G minor",
+    "key_sharps": -2,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 10,
+    "parts": [
+      4792087312
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 10,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 24,
+      "8th": 19,
+      "dotted_quarter": 1,
+      "half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.267,
+      "2": 0.244,
+      "3": 0.267,
+      "4": 0.222
+    },
+    "beat1_onset_share": 0.267,
+    "syncopation_proxy": 0.733,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 4.5,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 10,
+    "chords_estimated": 45,
+    "harmonic_rhythm_chords_per_bar": 4.5,
+    "root_pair_top": {
+      "D-G": 5,
+      "C#-D": 3,
+      "G-C": 2,
+      "F#-D": 2,
+      "G-C#": 1,
+      "G-A": 1,
+      "A-C#": 1,
+      "C-F#": 1
+    },
+    "root_sample": [
+      "G",
+      "C#",
+      "D",
+      "G",
+      "A",
+      "C#",
+      "D",
+      "G",
+      "C",
+      "F#",
+      "D",
+      "G",
+      "F",
+      "C",
+      "F",
+      "B-",
+      "E-",
+      "E",
+      "F",
+      "F#",
+      "G",
+      "D",
+      "C",
+      "D"
+    ],
+    "quality_hist": {
+      "triad": 0.6889,
+      "augmented": 0.0222,
+      "dominant7": 0.1556,
+      "diminished7": 0.1111,
+      "half_diminished7": 0.0222
+    },
+    "seventh_ratio": 0.2889
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "Old Walls of Liscarroll -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/oldwallsofliscarrolljig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4515201936
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 17,
+    "repetition_ratio": 0.056,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 73.03,
+    "stepwise_ratio": 0.58,
+    "leap_ratio": 0.11,
+    "large_leap_ratio": 0.01,
+    "repeated_note_ratio": 0.05,
+    "interval_hist": {
+      "2": 35,
+      "1": 23,
+      "3": 15,
+      "4": 11,
+      "0": 5,
+      "10": 4,
+      "5": 4,
+      "7": 2,
+      "12": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "8th": 91,
+      "0": 6,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.198,
+      "1": 0.0,
+      "2": 0.1287,
+      "3": 0.0594,
+      "4": 0.1287,
+      "5": 0.1386,
+      "6": 0.0,
+      "7": 0.1782,
+      "8": 0.0099,
+      "9": 0.0495,
+      "10": 0.1089,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.1782,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 91,
+      "0": 6,
+      "16th": 2,
+      "quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.248,
+      "2": 0.158,
+      "3": 0.158,
+      "4": 0.158,
+      "5": 0.139,
+      "6": 0.139
+    },
+    "beat1_onset_share": 0.248,
+    "syncopation_proxy": 0.752,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.61,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

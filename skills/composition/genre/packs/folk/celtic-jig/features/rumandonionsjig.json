@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "title": "RUM AND ONIONS -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/rumandonionsjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 20,
+    "parts": [
+      4485045136
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 17,
+    "repetition_ratio": 0.15,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F#4",
+      "B5"
+    ],
+    "mean_midi": 73.27,
+    "stepwise_ratio": 0.447,
+    "leap_ratio": 0.107,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.272,
+    "interval_hist": {
+      "0": 28,
+      "1": 23,
+      "2": 23,
+      "3": 11,
+      "7": 8,
+      "4": 7,
+      "5": 2,
+      "9": 1
+    },
+    "dur_hist": {
+      "0": 12,
+      "8th": 84,
+      "quarter": 8
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.2115,
+      "1": 0.0,
+      "2": 0.125,
+      "3": 0.1827,
+      "4": 0.0,
+      "5": 0.1154,
+      "6": 0.0,
+      "7": 0.1154,
+      "8": 0.0769,
+      "9": 0.0096,
+      "10": 0.1442,
+      "11": 0.0192
+    },
+    "chromatic_ratio": 0.0288,
+    "leading_tone_ratio": 0.0192
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 84,
+      "0": 12,
+      "quarter": 8
+    },
+    "onset_beat_share": {
+      "1": 0.288,
+      "2": 0.135,
+      "3": 0.154,
+      "4": 0.135,
+      "5": 0.154,
+      "6": 0.135
+    },
+    "beat1_onset_share": 0.288,
+    "syncopation_proxy": 0.712,
+    "rest_ratio": 0.038,
+    "density_notes_per_bar": 5.2,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 4,
+    "chords_estimated": 6,
+    "harmonic_rhythm_chords_per_bar": 0.3,
+    "root_pair_top": {
+      "B-A": 1,
+      "A-B": 1,
+      "B-E": 1,
+      "E-D": 1,
+      "D-E": 1
+    },
+    "root_sample": [
+      "B",
+      "A",
+      "B",
+      "E",
+      "D",
+      "E"
+    ],
+    "quality_hist": {
+      "other": 0.5,
+      "triad": 0.5
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "title": "ROUGH DIAMOND -- JIG.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/roughdiamondjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4532218768
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "G",
+      "bars": "6"
+    },
+    {
+      "section": "H",
+      "bars": "7"
+    },
+    {
+      "section": "I",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "J",
+      "bars": "10"
+    },
+    {
+      "section": "K",
+      "bars": "11"
+    },
+    {
+      "section": "L",
+      "bars": "12"
+    },
+    {
+      "section": "F",
+      "bars": "13"
+    },
+    {
+      "section": "G",
+      "bars": "14"
+    },
+    {
+      "section": "H",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.25,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 71.2,
+    "stepwise_ratio": 0.415,
+    "leap_ratio": 0.134,
+    "large_leap_ratio": 0.012,
+    "repeated_note_ratio": 0.073,
+    "interval_hist": {
+      "2": 24,
+      "3": 16,
+      "4": 15,
+      "1": 10,
+      "5": 9,
+      "0": 6,
+      "7": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 75,
+      "quarter": 3,
+      "dotted_quarter": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1566,
+      "1": 0.0,
+      "2": 0.1566,
+      "3": 0.0,
+      "4": 0.1928,
+      "5": 0.0602,
+      "6": 0.0,
+      "7": 0.2289,
+      "8": 0.0,
+      "9": 0.0843,
+      "10": 0.0,
+      "11": 0.1205
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1205
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 75,
+      "dotted_quarter": 5,
+      "quarter": 3
+    },
+    "onset_beat_share": {
+      "1": 0.193,
+      "2": 0.157,
+      "3": 0.157,
+      "4": 0.193,
+      "5": 0.133,
+      "6": 0.169
+    },
+    "beat1_onset_share": 0.193,
+    "syncopation_proxy": 0.807,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.19,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

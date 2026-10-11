@@ -1,0 +1,7114 @@
+{
+ "summary": {
+  "per_rule": {
+   "R01": {
+    "n_drafts": 20,
+    "n_placed": 20,
+    "n_detected": 19,
+    "recall": 0.95,
+    "isolated": 5,
+    "base_clean": 20,
+    "false_positive_on_clean": 0,
+    "extra_rules": {
+     "R09": 11,
+     "R03/R04": 5,
+     "R08": 1,
+     "R05": 2,
+     "R03": 3
+    },
+    "misses": [
+     {
+      "rule": "R01",
+      "index": 1,
+      "t": 1.0,
+      "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 71/64)"
+     }
+    ]
+   },
+   "R02": {
+    "n_drafts": 20,
+    "n_placed": 20,
+    "n_detected": 19,
+    "recall": 0.95,
+    "isolated": 4,
+    "base_clean": 20,
+    "false_positive_on_clean": 0,
+    "extra_rules": {
+     "R01": 5,
+     "R05": 4,
+     "R03": 5,
+     "R06": 4,
+     "R09": 9
+    },
+    "misses": [
+     {
+      "rule": "R02",
+      "index": 2,
+      "t": 2.0,
+      "msg": "注入：外声部同向进入纯八度，女高音跳 -7"
+     }
+    ]
+   },
+   "R03": {
+    "n_drafts": 20,
+    "n_placed": 20,
+    "n_detected": 20,
+    "recall": 1.0,
+    "isolated": 6,
+    "base_clean": 20,
+    "false_positive_on_clean": 0,
+    "extra_rules": {
+     "R05": 7,
+     "R08": 11,
+     "R09": 10,
+     "R01": 1
+    },
+    "misses": []
+   },
+   "R04": {
+    "n_drafts": 20,
+    "n_placed": 19,
+    "n_detected": 19,
+    "recall": 1.0,
+    "isolated": 17,
+    "base_clean": 19,
+    "false_positive_on_clean": 0,
+    "extra_rules": {
+     "R05": 2,
+     "R07": 1
+    },
+    "misses": []
+   },
+   "R05": {
+    "n_drafts": 20,
+    "n_placed": 20,
+    "n_detected": 20,
+    "recall": 1.0,
+    "isolated": 0,
+    "base_clean": 20,
+    "false_positive_on_clean": 0,
+    "extra_rules": {
+     "R02": 4,
+     "R03/R04": 20,
+     "R08": 19,
+     "R06": 2
+    },
+    "misses": []
+   },
+   "R06": {
+    "n_drafts": 20,
+    "n_placed": 20,
+    "n_detected": 20,
+    "recall": 1.0,
+    "isolated": 17,
+    "base_clean": 20,
+    "false_positive_on_clean": 0,
+    "extra_rules": {
+     "R09": 1,
+     "R01": 2,
+     "R02": 2
+    },
+    "misses": []
+   },
+   "R07": {
+    "n_drafts": 20,
+    "n_placed": 20,
+    "n_detected": 20,
+    "recall": 1.0,
+    "isolated": 6,
+    "base_clean": 20,
+    "false_positive_on_clean": 0,
+    "extra_rules": {
+     "R09": 12,
+     "R01": 5
+    },
+    "misses": []
+   },
+   "R08": {
+    "n_drafts": 20,
+    "n_placed": 20,
+    "n_detected": 20,
+    "recall": 1.0,
+    "isolated": 2,
+    "base_clean": 20,
+    "false_positive_on_clean": 0,
+    "extra_rules": {
+     "R01": 9,
+     "R09": 14,
+     "R06": 3,
+     "R05": 3,
+     "R03": 5,
+     "R02": 1
+    },
+    "misses": []
+   },
+   "R09": {
+    "n_drafts": 20,
+    "n_placed": 20,
+    "n_detected": 20,
+    "recall": 1.0,
+    "isolated": 7,
+    "base_clean": 20,
+    "false_positive_on_clean": 0,
+    "extra_rules": {
+     "R03": 7,
+     "R01": 9,
+     "R07": 1
+    },
+    "misses": []
+   }
+  },
+  "baseline_clean_rate": 1.0,
+  "n_trials": 180,
+  "n_drafts": 20,
+  "overall": {
+   "placed": 179,
+   "detected": 177,
+   "recall": 0.9888
+  },
+  "attribution": {
+   "n": 177,
+   "per_rule": {
+    "R01": {
+     "emission": 19,
+     "ranked": 11,
+     "ranked_top2": 17,
+     "n": 19
+    },
+    "R02": {
+     "emission": 17,
+     "ranked": 8,
+     "ranked_top2": 15,
+     "n": 19
+    },
+    "R03": {
+     "emission": 19,
+     "ranked": 8,
+     "ranked_top2": 14,
+     "n": 20
+    },
+    "R04": {
+     "emission": 19,
+     "ranked": 17,
+     "ranked_top2": 18,
+     "n": 19
+    },
+    "R05": {
+     "emission": 0,
+     "ranked": 20,
+     "ranked_top2": 20,
+     "n": 20
+    },
+    "R06": {
+     "emission": 18,
+     "ranked": 20,
+     "ranked_top2": 20,
+     "n": 20
+    },
+    "R07": {
+     "emission": 15,
+     "ranked": 20,
+     "ranked_top2": 20,
+     "n": 20
+    },
+    "R08": {
+     "emission": 4,
+     "ranked": 17,
+     "ranked_top2": 20,
+     "n": 20
+    },
+    "R09": {
+     "emission": 7,
+     "ranked": 7,
+     "ranked_top2": 16,
+     "n": 20
+    }
+   },
+   "emission": 118,
+   "ranked": 128,
+   "ranked_top2": 160,
+   "learned_loo": 119,
+   "chance": 109.7,
+   "mean_distinct_labels": 2.2
+  },
+  "confusion": {
+   "true_positive": 177,
+   "false_negative": 2,
+   "unplaceable": 1
+  }
+ },
+ "rows": [
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (67/60 → 69/62)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "中音与次中音连续纯八度"
+    },
+    {
+     "rule": "R09",
+     "t": 0.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 0
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (67/60 → 69/62)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R09",
+     "t": 0.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 1
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 74/67)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    }
+   ],
+   "draft": 2
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 71/64)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R03/R04"
+   ],
+   "extra_rules": [
+    "R03/R04"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 0.0,
+     "msg": "交叉或间距过大 [71, 67, 64, 43]"
+    }
+   ],
+   "draft": 3
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 4,
+    "t": 4.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (72/65 → 74/67)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R08",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 4.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R08",
+     "t": 3.0,
+     "msg": "次中音不良旋律音程 +6"
+    },
+    {
+     "rule": "R09",
+     "t": 3.0,
+     "msg": "和弦不完整（缺 ['7']）"
+    },
+    {
+     "rule": "R09",
+     "t": 4.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 4
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 73/66)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    }
+   ],
+   "draft": 5
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (67/60 → 69/62)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R09",
+     "t": 0.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 6
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 10,
+    "t": 10.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (74/67 → 76/69)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R03/R04",
+    "R05",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R05",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 10.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 9.0,
+     "msg": "交叉或间距过大 [74, 69, 67, 42]"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 10.0,
+     "msg": "交叉或间距过大 [76, 71, 69, 43]"
+    },
+    {
+     "rule": "R05",
+     "t": 10.0,
+     "msg": "次中音出音域 69"
+    },
+    {
+     "rule": "R09",
+     "t": 10.0,
+     "msg": "和弦不完整（缺 ['7']）"
+    }
+   ],
+   "draft": 7
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 7,
+    "t": 7.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (78/71 → 76/69)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R03",
+    "R03/R04",
+    "R05",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R03/R04",
+    "R05",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 7,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 7.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 6.0,
+     "msg": "交叉或间距过大 [78, 71, 71, 47]"
+    },
+    {
+     "rule": "R05",
+     "t": 6.0,
+     "msg": "次中音出音域 71"
+    },
+    {
+     "rule": "R03",
+     "t": 6.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 6.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    },
+    {
+     "rule": "R05",
+     "t": 7.0,
+     "msg": "次中音出音域 69"
+    },
+    {
+     "rule": "R09",
+     "t": 7.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 8
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (74/67 → 72/65)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R03/R04",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 3.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 2.0,
+     "msg": "交叉或间距过大 [74, 67, 67, 47]"
+    },
+    {
+     "rule": "R09",
+     "t": 3.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 9
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 5,
+    "t": 5.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (69/62 → 67/60)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R03/R04",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 5.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R01",
+     "t": 6.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 4.0,
+     "msg": "交叉或间距过大 [69, 62, 62, 42]"
+    },
+    {
+     "rule": "R09",
+     "t": 5.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    }
+   ],
+   "draft": 10
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (67/60 → 69/62)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R09",
+     "t": 0.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 11
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 10,
+    "t": 10.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 69/62)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R03"
+   ],
+   "extra_rules": [
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 9.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R01",
+     "t": 10.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R03",
+     "t": 10.0,
+     "msg": "声部超越"
+    }
+   ],
+   "draft": 12
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 74/67)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    }
+   ],
+   "draft": 13
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 73/66)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    }
+   ],
+   "draft": 14
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (67/60 → 69/62)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R09",
+     "t": 0.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 15
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (67/60 → 69/62)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R09",
+     "t": 0.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 16
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 69/62)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01",
+    "R03"
+   ],
+   "extra_rules": [
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    }
+   ],
+   "draft": 17
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 71/64)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": false,
+   "hit_rule": null,
+   "all_rules": [],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 0,
+   "violations": [],
+   "draft": 18
+  },
+  {
+   "placed": true,
+   "rule": "R01",
+   "site": {
+    "rule": "R01",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S/T 在连续两拍构成纯五度 (71/64 → 72/65)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R01",
+   "all_rules": [
+    "R01"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与次中音连续纯五度"
+    }
+   ],
+   "draft": 19
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 5,
+    "t": 5.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 +7"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R01",
+    "R02",
+    "R05"
+   ],
+   "extra_rules": [
+    "R01",
+    "R05"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 5.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R01",
+     "t": 6.0,
+     "msg": "女高音与低音连续纯八度"
+    },
+    {
+     "rule": "R02",
+     "t": 6.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R05",
+     "t": 5.0,
+     "msg": "女高音出音域 81"
+    }
+   ],
+   "draft": 0
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 -3"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R03",
+    "R06",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R06",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "导音重复"
+    },
+    {
+     "rule": "R03",
+     "t": 3.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R06",
+     "t": 3.0,
+     "msg": "女高音导音未上行解决"
+    }
+   ],
+   "draft": 1
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 +5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R05",
+    "R09"
+   ],
+   "extra_rules": [
+    "R05",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R05",
+     "t": 2.0,
+     "msg": "女高音出音域 79"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 2
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 5,
+    "t": 5.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 +7"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R05"
+   ],
+   "extra_rules": [
+    "R05"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 5.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R05",
+     "t": 5.0,
+     "msg": "女高音出音域 79"
+    }
+   ],
+   "draft": 3
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：外声部同向进入纯五度，女高音跳 -4"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 1.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    }
+   ],
+   "draft": 4
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 4,
+    "t": 4.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 -5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R03",
+    "R06",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R06",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 4.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R03",
+     "t": 4.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 4.0,
+     "msg": "导音重复"
+    },
+    {
+     "rule": "R03",
+     "t": 5.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R06",
+     "t": 5.0,
+     "msg": "女高音导音未上行解决"
+    }
+   ],
+   "draft": 5
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 -3"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R03",
+    "R06",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R06",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "导音重复"
+    },
+    {
+     "rule": "R03",
+     "t": 3.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R06",
+     "t": 3.0,
+     "msg": "女高音导音未上行解决"
+    }
+   ],
+   "draft": 6
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 11,
+    "t": 11.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 +5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R05"
+   ],
+   "extra_rules": [
+    "R05"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 11.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R05",
+     "t": 11.0,
+     "msg": "女高音出音域 81"
+    }
+   ],
+   "draft": 7
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 +7"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R01",
+    "R02"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    }
+   ],
+   "draft": 8
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 -5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    }
+   ],
+   "draft": 9
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：外声部同向进入纯五度，女高音跳 -9"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 3.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R09",
+     "t": 3.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 10
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 -3"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R03",
+    "R06",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R06",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "导音重复"
+    },
+    {
+     "rule": "R03",
+     "t": 3.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R06",
+     "t": 3.0,
+     "msg": "女高音导音未上行解决"
+    }
+   ],
+   "draft": 11
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 -7"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 3.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R09",
+     "t": 3.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    }
+   ],
+   "draft": 12
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 -7"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": false,
+   "hit_rule": null,
+   "all_rules": [],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 0,
+   "violations": [],
+   "draft": 13
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 7,
+    "t": 7.0,
+    "msg": "注入：外声部同向进入纯五度，女高音跳 +5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 7.0,
+     "msg": "外声部隐伏五/八度"
+    }
+   ],
+   "draft": 14
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：外声部同向进入纯五度，女高音跳 +5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R01",
+    "R02"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R01",
+     "t": 3.0,
+     "msg": "女高音与低音连续纯五度"
+    },
+    {
+     "rule": "R02",
+     "t": 3.0,
+     "msg": "外声部隐伏五/八度"
+    }
+   ],
+   "draft": 15
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：外声部同向进入纯五度，女高音跳 +5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R01",
+    "R02",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 6,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与中音连续纯五度"
+    },
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R01",
+     "t": 3.0,
+     "msg": "女高音与中音连续纯五度"
+    },
+    {
+     "rule": "R01",
+     "t": 3.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 16
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 -5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02",
+    "R03",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 1.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "导音重复"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    }
+   ],
+   "draft": 17
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 5,
+    "t": 5.0,
+    "msg": "注入：外声部同向进入纯八度，女高音跳 +5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R02"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 5.0,
+     "msg": "外声部隐伏五/八度"
+    }
+   ],
+   "draft": 18
+  },
+  {
+   "placed": true,
+   "rule": "R02",
+   "site": {
+    "rule": "R02",
+    "index": 6,
+    "t": 6.0,
+    "msg": "注入：外声部同向进入纯五度，女高音跳 +5"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R02",
+   "all_rules": [
+    "R01",
+    "R02"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 6.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R01",
+     "t": 7.0,
+     "msg": "女高音与中音连续纯八度"
+    }
+   ],
+   "draft": 19
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=56 < T=57（原 A=62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 6,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 56, 57, 54]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "中音出音域 56"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +11"
+    }
+   ],
+   "draft": 0
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=60 < T=61（原 A=64）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 60, 61, 55]"
+    }
+   ],
+   "draft": 1
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=61 < T=62（原 A=69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R08"
+   ],
+   "extra_rules": [
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [74, 61, 62, 54]"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -6"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +6"
+    }
+   ],
+   "draft": 2
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=61 < T=62（原 A=67）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R08",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [71, 61, 62, 47]"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    }
+   ],
+   "draft": 3
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=63 < T=64（原 A=67）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [76, 63, 64, 48]"
+    }
+   ],
+   "draft": 4
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=63 < T=64（原 A=69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R08",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [73, 63, 64, 55]"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +6"
+    }
+   ],
+   "draft": 5
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=60 < T=61（原 A=64）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 60, 61, 55]"
+    }
+   ],
+   "draft": 6
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=61 < T=62（原 A=66）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 61, 62, 50]"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    }
+   ],
+   "draft": 7
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=54 < T=55（原 A=62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R01",
+    "R03",
+    "R03/R04",
+    "R05"
+   ],
+   "extra_rules": [
+    "R01",
+    "R05"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "中音与低音连续纯五度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [67, 54, 55, 47]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "中音出音域 54"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    }
+   ],
+   "draft": 8
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=59 < T=60（原 A=67）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [76, 59, 60, 48]"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    }
+   ],
+   "draft": 9
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=61 < T=62（原 A=66）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 61, 62, 50]"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 10
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=60 < T=61（原 A=64）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 60, 61, 55]"
+    }
+   ],
+   "draft": 11
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=56 < T=57（原 A=60）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 6,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 56, 57, 55]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "中音出音域 56"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +6"
+    }
+   ],
+   "draft": 12
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=61 < T=62（原 A=67）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R08",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [74, 61, 62, 59]"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +6"
+    }
+   ],
+   "draft": 13
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=56 < T=57（原 A=69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R05",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 6,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [73, 56, 57, 55]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "中音出音域 56"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -11"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +13"
+    }
+   ],
+   "draft": 14
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=56 < T=57（原 A=62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 7,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 56, 57, 54]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "中音出音域 56"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +6"
+    }
+   ],
+   "draft": 15
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=56 < T=57（原 A=62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 7,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 56, 57, 54]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "中音出音域 56"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +11"
+    }
+   ],
+   "draft": 16
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=56 < T=57（原 A=62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 7,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [69, 56, 57, 54]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "中音出音域 56"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -11"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +11"
+    }
+   ],
+   "draft": 17
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=61 < T=62（原 A=67）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03",
+   "all_rules": [
+    "R03",
+    "R03/R04",
+    "R08"
+   ],
+   "extra_rules": [
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [71, 61, 62, 55]"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -6"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +6"
+    }
+   ],
+   "draft": 18
+  },
+  {
+   "placed": true,
+   "rule": "R03",
+   "site": {
+    "rule": "R03",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部交叉 A=63 < T=64（原 A=67）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [72, 63, 64, 52]"
+    }
+   ],
+   "draft": 19
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 7,
+    "t": 8.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 8.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 0
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 11,
+    "t": 11.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 11.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 1
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 28,
+    "t": 32.0,
+    "msg": "注入：次中音-低音间距 28 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 32.0,
+     "msg": "交叉或间距过大 [74, 69, 66, 38]"
+    }
+   ],
+   "draft": 2
+  },
+  {
+   "placed": false,
+   "rule": "R04",
+   "base_clean": true,
+   "base_rules": [],
+   "detected": false,
+   "hit_rule": null,
+   "extra_rules": [],
+   "draft": 3
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 12,
+    "t": 12.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 12.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 4
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 7,
+    "t": 7.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 7.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 5
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 15,
+    "t": 15.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 15.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 6
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 2.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 7
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 2.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 8
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：次中音-低音间距 29 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R07"
+   ],
+   "extra_rules": [
+    "R05",
+    "R07"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 3.0,
+     "msg": "交叉或间距过大 [72, 67, 64, 35]"
+    },
+    {
+     "rule": "R05",
+     "t": 3.0,
+     "msg": "低音出音域 35"
+    },
+    {
+     "rule": "R07",
+     "t": 4.0,
+     "msg": "低音七音未级进下行解决"
+    }
+   ],
+   "draft": 9
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 12,
+    "t": 12.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 12.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 10
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 36,
+    "t": 36.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04",
+    "R05"
+   ],
+   "extra_rules": [
+    "R05"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 36.0,
+     "msg": "交叉或间距过大 [69, 64, 60, 36]"
+    },
+    {
+     "rule": "R05",
+     "t": 36.0,
+     "msg": "低音出音域 36"
+    }
+   ],
+   "draft": 11
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 27,
+    "t": 27.0,
+    "msg": "注入：次中音-低音间距 28 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 27.0,
+     "msg": "交叉或间距过大 [74, 69, 66, 38]"
+    }
+   ],
+   "draft": 12
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 15,
+    "t": 15.0,
+    "msg": "注入：次中音-低音间距 28 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 15.0,
+     "msg": "交叉或间距过大 [74, 69, 66, 38]"
+    }
+   ],
+   "draft": 13
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 19,
+    "t": 19.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 19.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 14
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 7,
+    "t": 7.0,
+    "msg": "注入：次中音-低音间距 28 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 7.0,
+     "msg": "交叉或间距过大 [74, 69, 66, 38]"
+    }
+   ],
+   "draft": 15
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 18,
+    "t": 19.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 19.0,
+     "msg": "交叉或间距过大 [74, 71, 67, 43]"
+    }
+   ],
+   "draft": 16
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 23,
+    "t": 23.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 23.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 17
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 19,
+    "t": 19.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 19.0,
+     "msg": "交叉或间距过大 [69, 66, 62, 38]"
+    }
+   ],
+   "draft": 18
+  },
+  {
+   "placed": true,
+   "rule": "R04",
+   "site": {
+    "rule": "R04",
+    "index": 24,
+    "t": 24.0,
+    "msg": "注入：次中音-低音间距 24 > 19"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R03/R04",
+   "all_rules": [
+    "R03/R04"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 24.0,
+     "msg": "交叉或间距过大 [74, 71, 67, 43]"
+    }
+   ],
+   "draft": 19
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R02",
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R02",
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 62, 57, 54]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -10"
+    }
+   ],
+   "draft": 0
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 64, 61, 55]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    }
+   ],
+   "draft": 1
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 74→86 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [86, 69, 62, 54]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 86"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +15"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -15"
+    }
+   ],
+   "draft": 2
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 71→83 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [83, 67, 62, 47]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 83"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -14"
+    }
+   ],
+   "draft": 3
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 76→88 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [88, 67, 64, 48]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 88"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +17"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -14"
+    }
+   ],
+   "draft": 4
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 73→85 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R06",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R06",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [85, 69, 64, 55]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 85"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -11"
+    },
+    {
+     "rule": "R06",
+     "t": 2.0,
+     "msg": "女高音副导音未上行解决"
+    }
+   ],
+   "draft": 5
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 64, 61, 55]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    }
+   ],
+   "draft": 6
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 66, 62, 50]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    }
+   ],
+   "draft": 7
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 67→79 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [79, 62, 55, 47]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 79"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -10"
+    }
+   ],
+   "draft": 8
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 76→88 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [88, 67, 60, 48]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 88"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -14"
+    }
+   ],
+   "draft": 9
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R02",
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R02",
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 66, 62, 50]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -10"
+    }
+   ],
+   "draft": 10
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 64, 61, 55]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    }
+   ],
+   "draft": 11
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 60, 57, 55]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -10"
+    }
+   ],
+   "draft": 12
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 74→86 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [86, 67, 62, 59]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 86"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +15"
+    }
+   ],
+   "draft": 13
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 73→85 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R06",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R06",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [85, 69, 57, 55]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 85"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -11"
+    },
+    {
+     "rule": "R06",
+     "t": 2.0,
+     "msg": "女高音副导音未上行解决"
+    }
+   ],
+   "draft": 14
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 62, 57, 54]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -14"
+    }
+   ],
+   "draft": 15
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 62, 57, 54]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +14"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -10"
+    }
+   ],
+   "draft": 16
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 69→81 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R02",
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R02",
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [81, 62, 57, 54]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +10"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -10"
+    }
+   ],
+   "draft": 17
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 71→83 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R02",
+    "R03/R04",
+    "R05"
+   ],
+   "extra_rules": [
+    "R02",
+    "R03/R04"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [83, 67, 62, 55]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 83"
+    }
+   ],
+   "draft": 18
+  },
+  {
+   "placed": true,
+   "rule": "R05",
+   "site": {
+    "rule": "R05",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：S 72→84 出音域 [62,78]"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R05",
+   "all_rules": [
+    "R03/R04",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03/R04",
+    "R08"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R03/R04",
+     "t": 1.0,
+     "msg": "交叉或间距过大 [84, 67, 64, 52]"
+    },
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 84"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +13"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -13"
+    }
+   ],
+   "draft": 19
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 35,
+    "t": 38.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 38.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 0
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 3.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 1
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 2.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 2
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 23,
+    "t": 23.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 23.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 3
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 9,
+    "t": 9.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 9.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 4
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 3.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 5
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 3.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 6
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 14,
+    "t": 14.0,
+    "msg": "注入：低音导音未上行解决 (43→42)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 14.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 7
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 10,
+    "t": 10.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 10.0,
+     "msg": "低音导音未上行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 10.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    }
+   ],
+   "draft": 8
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 47,
+    "t": 47.0,
+    "msg": "注入：女高音导音未上行解决 (67→66)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 47.0,
+     "msg": "女高音导音未上行解决"
+    }
+   ],
+   "draft": 9
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 11,
+    "t": 11.0,
+    "msg": "注入：女高音导音未上行解决 (67→66)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R01",
+    "R02",
+    "R06"
+   ],
+   "extra_rules": [
+    "R01",
+    "R02"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 12.0,
+     "msg": "女高音与低音连续纯五度"
+    },
+    {
+     "rule": "R02",
+     "t": 12.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R06",
+     "t": 11.0,
+     "msg": "女高音导音未上行解决"
+    }
+   ],
+   "draft": 10
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 3.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 11
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 11,
+    "t": 11.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 11.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 12
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 9,
+    "t": 9.0,
+    "msg": "注入：女高音导音未上行解决 (67→66)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R01",
+    "R02",
+    "R06"
+   ],
+   "extra_rules": [
+    "R01",
+    "R02"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 10.0,
+     "msg": "女高音与低音连续纯五度"
+    },
+    {
+     "rule": "R02",
+     "t": 10.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R06",
+     "t": 9.0,
+     "msg": "女高音导音未上行解决"
+    }
+   ],
+   "draft": 13
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 11,
+    "t": 11.0,
+    "msg": "注入：女高音导音未上行解决 (67→66)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 11.0,
+     "msg": "女高音导音未上行解决"
+    }
+   ],
+   "draft": 14
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 2.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 15
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 2.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 16
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 15,
+    "t": 15.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 15.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 17
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 15,
+    "t": 15.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 15.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 18
+  },
+  {
+   "placed": true,
+   "rule": "R06",
+   "site": {
+    "rule": "R06",
+    "index": 13,
+    "t": 13.0,
+    "msg": "注入：低音导音未上行解决 (55→54)"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R06",
+   "all_rules": [
+    "R06"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R06",
+     "t": 13.0,
+     "msg": "低音导音未上行解决"
+    }
+   ],
+   "draft": 19
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 4,
+    "t": 4.0,
+    "msg": "注入：七音 55→57 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 4.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 4.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 0
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：七音 55→57 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 2.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 1
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 12,
+    "t": 13.0,
+    "msg": "注入：七音 54→55 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 13.0,
+     "msg": "低音七音未级进下行解决"
+    }
+   ],
+   "draft": 2
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 10,
+    "t": 10.0,
+    "msg": "注入：七音 53→55 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 10.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 10.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 3
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 4,
+    "t": 4.0,
+    "msg": "注入：七音 59→60 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 4.0,
+     "msg": "次中音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 4.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 4
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：七音 55→57 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R01",
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 3.0,
+     "msg": "中音与低音连续纯八度"
+    },
+    {
+     "rule": "R07",
+     "t": 2.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 5
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：七音 55→57 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 2.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 6
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 5,
+    "t": 5.0,
+    "msg": "注入：七音 59→60 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 5.0,
+     "msg": "次中音七音未级进下行解决"
+    }
+   ],
+   "draft": 7
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 12,
+    "t": 12.0,
+    "msg": "注入：七音 55→57 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R01",
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 13.0,
+     "msg": "中音与低音连续纯八度"
+    },
+    {
+     "rule": "R07",
+     "t": 12.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 12.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 8
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 4,
+    "t": 4.0,
+    "msg": "注入：七音 47→48 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 4.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 4.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 9
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：七音 57→59 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R01",
+    "R07"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 4.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R07",
+     "t": 3.0,
+     "msg": "次中音七音未级进下行解决"
+    }
+   ],
+   "draft": 10
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：七音 55→57 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 2.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 11
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：七音 54→55 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 3.0,
+     "msg": "低音七音未级进下行解决"
+    }
+   ],
+   "draft": 12
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 5,
+    "t": 5.0,
+    "msg": "注入：七音 50→52 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 5.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 5.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 13
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：七音 55→57 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 2.0,
+     "msg": "低音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 14
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 6,
+    "t": 6.0,
+    "msg": "注入：七音 62→64 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R01",
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 6.0,
+     "msg": "次中音与低音连续纯五度"
+    },
+    {
+     "rule": "R07",
+     "t": 6.0,
+     "msg": "次中音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 6.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 15
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 20,
+    "t": 21.0,
+    "msg": "注入：七音 71→72 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 21.0,
+     "msg": "中音七音未级进下行解决"
+    },
+    {
+     "rule": "R07",
+     "t": 22.0,
+     "msg": "中音七音未级进下行解决"
+    }
+   ],
+   "draft": 16
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：七音 62→64 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 3.0,
+     "msg": "次中音七音未级进下行解决"
+    }
+   ],
+   "draft": 17
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 4,
+    "t": 4.0,
+    "msg": "注入：七音 67→68 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R07"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R07",
+     "t": 4.0,
+     "msg": "中音七音未级进下行解决"
+    }
+   ],
+   "draft": 18
+  },
+  {
+   "placed": true,
+   "rule": "R07",
+   "site": {
+    "rule": "R07",
+    "index": 6,
+    "t": 6.0,
+    "msg": "注入：七音 62→64 上行"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R07",
+   "all_rules": [
+    "R01",
+    "R07"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 6.0,
+     "msg": "次中音与低音连续纯五度"
+    },
+    {
+     "rule": "R07",
+     "t": 6.0,
+     "msg": "次中音七音未级进下行解决"
+    }
+   ],
+   "draft": 19
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 3 跳进 -10"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R01",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与低音连续纯八度"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "低音不良旋律音程 -10"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 0
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 0 跳进 +6"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R01",
+    "R06",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R06",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R06",
+     "t": 2.0,
+     "msg": "女高音副导音未上行解决"
+    }
+   ],
+   "draft": 1
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 0 跳进 +10"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R05"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "女高音出音域 81"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +10"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "女高音不良旋律音程 -10"
+    }
+   ],
+   "draft": 2
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：声部 3 跳进 +10"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R01",
+    "R08"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与低音连续纯八度"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "低音不良旋律音程 +10"
+    }
+   ],
+   "draft": 3
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：声部 2 跳进 -10"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "次中音不良旋律音程 -10"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    }
+   ],
+   "draft": 4
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 1 跳进 +6"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R03",
+    "R05",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R05",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R05",
+     "t": 1.0,
+     "msg": "中音出音域 73"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 +6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    }
+   ],
+   "draft": 5
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 0 跳进 +6"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R01",
+    "R06",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R06",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R06",
+     "t": 2.0,
+     "msg": "女高音副导音未上行解决"
+    }
+   ],
+   "draft": 6
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 0 跳进 +11"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +11"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "导音重复"
+    }
+   ],
+   "draft": 7
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：声部 2 跳进 +11"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R03",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "次中音不良旋律音程 +11"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "导音重复"
+    }
+   ],
+   "draft": 8
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：声部 3 跳进 +11"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R08"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "低音不良旋律音程 +11"
+    }
+   ],
+   "draft": 9
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 0 跳进 +11"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R02",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R02",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R02",
+     "t": 2.0,
+     "msg": "外声部隐伏五/八度"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +11"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "导音重复"
+    }
+   ],
+   "draft": 10
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 0 跳进 +6"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R01",
+    "R06",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R06",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "女高音不良旋律音程 +6"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R06",
+     "t": 2.0,
+     "msg": "女高音副导音未上行解决"
+    }
+   ],
+   "draft": 11
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 3 跳进 -10"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R01",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与低音连续纯八度"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "低音不良旋律音程 -10"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['7']）"
+    }
+   ],
+   "draft": 12
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 5,
+    "t": 5.0,
+    "msg": "注入：声部 2 跳进 +6"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R08"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R08",
+     "t": 5.0,
+     "msg": "次中音不良旋律音程 +6"
+    }
+   ],
+   "draft": 13
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 1 跳进 -6"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R03",
+    "R08"
+   ],
+   "extra_rules": [
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -6"
+    }
+   ],
+   "draft": 14
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 3 跳进 -10"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R01",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 5,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与低音连续纯八度"
+    },
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与低音连续纯八度"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "低音不良旋律音程 -10"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "低音不良旋律音程 +10"
+    }
+   ],
+   "draft": 15
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 3 跳进 -10"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R01",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "女高音与低音连续纯八度"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "低音不良旋律音程 -10"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "低音不良旋律音程 +10"
+    }
+   ],
+   "draft": 16
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：声部 1 跳进 -10"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R03",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 1.0,
+     "msg": "中音不良旋律音程 -10"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['R']）"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "中音不良旋律音程 +10"
+    }
+   ],
+   "draft": 17
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：声部 1 跳进 -6"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R03",
+    "R08",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03",
+    "R09"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R03",
+     "t": 3.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R08",
+     "t": 3.0,
+     "msg": "中音不良旋律音程 -6"
+    },
+    {
+     "rule": "R09",
+     "t": 3.0,
+     "msg": "和弦不完整（缺 ['7']）"
+    }
+   ],
+   "draft": 18
+  },
+  {
+   "placed": true,
+   "rule": "R08",
+   "site": {
+    "rule": "R08",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：声部 3 跳进 +10"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R08",
+   "all_rules": [
+    "R01",
+    "R05",
+    "R08"
+   ],
+   "extra_rules": [
+    "R01",
+    "R05"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "次中音与低音连续纯八度"
+    },
+    {
+     "rule": "R05",
+     "t": 2.0,
+     "msg": "低音出音域 62"
+    },
+    {
+     "rule": "R08",
+     "t": 2.0,
+     "msg": "低音不良旋律音程 +10"
+    }
+   ],
+   "draft": 19
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 5,
+    "t": 5.0,
+    "msg": "注入：去掉三音（声部 2: 61→64）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R09"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R09",
+     "t": 5.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 0
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：去掉三音（声部 2: 61→64）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R03",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 1
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：去掉三音（声部 2: 59→62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R09"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R09",
+     "t": 3.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 2
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：去掉三音（声部 1: 66→69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R09"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 3
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 4,
+    "t": 4.0,
+    "msg": "注入：去掉三音（声部 2: 59→62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R01",
+    "R07",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R07"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 4,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 4.0,
+     "msg": "次中音与低音连续纯五度"
+    },
+    {
+     "rule": "R01",
+     "t": 5.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R07",
+     "t": 4.0,
+     "msg": "次中音七音未级进下行解决"
+    },
+    {
+     "rule": "R09",
+     "t": 4.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 4
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 7,
+    "t": 7.0,
+    "msg": "注入：去掉三音（声部 1: 66→69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R09"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R09",
+     "t": 7.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 5
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：去掉三音（声部 2: 61→64）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R03",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 6
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：去掉三音（声部 1: 66→69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R01",
+    "R03",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "中音与低音连续纯五度"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 7
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：去掉三音（声部 1: 66→69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R01",
+    "R03",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "中音与次中音连续纯五度"
+    },
+    {
+     "rule": "R03",
+     "t": 2.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 8
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：去掉三音（声部 2: 64→60）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 3.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R01",
+     "t": 4.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R09",
+     "t": 3.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 9
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：去掉三音（声部 1: 66→69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R01",
+    "R03",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01",
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 3,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 1.0,
+     "msg": "中音与低音连续纯五度"
+    },
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 10
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：去掉三音（声部 2: 61→64）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R03",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 11
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 1,
+    "t": 1.0,
+    "msg": "注入：去掉三音（声部 1: 60→57）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R03",
+    "R09"
+   ],
+   "extra_rules": [
+    "R03"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R03",
+     "t": 1.0,
+     "msg": "声部超越"
+    },
+    {
+     "rule": "R09",
+     "t": 1.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 12
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：去掉三音（声部 2: 59→62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R09"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 13
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 4,
+    "t": 4.0,
+    "msg": "注入：去掉三音（声部 2: 59→62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 5.0,
+     "msg": "女高音与次中音连续纯八度"
+    },
+    {
+     "rule": "R09",
+     "t": 4.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 14
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：去掉三音（声部 2: 59→62）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R09"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 15
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 13,
+    "t": 13.0,
+    "msg": "注入：去掉三音（声部 1: 66→69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 14.0,
+     "msg": "中音与低音连续纯五度"
+    },
+    {
+     "rule": "R09",
+     "t": 13.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 16
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：去掉三音（声部 1: 67→64）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "女高音与中音连续纯五度"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 17
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 2,
+    "t": 2.0,
+    "msg": "注入：去掉三音（声部 1: 67→64）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R01",
+    "R09"
+   ],
+   "extra_rules": [
+    "R01"
+   ],
+   "n_viol_before": 0,
+   "n_viol_after": 2,
+   "violations": [
+    {
+     "rule": "R01",
+     "t": 2.0,
+     "msg": "中音与低音连续纯八度"
+    },
+    {
+     "rule": "R09",
+     "t": 2.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 18
+  },
+  {
+   "placed": true,
+   "rule": "R09",
+   "site": {
+    "rule": "R09",
+    "index": 3,
+    "t": 3.0,
+    "msg": "注入：去掉三音（声部 1: 66→69）"
+   },
+   "base_clean": true,
+   "base_rules": [],
+   "detected": true,
+   "hit_rule": "R09",
+   "all_rules": [
+    "R09"
+   ],
+   "extra_rules": [],
+   "n_viol_before": 0,
+   "n_viol_after": 1,
+   "violations": [
+    {
+     "rule": "R09",
+     "t": 3.0,
+     "msg": "和弦不完整（缺 ['3']）"
+    }
+   ],
+   "draft": 19
+  }
+ ]
+}

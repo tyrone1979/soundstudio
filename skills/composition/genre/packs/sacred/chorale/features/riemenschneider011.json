@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "title": "Jesu, nun sei gepreiset",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider011.musicxml"
+  },
+  "global": {
+    "key": "C major",
+    "key_sharps": 0,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 33,
+    "parts": [
+      4785956240
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 31,
+    "repetition_ratio": 0.061,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 54,
+      "8th": 15,
+      "half": 14,
+      "dotted_half": 7,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.374,
+      "2": 0.132,
+      "3": 0.286,
+      "4": 0.209
+    },
+    "beat1_onset_share": 0.374,
+    "syncopation_proxy": 0.626,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 2.76,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 9,
+    "chords_estimated": 91,
+    "harmonic_rhythm_chords_per_bar": 2.76,
+    "root_pair_top": {
+      "G-C": 10,
+      "C-G": 8,
+      "D-G": 6,
+      "C-F": 3,
+      "G-D": 3,
+      "A-D": 3,
+      "E-A": 3,
+      "B--D": 2
+    },
+    "root_sample": [
+      "C",
+      "G",
+      "C",
+      "F",
+      "B-",
+      "D",
+      "G",
+      "C",
+      "F",
+      "G",
+      "C",
+      "G",
+      "D",
+      "G",
+      "C",
+      "F",
+      "C",
+      "G",
+      "A",
+      "D",
+      "G",
+      "C",
+      "G",
+      "B"
+    ],
+    "quality_hist": {
+      "triad": 0.7143,
+      "dominant7": 0.1648,
+      "minor7": 0.044,
+      "half_diminished7": 0.0659,
+      "diminished7": 0.011
+    },
+    "seventh_ratio": 0.2857
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "title": "RED STOCKINGS' -- JIG.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/redstockingsjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4487070800
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "B",
+      "bars": "3"
+    },
+    {
+      "section": "D",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "B",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "D",
+      "bars": "13"
+    },
+    {
+      "section": "G",
+      "bars": "14"
+    },
+    {
+      "section": "J",
+      "bars": "15"
+    },
+    {
+      "section": "K",
+      "bars": "16"
+    },
+    {
+      "section": "L",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 69.38,
+    "stepwise_ratio": 0.541,
+    "leap_ratio": 0.262,
+    "large_leap_ratio": 0.041,
+    "repeated_note_ratio": 0.008,
+    "interval_hist": {
+      "2": 39,
+      "1": 27,
+      "3": 13,
+      "9": 10,
+      "4": 10,
+      "10": 7,
+      "7": 6,
+      "12": 5,
+      "5": 4,
+      "0": 1
+    },
+    "dur_hist": {
+      "8th": 102,
+      "quarter": 21
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2358,
+      "1": 0.0,
+      "2": 0.0569,
+      "3": 0.0,
+      "4": 0.1626,
+      "5": 0.1057,
+      "6": 0.0,
+      "7": 0.1951,
+      "8": 0.0,
+      "9": 0.1301,
+      "10": 0.0407,
+      "11": 0.0732
+    },
+    "chromatic_ratio": 0.0407,
+    "leading_tone_ratio": 0.0732
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 102,
+      "quarter": 21
+    },
+    "onset_beat_share": {
+      "1": 0.146,
+      "2": 0.13,
+      "3": 0.13,
+      "4": 0.13,
+      "5": 0.016,
+      "6": 0.13,
+      "7": 0.13,
+      "8": 0.073,
+      "9": 0.114
+    },
+    "beat1_onset_share": 0.146,
+    "syncopation_proxy": 0.854,
+    "rest_ratio": 0.065,
+    "density_notes_per_bar": 6.83,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

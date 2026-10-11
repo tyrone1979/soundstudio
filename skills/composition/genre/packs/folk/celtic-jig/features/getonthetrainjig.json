@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "\"Get on the Train\" -- Jig",
+    "composer": "FRANK LIVINGSTONE",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/getonthetrainjig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 3,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 25,
+    "parts": [
+      4522935696
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 21,
+    "repetition_ratio": 0.16,
+    "phrase_len": 1.04
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "E6"
+    ],
+    "mean_midi": 72.23,
+    "stepwise_ratio": 0.433,
+    "leap_ratio": 0.27,
+    "large_leap_ratio": 0.05,
+    "repeated_note_ratio": 0.106,
+    "interval_hist": {
+      "2": 37,
+      "1": 24,
+      "5": 22,
+      "3": 17,
+      "0": 15,
+      "4": 10,
+      "12": 6,
+      "7": 3,
+      "9": 2,
+      "11": 1,
+      "10": 1,
+      "19": 1
+    },
+    "dur_hist": {
+      "quarter": 47,
+      "8th": 61,
+      "triplet": 24,
+      "dotted_8th": 3,
+      "16th": 3,
+      "half": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.2183,
+      "1": 0.0282,
+      "2": 0.1479,
+      "3": 0.0,
+      "4": 0.1972,
+      "5": 0.0423,
+      "6": 0.0,
+      "7": 0.169,
+      "8": 0.0141,
+      "9": 0.1127,
+      "10": 0.0,
+      "11": 0.0704
+    },
+    "chromatic_ratio": 0.0423,
+    "leading_tone_ratio": 0.0704
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.169,
+    "swing_pair_share": 0.0638
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 61,
+      "quarter": 47,
+      "triplet": 24,
+      "half": 4,
+      "dotted_8th": 3,
+      "16th": 3
+    },
+    "onset_beat_share": {
+      "1": 0.563,
+      "2": 0.437
+    },
+    "beat1_onset_share": 0.563,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.035,
+    "density_notes_per_bar": 5.68,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

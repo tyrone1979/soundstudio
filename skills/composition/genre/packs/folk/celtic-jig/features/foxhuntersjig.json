@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "Fox Hunters' -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/foxhuntersjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4492000016
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 69.81,
+    "stepwise_ratio": 0.514,
+    "leap_ratio": 0.138,
+    "large_leap_ratio": 0.028,
+    "repeated_note_ratio": 0.119,
+    "interval_hist": {
+      "2": 41,
+      "4": 16,
+      "1": 15,
+      "0": 13,
+      "3": 9,
+      "5": 8,
+      "12": 3,
+      "7": 2,
+      "8": 1,
+      "10": 1
+    },
+    "dur_hist": {
+      "quarter": 34,
+      "8th": 76
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2727,
+      "1": 0.0,
+      "2": 0.1273,
+      "3": 0.0,
+      "4": 0.1909,
+      "5": 0.0818,
+      "6": 0.0,
+      "7": 0.1182,
+      "8": 0.0,
+      "9": 0.1182,
+      "10": 0.0,
+      "11": 0.0909
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0909
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 76,
+      "quarter": 34
+    },
+    "onset_beat_share": {
+      "1": 0.145,
+      "2": 0.055,
+      "3": 0.145,
+      "4": 0.145,
+      "5": 0.036,
+      "6": 0.145,
+      "7": 0.145,
+      "8": 0.036,
+      "9": 0.145
+    },
+    "beat1_onset_share": 0.145,
+    "syncopation_proxy": 0.855,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 6.88,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

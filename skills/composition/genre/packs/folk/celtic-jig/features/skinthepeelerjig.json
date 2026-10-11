@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "SKIN THE PEELER -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/skinthepeelerjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 9,
+    "parts": [
+      4495281552
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 8,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 72.9,
+    "stepwise_ratio": 0.725,
+    "leap_ratio": 0.039,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {
+      "2": 35,
+      "3": 9,
+      "4": 3,
+      "1": 2,
+      "10": 1,
+      "5": 1
+    },
+    "dur_hist": {
+      "8th": 32,
+      "quarter": 19,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.0962,
+      "1": 0.0,
+      "2": 0.0769,
+      "3": 0.0962,
+      "4": 0.0,
+      "5": 0.2885,
+      "6": 0.0,
+      "7": 0.2885,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.1538,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 32,
+      "quarter": 19,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.173,
+      "2": 0.0,
+      "3": 0.154,
+      "4": 0.154,
+      "5": 0.0,
+      "6": 0.154,
+      "7": 0.154,
+      "8": 0.077,
+      "9": 0.135
+    },
+    "beat1_onset_share": 0.173,
+    "syncopation_proxy": 0.827,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.78,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

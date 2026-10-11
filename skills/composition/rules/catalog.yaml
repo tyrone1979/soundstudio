@@ -1,0 +1,168 @@
+# 作曲规则库目录（统一登记）
+# 每条规则可关联：文档 md、实现代码、来源教程
+schema: 1
+title: ComposerChat 规则库
+updated: 2026-10-01
+
+categories:
+  - id: counterpoint
+    label: 对位法
+    desc: 第一类二声部对位硬约束与生成/校验
+  - id: kernel_script
+    label: 内核确定性脚本
+    desc: compose_kernel 脚本（LLM 只选脚本+参数，音符由内核写）
+  - id: harmony
+    label: 和声与终止
+    desc: 功能和声、终止式、进行套路
+  - id: voice_leading
+    label: 声部进行
+    desc: 四部和声/平行/交叉/倾向音
+  - id: form
+    label: 乐句与曲式
+    desc: 乐句模型、乐段、句子与乐段
+  - id: melody
+    label: 旋律写作
+    desc: 级进/跳进、动机发展
+  - id: rhythm
+    label: 节奏与节拍
+    desc: 时值、强弱位、织体密度
+
+# 手工规则条目（内核脚本由代码自动发现并合并）
+rules:
+  - id: species_first_two_part
+    category: counterpoint
+    title: 第一类二声部对位（对位法权威）
+    summary: 钢琴大谱表 1:1；中间 3/6 为主可反向至 5/8；禁纯4；终止导→主/Ⅱ↓Ⅰ
+    doc: counterpoint/first_species.md
+    code:
+      - music_score/two_part_species.py
+    tags: [species, 对位, 1:1]
+    sources:
+      - title: ComposerChat 对位法规则（项目内权威）
+        url: ""
+
+  - id: cadence_types
+    category: harmony
+    title: 终止式（PAC / IAC / HC）
+    summary: 正格/半终止判别与写法要点；小调属和弦用导音
+    doc: harmony/cadences.md
+    code:
+      - compose_kernel.py#cadence
+    tags: [cadence, 终止, PAC, HC]
+    sources:
+      - title: Open Music Theory — Introduction to Harmony, Cadences, and Phrase Endings
+        url: https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-harmony/
+      - title: musictheory.net — Phrases and Cadences
+        url: https://www.musictheory.net/lessons
+
+  - id: phrase_model_functions
+    category: harmony
+    title: 乐句和声模型（T → PD → D）
+    summary: 主/下属/属功能链；乐句不作反向功能倒退
+    doc: harmony/phrase_model.md
+    code: []
+    tags: [phrase model, 功能和声]
+    sources:
+      - title: Open Music Theory — Intro to Harmony (phrase model)
+        url: https://viva.pressbooks.pub/openmusictheory/chapter/intro-to-harmony/
+
+  - id: common_progressions
+    category: harmony
+    title: 常用和弦进行
+    summary: 圈进行、ii–V–I、I–vi–IV–V 等教学常用套路
+    doc: harmony/progressions.md
+    code:
+      - chord_advisor.py
+    tags: [progression, 进行]
+    sources:
+      - title: musictheory.net — Circle / Common Chord Progressions
+        url: https://www.musictheory.net/lessons
+
+  - id: satb_voice_leading
+    category: voice_leading
+    title: 四部和声声部进行基础
+    summary: 音域、间距、倍音、级进优先、跳进后反向级进、禁平行五八
+    doc: voice_leading/satb_basics.md
+    code:
+      - music_score/satb_piano.py
+      - music_score/editor_core.py
+    tags: [SATB, 四部, voice leading]
+    sources:
+      - title: Integrated Music Theory — Fundamentals of Part-writing
+        url: https://intmus.github.io/inttheory/11-further-part-writing/a1-funds-of-part-writing.html
+      - title: Composing Music — Four-Part Harmony and Voice Leading
+        url: https://rwu.pressbooks.pub/musictheory/chapter/spacing-voicing-and-doubling-of-chord-tones-in-satb-style/
+
+  - id: parallel_fifths_octaves
+    category: voice_leading
+    title: 平行五度 / 八度
+    summary: 两声部同时换音且保持纯五/纯八；众赞严格，管弦外声部慎用
+    doc: voice_leading/parallels.md
+    code:
+      - score_studio.py#_detect_parallel_fifths_octaves
+      - compose_kernel.py
+    tags: [平行, parallel]
+    sources:
+      - title: Integrated Music Theory — Part-writing
+        url: https://intmus.github.io/inttheory/11-further-part-writing/a1-funds-of-part-writing.html
+
+  - id: phrase_period_sentence
+    category: form
+    title: 乐句 · 乐段 · 句子
+    summary: sentence / period（前句 HC → 后句 PAC）；反复乐句与复合形式
+    doc: form/phrase_period.md
+    code: []
+    tags: [phrase, period, sentence, 乐段]
+    sources:
+      - title: Open Music Theory — The Phrase, Archetypes, and Unique Forms
+        url: https://viva.pressbooks.pub/openmusictheory/chapter/phrase-archetypes-unique-forms/
+
+  - id: nonharmonic_tones
+    category: melody
+    title: 非和声音（经过/邻音/留音等）
+    summary: 教学分类与写作时对强拍弱拍的处理原则
+    doc: melody/nonharmonic_tones.md
+    code:
+      - compose_kernel.py#melody
+    tags: [nonharmonic, 经过音]
+    sources:
+      - title: musictheory.net — Nonharmonic Tones
+        url: https://www.musictheory.net/lessons
+
+  - id: melody_contour
+    category: melody
+    title: 旋律轮廓与动机发展
+    summary: 级进为主、跳进回收、重复/模进/倒影/逆行
+    doc: melody/contour.md
+    code:
+      - compose_kernel.py#melody
+      - compose_kernel.py#narrative
+    tags: [melody, motif]
+    sources:
+      - title: musictheory.net — Composing with Minor Scales / Voicing
+        url: https://www.musictheory.net/lessons
+
+  - id: meter_rhythm_basics
+    category: rhythm
+    title: 节拍与节奏基础
+    summary: 单复拍、强弱位、时值分割与密度
+    doc: rhythm/meter_basics.md
+    code:
+      - compose_kernel.py#new_score
+    tags: [meter, rhythm]
+    sources:
+      - title: musictheory.net — Simple and Compound Meter
+        url: https://www.musictheory.net/lessons
+
+  - id: accompaniment_patterns
+    category: rhythm
+    title: 伴奏织体型
+    summary: 根音/柱式/分解/阿尔贝蒂；编辑「配乐」与内核 accompaniment
+    doc: rhythm/accompaniment.md
+    code:
+      - music_score/part_accomp.py
+      - compose_kernel.py#accompaniment
+    tags: [accompaniment, 配乐]
+    sources:
+      - title: ComposerChat 配乐模块
+        url: ""

@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "TEA IN THE MORNING -- Jig.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/teainthemorningjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4527592720
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "C",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "B",
+      "bars": "9"
+    },
+    {
+      "section": "E",
+      "bars": "10"
+    },
+    {
+      "section": "D",
+      "bars": "11"
+    },
+    {
+      "section": "E",
+      "bars": "12"
+    },
+    {
+      "section": "B",
+      "bars": "13"
+    },
+    {
+      "section": "F",
+      "bars": "14"
+    },
+    {
+      "section": "D",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 6,
+    "repetition_ratio": 0.625,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F#4",
+      "G5"
+    ],
+    "mean_midi": 70.65,
+    "stepwise_ratio": 0.678,
+    "leap_ratio": 0.113,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.07,
+    "interval_hist": {
+      "2": 52,
+      "1": 26,
+      "7": 12,
+      "3": 11,
+      "0": 8,
+      "4": 5,
+      "5": 1
+    },
+    "dur_hist": {
+      "quarter": 16,
+      "8th": 84,
+      "16th": 8,
+      "dotted_quarter": 8
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2155,
+      "1": 0.0,
+      "2": 0.1379,
+      "3": 0.0,
+      "4": 0.1724,
+      "5": 0.1379,
+      "6": 0.0,
+      "7": 0.2328,
+      "8": 0.0,
+      "9": 0.0259,
+      "10": 0.0,
+      "11": 0.0776
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0776
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 84,
+      "quarter": 16,
+      "16th": 8,
+      "dotted_quarter": 8
+    },
+    "onset_beat_share": {
+      "1": 0.138,
+      "2": 0.06,
+      "3": 0.138,
+      "4": 0.138,
+      "5": 0.078,
+      "6": 0.172,
+      "7": 0.138,
+      "8": 0.069,
+      "9": 0.069
+    },
+    "beat1_onset_share": 0.138,
+    "syncopation_proxy": 0.862,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 7.25,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

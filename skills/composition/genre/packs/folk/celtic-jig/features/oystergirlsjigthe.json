@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "title": "THE OYSTER GIRL'S -- JIG.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/oystergirlsjigthe.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 26,
+    "parts": [
+      4505376528
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "G",
+      "bars": "6"
+    },
+    {
+      "section": "H",
+      "bars": "7"
+    },
+    {
+      "section": "I",
+      "bars": "8"
+    },
+    {
+      "section": "J",
+      "bars": "9"
+    },
+    {
+      "section": "K",
+      "bars": "10"
+    },
+    {
+      "section": "L",
+      "bars": "11"
+    },
+    {
+      "section": "M",
+      "bars": "12"
+    },
+    {
+      "section": "N",
+      "bars": "13"
+    },
+    {
+      "section": "B",
+      "bars": "14"
+    },
+    {
+      "section": "O",
+      "bars": "15"
+    },
+    {
+      "section": "H",
+      "bars": "16"
+    },
+    {
+      "section": "P",
+      "bars": "17"
+    },
+    {
+      "section": "B",
+      "bars": "18"
+    },
+    {
+      "section": "C",
+      "bars": "19"
+    },
+    {
+      "section": "Q",
+      "bars": "20"
+    },
+    {
+      "section": "R",
+      "bars": "21"
+    },
+    {
+      "section": "B",
+      "bars": "22"
+    },
+    {
+      "section": "G",
+      "bars": "23"
+    },
+    {
+      "section": "S",
+      "bars": "24"
+    },
+    {
+      "section": "I",
+      "bars": "25"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 19,
+    "repetition_ratio": 0.269,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 71.64,
+    "stepwise_ratio": 0.375,
+    "leap_ratio": 0.067,
+    "large_leap_ratio": 0.029,
+    "repeated_note_ratio": 0.192,
+    "interval_hist": {
+      "2": 32,
+      "3": 22,
+      "0": 20,
+      "4": 16,
+      "1": 7,
+      "12": 3,
+      "5": 3,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 62,
+      "dotted_8th": 5,
+      "16th": 5,
+      "quarter": 27,
+      "dotted_quarter": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1524,
+      "1": 0.0,
+      "2": 0.1048,
+      "3": 0.0095,
+      "4": 0.2095,
+      "5": 0.0857,
+      "6": 0.0095,
+      "7": 0.2571,
+      "8": 0.0,
+      "9": 0.1333,
+      "10": 0.0,
+      "11": 0.0381
+    },
+    "chromatic_ratio": 0.019,
+    "leading_tone_ratio": 0.0381
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 62,
+      "quarter": 27,
+      "dotted_quarter": 6,
+      "dotted_8th": 5,
+      "16th": 5
+    },
+    "onset_beat_share": {
+      "1": 0.248,
+      "2": 0.076,
+      "3": 0.171,
+      "4": 0.229,
+      "5": 0.067,
+      "6": 0.21
+    },
+    "beat1_onset_share": 0.248,
+    "syncopation_proxy": 0.752,
+    "rest_ratio": 0.046,
+    "density_notes_per_bar": 4.04,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

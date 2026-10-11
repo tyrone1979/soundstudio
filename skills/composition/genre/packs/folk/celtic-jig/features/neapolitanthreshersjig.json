@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "NEAPOLITAN THRESHERS' -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/neapolitanthreshersjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4503782672
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 71.19,
+    "stepwise_ratio": 0.518,
+    "leap_ratio": 0.247,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.153,
+    "interval_hist": {
+      "2": 27,
+      "1": 17,
+      "0": 13,
+      "5": 12,
+      "3": 5,
+      "7": 5,
+      "4": 2,
+      "8": 2,
+      "10": 2
+    },
+    "dur_hist": {
+      "8th": 77,
+      "quarter": 8,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.3256,
+      "1": 0.0,
+      "2": 0.1163,
+      "3": 0.0,
+      "4": 0.1163,
+      "5": 0.0465,
+      "6": 0.0,
+      "7": 0.1977,
+      "8": 0.0,
+      "9": 0.093,
+      "10": 0.0,
+      "11": 0.1047
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1047
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 77,
+      "quarter": 8,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.209,
+      "2": 0.151,
+      "3": 0.174,
+      "4": 0.186,
+      "5": 0.116,
+      "6": 0.163
+    },
+    "beat1_onset_share": 0.209,
+    "syncopation_proxy": 0.791,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.78,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

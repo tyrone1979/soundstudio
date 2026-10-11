@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "THE EVICTION -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/eviction.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4471430096
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "F",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "L",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    },
+    {
+      "section": "F",
+      "bars": "16"
+    },
+    {
+      "section": "E",
+      "bars": "17"
+    },
+    {
+      "section": "G",
+      "bars": "18"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.368,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "A5"
+    ],
+    "mean_midi": 72.99,
+    "stepwise_ratio": 0.465,
+    "leap_ratio": 0.091,
+    "large_leap_ratio": 0.01,
+    "repeated_note_ratio": 0.212,
+    "interval_hist": {
+      "2": 35,
+      "0": 21,
+      "3": 14,
+      "1": 11,
+      "4": 9,
+      "7": 7,
+      "12": 1,
+      "5": 1
+    },
+    "dur_hist": {
+      "8th": 89,
+      "quarter": 3,
+      "16th": 4,
+      "dotted_quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.15,
+      "1": 0.0,
+      "2": 0.12,
+      "3": 0.24,
+      "4": 0.0,
+      "5": 0.22,
+      "6": 0.0,
+      "7": 0.15,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.12,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 89,
+      "16th": 4,
+      "dotted_quarter": 4,
+      "quarter": 3
+    },
+    "onset_beat_share": {
+      "1": 0.21,
+      "2": 0.17,
+      "3": 0.17,
+      "4": 0.18,
+      "5": 0.12,
+      "6": 0.15
+    },
+    "beat1_onset_share": 0.21,
+    "syncopation_proxy": 0.79,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.26,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "FLAMING O'FLANIGAN'S -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/flamingoflanigansjig.musicxml"
+  },
+  "global": {
+    "key": "C major",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4458769232
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "B4",
+      "C6"
+    ],
+    "mean_midi": 76.65,
+    "stepwise_ratio": 0.674,
+    "leap_ratio": 0.087,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.163,
+    "interval_hist": {
+      "2": 42,
+      "1": 20,
+      "0": 15,
+      "5": 7,
+      "3": 5,
+      "4": 2,
+      "7": 1
+    },
+    "dur_hist": {
+      "16th": 7,
+      "8th": 78,
+      "dotted_quarter": 1,
+      "quarter": 4,
+      "dotted_8th": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 0,
+    "degree_hist": {
+      "0": 0.1828,
+      "1": 0.0,
+      "2": 0.1828,
+      "3": 0.0,
+      "4": 0.1613,
+      "5": 0.1183,
+      "6": 0.0,
+      "7": 0.2151,
+      "8": 0.0,
+      "9": 0.0645,
+      "10": 0.0,
+      "11": 0.0753
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0753
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 78,
+      "16th": 7,
+      "quarter": 4,
+      "dotted_8th": 3,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.215,
+      "2": 0.161,
+      "3": 0.161,
+      "4": 0.172,
+      "5": 0.129,
+      "6": 0.161
+    },
+    "beat1_onset_share": 0.215,
+    "syncopation_proxy": 0.785,
+    "rest_ratio": 0.058,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

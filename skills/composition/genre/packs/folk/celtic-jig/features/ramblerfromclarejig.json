@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "The Rambler from Clare -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/ramblerfromclarejig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4484533456
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 72.78,
+    "stepwise_ratio": 0.684,
+    "leap_ratio": 0.042,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.084,
+    "interval_hist": {
+      "2": 51,
+      "3": 15,
+      "1": 14,
+      "0": 8,
+      "4": 3,
+      "5": 3,
+      "10": 1
+    },
+    "dur_hist": {
+      "16th": 8,
+      "8th": 83,
+      "quarter": 3,
+      "dotted_8th": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.1979,
+      "1": 0.0,
+      "2": 0.1146,
+      "3": 0.125,
+      "4": 0.0,
+      "5": 0.1562,
+      "6": 0.0,
+      "7": 0.1875,
+      "8": 0.0521,
+      "9": 0.0,
+      "10": 0.1667,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 83,
+      "16th": 8,
+      "quarter": 3,
+      "dotted_8th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.198,
+      "2": 0.167,
+      "3": 0.188,
+      "4": 0.167,
+      "5": 0.135,
+      "6": 0.146
+    },
+    "beat1_onset_share": 0.198,
+    "syncopation_proxy": 0.802,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.33,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

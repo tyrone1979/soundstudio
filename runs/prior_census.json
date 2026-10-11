@@ -1,0 +1,382 @@
+{
+ "A_rule_instances": {
+  "n_subs": 25,
+  "n_entries": 240,
+  "n_param": 140,
+  "ids": {
+   "R01": 25,
+   "R02": 25,
+   "R03": 25,
+   "R05": 25,
+   "R06": 25,
+   "R07": 25,
+   "R08": 25,
+   "R10": 25,
+   "R09": 25,
+   "R04": 15
+  },
+  "n_param_keys": 11
+ },
+ "A_per_pack": {
+  "classical/piano-sonata/grammar.yaml": [
+   {
+    "sub": "allegro",
+    "n": 9,
+    "n_param": 5
+   },
+   {
+    "sub": "minuet",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "duple",
+    "n": 9,
+    "n_param": 5
+   },
+   {
+    "sub": "compound",
+    "n": 9,
+    "n_param": 5
+   }
+  ],
+  "classical/string-quartet/grammar.yaml": [
+   {
+    "sub": "allegro",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "minuet",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "duple",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "compound",
+    "n": 10,
+    "n_param": 6
+   }
+  ],
+  "classical/symphony/grammar.yaml": [
+   {
+    "sub": "allegro",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "minuet",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "duple",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "compound",
+    "n": 10,
+    "n_param": 6
+   }
+  ],
+  "folk/british-folk-tune/grammar.yaml": [
+   {
+    "sub": "jig",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "reel",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "hornpipe",
+    "n": 10,
+    "n_param": 6
+   },
+   {
+    "sub": "waltz",
+    "n": 10,
+    "n_param": 6
+   }
+  ],
+  "jazz/swing-standard/grammar.yaml": [
+   {
+    "sub": "swing",
+    "n": 9,
+    "n_param": 5
+   },
+   {
+    "sub": "bebop",
+    "n": 9,
+    "n_param": 5
+   },
+   {
+    "sub": "cool",
+    "n": 9,
+    "n_param": 5
+   },
+   {
+    "sub": "hardbop",
+    "n": 9,
+    "n_param": 5
+   },
+   {
+    "sub": "postbop",
+    "n": 9,
+    "n_param": 5
+   },
+   {
+    "sub": "traditional",
+    "n": 9,
+    "n_param": 5
+   }
+  ],
+  "pop/pop-standard/grammar.yaml": [
+   {
+    "sub": "pop",
+    "n": 10,
+    "n_param": 6
+   }
+  ],
+  "romantic/chopin-piano/grammar.yaml": [
+   {
+    "sub": "mazurka",
+    "n": 9,
+    "n_param": 5
+   }
+  ],
+  "sacred/chorale/grammar.yaml": [],
+  "vocal/madrigal/grammar.yaml": [
+   {
+    "sub": "madrigal",
+    "n": 10,
+    "n_param": 6
+   }
+  ]
+ },
+ "B_checker": {
+  "grammar/check.py": {
+   "ids": [
+    "R01",
+    "R02",
+    "R03",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09"
+   ],
+   "n": 8
+  },
+  "leadsheet/check.py": {
+   "ids": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09"
+   ],
+   "n": 9
+  }
+ },
+ "C_consts": {
+  "learn_core.py": [
+   {
+    "line": 20,
+    "name": "CTX_MIN",
+    "value": "3"
+   }
+  ],
+  "smoothing.py": [
+   {
+    "line": 180,
+    "name": "LAM_DEFAULT",
+    "value": "0.5"
+   }
+  ],
+  "grammar/compose.py": [
+   {
+    "line": 41,
+    "name": "NEG",
+    "value": "-1e9"
+   },
+   {
+    "line": 67,
+    "name": "VOICING_WEIGHT",
+    "value": "0.35"
+   },
+   {
+    "line": 72,
+    "name": "PAIR_MOTION_WEIGHT",
+    "value": "0.0"
+   },
+   {
+    "line": 99,
+    "name": "COND_MOTION_WEIGHT",
+    "value": "1.0"
+   }
+  ],
+  "grammar/learn.py": [
+   {
+    "line": 32,
+    "name": "MIN_VOCAB",
+    "value": "8"
+   },
+   {
+    "line": 40,
+    "name": "SOP_REPEAT_BIAS",
+    "value": "2.0"
+   }
+  ],
+  "grammar/check.py": [],
+  "grammar/theory.py": [],
+  "leadsheet/compose.py": [
+   {
+    "line": 36,
+    "name": "NEG",
+    "value": "-1e9"
+   },
+   {
+    "line": 37,
+    "name": "CONTOUR_SIGMA",
+    "value": "6.0"
+   }
+  ],
+  "leadsheet/learn.py": [
+   {
+    "line": 29,
+    "name": "MIN_VOCAB",
+    "value": "5"
+   },
+   {
+    "line": 30,
+    "name": "AUTO_VOCAB_SHARE",
+    "value": "0.01"
+   },
+   {
+    "line": 31,
+    "name": "AUTO_FLOOR",
+    "value": "0.25"
+   },
+   {
+    "line": 32,
+    "name": "MIN_PIECES",
+    "value": "12"
+   },
+   {
+    "line": 33,
+    "name": "MIN_LONG_PIECES",
+    "value": "4"
+   },
+   {
+    "line": 34,
+    "name": "MIN_BARS",
+    "value": "600"
+   },
+   {
+    "line": 35,
+    "name": "UNIT",
+    "value": "8"
+   },
+   {
+    "line": 36,
+    "name": "RHYTHM_TOP",
+    "value": "60"
+   }
+  ],
+  "leadsheet/check.py": []
+ },
+ "D_magic": {
+  "grammar/compose.py": {
+   "log_floors": {
+    "0.0001": 5,
+    "0.001": 1,
+    "0.02": 1,
+    "0.05": 6
+   },
+   "n_log_calls": 13,
+   "weight_names": [
+    "COND_MOTION_WEIGHT",
+    "PAIR_MOTION_WEIGHT",
+    "VOICING_WEIGHT"
+   ],
+   "n_weights": 3
+  },
+  "leadsheet/compose.py": {
+   "log_floors": {
+    "0.001": 1
+   },
+   "n_log_calls": 1,
+   "weight_names": [],
+   "n_weights": 0
+  }
+ },
+ "E_contract": [
+  {
+   "pack": "academic/fugue/style_contract.yaml",
+   "measured": 27,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "academic/piano-prelude/style_contract.yaml",
+   "measured": 27,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "classical/classical-sonata/style_contract.yaml",
+   "measured": 27,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "classical/symphony/style_contract.yaml",
+   "measured": 26,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "dance/mazurka/style_contract.yaml",
+   "measured": 27,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "dance/waltz/style_contract.yaml",
+   "measured": 26,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "folk/british-folk-tune/style_contract.yaml",
+   "measured": 27,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "folk/celtic-jig/style_contract.yaml",
+   "measured": 27,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "jazz/swing-standard/style_contract.yaml",
+   "measured": 26,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "pop/pop-standard/style_contract.yaml",
+   "measured": 27,
+   "unmeasured_tail": 3
+  },
+  {
+   "pack": "sacred/chorale/style_contract.yaml",
+   "measured": 26,
+   "unmeasured_tail": 3
+  }
+ ]
+}

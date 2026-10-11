@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "title": "THE BOYS OF BOCKHILL - JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/boysofbockhilljig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4489653776
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "F",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10-11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "L",
+      "bars": "14"
+    },
+    {
+      "section": "C",
+      "bars": "15"
+    },
+    {
+      "section": "M",
+      "bars": "16"
+    },
+    {
+      "section": "G",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.06
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 71.99,
+    "stepwise_ratio": 0.51,
+    "leap_ratio": 0.102,
+    "large_leap_ratio": 0.01,
+    "repeated_note_ratio": 0.122,
+    "interval_hist": {
+      "2": 38,
+      "3": 19,
+      "1": 12,
+      "0": 12,
+      "5": 8,
+      "4": 7,
+      "7": 1,
+      "17": 1
+    },
+    "dur_hist": {
+      "8th": 85,
+      "16th": 10,
+      "quarter": 2,
+      "dotted_8th": 1,
+      "ql=0.12": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.3434,
+      "1": 0.0,
+      "2": 0.1313,
+      "3": 0.0,
+      "4": 0.101,
+      "5": 0.0101,
+      "6": 0.0,
+      "7": 0.1818,
+      "8": 0.0,
+      "9": 0.1414,
+      "10": 0.0,
+      "11": 0.0909
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0909
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 85,
+      "16th": 10,
+      "quarter": 2,
+      "dotted_8th": 1,
+      "ql=0.12": 1
+    },
+    "onset_beat_share": {
+      "1": 0.182,
+      "2": 0.172,
+      "3": 0.172,
+      "4": 0.202,
+      "5": 0.141,
+      "6": 0.131
+    },
+    "beat1_onset_share": 0.182,
+    "syncopation_proxy": 0.818,
+    "rest_ratio": 0.07,
+    "density_notes_per_bar": 5.5,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

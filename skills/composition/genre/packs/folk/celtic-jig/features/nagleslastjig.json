@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "title": "NAGLE'S LAST -- JIG",
+    "composer": "R.B.Nagle",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/nagleslastjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 17,
+    "parts": [
+      4485715600
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.176,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "D6"
+    ],
+    "mean_midi": 70.53,
+    "stepwise_ratio": 0.439,
+    "leap_ratio": 0.075,
+    "large_leap_ratio": 0.047,
+    "repeated_note_ratio": 0.121,
+    "interval_hist": {
+      "2": 33,
+      "3": 24,
+      "4": 15,
+      "1": 14,
+      "0": 13,
+      "12": 3,
+      "5": 2,
+      "16": 2,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 7,
+      "16th": 100,
+      "dotted_8th": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1944,
+      "1": 0.0,
+      "2": 0.1667,
+      "3": 0.0,
+      "4": 0.2222,
+      "5": 0.0648,
+      "6": 0.0,
+      "7": 0.1481,
+      "8": 0.0,
+      "9": 0.0926,
+      "10": 0.0,
+      "11": 0.1111
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1111
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 100,
+      "8th": 7,
+      "dotted_8th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.574,
+      "2": 0.426
+    },
+    "beat1_onset_share": 0.574,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.14,
+    "density_notes_per_bar": 6.35,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

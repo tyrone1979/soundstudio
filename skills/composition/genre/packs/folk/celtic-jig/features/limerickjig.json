@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "LIMERICK -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/limerickjig.musicxml"
+  },
+  "global": {
+    "key": "F major",
+    "key_sharps": -1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4526098384
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 7,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F4",
+      "B-5"
+    ],
+    "mean_midi": 74.03,
+    "stepwise_ratio": 0.603,
+    "leap_ratio": 0.276,
+    "large_leap_ratio": 0.017,
+    "repeated_note_ratio": 0.017,
+    "interval_hist": {
+      "2": 26,
+      "1": 9,
+      "5": 9,
+      "4": 3,
+      "7": 3,
+      "3": 3,
+      "8": 2,
+      "12": 1,
+      "0": 1,
+      "9": 1
+    },
+    "dur_hist": {
+      "quarter": 13,
+      "8th": 46
+    }
+  },
+  "tonal": {
+    "tonic_pc": 5,
+    "degree_hist": {
+      "0": 0.2034,
+      "1": 0.0,
+      "2": 0.1356,
+      "3": 0.0,
+      "4": 0.2373,
+      "5": 0.0678,
+      "6": 0.0,
+      "7": 0.2373,
+      "8": 0.0,
+      "9": 0.0847,
+      "10": 0.0,
+      "11": 0.0339
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0339
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 46,
+      "quarter": 13
+    },
+    "onset_beat_share": {
+      "1": 0.136,
+      "2": 0.051,
+      "3": 0.136,
+      "4": 0.136,
+      "5": 0.0,
+      "6": 0.136,
+      "7": 0.136,
+      "8": 0.136,
+      "9": 0.136
+    },
+    "beat1_onset_share": 0.136,
+    "syncopation_proxy": 0.864,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 7.38,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

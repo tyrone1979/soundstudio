@@ -1,0 +1,192 @@
+id: classical-sonata
+name: 古典奏鸣曲·室内乐乐章
+name_en: Classical Sonata / Chamber Movement
+enabled: true
+version: '1.2'
+dimensions:
+  form: sonata_or_binary
+  tempo_energy: varies
+  mood: classical_balance
+  medium: piano_or_chamber
+  tradition: western_classical
+  tonal_language: functional_tonal
+  rhythmic_identity: metrical_clear
+  family: classical
+triggers:
+  keywords:
+  - 奏鸣曲
+  - 奏鸣曲式
+  - 古典奏鸣曲
+  - 弦乐四重奏
+  - 室内乐
+  - 赋格（键盘）
+  - 平均律
+  - sonata
+  - classical sonata
+  - string quartet
+  style_tags:
+  - sonata
+  - chamber
+  - classical_era
+  - keyboard_work
+summary: 古典奏鸣曲与室内乐乐章：方整乐句、清晰的呈示-展开结构、阿尔贝提低音等古典织体惯例。
+profile:
+  mode: 大小调功能和声；转调服务于结构。
+  tonal_center:
+    preferred:
+    - C major
+    - D major
+    - F major
+    - B- major
+    secondary:
+    - C minor
+    - D minor
+    - G minor
+    empirical_key_dist:
+      C major: 0.094
+      C minor: 0.045
+      C# major: 0.016
+      C# minor: 0.02
+      D major: 0.131
+      D minor: 0.033
+      E- major: 0.094
+      E- minor: 0.008
+      E major: 0.041
+      E minor: 0.024
+      F major: 0.069
+      F minor: 0.045
+      F# major: 0.016
+      F# minor: 0.016
+      G major: 0.073
+      G minor: 0.016
+      A- major: 0.045
+      G# minor: 0.016
+      A major: 0.078
+      A minor: 0.029
+      B- major: 0.069
+      B- minor: 0.008
+      B major: 0.004
+      B minor: 0.008
+  tempo:
+    unit: quarter_note
+    min: 66
+    max: 168
+    default: 112
+    character: 与乐章标记一致；古典时期不做极端伸缩。
+  meter:
+    primary: 4/4
+    allowed:
+    - 4/4
+    - 2/4
+    - 3/4
+    - 3/8
+    - 6/8
+    description: 拍点清晰，乐句方正。
+  rhythm:
+    identity: metrically clear classical
+    accompaniment:
+      default: alberti_or_chamber_homophony
+      alternatives:
+      - counterpoint_equal_voices
+    melodic_preferred:
+    - periodic_phrase
+    - sequence
+    - ornament
+  phrase:
+    preferred:
+    - 4+4
+    - 8+8
+    description: 周期性的前句-后句，是古典句法的骨架。
+  cadence:
+    four_bar: half
+    eight_bar: PAC
+    final: 完全终止，并常常带有一个明确的小尾声。
+  harmony:
+    vocabulary_basic:
+    - I
+    - IV
+    - V
+    - V7
+    - vi
+    - ii
+    - IV-V
+    progressions:
+    - I–V–vi–iii–IV–I–IV–V
+    - I–IV–V–I
+    forbidden:
+    - chromatic_without_function
+    harmonic_rhythm_empirical: 语料约 3.47 和弦/小节
+  melody:
+    character: 歌唱性与周期性并重，常见装饰音与音型式延展
+    contour_preferred:
+    - stepwise
+    - balanced
+    - arch
+    range_default:
+      low: C4
+      high: G5
+    stepwise_ratio_target: 0.494
+    rules: 语料级进比约 49%；大跳比约 23%。以级进为主。
+    leap_ratio_target: 0.23
+  texture:
+    primary: homophony_with_periodic_bass
+    density: melody_plus_accompaniment
+  register:
+    melody:
+      low: C4
+      high: G5
+    bass:
+      low: E2
+      high: C4
+  color:
+    medium_note: 钢琴或小编制
+    character: 织体透明、声部对话清晰；装饰音与力度层次是主要色彩手段。
+  constraints:
+    must:
+    - 乐句周期方正；低音声部不要超出乐器音域。
+    - 伴奏织体简洁（阿尔贝提低音、分解和弦或均质声部进行）。
+    avoid:
+    - 无结构感的连续和弦；声部写满不留呼吸。
+  priority:
+  - phrase_periodicity
+  - register_safety
+  - functional_harmony
+  empirical:
+    source: score_learning
+    total_scores: 245
+    means:
+      tempo: 112.32
+      stepwise_ratio: 0.494
+      leap_ratio: 0.23
+      bass_beat1_ratio: 0.906
+      beat1_onset_share: 0.354
+      density_notes_per_bar: 12.004
+      harmonic_rhythm_chords_per_bar: 3.467
+    updated_at: '2026-09-28T20:42:04'
+    core_rules: []
+    fingerprint: 2c7d692451b0
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 32
+    complexity: 3
+    instruments_default:
+    - piano
+    required:
+    - cadence
+  composition:
+    bars_default: 32
+    complexity: 4
+    preserve:
+    - meter
+    - tonal_language
+    - melodic_character
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - form
+llm_instruction: 落实古典奏鸣曲乐章：周期性乐句、清晰终止、适度装饰；伴奏织体简洁并贴合乐器音域。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

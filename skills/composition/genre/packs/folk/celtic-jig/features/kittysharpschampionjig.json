@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "Kitty Sharp's Champion -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/kittysharpschampionjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 45,
+    "parts": [
+      4478792720
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 37,
+    "repetition_ratio": 0.178,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "C6"
+    ],
+    "mean_midi": 71.39,
+    "stepwise_ratio": 0.685,
+    "leap_ratio": 0.091,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.033,
+    "interval_hist": {
+      "2": 118,
+      "1": 71,
+      "3": 30,
+      "4": 23,
+      "5": 11,
+      "0": 9,
+      "9": 6,
+      "12": 5,
+      "8": 2,
+      "13": 1
+    },
+    "dur_hist": {
+      "triplet": 48,
+      "quarter": 27,
+      "dotted_8th": 79,
+      "16th": 79,
+      "8th": 27,
+      "half": 10,
+      "0": 7
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2274,
+      "1": 0.0,
+      "2": 0.1011,
+      "3": 0.0,
+      "4": 0.1336,
+      "5": 0.0578,
+      "6": 0.0072,
+      "7": 0.148,
+      "8": 0.0289,
+      "9": 0.1588,
+      "10": 0.0144,
+      "11": 0.1227
+    },
+    "chromatic_ratio": 0.0505,
+    "leading_tone_ratio": 0.1227
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.1778,
+    "swing_pair_share": 0.25
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "dotted_8th": 79,
+      "16th": 79,
+      "triplet": 48,
+      "quarter": 27,
+      "8th": 27,
+      "half": 10,
+      "0": 7
+    },
+    "onset_beat_share": {
+      "1": 0.578,
+      "2": 0.422
+    },
+    "beat1_onset_share": 0.578,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.121,
+    "density_notes_per_bar": 6.16,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

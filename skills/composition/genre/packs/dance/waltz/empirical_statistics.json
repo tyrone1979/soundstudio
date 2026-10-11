@@ -1,0 +1,113 @@
+{
+  "total_scores": 52,
+  "means": {
+    "tempo": null,
+    "stepwise_ratio": 0.546,
+    "leap_ratio": 0.132,
+    "bass_beat1_ratio": 1.0,
+    "beat1_onset_share": 0.544,
+    "density_notes_per_bar": 3.706,
+    "harmonic_rhythm_chords_per_bar": 1.051
+  },
+  "distributions": {
+    "meter": {
+      "3/4": 52
+    },
+    "key": {
+      "G major": 16,
+      "E minor": 5,
+      "D major": 19,
+      "A major": 3,
+      "A minor": 3,
+      "F major": 3,
+      "D minor": 1,
+      "B- major": 1,
+      "C major": 1
+    }
+  },
+  "rules": [
+    {
+      "rule": "meter=3/4",
+      "evidence_count": 52,
+      "total_scores": 52,
+      "frequency": 1.0,
+      "confidence": "high",
+      "universality": "core",
+      "detail": {
+        "3/4": 52
+      }
+    },
+    {
+      "rule": "key=D major",
+      "evidence_count": 19,
+      "total_scores": 52,
+      "frequency": 0.365,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=G major",
+      "evidence_count": 16,
+      "total_scores": 52,
+      "frequency": 0.308,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=E minor",
+      "evidence_count": 5,
+      "total_scores": 52,
+      "frequency": 0.096,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=A major",
+      "evidence_count": 3,
+      "total_scores": 52,
+      "frequency": 0.058,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=A minor",
+      "evidence_count": 3,
+      "total_scores": 52,
+      "frequency": 0.058,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=F major",
+      "evidence_count": 3,
+      "total_scores": 52,
+      "frequency": 0.058,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "bass_emphasizes_beat_1",
+      "evidence_count": 52,
+      "total_scores": 52,
+      "frequency": 1.0,
+      "confidence": "high",
+      "universality": "core",
+      "detail": 1.0
+    },
+    {
+      "rule": "beat1_onset_weight",
+      "evidence_count": 52,
+      "total_scores": 52,
+      "frequency": 1.0,
+      "confidence": "high",
+      "universality": "core",
+      "detail": 0.544
+    }
+  ]
+}

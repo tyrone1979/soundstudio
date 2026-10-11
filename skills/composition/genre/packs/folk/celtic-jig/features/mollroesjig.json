@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "MOLL ROE'S -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/mollroesjig.musicxml"
+  },
+  "global": {
+    "key": "G minor",
+    "key_sharps": -2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 10,
+    "parts": [
+      4493958032
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 10,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "E-5"
+    ],
+    "mean_midi": 69.32,
+    "stepwise_ratio": 0.522,
+    "leap_ratio": 0.09,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.06,
+    "interval_hist": {
+      "2": 26,
+      "3": 12,
+      "4": 10,
+      "1": 9,
+      "0": 4,
+      "5": 4,
+      "7": 2
+    },
+    "dur_hist": {
+      "8th": 64,
+      "quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2206,
+      "1": 0.0,
+      "2": 0.1912,
+      "3": 0.1618,
+      "4": 0.0,
+      "5": 0.1176,
+      "6": 0.0,
+      "7": 0.1912,
+      "8": 0.0294,
+      "9": 0.0,
+      "10": 0.0882,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 64,
+      "quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.147,
+      "2": 0.118,
+      "3": 0.118,
+      "4": 0.118,
+      "5": 0.118,
+      "6": 0.118,
+      "7": 0.118,
+      "8": 0.059,
+      "9": 0.088
+    },
+    "beat1_onset_share": 0.147,
+    "syncopation_proxy": 0.853,
+    "rest_ratio": 0.122,
+    "density_notes_per_bar": 6.8,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "TEETOTAL -- JIG",
+    "composer": "A.Gunn",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/teetotaljig.musicxml"
+  },
+  "global": {
+    "key": "C major",
+    "key_sharps": 0,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4501767248
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "A",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "J",
+      "bars": "13"
+    },
+    {
+      "section": "K",
+      "bars": "14"
+    },
+    {
+      "section": "L",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.25,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "C4",
+      "A5"
+    ],
+    "mean_midi": 70.4,
+    "stepwise_ratio": 0.274,
+    "leap_ratio": 0.096,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.126,
+    "interval_hist": {
+      "3": 47,
+      "2": 33,
+      "4": 21,
+      "0": 17,
+      "5": 11,
+      "1": 4,
+      "8": 2
+    },
+    "dur_hist": {
+      "dotted_8th": 11,
+      "16th": 11,
+      "8th": 106,
+      "quarter": 8
+    }
+  },
+  "tonal": {
+    "tonic_pc": 0,
+    "degree_hist": {
+      "0": 0.2574,
+      "1": 0.0,
+      "2": 0.0515,
+      "3": 0.0,
+      "4": 0.2426,
+      "5": 0.0147,
+      "6": 0.0,
+      "7": 0.2941,
+      "8": 0.0,
+      "9": 0.125,
+      "10": 0.0,
+      "11": 0.0147
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0147
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 106,
+      "dotted_8th": 11,
+      "16th": 11,
+      "quarter": 8
+    },
+    "onset_beat_share": {
+      "1": 0.118,
+      "2": 0.118,
+      "3": 0.118,
+      "4": 0.118,
+      "5": 0.118,
+      "6": 0.118,
+      "7": 0.118,
+      "8": 0.059,
+      "9": 0.118
+    },
+    "beat1_onset_share": 0.118,
+    "syncopation_proxy": 0.882,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.5,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

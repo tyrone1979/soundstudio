@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "IRISH SHOW BOY -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/irishshowboyjig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4509336656
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 71.39,
+    "stepwise_ratio": 0.571,
+    "leap_ratio": 0.165,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.088,
+    "interval_hist": {
+      "2": 35,
+      "1": 17,
+      "4": 11,
+      "5": 9,
+      "0": 8,
+      "3": 5,
+      "9": 2,
+      "16": 1,
+      "7": 1,
+      "8": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "16th": 8,
+      "quarter": 6,
+      "8th": 74,
+      "dotted_8th": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.0652,
+      "1": 0.0,
+      "2": 0.1087,
+      "3": 0.337,
+      "4": 0.0,
+      "5": 0.1413,
+      "6": 0.0,
+      "7": 0.1957,
+      "8": 0.0652,
+      "9": 0.0,
+      "10": 0.087,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 74,
+      "16th": 8,
+      "quarter": 6,
+      "dotted_8th": 4
+    },
+    "onset_beat_share": {
+      "1": 0.207,
+      "2": 0.152,
+      "3": 0.174,
+      "4": 0.174,
+      "5": 0.13,
+      "6": 0.163
+    },
+    "beat1_onset_share": 0.207,
+    "syncopation_proxy": 0.793,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.11,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "genre": "pop-standard",
+  "techniques": {
+    "rhythmic": [
+      {
+        "name": "meter_4/4",
+        "description": "meter=4/4",
+        "frequency": 0.905,
+        "confidence": "high",
+        "universality": "core"
+      }
+    ],
+    "melodic": [
+      {
+        "name": "stepwise_lyrical_motion",
+        "description": "Mean stepwise_ratio=0.33",
+        "frequency": null,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "harmonic": [],
+    "phrase": [],
+    "accompaniment": [
+      {
+        "name": "bass_emphasizes_beat_1",
+        "description": "bass_emphasizes_beat_1",
+        "frequency": 0.014,
+        "confidence": "low",
+        "universality": "optional"
+      }
+    ],
+    "orchestration": [],
+    "development": [],
+    "cadence": [],
+    "stylistic_constraints": {
+      "must": [
+        "Use meter 4/4"
+      ],
+      "should": [],
+      "avoid": []
+    }
+  },
+  "_fallback": true,
+  "_source_stats_total": 210
+}

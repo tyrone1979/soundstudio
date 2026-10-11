@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "title": "TO CASHELL I'M GOING -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/tocashellimgoingjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 27,
+    "parts": [
+      4512568080
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "B",
+      "bars": "14"
+    },
+    {
+      "section": "C",
+      "bars": "15"
+    },
+    {
+      "section": "D",
+      "bars": "16"
+    },
+    {
+      "section": "F",
+      "bars": "17"
+    },
+    {
+      "section": "H",
+      "bars": "18"
+    },
+    {
+      "section": "I",
+      "bars": "19"
+    },
+    {
+      "section": "L",
+      "bars": "20"
+    },
+    {
+      "section": "M",
+      "bars": "21"
+    },
+    {
+      "section": "N",
+      "bars": "22"
+    },
+    {
+      "section": "B",
+      "bars": "23"
+    },
+    {
+      "section": "C",
+      "bars": "24"
+    },
+    {
+      "section": "D",
+      "bars": "25"
+    },
+    {
+      "section": "F",
+      "bars": "26"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.481,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F#4",
+      "B5"
+    ],
+    "mean_midi": 74.39,
+    "stepwise_ratio": 0.604,
+    "leap_ratio": 0.045,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.172,
+    "interval_hist": {
+      "2": 55,
+      "1": 26,
+      "0": 23,
+      "3": 13,
+      "4": 11,
+      "5": 5,
+      "7": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "8th": 123,
+      "quarter": 10
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2444,
+      "1": 0.0,
+      "2": 0.0815,
+      "3": 0.0,
+      "4": 0.1704,
+      "5": 0.1704,
+      "6": 0.0,
+      "7": 0.2,
+      "8": 0.0,
+      "9": 0.037,
+      "10": 0.0963,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0963,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 123,
+      "quarter": 10,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.207,
+      "2": 0.178,
+      "3": 0.178,
+      "4": 0.178,
+      "5": 0.104,
+      "6": 0.156
+    },
+    "beat1_onset_share": 0.207,
+    "syncopation_proxy": 0.793,
+    "rest_ratio": 0.053,
+    "density_notes_per_bar": 5.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

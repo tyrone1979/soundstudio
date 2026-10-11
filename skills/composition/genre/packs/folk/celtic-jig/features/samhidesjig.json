@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Sam. Hide's -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/samhidesjig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 3,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4513866192
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "A5"
+    ],
+    "mean_midi": 73.29,
+    "stepwise_ratio": 0.455,
+    "leap_ratio": 0.068,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.148,
+    "interval_hist": {
+      "2": 34,
+      "3": 17,
+      "0": 13,
+      "4": 12,
+      "1": 6,
+      "5": 4,
+      "8": 1,
+      "10": 1
+    },
+    "dur_hist": {
+      "8th": 83,
+      "dotted_quarter": 1,
+      "quarter": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.2809,
+      "1": 0.0,
+      "2": 0.1124,
+      "3": 0.0,
+      "4": 0.1798,
+      "5": 0.0562,
+      "6": 0.0,
+      "7": 0.1798,
+      "8": 0.0,
+      "9": 0.1461,
+      "10": 0.0,
+      "11": 0.0449
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0449
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 83,
+      "quarter": 5,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.202,
+      "2": 0.146,
+      "3": 0.169,
+      "4": 0.18,
+      "5": 0.146,
+      "6": 0.157
+    },
+    "beat1_onset_share": 0.202,
+    "syncopation_proxy": 0.798,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.94,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,76 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: piano-prelude
+family: academic
+schema: style-contract/v1
+evidence_n: 24
+evidence_weight: 1.0
+tempo:
+  default: 110
+  min: 54
+  max: 160
+  source: empirical
+  evidence_n: 24
+meter:
+  primary: 4/4
+  allowed:
+  - 2/8
+  - 4/4
+  - 2/2
+  - 3/8
+  - 3/4
+  - 6/8
+  - 6/4
+  weights:
+    2/8: 0.0417
+    4/4: 0.2917
+    2/2: 0.1667
+    3/8: 0.0417
+    3/4: 0.25
+    6/8: 0.1667
+    6/4: 0.0417
+  source: empirical
+  evidence_n: 24
+harmony:
+  chords_per_bar: 3.67
+  quality_weights:
+    triad: 0.615
+    dominant7: 0.074
+    major7: 0.012
+    minor7: 0.025
+    diminished7: 0.019
+    half_diminished7: 0.039
+    augmented: 0.048
+    other: 0.168
+  unique_roots_mean: 11.0
+  evidence_n: 23
+melody:
+  stepwise_ratio: 0.349
+  leap_ratio: 0.329
+  repeated_note_ratio: 0.189
+  range_center: 69.65
+  range_width: null
+  mean_midi: 69.65
+  evidence_n: 24
+rhythm:
+  density_notes_per_bar: 9.855
+  beat1_onset_share: 0.331
+  syncopation: 0.562
+  swing_ratio: 2.25
+  swing_pair_share: 0.083
+  triplet_ratio: 0.124
+  evidence_n: 24
+texture:
+  voice_count: 2.0
+  evidence_n: 24
+form:
+  phrase_len: 1.025
+  repetition_ratio: 0.241
+  unique_motifs: 23.0
+  evidence_n: 24
+provenance:
+  built_from: features
+  scores_analyzed: 24
+  scores_with_harmony: 23
+  min_evidence: 8

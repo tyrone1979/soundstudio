@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="ComposerChat concept: kernel graph">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="0.55" stop-color="#6D28D9"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="note" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1E1B4B" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="104" ry="104" fill="url(#bg)" filter="url(#soft)"/>
+  <g stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="6" stroke-linecap="round">
+    <line x1="256" y1="256" x2="150" y2="150"/>
+    <line x1="256" y1="256" x2="380" y2="150"/>
+    <line x1="256" y1="256" x2="150" y2="380"/>
+    <line x1="256" y1="256" x2="380" y2="380"/>
+    <line x1="150" y1="150" x2="380" y2="150"/>
+    <line x1="150" y1="380" x2="380" y2="380"/>
+  </g>
+  <g fill="#FFFFFF">
+    <circle cx="150" cy="150" r="16"/>
+    <circle cx="380" cy="150" r="16"/>
+    <circle cx="150" cy="380" r="16"/>
+    <circle cx="380" cy="380" r="16"/>
+  </g>
+  <g fill="url(#note)">
+    <rect x="266" y="150" width="14" height="150" rx="7"/>
+    <ellipse cx="236" cy="300" rx="34" ry="25" transform="rotate(-20 236 300)"/>
+  </g>
+</svg>

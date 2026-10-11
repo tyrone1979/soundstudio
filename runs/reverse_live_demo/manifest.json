@@ -1,0 +1,44 @@
+{
+  "title": "晨光小夜曲·快板",
+  "bars": 32,
+  "voices": 5,
+  "seed": "live-demo-1",
+  "source_hash": "ffea70c39709a242",
+  "instruments": [
+    "violin",
+    "violin",
+    "viola",
+    "cello",
+    "contrabass"
+  ],
+  "sections": [
+    {
+      "name": "S1",
+      "bars": 8,
+      "dynamic": "mf",
+      "tempo_text": "Allegro",
+      "bpm": 120
+    },
+    {
+      "name": "S2",
+      "bars": 8,
+      "dynamic": "mf",
+      "tempo_text": "Allegro",
+      "bpm": 120
+    },
+    {
+      "name": "S3",
+      "bars": 8,
+      "dynamic": "mf",
+      "tempo_text": "Agitato",
+      "bpm": 126
+    },
+    {
+      "name": "S4",
+      "bars": 8,
+      "dynamic": "mf",
+      "tempo_text": "Allegro",
+      "bpm": 120
+    }
+  ]
+}

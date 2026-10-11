@@ -1,0 +1,35 @@
+{
+  "id": "274ae72205",
+  "title": "新对话",
+  "updated_at": "2026-09-29T18:44:24",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "你好！可直接描述想要的曲子；或点选小节/音符后再说怎么改。输入 /help。",
+      "ts": "2026-09-29T18:31:26"
+    }
+  ],
+  "compose": {
+    "composition_id": "f2167f4d",
+    "revision": 0,
+    "prefs": {
+      "key_sharps": 0,
+      "mode": "major",
+      "tempo": 120,
+      "bars": 8,
+      "meter": "4/4",
+      "style": "",
+      "genre_id": "",
+      "instrumentation": "",
+      "fugue": "auto",
+      "voices": 0,
+      "_explicit": {}
+    },
+    "plan": null,
+    "score_spec": null,
+    "last_skill_ids": [],
+    "last_advice": null,
+    "compose_trace": null
+  },
+  "created_at": "2026-09-29T18:31:26"
+}

@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "title": "LARRY GROGAN'S -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/larrygrogansjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4508720272
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "F",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "J",
+      "bars": "11"
+    },
+    {
+      "section": "K",
+      "bars": "12"
+    },
+    {
+      "section": "L",
+      "bars": "13"
+    },
+    {
+      "section": "I",
+      "bars": "14"
+    },
+    {
+      "section": "M",
+      "bars": "15"
+    },
+    {
+      "section": "F",
+      "bars": "16"
+    },
+    {
+      "section": "G",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 71.5,
+    "stepwise_ratio": 0.539,
+    "leap_ratio": 0.059,
+    "large_leap_ratio": 0.02,
+    "repeated_note_ratio": 0.118,
+    "interval_hist": {
+      "2": 30,
+      "1": 25,
+      "3": 16,
+      "4": 13,
+      "0": 12,
+      "12": 2,
+      "7": 2,
+      "5": 1,
+      "11": 1
+    },
+    "dur_hist": {
+      "16th": 29,
+      "8th": 62,
+      "dotted_8th": 9,
+      "quarter": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2427,
+      "1": 0.0,
+      "2": 0.1359,
+      "3": 0.0,
+      "4": 0.165,
+      "5": 0.165,
+      "6": 0.0,
+      "7": 0.1262,
+      "8": 0.0,
+      "9": 0.0388,
+      "10": 0.0,
+      "11": 0.1262
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1262
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 62,
+      "16th": 29,
+      "dotted_8th": 9,
+      "quarter": 3
+    },
+    "onset_beat_share": {
+      "1": 0.184,
+      "2": 0.155,
+      "3": 0.243,
+      "4": 0.155,
+      "5": 0.126,
+      "6": 0.136
+    },
+    "beat1_onset_share": 0.184,
+    "syncopation_proxy": 0.816,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.72,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

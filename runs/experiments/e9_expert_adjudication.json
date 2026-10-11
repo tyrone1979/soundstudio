@@ -1,0 +1,913 @@
+{
+ "checker": {
+  "raters": [
+   "A",
+   "B"
+  ],
+  "n_items": 195,
+  "per_rater": {
+   "A": {
+    "per_stratum": {
+     "R09": {
+      "n": 19,
+      "judged_violation": 11,
+      "rate": 0.5789,
+      "ci95": [
+       0.3628,
+       0.7686
+      ],
+      "type_match": 8,
+      "unsure_or_blank": 0
+     },
+     "clean": {
+      "n": 50,
+      "judged_violation": 3,
+      "rate": 0.06,
+      "ci95": [
+       0.0206,
+       0.1622
+      ],
+      "type_match": 0,
+      "unsure_or_blank": 0
+     },
+     "R01": {
+      "n": 19,
+      "judged_violation": 19,
+      "rate": 1.0,
+      "ci95": [
+       0.8318,
+       1.0
+      ],
+      "type_match": 17,
+      "unsure_or_blank": 0
+     },
+     "R03": {
+      "n": 19,
+      "judged_violation": 19,
+      "rate": 1.0,
+      "ci95": [
+       0.8318,
+       1.0
+      ],
+      "type_match": 17,
+      "unsure_or_blank": 0
+     },
+     "R06": {
+      "n": 17,
+      "judged_violation": 15,
+      "rate": 0.8824,
+      "ci95": [
+       0.6566,
+       0.9671
+      ],
+      "type_match": 14,
+      "unsure_or_blank": 0
+     },
+     "R03/R04": {
+      "n": 19,
+      "judged_violation": 19,
+      "rate": 1.0,
+      "ci95": [
+       0.8318,
+       1.0
+      ],
+      "type_match": 16,
+      "unsure_or_blank": 0
+     },
+     "R07": {
+      "n": 19,
+      "judged_violation": 13,
+      "rate": 0.6842,
+      "ci95": [
+       0.4601,
+       0.8464
+      ],
+      "type_match": 10,
+      "unsure_or_blank": 0
+     },
+     "R02": {
+      "n": 15,
+      "judged_violation": 11,
+      "rate": 0.7333,
+      "ci95": [
+       0.4805,
+       0.891
+      ],
+      "type_match": 6,
+      "unsure_or_blank": 0
+     },
+     "R08": {
+      "n": 18,
+      "judged_violation": 12,
+      "rate": 0.6667,
+      "ci95": [
+       0.4375,
+       0.8372
+      ],
+      "type_match": 7,
+      "unsure_or_blank": 0
+     }
+    },
+    "precision_weighted": 0.7641,
+    "miss_rate_unflagged": 0.06,
+    "recall_estimated": 0.8005,
+    "chord_label_correct": 0.9949,
+    "chord_label_judged": 195
+   },
+   "B": {
+    "per_stratum": {
+     "R09": {
+      "n": 19,
+      "judged_violation": 9,
+      "rate": 0.4737,
+      "ci95": [
+       0.2733,
+       0.6829
+      ],
+      "type_match": 9,
+      "unsure_or_blank": 0
+     },
+     "clean": {
+      "n": 50,
+      "judged_violation": 4,
+      "rate": 0.08,
+      "ci95": [
+       0.0315,
+       0.1884
+      ],
+      "type_match": 0,
+      "unsure_or_blank": 0
+     },
+     "R01": {
+      "n": 19,
+      "judged_violation": 11,
+      "rate": 0.5789,
+      "ci95": [
+       0.3628,
+       0.7686
+      ],
+      "type_match": 9,
+      "unsure_or_blank": 0
+     },
+     "R03": {
+      "n": 19,
+      "judged_violation": 7,
+      "rate": 0.3684,
+      "ci95": [
+       0.1915,
+       0.5896
+      ],
+      "type_match": 6,
+      "unsure_or_blank": 0
+     },
+     "R06": {
+      "n": 17,
+      "judged_violation": 15,
+      "rate": 0.8824,
+      "ci95": [
+       0.6566,
+       0.9671
+      ],
+      "type_match": 15,
+      "unsure_or_blank": 0
+     },
+     "R03/R04": {
+      "n": 19,
+      "judged_violation": 18,
+      "rate": 0.9474,
+      "ci95": [
+       0.7536,
+       0.9906
+      ],
+      "type_match": 10,
+      "unsure_or_blank": 0
+     },
+     "R07": {
+      "n": 19,
+      "judged_violation": 9,
+      "rate": 0.4737,
+      "ci95": [
+       0.2733,
+       0.6829
+      ],
+      "type_match": 7,
+      "unsure_or_blank": 0
+     },
+     "R02": {
+      "n": 15,
+      "judged_violation": 5,
+      "rate": 0.3333,
+      "ci95": [
+       0.1518,
+       0.5829
+      ],
+      "type_match": 3,
+      "unsure_or_blank": 0
+     },
+     "R08": {
+      "n": 18,
+      "judged_violation": 9,
+      "rate": 0.5,
+      "ci95": [
+       0.2903,
+       0.7097
+      ],
+      "type_match": 5,
+      "unsure_or_blank": 0
+     }
+    },
+    "precision_weighted": 0.541,
+    "miss_rate_unflagged": 0.08,
+    "recall_estimated": 0.6806,
+    "chord_label_correct": 0.9897,
+    "chord_label_judged": 194
+   }
+  },
+  "kappa": {
+   "raters": [
+    "A",
+    "B"
+   ],
+   "three_way": 0.5906,
+   "binary": 0.5906,
+   "n_both_binary": 195
+  }
+ },
+ "checker_refined": {
+  "weights": {
+   "flagged": 5.097,
+   "clean": 56.8
+  },
+  "items_changed": [
+   {
+    "item": "E001",
+    "old": [
+     "R07",
+     "R09"
+    ],
+    "new": []
+   },
+   {
+    "item": "E002",
+    "old": [
+     "R09"
+    ],
+    "new": []
+   },
+   {
+    "item": "E005",
+    "old": [
+     "R03"
+    ],
+    "new": []
+   },
+   {
+    "item": "E008",
+    "old": [
+     "R09"
+    ],
+    "new": []
+   },
+   {
+    "item": "E010",
+    "old": [
+     "R01",
+     "R03",
+     "R07"
+    ],
+    "new": [
+     "R01"
+    ]
+   },
+   {
+    "item": "E011",
+    "old": [
+     "R03",
+     "R03/R04",
+     "R09"
+    ],
+    "new": [
+     "R03",
+     "R03/R04"
+    ]
+   },
+   {
+    "item": "E012",
+    "old": [
+     "R03",
+     "R03/R04"
+    ],
+    "new": [
+     "R03/R04"
+    ]
+   },
+   {
+    "item": "E015",
+    "old": [
+     "R09"
+    ],
+    "new": []
+   },
+   {
+    "item": "E016",
+    "old": [
+     "R03",
+     "R08"
+    ],
+    "new": []
+   },
+   {
+    "item": "E018",
+    "old": [
+     "R02",
+     "R07",
+     "R09"
+    ],
+    "new": [
+     "R02",
+     "R07"
+    ]
+   },
+   {
+    "item": "E031",
+    "old": [
+     "R02"
+    ],
+    "new": []
+   },
+   {
+    "item": "E033",
+    "old": [
+     "R03",
+     "R08"
+    ],
+    "new": [
+     "R08"
+    ]
+   },
+   {
+    "item": "E035",
+    "old": [
+     "R02"
+    ],
+    "new": []
+   },
+   {
+    "item": "E036",
+    "old": [
+     "R07"
+    ],
+    "new": []
+   },
+   {
+    "item": "E037",
+    "old": [
+     "R01",
+     "R07"
+    ],
+    "new": [
+     "R01"
+    ]
+   },
+   {
+    "item": "E039",
+    "old": [
+     "R03/R04",
+     "R07",
+     "R08"
+    ],
+    "new": [
+     "R03/R04"
+    ]
+   },
+   {
+    "item": "E044",
+    "old": [
+     "R03",
+     "R08"
+    ],
+    "new": []
+   },
+   {
+    "item": "E046",
+    "old": [
+     "R02",
+     "R03"
+    ],
+    "new": [
+     "R02"
+    ]
+   },
+   {
+    "item": "E050",
+    "old": [
+     "R07"
+    ],
+    "new": []
+   },
+   {
+    "item": "E052",
+    "old": [
+     "R02"
+    ],
+    "new": []
+   },
+   {
+    "item": "E053",
+    "old": [
+     "R01",
+     "R09"
+    ],
+    "new": []
+   },
+   {
+    "item": "E055",
+    "old": [
+     "R02",
+     "R03"
+    ],
+    "new": [
+     "R03"
+    ]
+   },
+   {
+    "item": "E057",
+    "old": [
+     "R03",
+     "R09"
+    ],
+    "new": [
+     "R09"
+    ]
+   },
+   {
+    "item": "E058",
+    "old": [
+     "R02",
+     "R03",
+     "R09"
+    ],
+    "new": [
+     "R02"
+    ]
+   },
+   {
+    "item": "E059",
+    "old": [
+     "R02"
+    ],
+    "new": []
+   },
+   {
+    "item": "E062",
+    "old": [
+     "R01",
+     "R03",
+     "R07"
+    ],
+    "new": [
+     "R01"
+    ]
+   },
+   {
+    "item": "E063",
+    "old": [
+     "R01",
+     "R09"
+    ],
+    "new": [
+     "R01"
+    ]
+   },
+   {
+    "item": "E064",
+    "old": [
+     "R08"
+    ],
+    "new": []
+   },
+   {
+    "item": "E071",
+    "old": [
+     "R01"
+    ],
+    "new": []
+   },
+   {
+    "item": "E072",
+    "old": [
+     "R08"
+    ],
+    "new": []
+   },
+   {
+    "item": "E074",
+    "old": [
+     "R02",
+     "R09"
+    ],
+    "new": [
+     "R02"
+    ]
+   },
+   {
+    "item": "E082",
+    "old": [
+     "R03"
+    ],
+    "new": []
+   },
+   {
+    "item": "E083",
+    "old": [
+     "R01",
+     "R03"
+    ],
+    "new": [
+     "R01"
+    ]
+   },
+   {
+    "item": "E088",
+    "old": [
+     "R03"
+    ],
+    "new": []
+   },
+   {
+    "item": "E091",
+    "old": [
+     "R08"
+    ],
+    "new": []
+   },
+   {
+    "item": "E094",
+    "old": [
+     "R02"
+    ],
+    "new": []
+   },
+   {
+    "item": "E095",
+    "old": [
+     "R01",
+     "R03"
+    ],
+    "new": [
+     "R01"
+    ]
+   },
+   {
+    "item": "E099",
+    "old": [
+     "R01",
+     "R03",
+     "R08"
+    ],
+    "new": [
+     "R01",
+     "R08"
+    ]
+   },
+   {
+    "item": "E100",
+    "old": [
+     "R09"
+    ],
+    "new": []
+   },
+   {
+    "item": "E103",
+    "old": [
+     "R03",
+     "R03/R04"
+    ],
+    "new": [
+     "R03/R04"
+    ]
+   },
+   {
+    "item": "E109",
+    "old": [
+     "R03"
+    ],
+    "new": []
+   },
+   {
+    "item": "E112",
+    "old": [
+     "R08",
+     "R09"
+    ],
+    "new": [
+     "R09"
+    ]
+   },
+   {
+    "item": "E113",
+    "old": [
+     "R03"
+    ],
+    "new": []
+   },
+   {
+    "item": "E114",
+    "old": [
+     "R01",
+     "R03",
+     "R07"
+    ],
+    "new": [
+     "R01"
+    ]
+   },
+   {
+    "item": "E115",
+    "old": [
+     "R07"
+    ],
+    "new": []
+   },
+   {
+    "item": "E117",
+    "old": [
+     "R01"
+    ],
+    "new": []
+   },
+   {
+    "item": "E124",
+    "old": [
+     "R02"
+    ],
+    "new": []
+   },
+   {
+    "item": "E132",
+    "old": [
+     "R09"
+    ],
+    "new": []
+   },
+   {
+    "item": "E136",
+    "old": [
+     "R01",
+     "R03"
+    ],
+    "new": [
+     "R01"
+    ]
+   },
+   {
+    "item": "E140",
+    "old": [
+     "R03"
+    ],
+    "new": []
+   },
+   {
+    "item": "E141",
+    "old": [
+     "R02",
+     "R09"
+    ],
+    "new": [
+     "R02"
+    ]
+   },
+   {
+    "item": "E142",
+    "old": [
+     "R01",
+     "R03"
+    ],
+    "new": [
+     "R01"
+    ]
+   },
+   {
+    "item": "E156",
+    "old": [
+     "R03",
+     "R08"
+    ],
+    "new": []
+   },
+   {
+    "item": "E161",
+    "old": [
+     "R07"
+    ],
+    "new": []
+   },
+   {
+    "item": "E164",
+    "old": [
+     "R09"
+    ],
+    "new": []
+   },
+   {
+    "item": "E172",
+    "old": [
+     "R03"
+    ],
+    "new": []
+   },
+   {
+    "item": "E181",
+    "old": [
+     "R07"
+    ],
+    "new": []
+   },
+   {
+    "item": "E184",
+    "old": [
+     "R03",
+     "R03/R04"
+    ],
+    "new": [
+     "R03/R04"
+    ]
+   },
+   {
+    "item": "E188",
+    "old": [],
+    "new": [
+     "R06"
+    ]
+   },
+   {
+    "item": "E189",
+    "old": [
+     "R07"
+    ],
+    "new": []
+   },
+   {
+    "item": "E191",
+    "old": [
+     "R07"
+    ],
+    "new": []
+   }
+  ],
+  "per_rater": {
+   "A": {
+    "original": {
+     "precision": 0.8207,
+     "recall": 0.7807,
+     "flagged_judged": 145
+    },
+    "refined": {
+     "precision": 0.9251,
+     "recall": 0.7291,
+     "flagged_judged": 110
+    },
+    "removed_flags": 36,
+    "removed_judged_no_error": 17,
+    "added_flags": 1,
+    "added_judged_error": 1
+   },
+   "B": {
+    "original": {
+     "precision": 0.5724,
+     "recall": 0.6506,
+     "flagged_judged": 145
+    },
+    "refined": {
+     "precision": 0.7836,
+     "recall": 0.7379,
+     "flagged_judged": 110
+    },
+    "removed_flags": 36,
+    "removed_judged_no_error": 36,
+    "added_flags": 1,
+    "added_judged_error": 1
+   }
+  }
+ },
+ "cadence": {
+  "agreed": {
+   "C108": {
+    "verdict": "KEEP_OTHER",
+    "confidence": "中",
+    "basis": "Bb大调。女高音D5→Bb4，低音Bb2→G3，落在G小三原位（vi）。前一拍上方是D–F#–A，低音仍停在Bb，不是属和弦，所以不是V–vi的阻碍终止，也不是主和弦终止。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C126": {
+    "verdict": "KEEP_OTHER",
+    "confidence": "中",
+    "basis": "Bb大调。第3句与第5句外声部相同：女高音保持Bb4，低音停在Eb3，落在Eb大三原位（IV）。不是属和弦F，也不是主和弦Bb，所以不是半终止或变格终止。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C141": {
+    "verdict": "KEEP_OTHER",
+    "confidence": "中",
+    "basis": "F大调。低音G3→A3，女高音B4→C5。前和弦G–B–D是V/V，落音A–C–E是iii原位。V/V应进到V（C大三），这里进到iii，即属调的vi；不是本调的V–vi，也不是副属解决到自己的目标。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C228": {
+    "verdict": "MODULATED",
+    "confidence": "中",
+    "basis": "B小调谱面最后落在D大三原位。低音A3→D3，女高音C#5→D5，是关系大调D的属音低音进主音、导音上行解决。前和弦是F#–A–C#，含F#而不是E，不是干净的A大三。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C230": {
+    "verdict": "MODULATED",
+    "confidence": "中",
+    "basis": "两次延长记号都在持续的F大三（D小调的III）上，窗口内三拍和弦不变。bwv366前一拍是C大三，低音C→F、女高音G→A，在F大调是原位V–I，但女高音落在三音。bwv272前一拍是G小七，低音Bb→F，在F大调是ii7–I。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C233": {
+    "verdict": "MODULATED",
+    "confidence": "中",
+    "basis": "两次都停在关系大调主和弦原位、女高音在三音：D小调落F大三（女高音A4、低音F），G小调落Bb大三（女高音D5、低音Bb）。前一拍标IV42，但三音和五音都没有（分别是G–C–F与C–F–Bb），低音七音保持成后和弦的根音，不是属到主。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C261": {
+    "verdict": "MODULATED",
+    "confidence": "中",
+    "basis": "A小调。窗口三拍都是G大三，女高音最后到D5，低音G。进入窗口的那一步才是终止进行：前一拍IV6为D–F#–A、低音F#，低音F#→G，和弦进入G大三，即G大调的V–I。解决时女高音到B（三音），延长后才到五音D，不是完全正格。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C265": {
+    "verdict": "MODULATED",
+    "confidence": "中",
+    "basis": "G小调。两次低音都是D→Bb→F，女高音F→G→A，落在F大三原位。F是关系大调Bb的属，A是Bb的导音；前面的D小三与G小七是Bb的iii与vi65。这是Bb大调的半终止，不是G小调落在D上的半终止。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C268": {
+    "verdict": "MODULATED",
+    "confidence": "中",
+    "basis": "B小调。低音E→A，女高音Ab4（即G#）→A4，落在A大三原位、女高音在根音。G#是A的导音并上行解决，低音从属音进主音，是A大调的正格终止。前和弦为C#–E–G#、低音E，含C#而不是B，不是纯净的E大三。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C276": {
+    "verdict": "KEEP_OTHER",
+    "confidence": "高",
+    "basis": "D小调、G小调、A小调各一次，结构相同：iiø65的低音（音级4）上行小三度到VI的根音，女高音级进下行落到主音，而这个主音是VI的三音。前和弦是iiø65不是属，所以不是阻碍终止；也没有进入VI的属和弦，不是转入VI的正格终止。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C282": {
+    "verdict": "KEEP_OTHER",
+    "confidence": "中",
+    "basis": "A小调与B小调各一次。落在iv原位，女高音在主音（是iv的五音），低音停在iv的根音（分别是D、E）。前一拍v42的低音是七音，后半拍下行半音后又回到这个根音。落点不是主和弦，也不是属和弦。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   },
+   "C285": {
+    "verdict": "KEEP_OTHER",
+    "confidence": "中",
+    "basis": "D小调与E小调各一次。ii7原位之后落到iv原位，女高音从音级2级进到主音，主音是iv的五音。变格终止应落到主和弦，半终止应落到属和弦，两者都不是。",
+    "sheets": [
+     "终止式评审表.xlsx"
+    ]
+   }
+  },
+  "conflict": {},
+  "pending": [],
+  "verdict_hist": {
+   "KEEP_OTHER": 6,
+   "MODULATED": 6
+  },
+  "applied": [
+   "C108",
+   "C126",
+   "C141",
+   "C228",
+   "C230",
+   "C233",
+   "C261",
+   "C265",
+   "C268",
+   "C276",
+   "C282",
+   "C285"
+  ]
+ }
+}

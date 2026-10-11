@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "The Sporting Boy's -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/sportingboysjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4476996816
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 18,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A4",
+      "A5"
+    ],
+    "mean_midi": 75.5,
+    "stepwise_ratio": 0.42,
+    "leap_ratio": 0.062,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.198,
+    "interval_hist": {
+      "2": 23,
+      "4": 16,
+      "0": 16,
+      "1": 11,
+      "3": 10,
+      "5": 4,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 67,
+      "dotted_quarter": 5,
+      "quarter": 6,
+      "16th": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2317,
+      "1": 0.0,
+      "2": 0.1585,
+      "3": 0.0,
+      "4": 0.2073,
+      "5": 0.0732,
+      "6": 0.0,
+      "7": 0.1707,
+      "8": 0.0,
+      "9": 0.0854,
+      "10": 0.0,
+      "11": 0.0732
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0732
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 67,
+      "quarter": 6,
+      "dotted_quarter": 5,
+      "16th": 4
+    },
+    "onset_beat_share": {
+      "1": 0.244,
+      "2": 0.134,
+      "3": 0.134,
+      "4": 0.195,
+      "5": 0.122,
+      "6": 0.171
+    },
+    "beat1_onset_share": 0.244,
+    "syncopation_proxy": 0.756,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.56,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

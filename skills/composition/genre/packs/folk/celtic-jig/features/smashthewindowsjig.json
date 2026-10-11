@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "title": "Smash the Windows -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/smashthewindowsjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 27,
+    "parts": [
+      4433884624
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8"
+    },
+    {
+      "section": "I",
+      "bars": "9"
+    },
+    {
+      "section": "J",
+      "bars": "10"
+    },
+    {
+      "section": "K",
+      "bars": "11"
+    },
+    {
+      "section": "L",
+      "bars": "12"
+    },
+    {
+      "section": "M",
+      "bars": "13"
+    },
+    {
+      "section": "N",
+      "bars": "14"
+    },
+    {
+      "section": "K",
+      "bars": "15"
+    },
+    {
+      "section": "L",
+      "bars": "16"
+    },
+    {
+      "section": "O",
+      "bars": "17"
+    },
+    {
+      "section": "I",
+      "bars": "18"
+    },
+    {
+      "section": "J",
+      "bars": "19"
+    },
+    {
+      "section": "K",
+      "bars": "20"
+    },
+    {
+      "section": "L",
+      "bars": "21"
+    },
+    {
+      "section": "M",
+      "bars": "22"
+    },
+    {
+      "section": "P",
+      "bars": "23"
+    },
+    {
+      "section": "Q",
+      "bars": "24"
+    },
+    {
+      "section": "R",
+      "bars": "25"
+    },
+    {
+      "section": "O",
+      "bars": "26"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 18,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 74.73,
+    "stepwise_ratio": 0.619,
+    "leap_ratio": 0.088,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.044,
+    "interval_hist": {
+      "2": 44,
+      "1": 26,
+      "3": 16,
+      "4": 12,
+      "5": 8,
+      "0": 5,
+      "7": 1,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 87,
+      "quarter": 24,
+      "dotted_quarter": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.193,
+      "1": 0.0,
+      "2": 0.2105,
+      "3": 0.0,
+      "4": 0.2368,
+      "5": 0.1491,
+      "6": 0.0,
+      "7": 0.1228,
+      "8": 0.0,
+      "9": 0.0263,
+      "10": 0.0,
+      "11": 0.0614
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0614
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 87,
+      "quarter": 24,
+      "dotted_quarter": 3
+    },
+    "onset_beat_share": {
+      "1": 0.237,
+      "2": 0.053,
+      "3": 0.184,
+      "4": 0.211,
+      "5": 0.132,
+      "6": 0.184
+    },
+    "beat1_onset_share": 0.237,
+    "syncopation_proxy": 0.763,
+    "rest_ratio": 0.083,
+    "density_notes_per_bar": 4.22,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,191 @@
+id: symphony
+name: 交响曲乐章
+name_en: Symphony Movement
+enabled: true
+version: '1.2'
+dimensions:
+  form: sonata_or_rondo
+  tempo_energy: varies_by_movement
+  mood: grand
+  medium: full_orchestra
+  tradition: western_classical
+  tonal_language: functional_tonal
+  rhythmic_identity: mixed_orchestral
+  family: classical
+triggers:
+  keywords:
+  - 管弦乐
+  - 交响乐
+  - 交响曲
+  - 交响
+  - 管弦乐编制
+  - 古典时期
+  - symphony
+  - orchestral
+  - orchestral movement
+  style_tags:
+  - symphony
+  - orchestral
+  - classical_era
+  - full_score
+summary: 交响曲乐章：木管/铜管/定音鼓/弦乐各组齐全的完整管弦编制，主题群组之间做性格与调性对比，展开部以四五度移位与动机碎裂推动。
+profile:
+  mode: 功能性和声清晰，转调有明确的调性布局
+  tonal_center:
+    preferred:
+    - D major
+    - C major
+    - E- major
+    - G major
+    secondary:
+    - D minor
+    - C minor
+    empirical_key_dist:
+      E- major: 0.25
+      G major: 0.25
+      C major: 0.083
+      D major: 0.25
+      B- major: 0.125
+      F major: 0.042
+  tempo:
+    unit: quarter_note
+    min: 60
+    max: 152
+    default: 96
+    character: 按乐章而定；慢板与快板对比鲜明。
+  meter:
+    primary: 4/4
+    allowed:
+    - 4/4
+    - 2/4
+    - 3/4
+    - 2/2
+    description: 与乐章性格绑定；规律中有扩张与压缩。
+  rhythm:
+    identity: orchestral mixed
+    accompaniment:
+      default: full_orchestra
+    melodic_preferred:
+    - thematic_group
+    - sequence
+    - development_fragmentation
+  phrase:
+    preferred:
+    - 8+8
+    - 4+4+8
+    description: 主题群组常常是成对乐句再加延展。
+  cadence:
+    four_bar: half
+    eight_bar: PAC_or_HC
+    final: 完全终止；尾声常常再次肯定主调。
+  harmony:
+    vocabulary_basic:
+    - I
+    - IV
+    - V
+    - V7
+    - vi
+    - ii
+    - ii7
+    progressions:
+    - I–V–I
+    - I–IV–V–I
+    - I–vi–IV–V–I
+    forbidden:
+    - modal_ambiguity_without_function
+    harmonic_rhythm_empirical: 语料约 4.80 和弦/小节
+  melody:
+    character: 主题性与动机性并重；不同乐器组接力
+    contour_preferred:
+    - stepwise
+    - balanced
+    - arch
+    range_default:
+      low: C4
+      high: A5
+    stepwise_ratio_target: 0.493
+    rules: 语料级进比约 49%；大跳比约 16%。以级进为主。
+    leap_ratio_target: 0.158
+  texture:
+    primary: full_orchestral
+    density: multi_layer
+  register:
+    melody:
+      low: C4
+      high: A5
+    inner:
+      low: G3
+      high: C5
+    bass:
+      low: E2
+      high: C4
+  color:
+    orchestration: 木管/铜管/定音鼓/弦乐五层分层对置
+    character: 弦乐为body、木管独奏句换色、全奏时铜管与定音鼓给重量。
+  constraints:
+    must:
+    - 使用完整管弦乐配色（木管/铜管/打击/弦乐分层）。
+    - 每个声部都必须在自己的可奏音域内。
+    - 配器分层；不要从头到尾全奏。
+    avoid:
+    - 全部乐器从头到尾同奏；声部写满不留呼吸。
+  priority:
+  - orchestration_layering
+  - register_safety
+  - functional_harmony
+  empirical:
+    source: score_learning
+    total_scores: 24
+    means:
+      tempo: 60.0
+      stepwise_ratio: 0.493
+      leap_ratio: 0.158
+      bass_beat1_ratio: 0.927
+      beat1_onset_share: 0.475
+      density_notes_per_bar: 31.496
+      harmonic_rhythm_chords_per_bar: 4.797
+    updated_at: '2026-09-28T20:39:44'
+    core_rules:
+    - rule: beat1_onset_weight
+      evidence_count: 23
+      total_scores: 24
+      frequency: 0.958
+      confidence: high
+      universality: core
+      detail: 0.475
+    fingerprint: a967e3af854e
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 32
+    complexity: 3
+    instruments_default:
+    - violin
+    - violin
+    - flute
+    - oboe
+    - clarinet
+    - viola
+    - horn
+    - trumpet
+    - cello
+    - bassoon
+    - timpani
+    - contrabass
+    required:
+    - cadence
+  composition:
+    bars_default: 32
+    complexity: 4
+    preserve:
+    - meter
+    - tonal_language
+    - melodic_character
+    may_change:
+    - key
+    - register
+    - dynamics
+    - form
+llm_instruction: 落实交响曲乐章：完整管弦编制分层、声部各自可奏、功能性和声与清晰终止；不同组乐器接力主题。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

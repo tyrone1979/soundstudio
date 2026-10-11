@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "The Wink of Her Eye -- Jig",
+    "composer": "J. HAND.",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/winkofhereyejig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4527179536
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 18,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 73.05,
+    "stepwise_ratio": 0.565,
+    "leap_ratio": 0.109,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.065,
+    "interval_hist": {
+      "2": 35,
+      "1": 17,
+      "4": 15,
+      "3": 9,
+      "0": 6,
+      "5": 5,
+      "12": 2,
+      "7": 2,
+      "6": 1
+    },
+    "dur_hist": {
+      "8th": 68,
+      "dotted_8th": 9,
+      "16th": 11,
+      "0": 1,
+      "quarter": 3,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2473,
+      "1": 0.0,
+      "2": 0.1505,
+      "3": 0.0,
+      "4": 0.172,
+      "5": 0.1828,
+      "6": 0.0,
+      "7": 0.1613,
+      "8": 0.0,
+      "9": 0.0108,
+      "10": 0.0,
+      "11": 0.0753
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0753
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 68,
+      "16th": 11,
+      "dotted_8th": 9,
+      "quarter": 3,
+      "0": 1,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.215,
+      "2": 0.161,
+      "3": 0.161,
+      "4": 0.172,
+      "5": 0.14,
+      "6": 0.151
+    },
+    "beat1_onset_share": 0.215,
+    "syncopation_proxy": 0.785,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

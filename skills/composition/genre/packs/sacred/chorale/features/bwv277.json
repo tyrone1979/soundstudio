@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "title": "25. Christ lag in Todesbanden",
+    "composer": "Bach, Johann Sebastian",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/bwv277.musicxml"
+  },
+  "global": {
+    "key": "D minor",
+    "key_sharps": 0,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 14,
+    "parts": [
+      4772858896,
+      4781499344,
+      4509074384,
+      4492355152
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "E5"
+    ],
+    "mean_midi": 67.94,
+    "stepwise_ratio": 0.82,
+    "leap_ratio": 0.08,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.06,
+    "interval_hist": {
+      "2": 27,
+      "1": 14,
+      "0": 3,
+      "5": 3,
+      "4": 1,
+      "3": 1,
+      "7": 1
+    },
+    "dur_hist": {
+      "quarter": 35,
+      "8th": 14,
+      "half": 1,
+      "whole": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1961,
+      "1": 0.0,
+      "2": 0.1373,
+      "3": 0.1176,
+      "4": 0.0,
+      "5": 0.1176,
+      "6": 0.0196,
+      "7": 0.1961,
+      "8": 0.0196,
+      "9": 0.0784,
+      "10": 0.098,
+      "11": 0.0196
+    },
+    "chromatic_ratio": 0.1176,
+    "leading_tone_ratio": 0.0196
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 121,
+      "quarter": 102,
+      "half": 6,
+      "16th": 4,
+      "whole": 3,
+      "dotted_quarter": 3
+    },
+    "onset_beat_share": {
+      "1": 0.322,
+      "2": 0.268,
+      "3": 0.226,
+      "4": 0.184
+    },
+    "beat1_onset_share": 0.322,
+    "syncopation_proxy": 0.678,
+    "rest_ratio": 0.094,
+    "density_notes_per_bar": 17.07,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 10,
+    "chords_estimated": 83,
+    "harmonic_rhythm_chords_per_bar": 5.93,
+    "root_pair_top": {
+      "E-A": 8,
+      "A-D": 5,
+      "D-E": 5,
+      "B-E": 3,
+      "A-B": 2,
+      "A-F": 2,
+      "F-B": 2,
+      "G-A": 2
+    },
+    "root_sample": [
+      "D",
+      "G#",
+      "E",
+      "A",
+      "G#",
+      "A",
+      "B",
+      "E",
+      "A",
+      "F",
+      "B",
+      "E",
+      "A",
+      "D",
+      "C#",
+      "G",
+      "A",
+      "E",
+      "D",
+      "A",
+      "D",
+      "E",
+      "A",
+      "D"
+    ],
+    "quality_hist": {
+      "triad": 0.6145,
+      "minor7": 0.0482,
+      "diminished7": 0.0361,
+      "dominant7": 0.1205,
+      "half_diminished7": 0.0602,
+      "other": 0.0964,
+      "augmented": 0.0241
+    },
+    "seventh_ratio": 0.2651
+  },
+  "texture": {
+    "voice_count": 4,
+    "bass_part": null
+  }
+}

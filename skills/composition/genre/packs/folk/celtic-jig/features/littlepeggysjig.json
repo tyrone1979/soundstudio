@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "LITTLE PEGGY'S -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/littlepeggysjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4528592912
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "G",
+      "bars": "6"
+    },
+    {
+      "section": "H",
+      "bars": "7"
+    },
+    {
+      "section": "I",
+      "bars": "8"
+    },
+    {
+      "section": "J",
+      "bars": "9"
+    },
+    {
+      "section": "K",
+      "bars": "10"
+    },
+    {
+      "section": "L",
+      "bars": "11"
+    },
+    {
+      "section": "M",
+      "bars": "12"
+    },
+    {
+      "section": "E",
+      "bars": "13"
+    },
+    {
+      "section": "F",
+      "bars": "14"
+    },
+    {
+      "section": "G",
+      "bars": "15"
+    },
+    {
+      "section": "H",
+      "bars": "16"
+    },
+    {
+      "section": "I",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 73.08,
+    "stepwise_ratio": 0.444,
+    "leap_ratio": 0.044,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.144,
+    "interval_hist": {
+      "2": 27,
+      "4": 20,
+      "0": 13,
+      "3": 13,
+      "1": 13,
+      "5": 4
+    },
+    "dur_hist": {
+      "8th": 86,
+      "quarter": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2747,
+      "1": 0.0,
+      "2": 0.0879,
+      "3": 0.0,
+      "4": 0.1648,
+      "5": 0.0879,
+      "6": 0.0,
+      "7": 0.2198,
+      "8": 0.0,
+      "9": 0.0659,
+      "10": 0.0,
+      "11": 0.0989
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0989
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 86,
+      "quarter": 5
+    },
+    "onset_beat_share": {
+      "1": 0.198,
+      "2": 0.176,
+      "3": 0.176,
+      "4": 0.176,
+      "5": 0.121,
+      "6": 0.154
+    },
+    "beat1_onset_share": 0.198,
+    "syncopation_proxy": 0.802,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.06,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

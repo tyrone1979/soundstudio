@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "SIR ROGER DE COVERLY -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/sirrogerdecoverlyjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4458194384
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "D",
+      "bars": "11"
+    },
+    {
+      "section": "F",
+      "bars": "12"
+    },
+    {
+      "section": "G",
+      "bars": "13"
+    },
+    {
+      "section": "H",
+      "bars": "14"
+    },
+    {
+      "section": "D",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 8,
+    "repetition_ratio": 0.5,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 69.25,
+    "stepwise_ratio": 0.551,
+    "leap_ratio": 0.102,
+    "large_leap_ratio": 0.063,
+    "repeated_note_ratio": 0.031,
+    "interval_hist": {
+      "2": 48,
+      "3": 24,
+      "1": 22,
+      "4": 16,
+      "12": 8,
+      "5": 5,
+      "0": 4
+    },
+    "dur_hist": {
+      "8th": 116,
+      "quarter": 8,
+      "dotted_quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1719,
+      "1": 0.0,
+      "2": 0.1562,
+      "3": 0.2656,
+      "4": 0.0,
+      "5": 0.0938,
+      "6": 0.0,
+      "7": 0.125,
+      "8": 0.0,
+      "9": 0.0156,
+      "10": 0.1719,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0156,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 116,
+      "quarter": 8,
+      "dotted_quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.125,
+      "2": 0.062,
+      "3": 0.109,
+      "4": 0.125,
+      "5": 0.094,
+      "6": 0.109,
+      "7": 0.125,
+      "8": 0.125,
+      "9": 0.125
+    },
+    "beat1_onset_share": 0.125,
+    "syncopation_proxy": 0.875,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

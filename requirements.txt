@@ -1,0 +1,13 @@
+PyQt5
+PyYAML>=6.0
+music21
+sounddevice
+pretty_midi
+numpy
+matplotlib
+markdown        # 帮助/分析报告渲染为 HTML（缺失时降级为内置解析器）
+soundfile       # 打开非 WAV 音频文件（缺失时给出明确安装提示）
+Pillow          # 仅 tools/make_icons.py 生成图标用
+pyfluidsynth  # 播放走 FluidSynth 合成，需要系统 libfluidsynth（macOS: brew install fluidsynth）
+mido>=1.3.0
+python-rtmidi>=1.5.0  # MIDI 键盘输入（macOS CoreMIDI / Windows MM / Linux ALSA）

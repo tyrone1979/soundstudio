@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "TRIP TO GALWAY -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/triptogalwayjig.musicxml"
+  },
+  "global": {
+    "key": "D minor",
+    "key_sharps": -1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4509475152
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "C4",
+      "A5"
+    ],
+    "mean_midi": 71.47,
+    "stepwise_ratio": 0.554,
+    "leap_ratio": 0.231,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.046,
+    "interval_hist": {
+      "2": 22,
+      "1": 14,
+      "7": 10,
+      "3": 7,
+      "4": 4,
+      "0": 3,
+      "10": 3,
+      "5": 2
+    },
+    "dur_hist": {
+      "8th": 44,
+      "quarter": 18,
+      "dotted_quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2879,
+      "1": 0.0,
+      "2": 0.2273,
+      "3": 0.1364,
+      "4": 0.0,
+      "5": 0.0758,
+      "6": 0.0,
+      "7": 0.1061,
+      "8": 0.0152,
+      "9": 0.0152,
+      "10": 0.0909,
+      "11": 0.0455
+    },
+    "chromatic_ratio": 0.0606,
+    "leading_tone_ratio": 0.0455
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 44,
+      "quarter": 20,
+      "dotted_quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.265,
+      "2": 0.059,
+      "3": 0.176,
+      "4": 0.235,
+      "5": 0.059,
+      "6": 0.206
+    },
+    "beat1_onset_share": 0.265,
+    "syncopation_proxy": 0.735,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 3.78,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

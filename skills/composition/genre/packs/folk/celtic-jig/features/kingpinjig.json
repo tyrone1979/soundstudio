@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "King-Pin -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/kingpinjig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 3,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4479983504
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 74.64,
+    "stepwise_ratio": 0.6,
+    "leap_ratio": 0.14,
+    "large_leap_ratio": 0.04,
+    "repeated_note_ratio": 0.05,
+    "interval_hist": {
+      "2": 35,
+      "1": 25,
+      "3": 19,
+      "5": 6,
+      "0": 5,
+      "11": 4,
+      "12": 3,
+      "4": 2,
+      "17": 1
+    },
+    "dur_hist": {
+      "8th": 13,
+      "16th": 76,
+      "0": 5,
+      "quarter": 4,
+      "ql=0.17": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.2475,
+      "1": 0.0,
+      "2": 0.1188,
+      "3": 0.0,
+      "4": 0.099,
+      "5": 0.0099,
+      "6": 0.0396,
+      "7": 0.2475,
+      "8": 0.0,
+      "9": 0.1089,
+      "10": 0.0,
+      "11": 0.1287
+    },
+    "chromatic_ratio": 0.0396,
+    "leading_tone_ratio": 0.1287
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 76,
+      "8th": 13,
+      "0": 5,
+      "quarter": 4,
+      "ql=0.17": 3
+    },
+    "onset_beat_share": {
+      "1": 0.545,
+      "2": 0.455
+    },
+    "beat1_onset_share": 0.545,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.062,
+    "density_notes_per_bar": 6.31,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

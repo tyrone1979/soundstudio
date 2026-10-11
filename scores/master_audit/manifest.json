@@ -1,0 +1,99 @@
+{
+  "stamp": "20260929_055024",
+  "report": "/Users/leizhao/Documents/prj/composerchat/runs/master_audit_20260929_055024.md",
+  "scores": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/listening_scores.yaml",
+  "csv": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/symbolic_gate.csv",
+  "out_dir": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit",
+  "pieces": [
+    {
+      "key_id": "mazurka__0",
+      "pack_id": "mazurka",
+      "seed": "master-mazurka-0",
+      "ok_symbolic": true,
+      "xml": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/mazurka__0.musicxml",
+      "mid": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/mazurka__0.mid",
+      "wav": null,
+      "issues": []
+    },
+    {
+      "key_id": "mazurka__1",
+      "pack_id": "mazurka",
+      "seed": "master-mazurka-1",
+      "ok_symbolic": true,
+      "xml": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/mazurka__1.musicxml",
+      "mid": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/mazurka__1.mid",
+      "wav": null,
+      "issues": []
+    },
+    {
+      "key_id": "mazurka__2",
+      "pack_id": "mazurka",
+      "seed": "master-mazurka-2",
+      "ok_symbolic": true,
+      "xml": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/mazurka__2.musicxml",
+      "mid": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/mazurka__2.mid",
+      "wav": null,
+      "issues": []
+    },
+    {
+      "key_id": "fugue__0",
+      "pack_id": "fugue",
+      "seed": "master-fugue-0",
+      "ok_symbolic": true,
+      "xml": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/fugue__0.musicxml",
+      "mid": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/fugue__0.mid",
+      "wav": null,
+      "issues": []
+    },
+    {
+      "key_id": "fugue__1",
+      "pack_id": "fugue",
+      "seed": "master-fugue-1",
+      "ok_symbolic": true,
+      "xml": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/fugue__1.musicxml",
+      "mid": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/fugue__1.mid",
+      "wav": null,
+      "issues": []
+    },
+    {
+      "key_id": "fugue__2",
+      "pack_id": "fugue",
+      "seed": "master-fugue-2",
+      "ok_symbolic": true,
+      "xml": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/fugue__2.musicxml",
+      "mid": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/fugue__2.mid",
+      "wav": null,
+      "issues": []
+    },
+    {
+      "key_id": "swing-standard__0",
+      "pack_id": "swing-standard",
+      "seed": "master-swing-standard-0",
+      "ok_symbolic": false,
+      "xml": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/swing-standard__0.musicxml",
+      "mid": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/swing-standard__0.mid",
+      "wav": null,
+      "issues": []
+    },
+    {
+      "key_id": "swing-standard__1",
+      "pack_id": "swing-standard",
+      "seed": "master-swing-standard-1",
+      "ok_symbolic": true,
+      "xml": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/swing-standard__1.musicxml",
+      "mid": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/swing-standard__1.mid",
+      "wav": null,
+      "issues": []
+    },
+    {
+      "key_id": "swing-standard__2",
+      "pack_id": "swing-standard",
+      "seed": "master-swing-standard-2",
+      "ok_symbolic": true,
+      "xml": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/swing-standard__2.musicxml",
+      "mid": "/Users/leizhao/Documents/prj/composerchat/scores/master_audit/swing-standard__2.mid",
+      "wav": null,
+      "issues": []
+    }
+  ]
+}

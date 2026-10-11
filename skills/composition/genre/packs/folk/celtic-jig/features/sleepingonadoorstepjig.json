@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Sleeping on a Door-Step -- Jig",
+    "composer": "CONN. REGAN.",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/sleepingonadoorstepjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4519136656
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 73.49,
+    "stepwise_ratio": 0.525,
+    "leap_ratio": 0.192,
+    "large_leap_ratio": 0.01,
+    "repeated_note_ratio": 0.071,
+    "interval_hist": {
+      "2": 29,
+      "1": 23,
+      "4": 11,
+      "5": 10,
+      "3": 10,
+      "0": 7,
+      "7": 3,
+      "8": 3,
+      "6": 2,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 98,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.18,
+      "1": 0.0,
+      "2": 0.14,
+      "3": 0.21,
+      "4": 0.0,
+      "5": 0.05,
+      "6": 0.0,
+      "7": 0.18,
+      "8": 0.08,
+      "9": 0.0,
+      "10": 0.13,
+      "11": 0.03
+    },
+    "chromatic_ratio": 0.03,
+    "leading_tone_ratio": 0.03
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 98,
+      "quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.18,
+      "2": 0.17,
+      "3": 0.17,
+      "4": 0.17,
+      "5": 0.15,
+      "6": 0.16
+    },
+    "beat1_onset_share": 0.18,
+    "syncopation_proxy": 0.82,
+    "rest_ratio": 0.01,
+    "density_notes_per_bar": 5.56,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "MOLL ROE IN THE MORNING -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/mollroeinthemorningjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 10,
+    "parts": [
+      4525098576
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 8,
+    "repetition_ratio": 0.2,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A4",
+      "A5"
+    ],
+    "mean_midi": 76.21,
+    "stepwise_ratio": 0.576,
+    "leap_ratio": 0.091,
+    "large_leap_ratio": 0.015,
+    "repeated_note_ratio": 0.136,
+    "interval_hist": {
+      "2": 20,
+      "1": 18,
+      "3": 11,
+      "0": 9,
+      "5": 4,
+      "4": 2,
+      "10": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 63,
+      "quarter": 3,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2388,
+      "1": 0.0,
+      "2": 0.1791,
+      "3": 0.0,
+      "4": 0.2239,
+      "5": 0.1493,
+      "6": 0.0,
+      "7": 0.1194,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.0896
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0896
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 63,
+      "quarter": 3,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.149,
+      "2": 0.119,
+      "3": 0.119,
+      "4": 0.119,
+      "5": 0.119,
+      "6": 0.119,
+      "7": 0.119,
+      "8": 0.06,
+      "9": 0.075
+    },
+    "beat1_onset_share": 0.149,
+    "syncopation_proxy": 0.851,
+    "rest_ratio": 0.122,
+    "density_notes_per_bar": 6.7,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

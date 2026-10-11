@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "title": "BATTLE THE CASH -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/battlethecashjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4434298960
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 71.3,
+    "stepwise_ratio": 0.219,
+    "leap_ratio": 0.164,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.301,
+    "interval_hist": {
+      "0": 22,
+      "4": 12,
+      "5": 11,
+      "3": 11,
+      "1": 10,
+      "2": 6,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 52,
+      "quarter": 22
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.3108,
+      "1": 0.0,
+      "2": 0.1351,
+      "3": 0.0,
+      "4": 0.1757,
+      "5": 0.2297,
+      "6": 0.0,
+      "7": 0.0946,
+      "8": 0.0,
+      "9": 0.027,
+      "10": 0.0,
+      "11": 0.027
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.027
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 52,
+      "quarter": 22
+    },
+    "onset_beat_share": {
+      "1": 0.243,
+      "2": 0.027,
+      "3": 0.216,
+      "4": 0.216,
+      "5": 0.108,
+      "6": 0.189
+    },
+    "beat1_onset_share": 0.243,
+    "syncopation_proxy": 0.757,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.11,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

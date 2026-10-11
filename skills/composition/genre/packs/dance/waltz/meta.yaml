@@ -1,0 +1,372 @@
+id: waltz
+name: 圆舞曲
+name_en: Waltz
+enabled: true
+version: '2.1'
+dimensions:
+  family: dance
+  form: waltz
+  tempo_energy: moderato
+  mood: lyrical
+  medium: chamber
+  tradition: european
+  tonal_language: functional_tonal
+  rhythmic_identity: triple_meter_dance
+triggers:
+  keywords:
+  - 圆舞
+  - 圆舞曲
+  - 华尔兹
+  - waltz
+  - viennese waltz
+  - 三拍子舞
+  style_tags:
+  - waltz
+  - dance
+  - triple_meter
+  - european
+  - lyrical
+  - chamber
+summary: '欧洲舞厅气质的三拍子圆舞：清晰一强两弱、第一拍稳定低音、 二三拍轻盈和声、高声部歌唱旋律、功能和声、透明室内乐织体。 强调舞步与优雅，而非厚重交响或强烈戏剧。
+
+  '
+profile:
+  mode: '大调功能和声。推荐主调 C / G / D major（明亮、歌唱、弦乐共鸣）。 中段可短暂转入属调、关系小调或平行小调，最终必须回主调。 避免长时间五声性或纯调式写法作为主导语言。
+
+    '
+  tonal_center:
+    preferred:
+    - C
+    - G
+    - D
+    secondary:
+    - F
+    - A
+    - Bb
+    - E minor
+    empirical_key_dist:
+      G major: 0.308
+      E minor: 0.096
+      D major: 0.365
+      A major: 0.058
+      A minor: 0.058
+      F major: 0.058
+      D minor: 0.019
+      B- major: 0.019
+      C major: 0.019
+  tempo:
+    unit: quarter_note
+    min: 69
+    max: 80
+    default: 72
+    character: '优雅中速、持续舞步感。过快→谐谑；过慢→失去舞感。 可有轻微 rubato，但不得破坏三拍底层脉搏。
+
+      '
+  meter:
+    primary: 3/4
+    allowed:
+    - 3/4
+    forbidden:
+    - 4/4
+    - 6/8
+    - 12/8
+    accent:
+      beat_1: strong
+      beat_2: weak
+      beat_3: weak
+    description: '严格 3/4。第一拍低音与和声支撑；二三拍轻盈。 不得让强弱层级消失，不得伪装成 4/4 或 6/8。
+
+      '
+    empirical_note: 'From 52 scores: 3/4=100%'
+  rhythm:
+    identity: oom-pah-pah = Bass(1) – Chord(2) – Chord(3)
+    accompaniment:
+      default: oom_pah_pah
+      alternatives:
+      - broken_chord
+      - light_block
+      - arpeggiated
+    melodic_preferred:
+    - quarter
+    - half
+    - dotted_quarter
+    - eighth_pairs
+    - moderate_syncopation
+    melodic_avoid:
+    - continuous_sixteenth
+    - excessive_syncopation
+    - constant_offbeat_accent
+    rules: '第一拍重心明确；二三拍轻于第一拍。 伴奏忌持续复杂快速音型。旋律可跨拍线，但底层三拍脉搏须保留。
+
+      '
+  phrase:
+    preferred:
+    - 8+8
+    secondary:
+    - 4+4+8
+    - 4+4
+    - 8+8+8+8
+    description: '前句邀请/开放，后句应答/收束。8 小节为一完整乐句。 反复第二遍可装饰、改伴奏/音区/力度，忌机械复制。
+
+      '
+  cadence:
+    four_bar: half_or_weak
+    eight_bar: prefer V–I or ii–V–I
+    final: '全曲明确 V–I；低音回主音。除非用户要求，避免开放式结尾。
+
+      '
+  harmony:
+    vocabulary_basic:
+    - I
+    - IV
+    - V
+    - vi
+    - ii
+    vocabulary_extended:
+    - V7
+    - ii7
+    - vi7
+    - secondary_dominant
+    - diminished_passing
+    progressions:
+    - I–V–I
+    - I–IV–V–I
+    - I–vi–ii–V
+    - I–ii–V–I
+    harmonic_rhythm: '默认每小节或每两小节换和弦；忌每拍换和弦。 高潮/转调段可略加密。
+
+      '
+    modulation: '中段可短暂属调 / 关系小调 / 平行小调；须有逻辑，禁止随机跳调。
+
+      '
+    forbidden:
+    - random_chords
+    - excessive_chromaticism
+    - continuous_modulation
+    harmonic_rhythm_empirical: 语料约 1.05 和弦/小节
+  melody:
+    character: 歌唱、优雅、流畅；可唱的舞曲主题，非炫技练习
+    contour_preferred:
+    - stepwise
+    - small_leaps
+    - arch
+    intervals_preferred:
+    - 2nd
+    - 3rd
+    - 4th
+    - occasional_5th
+    range_default:
+      low: G4
+      high: A5
+    range_extended:
+      low: E4
+      high: C6
+    voice: upper_voice_primary
+    ornamentation:
+    - grace
+    - appoggiatura
+    - passing
+    - neighbor
+    - turn
+    rules: 语料级进比约 55%；大跳比约 13%。以级进为主。 大跳仅用于高潮并需解决。忌过多大跳、方向乱跳、长段同音反复。 装饰服务歌唱性，忌持续炫技。
+    stepwise_ratio_target: 0.546
+    leap_ratio_target: 0.132
+  motif:
+    length_bars:
+      min: 2
+      max: 4
+    traits:
+    - lyrical
+    - singable
+    - stepwise
+    - clear_triple_pulse
+    develop:
+    - repeat
+    - transpose
+    - sequence
+    - rhythmic_var
+    - ornament
+    - fragment
+    - register_shift
+    avoid:
+    - unrelated_new_material
+    - excessive_fragmentation
+    rule: '至少含一个可识别的 2–4 小节核心动机，后续围绕其发展。
+
+      '
+  texture:
+    primary: homophonic
+    density: transparent
+    hierarchy:
+    - melody
+    - bass_on_beat_1
+    - inner_harmony
+    accompaniment_default: oom_pah_pah
+    voice_leading: '平滑连接；功能和声语境下避免无必要平行五/八度。 中声部填充但不得盖过旋律。
+
+      '
+  register:
+    melody:
+      low: G4
+      high: A5
+      climax_high: C6
+    inner:
+      low: C4
+      high: E5
+    bass:
+      low: C2
+      high: G3
+    rules: '低音与中声部留距；伴奏勿长期进入主旋律核心音区。
+
+      '
+  dynamics:
+    default:
+      min: mp
+      max: mf
+    shape: 'A: mp–mf；反复略扩；B 更表情；高潮 f（偶 ff）；再现/尾声回落。 忌全曲持续 forte；力度须随乐句与结构变化。
+
+      '
+  articulation:
+    melody:
+    - legato
+    - tenuto
+    - occasional_accent
+    accompaniment:
+    - light
+    - detached
+    - soft_attack
+    avoid:
+    - excessive_staccato
+    - excessive_marcato
+  color: '舞厅弦乐 / 室内乐：钢琴（低音+和声，可兼旋律）或弦乐四重奏 （Vn1 旋律，Vn2/Va 内声，Vc 低音）；可选长笛点缀。 忌电鼓、失真吉他、厚堆合成器、全编制轰炸。
+
+    '
+  instrumentation:
+    preferred:
+    - piano_solo
+    - piano_and_strings
+    - string_quartet
+    - violin_piano
+    avoid:
+    - electronic_drums
+    - heavy_percussion
+    - distorted_guitar
+    - dense_synth
+    - full_orchestral_stack
+  form:
+    foundation_bars: 16
+    foundation_shape:
+    - A_8
+    - A2_8
+    full_bars_default: 64
+    full_shapes:
+    - A-A-B-A
+    - A-B-A
+    - A-A-B-A-Coda
+    rule: '底座阶段重点展示三拍舞步、和声、旋律语法、乐句与伴奏织体， 不要求完整戏剧结构。
+
+      '
+  constraints:
+    must:
+    - 全程 3/4；一强两弱清晰。
+    - 第一拍有明确低音/和声支撑；二三拍更轻。
+    - 功能和声；旋律主要在最高声部。
+    - 可演奏音域；乐句与终止清楚；完整作品用明确 V–I 收束。
+    - 拍号以 3/4 为主（语料 100%）。
+    should:
+    - 优先 8+8 或 4/8 小节乐句；级进与适度小跳；可识别动机。
+    - 透明室内乐织体；中等和声节奏；用结构而非持续强奏推高潮。
+    avoid:
+    - 4/4、6/8、12/8；重打击/电声厚堆；过度半音与随机转调。
+    - 持续十六分伴奏、过度切分、持续 forte、过多大跳、五声主导语言。
+    - 伴奏压过旋律；机械无变化反复。
+  priority:
+  - rhythmic_identity
+  - dance_feel
+  - melodic_singability
+  - tonal_coherence
+  - phrase_structure
+  - accompaniment_pattern
+  - instrumental_balance
+  - expressive_detail
+  empirical:
+    source: score_learning
+    total_scores: 52
+    means:
+      tempo: null
+      stepwise_ratio: 0.546
+      leap_ratio: 0.132
+      bass_beat1_ratio: 1.0
+      beat1_onset_share: 0.544
+      density_notes_per_bar: 3.706
+      harmonic_rhythm_chords_per_bar: 1.051
+    updated_at: '2026-09-28T20:33:41'
+    core_rules:
+    - rule: meter=3/4
+      evidence_count: 52
+      total_scores: 52
+      frequency: 1.0
+      confidence: high
+      universality: core
+      detail:
+        3/4: 52
+    - rule: bass_emphasizes_beat_1
+      evidence_count: 52
+      total_scores: 52
+      frequency: 1.0
+      confidence: high
+      universality: core
+      detail: 1.0
+    - rule: beat1_onset_weight
+      evidence_count: 52
+      total_scores: 52
+      frequency: 1.0
+      confidence: high
+      universality: core
+      detail: 0.544
+    fingerprint: 42c0f3fc2ae5
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 16
+    complexity: 2
+    instruments_default:
+    - piano
+    required:
+    - melody
+    - bass
+    - oom_pah_pah
+    - motif
+    - phrase
+    - cadence
+  composition:
+    bars_default: 64
+    complexity: 4
+    preserve:
+    - meter
+    - dance_feel
+    - tonal_language
+    - melodic_character
+    - accompaniment_identity
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - harmonic_complexity
+    - form
+foundation_score:
+  length: 16
+  key: G_major
+  tempo: 72
+  meter: 3/4
+  map:
+    1-4: 陈述动机，确立 3/4 舞步
+    5-8: 延续/模进，半终止或属准备
+    9-12: 后句发展，略增活动
+    13-16: 回主，明确 V–I
+llm_instruction: 不要只把 “Waltz” 写进元数据。把本规格落实为可听见的音乐决策： STYLE → 调性中心 → 三拍节奏身份 → 动机 →
+  乐句 → 和声 → 旋律 → 伴奏 → 曲式 → 力度 → SCORE JSON。 听者应能感知：三拍舞步、强第一拍、轻二三拍、歌唱上声部、功能和声、清楚乐句、优雅室内乐织体。
+  仅原创；禁止抄袭可识别的维也纳圆舞经典主题。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

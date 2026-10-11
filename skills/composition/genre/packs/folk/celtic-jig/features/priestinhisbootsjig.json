@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "THE PRIEST IN HIS BOOTS -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/priestinhisbootsjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 17,
+    "parts": [
+      4462888080
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8"
+    },
+    {
+      "section": "I",
+      "bars": "9"
+    },
+    {
+      "section": "J",
+      "bars": "10"
+    },
+    {
+      "section": "C",
+      "bars": "11"
+    },
+    {
+      "section": "K",
+      "bars": "12"
+    },
+    {
+      "section": "I",
+      "bars": "13"
+    },
+    {
+      "section": "L",
+      "bars": "14"
+    },
+    {
+      "section": "F",
+      "bars": "15"
+    },
+    {
+      "section": "G",
+      "bars": "16"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.294,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "D5"
+    ],
+    "mean_midi": 68.72,
+    "stepwise_ratio": 0.341,
+    "leap_ratio": 0.071,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.188,
+    "interval_hist": {
+      "3": 18,
+      "2": 17,
+      "0": 16,
+      "4": 16,
+      "1": 12,
+      "5": 6
+    },
+    "dur_hist": {
+      "quarter": 11,
+      "8th": 71,
+      "16th": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1628,
+      "1": 0.0,
+      "2": 0.2907,
+      "3": 0.0,
+      "4": 0.1977,
+      "5": 0.0698,
+      "6": 0.0,
+      "7": 0.1395,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.0,
+      "11": 0.1395
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1395
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 71,
+      "quarter": 11,
+      "16th": 4
+    },
+    "onset_beat_share": {
+      "1": 0.209,
+      "2": 0.14,
+      "3": 0.186,
+      "4": 0.186,
+      "5": 0.105,
+      "6": 0.174
+    },
+    "beat1_onset_share": 0.209,
+    "syncopation_proxy": 0.791,
+    "rest_ratio": 0.069,
+    "density_notes_per_bar": 5.06,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

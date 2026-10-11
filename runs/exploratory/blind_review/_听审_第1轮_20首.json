@@ -1,0 +1,202 @@
+{
+ "round": "第 1 轮（旧包：人组截断 12 小节，机组 12 小节含弱起）",
+ "n": 20,
+ "hit": 18,
+ "accuracy": 0.9,
+ "wilson95": [
+  0.699,
+  0.972
+ ],
+ "machine_detected": "10/12",
+ "human_detected": "8/8",
+ "confusion": {
+  "TP": 10,
+  "FN": 0,
+  "FP": 0,
+  "TN": 8
+ },
+ "p_vs_random": 0.0004024505615234375,
+ "p_vs_majority": 0.003611472059128871,
+ "items": [
+  {
+   "code": "A01",
+   "truth": "machine",
+   "seed_or_source": "blind02",
+   "mode": "major",
+   "sharps": 0,
+   "said": "ai",
+   "result": "命中"
+  },
+  {
+   "code": "A02",
+   "truth": "human",
+   "seed_or_source": "bwv329",
+   "mode": "major",
+   "sharps": 1,
+   "said": "人",
+   "result": "命中"
+  },
+  {
+   "code": "A03",
+   "truth": "machine",
+   "seed_or_source": "blind09",
+   "mode": "minor",
+   "sharps": 2,
+   "said": "ai",
+   "result": "命中"
+  },
+  {
+   "code": "A04",
+   "truth": "human",
+   "seed_or_source": "bwv174.5",
+   "mode": "minor",
+   "sharps": 1,
+   "said": "人",
+   "result": "命中"
+  },
+  {
+   "code": "A05",
+   "truth": "machine",
+   "seed_or_source": "blind05",
+   "mode": "minor",
+   "sharps": -2,
+   "said": "ai",
+   "result": "命中"
+  },
+  {
+   "code": "A06",
+   "truth": "human",
+   "seed_or_source": "bwv357",
+   "mode": "minor",
+   "sharps": 2,
+   "said": "人",
+   "result": "命中"
+  },
+  {
+   "code": "A07",
+   "truth": "machine",
+   "seed_or_source": "blind00",
+   "mode": "major",
+   "sharps": -2,
+   "said": "人",
+   "result": "误判"
+  },
+  {
+   "code": "A08",
+   "truth": "machine",
+   "seed_or_source": "blind08",
+   "mode": "major",
+   "sharps": 1,
+   "said": "ai",
+   "result": "命中"
+  },
+  {
+   "code": "A09",
+   "truth": "human",
+   "seed_or_source": "bwv311",
+   "mode": "minor",
+   "sharps": -2,
+   "said": "人",
+   "result": "命中"
+  },
+  {
+   "code": "A10",
+   "truth": "human",
+   "seed_or_source": "bwv85.6",
+   "mode": "minor",
+   "sharps": 0,
+   "said": "人",
+   "result": "命中"
+  },
+  {
+   "code": "A11",
+   "truth": "machine",
+   "seed_or_source": "blind10",
+   "mode": "major",
+   "sharps": -2,
+   "said": "ai",
+   "result": "命中"
+  },
+  {
+   "code": "A12",
+   "truth": "human",
+   "seed_or_source": "bwv339",
+   "mode": "major",
+   "sharps": 0,
+   "said": "人",
+   "result": "命中"
+  },
+  {
+   "code": "A13",
+   "truth": "human",
+   "seed_or_source": "bwv360",
+   "mode": "major",
+   "sharps": -1,
+   "said": "人",
+   "result": "命中"
+  },
+  {
+   "code": "A14",
+   "truth": "machine",
+   "seed_or_source": "blind06",
+   "mode": "major",
+   "sharps": -1,
+   "said": "ai",
+   "result": "命中"
+  },
+  {
+   "code": "A15",
+   "truth": "machine",
+   "seed_or_source": "blind04",
+   "mode": "major",
+   "sharps": 2,
+   "said": "ai",
+   "result": "命中"
+  },
+  {
+   "code": "A16",
+   "truth": "human",
+   "seed_or_source": "bwv60.5",
+   "mode": "major",
+   "sharps": 2,
+   "said": "人",
+   "result": "命中"
+  },
+  {
+   "code": "A17",
+   "truth": "machine",
+   "seed_or_source": "blind11",
+   "mode": "minor",
+   "sharps": -1,
+   "said": "ai",
+   "result": "命中"
+  },
+  {
+   "code": "A18",
+   "truth": "machine",
+   "seed_or_source": "blind07",
+   "mode": "minor",
+   "sharps": 0,
+   "said": "人",
+   "result": "误判"
+  },
+  {
+   "code": "A19",
+   "truth": "machine",
+   "seed_or_source": "blind03",
+   "mode": "minor",
+   "sharps": 1,
+   "said": "ai",
+   "result": "命中"
+  },
+  {
+   "code": "A20",
+   "truth": "machine",
+   "seed_or_source": "blind01",
+   "mode": "minor",
+   "sharps": -1,
+   "said": "ai",
+   "result": "命中"
+  }
+ ]
+}

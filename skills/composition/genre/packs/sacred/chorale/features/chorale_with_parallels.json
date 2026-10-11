@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "title": "Music21 Fragment",
+    "composer": "Music21",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/chorale_with_parallels.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "3/4",
+    "tempo": null,
+    "bars": 7,
+    "parts": [
+      "Piano",
+      "Piano",
+      "Piano",
+      "Piano"
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 7,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": "Piano",
+    "range": [
+      "E5",
+      "B5"
+    ],
+    "mean_midi": 80.36,
+    "stepwise_ratio": 0.692,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.077,
+    "interval_hist": {
+      "1": 5,
+      "2": 4,
+      "4": 3,
+      "0": 1
+    },
+    "dur_hist": {
+      "quarter": 8,
+      "half": 5,
+      "dotted_half": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.2857,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.0714,
+      "6": 0.0,
+      "7": 0.2143,
+      "8": 0.1429,
+      "9": 0.0714,
+      "10": 0.0714,
+      "11": 0.1429
+    },
+    "chromatic_ratio": 0.2143,
+    "leading_tone_ratio": 0.1429
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 32,
+      "half": 20,
+      "dotted_half": 4
+    },
+    "onset_beat_share": {
+      "1": 0.5,
+      "2": 0.071,
+      "3": 0.429
+    },
+    "beat1_onset_share": 0.5,
+    "syncopation_proxy": 0.5,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.0,
+    "bass_beat1_ratio": 1.0
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 7,
+    "chords_estimated": 13,
+    "harmonic_rhythm_chords_per_bar": 1.86,
+    "root_pair_top": {
+      "B-E": 2,
+      "B-F#": 2,
+      "B-A#": 1,
+      "A#-B": 1,
+      "E-E#": 1,
+      "E#-B": 1,
+      "F#-G": 1,
+      "G-C#": 1
+    },
+    "root_sample": [
+      "B",
+      "A#",
+      "B",
+      "E",
+      "E#",
+      "B",
+      "F#",
+      "G",
+      "C#",
+      "B",
+      "F#",
+      "B",
+      "E"
+    ],
+    "quality_hist": {
+      "triad": 0.7692,
+      "diminished7": 0.0769,
+      "dominant7": 0.1538
+    },
+    "seventh_ratio": 0.2308
+  },
+  "texture": {
+    "voice_count": 4,
+    "bass_part": "Piano"
+  }
+}

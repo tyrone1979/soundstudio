@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "FROGS' FROLIC -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/frogsfrolicjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 24,
+    "parts": [
+      4469632592
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 19,
+    "repetition_ratio": 0.208,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 73.65,
+    "stepwise_ratio": 0.416,
+    "leap_ratio": 0.08,
+    "large_leap_ratio": 0.008,
+    "repeated_note_ratio": 0.08,
+    "interval_hist": {
+      "2": 33,
+      "3": 28,
+      "4": 25,
+      "1": 19,
+      "0": 10,
+      "7": 6,
+      "5": 3,
+      "14": 1
+    },
+    "dur_hist": {
+      "0": 5,
+      "8th": 100,
+      "quarter": 21
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.2222,
+      "1": 0.0,
+      "2": 0.2302,
+      "3": 0.2143,
+      "4": 0.0,
+      "5": 0.1032,
+      "6": 0.0,
+      "7": 0.1429,
+      "8": 0.0159,
+      "9": 0.0,
+      "10": 0.0714,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 100,
+      "quarter": 21,
+      "0": 5
+    },
+    "onset_beat_share": {
+      "1": 0.23,
+      "2": 0.167,
+      "3": 0.19,
+      "4": 0.19,
+      "5": 0.048,
+      "6": 0.175
+    },
+    "beat1_onset_share": 0.23,
+    "syncopation_proxy": 0.77,
+    "rest_ratio": 0.014,
+    "density_notes_per_bar": 5.25,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

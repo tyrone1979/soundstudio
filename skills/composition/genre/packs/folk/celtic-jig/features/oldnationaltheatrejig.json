@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "OLD NATIONAL THEATRE -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/oldnationaltheatrejig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4515640656
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "C",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "F",
+      "bars": "13"
+    },
+    {
+      "section": "J",
+      "bars": "14"
+    },
+    {
+      "section": "K",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.312,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 74.07,
+    "stepwise_ratio": 0.299,
+    "leap_ratio": 0.325,
+    "large_leap_ratio": 0.017,
+    "repeated_note_ratio": 0.034,
+    "interval_hist": {
+      "5": 33,
+      "3": 31,
+      "2": 26,
+      "4": 9,
+      "1": 9,
+      "0": 4,
+      "9": 2,
+      "19": 2,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 10,
+      "16th": 93,
+      "0": 3,
+      "ql=0.17": 12
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.3305,
+      "1": 0.0,
+      "2": 0.0763,
+      "3": 0.0,
+      "4": 0.1017,
+      "5": 0.0085,
+      "6": 0.0,
+      "7": 0.2542,
+      "8": 0.0,
+      "9": 0.1864,
+      "10": 0.0,
+      "11": 0.0424
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0424
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 93,
+      "ql=0.17": 12,
+      "8th": 10,
+      "0": 3
+    },
+    "onset_beat_share": {
+      "1": 0.5,
+      "2": 0.5
+    },
+    "beat1_onset_share": 0.5,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.055,
+    "density_notes_per_bar": 7.38,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

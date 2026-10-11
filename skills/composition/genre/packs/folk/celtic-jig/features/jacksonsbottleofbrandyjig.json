@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "Jackson's Bottle of Brandy -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/jacksonsbottleofbrandyjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4385786256
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 73.87,
+    "stepwise_ratio": 0.478,
+    "leap_ratio": 0.067,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.022,
+    "interval_hist": {
+      "2": 32,
+      "3": 21,
+      "4": 18,
+      "1": 11,
+      "9": 3,
+      "0": 2,
+      "7": 1,
+      "15": 1,
+      "8": 1
+    },
+    "dur_hist": {
+      "quarter": 5,
+      "8th": 86
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1648,
+      "1": 0.0,
+      "2": 0.1099,
+      "3": 0.2637,
+      "4": 0.0,
+      "5": 0.1209,
+      "6": 0.0,
+      "7": 0.2088,
+      "8": 0.033,
+      "9": 0.0,
+      "10": 0.0989,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 86,
+      "quarter": 5
+    },
+    "onset_beat_share": {
+      "1": 0.176,
+      "2": 0.121,
+      "3": 0.176,
+      "4": 0.176,
+      "5": 0.176,
+      "6": 0.176
+    },
+    "beat1_onset_share": 0.176,
+    "syncopation_proxy": 0.824,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.69,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}
