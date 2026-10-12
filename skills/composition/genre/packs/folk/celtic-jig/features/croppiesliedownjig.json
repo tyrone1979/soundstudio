@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "CROPPIES, LIE DOWN -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/croppiesliedownjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4500123408
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.158,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F#4",
+      "B5"
+    ],
+    "mean_midi": 72.99,
+    "stepwise_ratio": 0.389,
+    "leap_ratio": 0.222,
+    "large_leap_ratio": 0.078,
+    "repeated_note_ratio": 0.111,
+    "interval_hist": {
+      "2": 24,
+      "3": 20,
+      "1": 11,
+      "0": 10,
+      "12": 7,
+      "5": 6,
+      "4": 5,
+      "7": 4,
+      "8": 2,
+      "9": 1
+    },
+    "dur_hist": {
+      "8th": 82,
+      "quarter": 7,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.3956,
+      "1": 0.0,
+      "2": 0.0989,
+      "3": 0.0,
+      "4": 0.1648,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.1648,
+      "8": 0.0,
+      "9": 0.0989,
+      "10": 0.0,
+      "11": 0.0769
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0769
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 82,
+      "quarter": 7,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.209,
+      "2": 0.165,
+      "3": 0.176,
+      "4": 0.198,
+      "5": 0.121,
+      "6": 0.132
+    },
+    "beat1_onset_share": 0.209,
+    "syncopation_proxy": 0.791,
+    "rest_ratio": 0.073,
+    "density_notes_per_bar": 4.79,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

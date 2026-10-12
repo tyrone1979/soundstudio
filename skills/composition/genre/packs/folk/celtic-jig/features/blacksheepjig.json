@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "title": "Black Sheep -- Jig",
+    "composer": "DICK MYERS.",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/blacksheepjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 10,
+    "parts": [
+      4470285904
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "A",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "C",
+      "bars": "7"
+    },
+    {
+      "section": "D",
+      "bars": "8"
+    },
+    {
+      "section": "E",
+      "bars": "9"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 6,
+    "repetition_ratio": 0.4,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 70.3,
+    "stepwise_ratio": 0.404,
+    "leap_ratio": 0.173,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.038,
+    "interval_hist": {
+      "1": 12,
+      "4": 12,
+      "2": 9,
+      "3": 8,
+      "7": 4,
+      "5": 3,
+      "10": 2,
+      "0": 2
+    },
+    "dur_hist": {
+      "16th": 45,
+      "8th": 5,
+      "ql=0.12": 1,
+      "ql=0.38": 1,
+      "dotted_8th": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2642,
+      "1": 0.0,
+      "2": 0.1321,
+      "3": 0.0,
+      "4": 0.1509,
+      "5": 0.1321,
+      "6": 0.0,
+      "7": 0.1132,
+      "8": 0.0,
+      "9": 0.0755,
+      "10": 0.0,
+      "11": 0.1321
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1321
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 45,
+      "8th": 5,
+      "ql=0.12": 1,
+      "ql=0.38": 1,
+      "dotted_8th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.604,
+      "2": 0.396
+    },
+    "beat1_onset_share": 0.604,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.189,
+    "density_notes_per_bar": 5.3,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

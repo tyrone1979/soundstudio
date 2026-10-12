@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Lark in the Morning -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/larkinthemorningjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4476665104
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 71.04,
+    "stepwise_ratio": 0.391,
+    "leap_ratio": 0.109,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.293,
+    "interval_hist": {
+      "2": 28,
+      "0": 27,
+      "3": 14,
+      "1": 8,
+      "5": 7,
+      "4": 5,
+      "7": 2,
+      "12": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "8th": 87,
+      "quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.2688,
+      "1": 0.0,
+      "2": 0.086,
+      "3": 0.0968,
+      "4": 0.0,
+      "5": 0.1828,
+      "6": 0.0,
+      "7": 0.2258,
+      "8": 0.0108,
+      "9": 0.0,
+      "10": 0.129,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 87,
+      "quarter": 4,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.204,
+      "2": 0.172,
+      "3": 0.172,
+      "4": 0.172,
+      "5": 0.129,
+      "6": 0.151
+    },
+    "beat1_onset_share": 0.204,
+    "syncopation_proxy": 0.796,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

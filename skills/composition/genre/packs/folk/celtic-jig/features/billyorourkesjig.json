@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "BILLY O'ROURKE'S -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/billyorourkesjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4480087120
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 73.72,
+    "stepwise_ratio": 0.484,
+    "leap_ratio": 0.054,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.237,
+    "interval_hist": {
+      "2": 34,
+      "0": 22,
+      "3": 17,
+      "1": 11,
+      "4": 4,
+      "8": 3,
+      "15": 1,
+      "14": 1
+    },
+    "dur_hist": {
+      "16th": 16,
+      "8th": 69,
+      "dotted_8th": 2,
+      "quarter": 5,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.2021,
+      "1": 0.0,
+      "2": 0.0745,
+      "3": 0.1915,
+      "4": 0.0,
+      "5": 0.117,
+      "6": 0.0,
+      "7": 0.3085,
+      "8": 0.0213,
+      "9": 0.0,
+      "10": 0.0851,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 69,
+      "16th": 16,
+      "quarter": 5,
+      "dotted_8th": 2,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.202,
+      "2": 0.149,
+      "3": 0.16,
+      "4": 0.181,
+      "5": 0.117,
+      "6": 0.191
+    },
+    "beat1_onset_share": 0.202,
+    "syncopation_proxy": 0.798,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.22,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

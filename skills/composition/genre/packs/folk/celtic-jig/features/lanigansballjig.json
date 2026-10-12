@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "LANIGAN'S BALL -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/lanigansballjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4489164752
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 72.35,
+    "stepwise_ratio": 0.61,
+    "leap_ratio": 0.13,
+    "large_leap_ratio": 0.013,
+    "repeated_note_ratio": 0.143,
+    "interval_hist": {
+      "1": 25,
+      "2": 22,
+      "0": 11,
+      "3": 8,
+      "5": 5,
+      "7": 4,
+      "12": 1,
+      "4": 1
+    },
+    "dur_hist": {
+      "8th": 58,
+      "quarter": 19,
+      "0": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1923,
+      "1": 0.0128,
+      "2": 0.141,
+      "3": 0.141,
+      "4": 0.0,
+      "5": 0.0897,
+      "6": 0.0385,
+      "7": 0.2308,
+      "8": 0.0256,
+      "9": 0.0256,
+      "10": 0.0769,
+      "11": 0.0256
+    },
+    "chromatic_ratio": 0.1026,
+    "leading_tone_ratio": 0.0256
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 58,
+      "quarter": 19,
+      "0": 1
+    },
+    "onset_beat_share": {
+      "1": 0.231,
+      "2": 0.077,
+      "3": 0.205,
+      "4": 0.218,
+      "5": 0.09,
+      "6": 0.179
+    },
+    "beat1_onset_share": 0.231,
+    "syncopation_proxy": 0.769,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.33,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

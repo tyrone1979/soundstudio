@@ -1,0 +1,2341 @@
+{
+ "n_unknown_rules": 35,
+ "n_occurrences": 85,
+ "n_occ_modulating": 71,
+ "n_resolved": 34,
+ "n_by_tonality": 33,
+ "n_by_relaxed_hc": 2,
+ "n_still_unknown": 1,
+ "rows": [
+  {
+   "id": "C105",
+   "mode": "major",
+   "target": "9:m",
+   "chords": [
+    "2:m:0",
+    "2:m:1",
+    "9:m:0"
+   ],
+   "soprano": [
+    5,
+    4
+   ],
+   "n": 3,
+   "roman": "ii – ii6 – vi",
+   "n_occ": 3,
+   "n_modulates": 3,
+   "n_local_fixed": 0,
+   "n_enum_fixed": 3,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv355",
+     "start": 16,
+     "end": 22,
+     "phrase_kth": 3,
+     "phrase_total": 8,
+     "local_key": "B",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      9,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv346",
+     "start": 23,
+     "end": 28,
+     "phrase_kth": 5,
+     "phrase_total": 10,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      9,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv411",
+     "start": 26,
+     "end": 32,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      9,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C108",
+   "mode": "major",
+   "target": "9:m",
+   "chords": [
+    "9:m:1",
+    "0:M7:0",
+    "9:m:0"
+   ],
+   "soprano": [
+    4,
+    0
+   ],
+   "n": 2,
+   "roman": "vi6 – IM7 – vi",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 0,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv194.6",
+     "start": 32,
+     "end": 40,
+     "phrase_kth": 5,
+     "phrase_total": 6,
+     "local_key": "G",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": null,
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv194.6",
+     "start": 32,
+     "end": 40,
+     "phrase_kth": 5,
+     "phrase_total": 6,
+     "local_key": "G",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": null,
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C123",
+   "mode": "major",
+   "target": "5:M",
+   "chords": [
+    "2:m:0",
+    "10:M:1",
+    "5:M:0"
+   ],
+   "soprano": [
+    2,
+    0
+   ],
+   "n": 2,
+   "roman": "ii – bVII6 – IV",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv339",
+     "start": 27,
+     "end": 34,
+     "phrase_kth": 4,
+     "phrase_total": 5,
+     "local_key": "D",
+     "local_mode": "major",
+     "local_rel": 5,
+     "modulates": true,
+     "kind_in_local": "变格终止 PC",
+     "enum_key": [
+      5,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv339",
+     "start": 27,
+     "end": 34,
+     "phrase_kth": 4,
+     "phrase_total": 5,
+     "local_key": "D",
+     "local_mode": "major",
+     "local_rel": 5,
+     "modulates": true,
+     "kind_in_local": "变格终止 PC",
+     "enum_key": [
+      5,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C126",
+   "mode": "major",
+   "target": "5:M",
+   "chords": [
+    "9:m:0",
+    "7:m7:3",
+    "5:M:0"
+   ],
+   "soprano": [
+    0,
+    0
+   ],
+   "n": 2,
+   "roman": "vi – v42 – IV",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 1,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv362",
+     "start": 16,
+     "end": 23,
+     "phrase_kth": 3,
+     "phrase_total": 9,
+     "local_key": "G",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      10,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv362",
+     "start": 32,
+     "end": 39,
+     "phrase_kth": 5,
+     "phrase_total": 9,
+     "local_key": "Eb",
+     "local_mode": "major",
+     "local_rel": 5,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      10,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C133",
+   "mode": "major",
+   "target": "9:M",
+   "chords": [
+    "2:m:0",
+    "2:m:0",
+    "9:M:0"
+   ],
+   "soprano": [
+    5,
+    4
+   ],
+   "n": 5,
+   "roman": "ii – ii – V/ii",
+   "n_occ": 5,
+   "n_modulates": 4,
+   "n_local_fixed": 4,
+   "n_enum_fixed": 5,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv244.37",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "G",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv429",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 7,
+     "local_key": "A",
+     "local_mode": "major",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv13.6",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "C",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv244.10",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "Bb",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv393",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "B",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C134",
+   "mode": "major",
+   "target": "9:M",
+   "chords": [
+    "9:M:1",
+    "2:m:0",
+    "9:M:0"
+   ],
+   "soprano": [
+    5,
+    4
+   ],
+   "n": 4,
+   "roman": "V6/ii – ii – V/ii",
+   "n_occ": 4,
+   "n_modulates": 3,
+   "n_local_fixed": 3,
+   "n_enum_fixed": 4,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv302",
+     "start": 32,
+     "end": 37,
+     "phrase_kth": 6,
+     "phrase_total": 7,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv317",
+     "start": 31,
+     "end": 38,
+     "phrase_kth": 5,
+     "phrase_total": 8,
+     "local_key": "D",
+     "local_mode": "major",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv303",
+     "start": 30,
+     "end": 35,
+     "phrase_kth": 6,
+     "phrase_total": 7,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv80.8",
+     "start": 34,
+     "end": 39,
+     "phrase_kth": 6,
+     "phrase_total": 7,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C135",
+   "mode": "major",
+   "target": "9:M",
+   "chords": [
+    "2:m:0",
+    "2:m:1",
+    "9:M:0"
+   ],
+   "soprano": [
+    5,
+    4
+   ],
+   "n": 3,
+   "roman": "ii – ii6 – V/ii",
+   "n_occ": 3,
+   "n_modulates": 3,
+   "n_local_fixed": 3,
+   "n_enum_fixed": 3,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv244.44",
+     "start": 24,
+     "end": 29,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv438",
+     "start": 16,
+     "end": 23,
+     "phrase_kth": 3,
+     "phrase_total": 4,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "变格终止 PC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv378",
+     "start": 35,
+     "end": 42,
+     "phrase_kth": 6,
+     "phrase_total": 8,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C136",
+   "mode": "major",
+   "target": "9:M",
+   "chords": [
+    "7:M:1",
+    "2:m:0",
+    "9:M:0"
+   ],
+   "soprano": [
+    5,
+    4
+   ],
+   "n": 3,
+   "roman": "V6 – ii – V/ii",
+   "n_occ": 3,
+   "n_modulates": 3,
+   "n_local_fixed": 3,
+   "n_enum_fixed": 3,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv177.4",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 5,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv155.5",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 5,
+     "local_key": "G",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv117.4",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 5,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C137",
+   "mode": "major",
+   "target": "9:M",
+   "chords": [
+    "9:7:1",
+    "2:m:0",
+    "9:M:0"
+   ],
+   "soprano": [
+    5,
+    4
+   ],
+   "n": 2,
+   "roman": "V65/ii – ii – V/ii",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv415",
+     "start": 32,
+     "end": 39,
+     "phrase_kth": 5,
+     "phrase_total": 6,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv9.7",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 5,
+     "local_key": "C#",
+     "local_mode": "major",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "变格终止 PC",
+     "enum_key": [
+      2,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C138",
+   "mode": "major",
+   "target": "4:M",
+   "chords": [
+    "9:m:0",
+    "2:m:1",
+    "4:M:0"
+   ],
+   "soprano": [
+    2,
+    4
+   ],
+   "n": 5,
+   "roman": "vi – ii6 – V/vi",
+   "n_occ": 5,
+   "n_modulates": 5,
+   "n_local_fixed": 3,
+   "n_enum_fixed": 5,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv369",
+     "start": 8,
+     "end": 13,
+     "phrase_kth": 2,
+     "phrase_total": 6,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      9,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv317",
+     "start": 16,
+     "end": 22,
+     "phrase_kth": 3,
+     "phrase_total": 8,
+     "local_key": "B",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      9,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv260",
+     "start": 0,
+     "end": 7,
+     "phrase_kth": 1,
+     "phrase_total": 5,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      9,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv260",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 5,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 2,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      9,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv307",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 5,
+     "local_key": "G",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      9,
+      "major",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C139",
+   "mode": "major",
+   "target": "4:M",
+   "chords": [
+    "9:m:0",
+    "9:m:1",
+    "4:M:0"
+   ],
+   "soprano": [
+    0,
+    11
+   ],
+   "n": 3,
+   "roman": "vi – vi6 – V/vi",
+   "n_occ": 3,
+   "n_modulates": 3,
+   "n_local_fixed": 3,
+   "n_enum_fixed": 3,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv244.10",
+     "start": 32,
+     "end": 39,
+     "phrase_kth": 5,
+     "phrase_total": 6,
+     "local_key": "F",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      4,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv367",
+     "start": 16,
+     "end": 21,
+     "phrase_kth": 3,
+     "phrase_total": 6,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      4,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv379",
+     "start": 20,
+     "end": 26,
+     "phrase_kth": 3,
+     "phrase_total": 4,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      4,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C140",
+   "mode": "major",
+   "target": "4:m",
+   "chords": [
+    "9:m:0",
+    "9:m:1",
+    "4:m:0"
+   ],
+   "soprano": [
+    0,
+    11
+   ],
+   "n": 2,
+   "roman": "vi – vi6 – iii",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 0,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv433",
+     "start": 34,
+     "end": 37,
+     "phrase_kth": 6,
+     "phrase_total": 11,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      4,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv409",
+     "start": 22,
+     "end": 30,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "F#",
+     "local_mode": "minor",
+     "local_rel": 9,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      4,
+      "major",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C141",
+   "mode": "major",
+   "target": "4:m",
+   "chords": [
+    "9:m7:1",
+    "2:M:0",
+    "4:m:0"
+   ],
+   "soprano": [
+    6,
+    7
+   ],
+   "n": 2,
+   "roman": "vi65 – V/V – iii",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv325",
+     "start": 45,
+     "end": 48,
+     "phrase_kth": 8,
+     "phrase_total": 10,
+     "local_key": "C",
+     "local_mode": "major",
+     "local_rel": 7,
+     "modulates": true,
+     "kind_in_local": "阻碍终止 DC",
+     "enum_key": [
+      7,
+      "major",
+      "阻碍终止 DC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv325",
+     "start": 45,
+     "end": 48,
+     "phrase_kth": 8,
+     "phrase_total": 10,
+     "local_key": "C",
+     "local_mode": "major",
+     "local_rel": 7,
+     "modulates": true,
+     "kind_in_local": "阻碍终止 DC",
+     "enum_key": [
+      7,
+      "major",
+      "阻碍终止 DC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C217",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "10:M:0",
+    "3:M:0",
+    "3:M:0"
+   ],
+   "soprano": [
+    7,
+    7
+   ],
+   "n": 3,
+   "roman": "VII – III – III",
+   "n_occ": 3,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 3,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv26.6",
+     "start": 4,
+     "end": 7,
+     "phrase_kth": 2,
+     "phrase_total": 6,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv410",
+     "start": 36,
+     "end": 43,
+     "phrase_kth": 5,
+     "phrase_total": 6,
+     "local_key": "Bb",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv381",
+     "start": 8,
+     "end": 15,
+     "phrase_kth": 2,
+     "phrase_total": 7,
+     "local_key": "G",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C219",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "8:M:2",
+    "3:M:0",
+    "3:M:0"
+   ],
+   "soprano": [
+    3,
+    3
+   ],
+   "n": 3,
+   "roman": "VI64 – III – III",
+   "n_occ": 3,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 3,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv244.54",
+     "start": 16,
+     "end": 23,
+     "phrase_kth": 3,
+     "phrase_total": 6,
+     "local_key": "F",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv244.15",
+     "start": 16,
+     "end": 23,
+     "phrase_kth": 3,
+     "phrase_total": 6,
+     "local_key": "B",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv271",
+     "start": 16,
+     "end": 23,
+     "phrase_kth": 3,
+     "phrase_total": 6,
+     "local_key": "G",
+     "local_mode": "major",
+     "local_rel": 8,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C221",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "10:M:0",
+    "3:M:0",
+    "3:M:0"
+   ],
+   "soprano": [
+    3,
+    3
+   ],
+   "n": 2,
+   "roman": "VII – III – III",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv40.8",
+     "start": 56,
+     "end": 63,
+     "phrase_kth": 8,
+     "phrase_total": 9,
+     "local_key": "Ab",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv357",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 8,
+     "local_key": "Eb",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C224",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "3:M:1",
+    "8:M:0",
+    "3:M:0"
+   ],
+   "soprano": [
+    3,
+    3
+   ],
+   "n": 2,
+   "roman": "III6 – VI – III",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv153.5",
+     "start": 16,
+     "end": 23,
+     "phrase_kth": 3,
+     "phrase_total": 6,
+     "local_key": "C",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "变格终止 PC",
+     "enum_key": [
+      3,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv270",
+     "start": 16,
+     "end": 23,
+     "phrase_kth": 3,
+     "phrase_total": 6,
+     "local_key": "D",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "变格终止 PC",
+     "enum_key": [
+      3,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C225",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "0:m:0",
+    "8:M:1",
+    "3:M:0"
+   ],
+   "soprano": [
+    0,
+    10
+   ],
+   "n": 2,
+   "roman": "i – VI6 – III",
+   "n_occ": 2,
+   "n_modulates": 0,
+   "n_local_fixed": 0,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv382",
+     "start": 24,
+     "end": 29,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      3,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv83.5",
+     "start": 27,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      3,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C226",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "8:M:0",
+    "8:M:1",
+    "3:M:0"
+   ],
+   "soprano": [
+    0,
+    10
+   ],
+   "n": 2,
+   "roman": "VI – VI6 – III",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv174.5",
+     "start": 0,
+     "end": 7,
+     "phrase_kth": 1,
+     "phrase_total": 10,
+     "local_key": "G",
+     "local_mode": "major",
+     "local_rel": 8,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      3,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv340",
+     "start": 0,
+     "end": 7,
+     "phrase_kth": 1,
+     "phrase_total": 10,
+     "local_key": "F",
+     "local_mode": "major",
+     "local_rel": 8,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      3,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C228",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "3:M:2",
+    "7:m:1",
+    "3:M:0"
+   ],
+   "soprano": [
+    2,
+    3
+   ],
+   "n": 2,
+   "roman": "III64 – v6 – III",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv103.6",
+     "start": 32,
+     "end": 39,
+     "phrase_kth": 5,
+     "phrase_total": 6,
+     "local_key": "D",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv103.6",
+     "start": 32,
+     "end": 39,
+     "phrase_kth": 5,
+     "phrase_total": 6,
+     "local_key": "D",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C230",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "3:M:0",
+    "3:M:0",
+    "3:M:0"
+   ],
+   "soprano": [
+    7,
+    7
+   ],
+   "n": 2,
+   "roman": "III – III – III",
+   "n_occ": 2,
+   "n_modulates": 1,
+   "n_local_fixed": 1,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv366",
+     "start": 24,
+     "end": 35,
+     "phrase_kth": 3,
+     "phrase_total": 4,
+     "local_key": "F",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv272",
+     "start": 0,
+     "end": 7,
+     "phrase_kth": 1,
+     "phrase_total": 6,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C232",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "3:M:1",
+    "8:M:0",
+    "3:M:0"
+   ],
+   "soprano": [
+    0,
+    7
+   ],
+   "n": 2,
+   "roman": "III6 – VI – III",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv276",
+     "start": 40,
+     "end": 46,
+     "phrase_kth": 6,
+     "phrase_total": 16,
+     "local_key": "F",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "变格终止 PC",
+     "enum_key": [
+      3,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv297",
+     "start": 34,
+     "end": 37,
+     "phrase_kth": 7,
+     "phrase_total": 8,
+     "local_key": "F",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "变格终止 PC",
+     "enum_key": [
+      3,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C233",
+   "mode": "minor",
+   "target": "3:M",
+   "chords": [
+    "3:M:1",
+    "5:7:3",
+    "3:M:0"
+   ],
+   "soprano": [
+    5,
+    7
+   ],
+   "n": 2,
+   "roman": "III6 – IV42 – III",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv276",
+     "start": 55,
+     "end": 62,
+     "phrase_kth": 8,
+     "phrase_total": 16,
+     "local_key": "F",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv412",
+     "start": 33,
+     "end": 36,
+     "phrase_kth": 6,
+     "phrase_total": 9,
+     "local_key": "Bb",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      8,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C261",
+   "mode": "minor",
+   "target": "10:M",
+   "chords": [
+    "10:M:0",
+    "10:M:0",
+    "10:M:0"
+   ],
+   "soprano": [
+    2,
+    5
+   ],
+   "n": 2,
+   "roman": "VII – VII – VII",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv28.6",
+     "start": 0,
+     "end": 7,
+     "phrase_kth": 1,
+     "phrase_total": 6,
+     "local_key": "G",
+     "local_mode": "major",
+     "local_rel": 10,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv28.6",
+     "start": 0,
+     "end": 7,
+     "phrase_kth": 1,
+     "phrase_total": 6,
+     "local_key": "G",
+     "local_mode": "major",
+     "local_rel": 10,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C262",
+   "mode": "minor",
+   "target": "10:M",
+   "chords": [
+    "5:M:1",
+    "10:M:2",
+    "10:M:0"
+   ],
+   "soprano": [
+    5,
+    2
+   ],
+   "n": 2,
+   "roman": "IV6 – VII64 – VII",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv28.6",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "G",
+     "local_mode": "major",
+     "local_rel": 10,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv28.6",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "G",
+     "local_mode": "major",
+     "local_rel": 10,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C265",
+   "mode": "minor",
+   "target": "10:M",
+   "chords": [
+    "7:m:0",
+    "0:m7:1",
+    "10:M:0"
+   ],
+   "soprano": [
+    0,
+    2
+   ],
+   "n": 2,
+   "roman": "v – i65 – VII",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 0,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv334",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 5,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 7,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv341",
+     "start": 0,
+     "end": 3,
+     "phrase_kth": 1,
+     "phrase_total": 5,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 7,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C267",
+   "mode": "minor",
+   "target": "10:M",
+   "chords": [
+    "5:M:1",
+    "7:7:0",
+    "10:M:0"
+   ],
+   "soprano": [
+    5,
+    2
+   ],
+   "n": 2,
+   "roman": "IV6 – V7 – VII",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv16.6",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "C",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv419",
+     "start": 24,
+     "end": 31,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "C",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C268",
+   "mode": "minor",
+   "target": "10:M",
+   "chords": [
+    "5:m:0",
+    "2:m:1",
+    "10:M:0"
+   ],
+   "soprano": [
+    9,
+    10
+   ],
+   "n": 2,
+   "roman": "iv – ii6 – VII",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv103.6",
+     "start": 16,
+     "end": 23,
+     "phrase_kth": 3,
+     "phrase_total": 6,
+     "local_key": "A",
+     "local_mode": "major",
+     "local_rel": 10,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv103.6",
+     "start": 16,
+     "end": 23,
+     "phrase_kth": 3,
+     "phrase_total": 6,
+     "local_key": "A",
+     "local_mode": "major",
+     "local_rel": 10,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C269",
+   "mode": "minor",
+   "target": "10:M",
+   "chords": [
+    "5:m7:3",
+    "3:M:0",
+    "10:M:0"
+   ],
+   "soprano": [
+    3,
+    2
+   ],
+   "n": 2,
+   "roman": "iv42 – III – VII",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv283",
+     "start": 40,
+     "end": 48,
+     "phrase_kth": 6,
+     "phrase_total": 8,
+     "local_key": "C",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv283",
+     "start": 40,
+     "end": 48,
+     "phrase_kth": 6,
+     "phrase_total": 8,
+     "local_key": "C",
+     "local_mode": "major",
+     "local_rel": 3,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      3,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C273",
+   "mode": "minor",
+   "target": "7:m",
+   "chords": [
+    "7:m:0",
+    "9:h7:1",
+    "7:m:0"
+   ],
+   "soprano": [
+    9,
+    7
+   ],
+   "n": 2,
+   "roman": "v – #viø65 – v",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 0,
+   "n_relaxed_hc": 2,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv382",
+     "start": 0,
+     "end": 7,
+     "phrase_kth": 1,
+     "phrase_total": 6,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 7,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": null,
+     "kind_relaxed": "半终止 HC"
+    },
+    {
+     "piece": "bwv278",
+     "start": 23,
+     "end": 30,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "B",
+     "local_mode": "minor",
+     "local_rel": 7,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": null,
+     "kind_relaxed": "半终止 HC"
+    }
+   ]
+  },
+  {
+   "id": "C276",
+   "mode": "minor",
+   "target": "8:M",
+   "chords": [
+    "0:m:0",
+    "2:h7:1",
+    "8:M:0"
+   ],
+   "soprano": [
+    2,
+    0
+   ],
+   "n": 3,
+   "roman": "i – iiø65 – VI",
+   "n_occ": 3,
+   "n_modulates": 0,
+   "n_local_fixed": 0,
+   "n_enum_fixed": 3,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv437",
+     "start": 107,
+     "end": 110,
+     "phrase_kth": 12,
+     "phrase_total": 13,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      1,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv284",
+     "start": 36,
+     "end": 40,
+     "phrase_kth": 6,
+     "phrase_total": 8,
+     "local_key": "G",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      1,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv312",
+     "start": 43,
+     "end": 50,
+     "phrase_kth": 6,
+     "phrase_total": 7,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      1,
+      "minor",
+      "半终止 HC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C282",
+   "mode": "minor",
+   "target": "5:m",
+   "chords": [
+    "5:m:1",
+    "7:m7:3",
+    "5:m:0"
+   ],
+   "soprano": [
+    7,
+    0
+   ],
+   "n": 2,
+   "roman": "iv6 – v42 – iv",
+   "n_occ": 2,
+   "n_modulates": 2,
+   "n_local_fixed": 2,
+   "n_enum_fixed": 0,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv33.6",
+     "start": 23,
+     "end": 30,
+     "phrase_kth": 3,
+     "phrase_total": 7,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 5,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": null,
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv261",
+     "start": 34,
+     "end": 41,
+     "phrase_kth": 4,
+     "phrase_total": 6,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 5,
+     "modulates": true,
+     "kind_in_local": "主和弦终止",
+     "enum_key": null,
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C285",
+   "mode": "minor",
+   "target": "5:m",
+   "chords": [
+    "0:m:0",
+    "2:m7:0",
+    "5:m:0"
+   ],
+   "soprano": [
+    2,
+    0
+   ],
+   "n": 2,
+   "roman": "i – ii7 – iv",
+   "n_occ": 2,
+   "n_modulates": 0,
+   "n_local_fixed": 0,
+   "n_enum_fixed": 0,
+   "n_relaxed_hc": 0,
+   "resolved": false,
+   "occ": [
+    {
+     "piece": "bwv276",
+     "start": 88,
+     "end": 91,
+     "phrase_kth": 13,
+     "phrase_total": 16,
+     "local_key": "D",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": null,
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv279",
+     "start": 47,
+     "end": 54,
+     "phrase_kth": 7,
+     "phrase_total": 8,
+     "local_key": "E",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": null,
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C286",
+   "mode": "minor",
+   "target": "5:M",
+   "chords": [
+    "0:m:0",
+    "10:M:1",
+    "5:M:0"
+   ],
+   "soprano": [
+    2,
+    0
+   ],
+   "n": 2,
+   "roman": "i – VII6 – IV",
+   "n_occ": 2,
+   "n_modulates": 1,
+   "n_local_fixed": 1,
+   "n_enum_fixed": 2,
+   "n_relaxed_hc": 0,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv311",
+     "start": 47,
+     "end": 54,
+     "phrase_kth": 6,
+     "phrase_total": 7,
+     "local_key": "A",
+     "local_mode": "major",
+     "local_rel": 10,
+     "modulates": true,
+     "kind_in_local": "半终止 HC",
+     "enum_key": [
+      5,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    },
+    {
+     "piece": "bwv245.15",
+     "start": 32,
+     "end": 38,
+     "phrase_kth": 5,
+     "phrase_total": 8,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": [
+      5,
+      "minor",
+      "变格终止 PC"
+     ],
+     "kind_relaxed": "其他终止"
+    }
+   ]
+  },
+  {
+   "id": "C287",
+   "mode": "minor",
+   "target": "7:7",
+   "chords": [
+    "10:m:1",
+    "5:m:2",
+    "7:7:1"
+   ],
+   "soprano": [
+    8,
+    7
+   ],
+   "n": 2,
+   "roman": "vii6 – iv64 – V65",
+   "n_occ": 2,
+   "n_modulates": 1,
+   "n_local_fixed": 0,
+   "n_enum_fixed": 0,
+   "n_relaxed_hc": 2,
+   "resolved": true,
+   "occ": [
+    {
+     "piece": "bwv38.6",
+     "start": 40,
+     "end": 48,
+     "phrase_kth": 5,
+     "phrase_total": 5,
+     "local_key": "A",
+     "local_mode": "minor",
+     "local_rel": 0,
+     "modulates": false,
+     "kind_in_local": null,
+     "enum_key": null,
+     "kind_relaxed": "半终止 HC"
+    },
+    {
+     "piece": "bwv311",
+     "start": 55,
+     "end": 62,
+     "phrase_kth": 7,
+     "phrase_total": 7,
+     "local_key": "G",
+     "local_mode": "major",
+     "local_rel": 8,
+     "modulates": true,
+     "kind_in_local": "其他终止",
+     "enum_key": null,
+     "kind_relaxed": "半终止 HC"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+id: chorale
+name: 众赞歌
+name_en: Chorale
+enabled: true
+version: '2.10'
+dimensions:
+  form: chorale
+  tempo_energy: andante
+  mood: solemn
+  medium: choir
+  tradition: european
+  tonal_language: functional_tonal
+  rhythmic_identity: duple_march
+  family: sacred
+triggers:
+  keywords:
+  - 众赞歌
+  - chorale
+  - 四声部
+  - 圣咏和声
+  - 巴赫众赞
+  style_tags:
+  - chorale
+  - hymn_harmony
+  - sacred
+  - satb
+summary: 众赞歌：四声部和声、平稳节奏、清晰终止、声部独立可唱。
+profile:
+  mode: 大小调功能和声；声部进行规范意识。
+  tonal_center:
+    preferred:
+    - C
+    - G
+    - D
+    - A
+    - F
+    - A minor
+    - E minor
+    secondary:
+    - G minor
+    empirical_key_dist:
+      D minor: 0.125
+      F major: 0.083
+      B minor: 0.083
+      G major: 0.208
+      A major: 0.083
+      A minor: 0.167
+      E major: 0.042
+      F minor: 0.042
+      C major: 0.042
+      E minor: 0.042
+      G minor: 0.042
+      D major: 0.042
+  tempo:
+    unit: quarter_note
+    min: 66
+    max: 88
+    default: 76
+    character: 庄重平稳。
+  meter:
+    primary: 4/4
+    allowed:
+    - 4/4
+    description: 方整。
+    empirical_note: 'From 24 scores: 4/4=75%, 3/4=25%'
+  rhythm:
+    identity: mostly even chorale rhythm
+    accompaniment:
+      default: SATB_blocks
+    melodic_preferred:
+    - quarter
+    - half
+    - passing
+    melodic_avoid:
+    - dance_ostinato
+    - virtuoso_runs
+  phrase:
+    preferred:
+    - 4+4
+    - 2+2+4
+    description: 分句清晰。
+  cadence:
+    four_bar: half_or_PAC
+    eight_bar: PAC
+    final: 完全终止。
+  harmony:
+    vocabulary_basic:
+    - I
+    - IV
+    - V
+    - vi
+    - ii
+    - V7
+    vocabulary_extended:
+    - secondary_dominant
+    - passing_7
+    progressions:
+    - I–IV–V–I
+    - I–vi–ii–V–I
+    forbidden:
+    - parallel_fifths_octaves_uncontrolled
+    harmonic_rhythm_empirical: 语料约 3.71 和弦/小节
+  melody:
+    character: 女高/最高声部歌唱、音节清晰
+    contour_preferred:
+    - stepwise
+    - balanced
+    range_default:
+      low: C4
+      high: E5
+    rules: 语料级进比约 12%；大跳比约 1%。以级进为主。 各声部尽量可唱音域。
+    stepwise_ratio_target: 0.12
+    leap_ratio_target: 0.008
+  motif:
+    length_bars:
+      min: 2
+      max: 4
+    traits:
+    - hymn_like
+  texture:
+    primary: homophonic_SATB
+    density: 4_voice
+    voice_leading: 避免无必要平行五/八度；内声平滑。
+  register:
+    melody:
+      low: C4
+      high: E5
+    inner:
+      low: G3
+      high: C5
+    bass:
+      low: C3
+      high: C4
+  dynamics:
+    default:
+      min: mp
+      max: mf
+    shape: 庄重少极端。
+  articulation:
+    melody:
+    - legato
+    avoid:
+    - staccato_dance
+  color: 合唱/管风琴/钢琴四声部。忌电声鼓。
+  instrumentation:
+    preferred:
+    - SATB
+    - organ_style
+    - piano_reduction
+    avoid:
+    - drum_kit
+    - synth_bass_drop
+  form:
+    foundation_bars: 16
+    full_bars_default: 32
+    full_shapes:
+    - strophic
+    - A-A
+  constraints:
+    must:
+    - 四声部意识；平稳；清晰终止。
+    - 拍号以 4/4 为主（语料 100%）。
+    - 旋律以级进为主（语料 90%，均值 stepwise≈0.677）。
+    - 拍号以 4/4 为主（语料 75%）。
+    avoid:
+    - 舞曲律动；失控平行。
+  priority:
+  - voice_leading
+  - cadence
+  - singability
+  empirical:
+    source: score_learning
+    total_scores: 24
+    means:
+      tempo: null
+      stepwise_ratio: 0.12
+      leap_ratio: 0.008
+      bass_beat1_ratio: 1.0
+      beat1_onset_share: 0.33
+      density_notes_per_bar: 5.112
+      harmonic_rhythm_chords_per_bar: 3.71
+    updated_at: '2026-09-28T20:33:00'
+    core_rules:
+    - rule: meter=4/4
+      evidence_count: 18
+      total_scores: 24
+      frequency: 0.75
+      confidence: high
+      universality: core
+      detail:
+        4/4: 18
+        3/4: 6
+    fingerprint: 8277385a4cf9
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 16
+    complexity: 2
+    instruments_default:
+    - piano   # 钢琴大谱表缩谱（运行时扩成 RH/LH）；合唱开谱请显式指定 SATB
+    required:
+    - soprano
+    - alto
+    - tenor
+    - bass
+    - cadence
+  composition:
+    bars_default: 32
+    complexity: 3
+    preserve:
+    - meter
+    - tonal_language
+    - melodic_character
+    - rhythmic_identity
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - harmonic_complexity
+    - form
+foundation_score:
+  length: 16
+  key: G_major
+  tempo: 76
+  meter: 4/4
+  map:
+    1-4: 句1
+    5-8: 半终止
+    9-12: 句2
+    13-16: 完全终止
+llm_instruction: 落实众赞：四声部可唱+规范终止。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

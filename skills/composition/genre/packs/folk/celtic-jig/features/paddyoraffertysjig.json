@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "title": "Paddy O'Rafferty's -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/paddyoraffertysjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 24,
+    "parts": [
+      4499916048
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "A",
+      "bars": "4"
+    },
+    {
+      "section": "E",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "J",
+      "bars": "11"
+    },
+    {
+      "section": "G",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "F",
+      "bars": "14"
+    },
+    {
+      "section": "D",
+      "bars": "15"
+    },
+    {
+      "section": "L",
+      "bars": "16"
+    },
+    {
+      "section": "M",
+      "bars": "17"
+    },
+    {
+      "section": "N",
+      "bars": "18"
+    },
+    {
+      "section": "O",
+      "bars": "19"
+    },
+    {
+      "section": "L",
+      "bars": "20"
+    },
+    {
+      "section": "P",
+      "bars": "21"
+    },
+    {
+      "section": "F",
+      "bars": "22"
+    },
+    {
+      "section": "D",
+      "bars": "23"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 68.94,
+    "stepwise_ratio": 0.448,
+    "leap_ratio": 0.252,
+    "large_leap_ratio": 0.021,
+    "repeated_note_ratio": 0.154,
+    "interval_hist": {
+      "2": 56,
+      "0": 22,
+      "3": 18,
+      "9": 14,
+      "7": 14,
+      "1": 8,
+      "12": 3,
+      "4": 3,
+      "11": 2,
+      "5": 2,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 144
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1875,
+      "1": 0.0,
+      "2": 0.1736,
+      "3": 0.0,
+      "4": 0.1528,
+      "5": 0.0,
+      "6": 0.0625,
+      "7": 0.2986,
+      "8": 0.0,
+      "9": 0.0972,
+      "10": 0.0,
+      "11": 0.0278
+    },
+    "chromatic_ratio": 0.0625,
+    "leading_tone_ratio": 0.0278
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 144
+    },
+    "onset_beat_share": {
+      "1": 0.167,
+      "2": 0.167,
+      "3": 0.167,
+      "4": 0.167,
+      "5": 0.167,
+      "6": 0.167
+    },
+    "beat1_onset_share": 0.167,
+    "syncopation_proxy": 0.833,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 6.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

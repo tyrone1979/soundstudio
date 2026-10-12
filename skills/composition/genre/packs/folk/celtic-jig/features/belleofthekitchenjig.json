@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "BELLE OF THE KITCHEN -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/belleofthekitchenjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4475275344
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.188,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 70.15,
+    "stepwise_ratio": 0.4,
+    "leap_ratio": 0.141,
+    "large_leap_ratio": 0.012,
+    "repeated_note_ratio": 0.141,
+    "interval_hist": {
+      "2": 30,
+      "4": 14,
+      "3": 13,
+      "0": 12,
+      "5": 6,
+      "1": 4,
+      "8": 2,
+      "7": 2,
+      "9": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 78,
+      "quarter": 8
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2907,
+      "1": 0.0,
+      "2": 0.0698,
+      "3": 0.0,
+      "4": 0.2326,
+      "5": 0.0233,
+      "6": 0.0,
+      "7": 0.2093,
+      "8": 0.0,
+      "9": 0.1512,
+      "10": 0.0,
+      "11": 0.0233
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0233
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 78,
+      "quarter": 8
+    },
+    "onset_beat_share": {
+      "1": 0.186,
+      "2": 0.186,
+      "3": 0.186,
+      "4": 0.186,
+      "5": 0.093,
+      "6": 0.163
+    },
+    "beat1_onset_share": 0.186,
+    "syncopation_proxy": 0.814,
+    "rest_ratio": 0.021,
+    "density_notes_per_bar": 5.38,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "title": "The Jolly Pedler's -- SlipJig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/jollypedlersslipjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4516174160
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "B",
+      "bars": "14"
+    },
+    {
+      "section": "L",
+      "bars": "15"
+    },
+    {
+      "section": "D",
+      "bars": "16"
+    },
+    {
+      "section": "F",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 72.27,
+    "stepwise_ratio": 0.553,
+    "leap_ratio": 0.098,
+    "large_leap_ratio": 0.076,
+    "repeated_note_ratio": 0.083,
+    "interval_hist": {
+      "2": 63,
+      "3": 26,
+      "0": 11,
+      "1": 10,
+      "12": 9,
+      "4": 9,
+      "5": 2,
+      "15": 1,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 122,
+      "quarter": 11
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1278,
+      "1": 0.0,
+      "2": 0.0226,
+      "3": 0.391,
+      "4": 0.0,
+      "5": 0.1805,
+      "6": 0.0,
+      "7": 0.1504,
+      "8": 0.0301,
+      "9": 0.0,
+      "10": 0.0977,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 122,
+      "quarter": 11
+    },
+    "onset_beat_share": {
+      "1": 0.135,
+      "2": 0.098,
+      "3": 0.12,
+      "4": 0.12,
+      "5": 0.12,
+      "6": 0.12,
+      "7": 0.12,
+      "8": 0.06,
+      "9": 0.105
+    },
+    "beat1_onset_share": 0.135,
+    "syncopation_proxy": 0.865,
+    "rest_ratio": 0.065,
+    "density_notes_per_bar": 7.39,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

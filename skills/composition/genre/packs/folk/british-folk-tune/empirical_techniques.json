@@ -1,0 +1,51 @@
+{
+  "genre": "british-folk-tune",
+  "techniques": {
+    "rhythmic": [
+      {
+        "name": "meter_4/4",
+        "description": "meter=4/4",
+        "frequency": 0.52,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "melodic": [
+      {
+        "name": "stepwise_lyrical_motion",
+        "description": "Mean stepwise_ratio=0.53",
+        "frequency": null,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "harmonic": [],
+    "phrase": [],
+    "accompaniment": [
+      {
+        "name": "bass_emphasizes_beat_1",
+        "description": "bass_emphasizes_beat_1",
+        "frequency": 0.059,
+        "confidence": "low",
+        "universality": "optional"
+      },
+      {
+        "name": "beat1_onset_weight",
+        "description": "beat1_onset_weight",
+        "frequency": 0.569,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "orchestration": [],
+    "development": [],
+    "cadence": [],
+    "stylistic_constraints": {
+      "must": [],
+      "should": [],
+      "avoid": []
+    }
+  },
+  "_fallback": true,
+  "_source_stats_total": 1036
+}

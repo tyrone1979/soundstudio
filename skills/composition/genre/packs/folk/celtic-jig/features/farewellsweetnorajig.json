@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "Farewell, Sweet Nora -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/farewellsweetnorajig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4504984272
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 71.6,
+    "stepwise_ratio": 0.716,
+    "leap_ratio": 0.063,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.042,
+    "interval_hist": {
+      "2": 55,
+      "1": 13,
+      "3": 12,
+      "4": 5,
+      "5": 4,
+      "0": 4,
+      "7": 1,
+      "9": 1
+    },
+    "dur_hist": {
+      "8th": 87,
+      "quarter": 2,
+      "dotted_quarter": 1,
+      "0": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2812,
+      "1": 0.0,
+      "2": 0.1667,
+      "3": 0.0,
+      "4": 0.1354,
+      "5": 0.0312,
+      "6": 0.0,
+      "7": 0.1562,
+      "8": 0.0,
+      "9": 0.1458,
+      "10": 0.0,
+      "11": 0.0833
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0833
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 87,
+      "0": 6,
+      "quarter": 2,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.208,
+      "2": 0.167,
+      "3": 0.167,
+      "4": 0.188,
+      "5": 0.135,
+      "6": 0.135
+    },
+    "beat1_onset_share": 0.208,
+    "syncopation_proxy": 0.792,
+    "rest_ratio": 0.021,
+    "density_notes_per_bar": 6.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 3,
+    "chords_estimated": 3,
+    "harmonic_rhythm_chords_per_bar": 0.19,
+    "root_pair_top": {
+      "G-F#": 1,
+      "F#-E": 1
+    },
+    "root_sample": [
+      "G",
+      "F#",
+      "E"
+    ],
+    "quality_hist": {
+      "other": 0.6667,
+      "triad": 0.3333
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

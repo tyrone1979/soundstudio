@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "Andrew Carey's -- Slipjig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/andrewcareysslipjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4484454096
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 7,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 68.79,
+    "stepwise_ratio": 0.283,
+    "leap_ratio": 0.1,
+    "large_leap_ratio": 0.033,
+    "repeated_note_ratio": 0.2,
+    "interval_hist": {
+      "3": 21,
+      "2": 15,
+      "0": 12,
+      "4": 4,
+      "5": 3,
+      "1": 2,
+      "12": 2,
+      "8": 1
+    },
+    "dur_hist": {
+      "quarter": 11,
+      "8th": 50
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2295,
+      "1": 0.0,
+      "2": 0.0984,
+      "3": 0.0,
+      "4": 0.2131,
+      "5": 0.0492,
+      "6": 0.0,
+      "7": 0.2951,
+      "8": 0.0,
+      "9": 0.0984,
+      "10": 0.0,
+      "11": 0.0164
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0164
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 50,
+      "quarter": 11
+    },
+    "onset_beat_share": {
+      "1": 0.131,
+      "2": 0.0,
+      "3": 0.131,
+      "4": 0.131,
+      "5": 0.131,
+      "6": 0.131,
+      "7": 0.131,
+      "8": 0.082,
+      "9": 0.131
+    },
+    "beat1_onset_share": 0.131,
+    "syncopation_proxy": 0.869,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 7.62,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

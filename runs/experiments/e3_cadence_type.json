@@ -1,0 +1,738 @@
+{
+ "question": "终止式类型分布能否作为不受 R11 支配的替代证据？",
+ "method": "句末三和弦 + 末两拍女高内旋 → learn._cadence_kind；巴赫取 is_heldout 曲目的每个乐句句末，生成取每首草稿的每个句末；TVD 的自助 CI 按曲目重抽样（同一首内多句不独立）",
+ "caveat": "类型标签与 287 条公式的 type 字段同出于 _cadence_kind，故本度量刻画的是判定表的输出分布，不是听感判定",
+ "setting": {
+  "key_sharps": {
+   "major": 1,
+   "minor": -2
+  },
+  "bars": 12,
+  "n_draft": {
+   "major": 20,
+   "minor": 16
+  }
+ },
+ "arms": {
+  "major": {
+   "bach_heldout": {
+    "info": {
+     "phrases": 135,
+     "pieces": 18,
+     "skipped_short": 0
+    },
+    "counts": {
+     "不完全正格终止 IAC": 11,
+     "完全正格终止 PAC": 40,
+     "半终止 HC": 34,
+     "离调半终止（停于副属）": 14,
+     "离调终止（副属→目标）": 18,
+     "变格终止 PC": 4,
+     "主和弦终止": 5,
+     "转调终止（离调后变格终止）": 4,
+     "转调终止（离调后完全终止）": 3,
+     "其他终止": 2
+    },
+    "dist": {
+     "PAC": 0.2963,
+     "HC": 0.2519,
+     "离调终止": 0.1333,
+     "离调半终止": 0.1037,
+     "IAC": 0.0815,
+     "主和弦终止": 0.037,
+     "PC": 0.0296,
+     "转调变格": 0.0296,
+     "转调完全": 0.0222,
+     "其他": 0.0148
+    },
+    "interior_counts": {
+     "不完全正格终止 IAC": 11,
+     "完全正格终止 PAC": 25,
+     "半终止 HC": 33,
+     "离调半终止（停于副属）": 13,
+     "离调终止（副属→目标）": 18,
+     "变格终止 PC": 4,
+     "主和弦终止": 4,
+     "转调终止（离调后变格终止）": 4,
+     "转调终止（离调后完全终止）": 3,
+     "其他终止": 2
+    },
+    "interior_dist": {
+     "HC": 0.2821,
+     "PAC": 0.2137,
+     "离调终止": 0.1538,
+     "离调半终止": 0.1111,
+     "IAC": 0.094,
+     "PC": 0.0342,
+     "主和弦终止": 0.0342,
+     "转调变格": 0.0342,
+     "转调完全": 0.0256,
+     "其他": 0.0171
+    }
+   },
+   "grammar_drafts": {
+    "info": {
+     "drafts_ok": 20,
+     "drafts_failed": 0,
+     "phrases": 95,
+     "interior_phrases": 75,
+     "seeds_distinct": 20,
+     "seed_prefix": "cad"
+    },
+    "counts": {
+     "离调终止（副属→目标）": 7,
+     "半终止 HC": 31,
+     "其他终止": 4,
+     "完全正格终止 PAC": 35,
+     "不完全正格终止 IAC": 8,
+     "离调半终止（停于副属）": 7,
+     "阻碍终止 DC": 2,
+     "转调终止（离调后变格终止）": 1
+    },
+    "dist": {
+     "PAC": 0.3684,
+     "HC": 0.3263,
+     "IAC": 0.0842,
+     "离调终止": 0.0737,
+     "离调半终止": 0.0737,
+     "其他": 0.0421,
+     "DC": 0.0211,
+     "转调变格": 0.0105
+    },
+    "interior_counts": {
+     "离调终止（副属→目标）": 7,
+     "半终止 HC": 31,
+     "其他终止": 4,
+     "完全正格终止 PAC": 15,
+     "不完全正格终止 IAC": 8,
+     "离调半终止（停于副属）": 7,
+     "阻碍终止 DC": 2,
+     "转调终止（离调后变格终止）": 1
+    },
+    "interior_dist": {
+     "HC": 0.4133,
+     "PAC": 0.2,
+     "IAC": 0.1067,
+     "离调终止": 0.0933,
+     "离调半终止": 0.0933,
+     "其他": 0.0533,
+     "DC": 0.0267,
+     "转调变格": 0.0133
+    }
+   },
+   "grammar_drafts_r11_off": {
+    "info": {
+     "drafts_ok": 20,
+     "drafts_failed": 0,
+     "phrases": 95,
+     "interior_phrases": 75,
+     "seeds_distinct": 20,
+     "seed_prefix": "cad"
+    },
+    "counts": {
+     "完全正格终止 PAC": 79,
+     "半终止 HC": 8,
+     "离调终止（副属→目标）": 5,
+     "不完全正格终止 IAC": 3
+    },
+    "dist": {
+     "PAC": 0.8316,
+     "HC": 0.0842,
+     "离调终止": 0.0526,
+     "IAC": 0.0316
+    },
+    "interior_counts": {
+     "完全正格终止 PAC": 59,
+     "半终止 HC": 8,
+     "离调终止（副属→目标）": 5,
+     "不完全正格终止 IAC": 3
+    },
+    "interior_dist": {
+     "PAC": 0.7867,
+     "HC": 0.1067,
+     "离调终止": 0.0667,
+     "IAC": 0.04
+    }
+   },
+   "formula_pool_c_rules": {
+    "counts": {
+     "完全正格终止 PAC": 245,
+     "不完全正格终止 IAC": 65,
+     "主和弦终止": 17,
+     "变格终止 PC": 10,
+     "半终止 HC": 222,
+     "离调终止（副属→目标）": 66,
+     "转调终止（离调后变格终止）": 7,
+     "其他终止": 6,
+     "阻碍终止 DC": 4,
+     "离调半终止（停于副属）": 25
+    },
+    "dist": {
+     "PAC": 0.3673,
+     "HC": 0.3328,
+     "离调终止": 0.099,
+     "IAC": 0.0975,
+     "离调半终止": 0.0375,
+     "主和弦终止": 0.0255,
+     "PC": 0.015,
+     "转调变格": 0.0105,
+     "其他": 0.009,
+     "DC": 0.006
+    }
+   },
+   "tvd": {
+    "drafts_vs_bach": [
+     0.1977,
+     0.1406,
+     0.3142
+    ],
+    "r11off_vs_bach": [
+     0.5353,
+     0.4235,
+     0.6433
+    ],
+    "r11off_vs_drafts": [
+     0.4632,
+     0.3736,
+     0.5657
+    ],
+    "drafts_vs_pool": 0.0855,
+    "r11off_vs_pool": 0.4643,
+    "drafts_interior_vs_bach_interior": [
+     0.2068
+    ],
+    "r11off_interior_vs_bach_interior": [
+     0.573
+    ]
+   },
+   "per_type": [
+    {
+     "type": "PAC",
+     "bach": 40,
+     "drafts": 35,
+     "r11off": 79,
+     "p_bach": 0.2963,
+     "p_drafts": 0.3684,
+     "p_r11off": 0.8316,
+     "interior": {
+      "bach": 25,
+      "drafts": 15,
+      "r11off": 59,
+      "p_bach": 0.2137,
+      "p_drafts": 0.2,
+      "p_r11off": 0.7867
+     }
+    },
+    {
+     "type": "IAC",
+     "bach": 11,
+     "drafts": 8,
+     "r11off": 3,
+     "p_bach": 0.0815,
+     "p_drafts": 0.0842,
+     "p_r11off": 0.0316,
+     "interior": {
+      "bach": 11,
+      "drafts": 8,
+      "r11off": 3,
+      "p_bach": 0.094,
+      "p_drafts": 0.1067,
+      "p_r11off": 0.04
+     }
+    },
+    {
+     "type": "PC",
+     "bach": 4,
+     "drafts": 0,
+     "r11off": 0,
+     "p_bach": 0.0296,
+     "p_drafts": 0.0,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 4,
+      "drafts": 0,
+      "r11off": 0,
+      "p_bach": 0.0342,
+      "p_drafts": 0.0,
+      "p_r11off": 0.0
+     }
+    },
+    {
+     "type": "HC",
+     "bach": 34,
+     "drafts": 31,
+     "r11off": 8,
+     "p_bach": 0.2519,
+     "p_drafts": 0.3263,
+     "p_r11off": 0.0842,
+     "interior": {
+      "bach": 33,
+      "drafts": 31,
+      "r11off": 8,
+      "p_bach": 0.2821,
+      "p_drafts": 0.4133,
+      "p_r11off": 0.1067
+     }
+    },
+    {
+     "type": "DC",
+     "bach": 0,
+     "drafts": 2,
+     "r11off": 0,
+     "p_bach": 0.0,
+     "p_drafts": 0.0211,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 0,
+      "drafts": 2,
+      "r11off": 0,
+      "p_bach": 0.0,
+      "p_drafts": 0.0267,
+      "p_r11off": 0.0
+     }
+    },
+    {
+     "type": "主和弦终止",
+     "bach": 5,
+     "drafts": 0,
+     "r11off": 0,
+     "p_bach": 0.037,
+     "p_drafts": 0.0,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 4,
+      "drafts": 0,
+      "r11off": 0,
+      "p_bach": 0.0342,
+      "p_drafts": 0.0,
+      "p_r11off": 0.0
+     }
+    },
+    {
+     "type": "离调终止",
+     "bach": 18,
+     "drafts": 7,
+     "r11off": 5,
+     "p_bach": 0.1333,
+     "p_drafts": 0.0737,
+     "p_r11off": 0.0526,
+     "interior": {
+      "bach": 18,
+      "drafts": 7,
+      "r11off": 5,
+      "p_bach": 0.1538,
+      "p_drafts": 0.0933,
+      "p_r11off": 0.0667
+     }
+    },
+    {
+     "type": "离调半终止",
+     "bach": 14,
+     "drafts": 7,
+     "r11off": 0,
+     "p_bach": 0.1037,
+     "p_drafts": 0.0737,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 13,
+      "drafts": 7,
+      "r11off": 0,
+      "p_bach": 0.1111,
+      "p_drafts": 0.0933,
+      "p_r11off": 0.0
+     }
+    },
+    {
+     "type": "转调完全",
+     "bach": 3,
+     "drafts": 0,
+     "r11off": 0,
+     "p_bach": 0.0222,
+     "p_drafts": 0.0,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 3,
+      "drafts": 0,
+      "r11off": 0,
+      "p_bach": 0.0256,
+      "p_drafts": 0.0,
+      "p_r11off": 0.0
+     }
+    },
+    {
+     "type": "转调变格",
+     "bach": 4,
+     "drafts": 1,
+     "r11off": 0,
+     "p_bach": 0.0296,
+     "p_drafts": 0.0105,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 4,
+      "drafts": 1,
+      "r11off": 0,
+      "p_bach": 0.0342,
+      "p_drafts": 0.0133,
+      "p_r11off": 0.0
+     }
+    },
+    {
+     "type": "其他",
+     "bach": 2,
+     "drafts": 4,
+     "r11off": 0,
+     "p_bach": 0.0148,
+     "p_drafts": 0.0421,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 2,
+      "drafts": 4,
+      "r11off": 0,
+      "p_bach": 0.0171,
+      "p_drafts": 0.0533,
+      "p_r11off": 0.0
+     }
+    }
+   ]
+  },
+  "minor": {
+   "bach_heldout": {
+    "info": {
+     "phrases": 117,
+     "pieces": 18,
+     "skipped_short": 0
+    },
+    "counts": {
+     "半终止 HC": 29,
+     "完全正格终止 PAC": 33,
+     "其他终止": 9,
+     "转调终止（离调后完全终止）": 3,
+     "离调终止（副属→目标）": 23,
+     "转调终止（离调后变格终止）": 4,
+     "主和弦终止": 7,
+     "变格终止 PC": 6,
+     "不完全正格终止 IAC": 3
+    },
+    "dist": {
+     "PAC": 0.2821,
+     "HC": 0.2479,
+     "离调终止": 0.1966,
+     "其他": 0.0769,
+     "主和弦终止": 0.0598,
+     "PC": 0.0513,
+     "转调变格": 0.0342,
+     "转调完全": 0.0256,
+     "IAC": 0.0256
+    },
+    "interior_counts": {
+     "半终止 HC": 27,
+     "完全正格终止 PAC": 20,
+     "其他终止": 9,
+     "转调终止（离调后完全终止）": 3,
+     "离调终止（副属→目标）": 22,
+     "转调终止（离调后变格终止）": 4,
+     "主和弦终止": 5,
+     "变格终止 PC": 6,
+     "不完全正格终止 IAC": 3
+    },
+    "interior_dist": {
+     "HC": 0.2727,
+     "离调终止": 0.2222,
+     "PAC": 0.202,
+     "其他": 0.0909,
+     "PC": 0.0606,
+     "主和弦终止": 0.0505,
+     "转调变格": 0.0404,
+     "转调完全": 0.0303,
+     "IAC": 0.0303
+    }
+   },
+   "grammar_drafts": {
+    "info": {
+     "drafts_ok": 16,
+     "drafts_failed": 0,
+     "phrases": 77,
+     "interior_phrases": 61,
+     "seeds_distinct": 16,
+     "seed_prefix": "cad"
+    },
+    "counts": {
+     "转调终止（离调后变格终止）": 3,
+     "其他终止": 4,
+     "半终止 HC": 20,
+     "完全正格终止 PAC": 36,
+     "离调终止（副属→目标）": 13,
+     "变格终止 PC": 1
+    },
+    "dist": {
+     "PAC": 0.4675,
+     "HC": 0.2597,
+     "离调终止": 0.1688,
+     "其他": 0.0519,
+     "转调变格": 0.039,
+     "PC": 0.013
+    },
+    "interior_counts": {
+     "转调终止（离调后变格终止）": 3,
+     "其他终止": 4,
+     "半终止 HC": 20,
+     "完全正格终止 PAC": 20,
+     "离调终止（副属→目标）": 13,
+     "变格终止 PC": 1
+    },
+    "interior_dist": {
+     "HC": 0.3279,
+     "PAC": 0.3279,
+     "离调终止": 0.2131,
+     "其他": 0.0656,
+     "转调变格": 0.0492,
+     "PC": 0.0164
+    }
+   },
+   "grammar_drafts_r11_off": {
+    "info": {
+     "drafts_ok": 16,
+     "drafts_failed": 0,
+     "phrases": 77,
+     "interior_phrases": 61,
+     "seeds_distinct": 16,
+     "seed_prefix": "cad"
+    },
+    "counts": {
+     "完全正格终止 PAC": 56,
+     "离调终止（副属→目标）": 16,
+     "半终止 HC": 1,
+     "不完全正格终止 IAC": 3,
+     "主和弦终止": 1
+    },
+    "dist": {
+     "PAC": 0.7273,
+     "离调终止": 0.2078,
+     "IAC": 0.039,
+     "HC": 0.013,
+     "主和弦终止": 0.013
+    },
+    "interior_counts": {
+     "完全正格终止 PAC": 42,
+     "离调终止（副属→目标）": 15,
+     "半终止 HC": 1,
+     "不完全正格终止 IAC": 2,
+     "主和弦终止": 1
+    },
+    "interior_dist": {
+     "PAC": 0.6885,
+     "离调终止": 0.2459,
+     "IAC": 0.0328,
+     "HC": 0.0164,
+     "主和弦终止": 0.0164
+    }
+   },
+   "formula_pool_c_rules": {
+    "counts": {
+     "半终止 HC": 169,
+     "完全正格终止 PAC": 211,
+     "主和弦终止": 10,
+     "变格终止 PC": 22,
+     "不完全正格终止 IAC": 4,
+     "离调终止（副属→目标）": 128,
+     "转调终止（离调后完全终止）": 9,
+     "转调终止（离调后变格终止）": 15,
+     "其他终止": 19,
+     "阻碍终止 DC": 6
+    },
+    "dist": {
+     "PAC": 0.3558,
+     "HC": 0.285,
+     "离调终止": 0.2159,
+     "PC": 0.0371,
+     "其他": 0.032,
+     "转调变格": 0.0253,
+     "主和弦终止": 0.0169,
+     "转调完全": 0.0152,
+     "DC": 0.0101,
+     "IAC": 0.0067
+    }
+   },
+   "tvd": {
+    "drafts_vs_bach": [
+     0.2021,
+     0.1572,
+     0.3807
+    ],
+    "r11off_vs_bach": [
+     0.4698,
+     0.4166,
+     0.5847
+    ],
+    "r11off_vs_drafts": [
+     0.3506,
+     0.2814,
+     0.4605
+    ],
+    "drafts_vs_pool": 0.1453,
+    "r11off_vs_pool": 0.4037,
+    "drafts_interior_vs_bach_interior": [
+     0.1898
+    ],
+    "r11off_interior_vs_bach_interior": [
+     0.5127
+    ]
+   },
+   "per_type": [
+    {
+     "type": "PAC",
+     "bach": 33,
+     "drafts": 36,
+     "r11off": 56,
+     "p_bach": 0.2821,
+     "p_drafts": 0.4675,
+     "p_r11off": 0.7273,
+     "interior": {
+      "bach": 20,
+      "drafts": 20,
+      "r11off": 42,
+      "p_bach": 0.202,
+      "p_drafts": 0.3279,
+      "p_r11off": 0.6885
+     }
+    },
+    {
+     "type": "IAC",
+     "bach": 3,
+     "drafts": 0,
+     "r11off": 3,
+     "p_bach": 0.0256,
+     "p_drafts": 0.0,
+     "p_r11off": 0.039,
+     "interior": {
+      "bach": 3,
+      "drafts": 0,
+      "r11off": 2,
+      "p_bach": 0.0303,
+      "p_drafts": 0.0,
+      "p_r11off": 0.0328
+     }
+    },
+    {
+     "type": "PC",
+     "bach": 6,
+     "drafts": 1,
+     "r11off": 0,
+     "p_bach": 0.0513,
+     "p_drafts": 0.013,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 6,
+      "drafts": 1,
+      "r11off": 0,
+      "p_bach": 0.0606,
+      "p_drafts": 0.0164,
+      "p_r11off": 0.0
+     }
+    },
+    {
+     "type": "HC",
+     "bach": 29,
+     "drafts": 20,
+     "r11off": 1,
+     "p_bach": 0.2479,
+     "p_drafts": 0.2597,
+     "p_r11off": 0.013,
+     "interior": {
+      "bach": 27,
+      "drafts": 20,
+      "r11off": 1,
+      "p_bach": 0.2727,
+      "p_drafts": 0.3279,
+      "p_r11off": 0.0164
+     }
+    },
+    {
+     "type": "主和弦终止",
+     "bach": 7,
+     "drafts": 0,
+     "r11off": 1,
+     "p_bach": 0.0598,
+     "p_drafts": 0.0,
+     "p_r11off": 0.013,
+     "interior": {
+      "bach": 5,
+      "drafts": 0,
+      "r11off": 1,
+      "p_bach": 0.0505,
+      "p_drafts": 0.0,
+      "p_r11off": 0.0164
+     }
+    },
+    {
+     "type": "离调终止",
+     "bach": 23,
+     "drafts": 13,
+     "r11off": 16,
+     "p_bach": 0.1966,
+     "p_drafts": 0.1688,
+     "p_r11off": 0.2078,
+     "interior": {
+      "bach": 22,
+      "drafts": 13,
+      "r11off": 15,
+      "p_bach": 0.2222,
+      "p_drafts": 0.2131,
+      "p_r11off": 0.2459
+     }
+    },
+    {
+     "type": "转调完全",
+     "bach": 3,
+     "drafts": 0,
+     "r11off": 0,
+     "p_bach": 0.0256,
+     "p_drafts": 0.0,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 3,
+      "drafts": 0,
+      "r11off": 0,
+      "p_bach": 0.0303,
+      "p_drafts": 0.0,
+      "p_r11off": 0.0
+     }
+    },
+    {
+     "type": "转调变格",
+     "bach": 4,
+     "drafts": 3,
+     "r11off": 0,
+     "p_bach": 0.0342,
+     "p_drafts": 0.039,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 4,
+      "drafts": 3,
+      "r11off": 0,
+      "p_bach": 0.0404,
+      "p_drafts": 0.0492,
+      "p_r11off": 0.0
+     }
+    },
+    {
+     "type": "其他",
+     "bach": 9,
+     "drafts": 4,
+     "r11off": 0,
+     "p_bach": 0.0769,
+     "p_drafts": 0.0519,
+     "p_r11off": 0.0,
+     "interior": {
+      "bach": 9,
+      "drafts": 4,
+      "r11off": 0,
+      "p_bach": 0.0909,
+      "p_drafts": 0.0656,
+      "p_r11off": 0.0
+     }
+    }
+   ]
+  }
+ }
+}

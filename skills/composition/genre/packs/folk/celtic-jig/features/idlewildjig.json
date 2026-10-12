@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "Idlewild -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/idlewildjig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4513212368
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "A",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "F",
+      "bars": "13"
+    },
+    {
+      "section": "G",
+      "bars": "14"
+    },
+    {
+      "section": "J",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 10,
+    "repetition_ratio": 0.375,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "B5"
+    ],
+    "mean_midi": 69.45,
+    "stepwise_ratio": 0.543,
+    "leap_ratio": 0.205,
+    "large_leap_ratio": 0.013,
+    "repeated_note_ratio": 0.033,
+    "interval_hist": {
+      "2": 60,
+      "5": 22,
+      "1": 22,
+      "3": 20,
+      "4": 13,
+      "0": 5,
+      "7": 4,
+      "8": 2,
+      "12": 2,
+      "9": 1
+    },
+    "dur_hist": {
+      "8th": 12,
+      "triplet": 54,
+      "dotted_8th": 39,
+      "16th": 39,
+      "0": 8
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.1776,
+      "1": 0.0,
+      "2": 0.0855,
+      "3": 0.2171,
+      "4": 0.0,
+      "5": 0.0987,
+      "6": 0.0132,
+      "7": 0.2105,
+      "8": 0.0395,
+      "9": 0.0,
+      "10": 0.1579,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0132,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": 2.25,
+    "triplet_ratio": 0.375,
+    "swing_pair_share": 0.7273
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "triplet": 54,
+      "dotted_8th": 39,
+      "16th": 39,
+      "8th": 12,
+      "0": 8
+    },
+    "onset_beat_share": {
+      "1": 0.539,
+      "2": 0.461
+    },
+    "beat1_onset_share": 0.539,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.016,
+    "density_notes_per_bar": 9.5,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

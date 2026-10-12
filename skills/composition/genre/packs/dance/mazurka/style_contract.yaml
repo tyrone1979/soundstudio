@@ -1,0 +1,64 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: mazurka
+family: dance
+schema: style-contract/v1
+evidence_n: 52
+evidence_weight: 1.0
+tempo:
+  default: 135
+  min: 115
+  max: 189
+  source: empirical
+  evidence_n: 50
+meter:
+  primary: 3/4
+  allowed:
+  - 3/4
+  weights:
+    3/4: 1.0
+  source: empirical
+  evidence_n: 52
+harmony:
+  chords_per_bar: 2.94
+  quality_weights:
+    triad: 0.514
+    dominant7: 0.117
+    major7: 0.016
+    minor7: 0.025
+    diminished7: 0.016
+    half_diminished7: 0.029
+    augmented: 0.028
+    other: 0.255
+  unique_roots_mean: 12.192
+  evidence_n: 52
+melody:
+  stepwise_ratio: 0.51
+  leap_ratio: 0.227
+  repeated_note_ratio: 0.092
+  range_center: 70.64
+  range_width: null
+  mean_midi: 70.64
+  evidence_n: 52
+rhythm:
+  density_notes_per_bar: 5.27
+  beat1_onset_share: 0.401
+  syncopation: 0.599
+  swing_ratio: 2.25
+  swing_pair_share: 0.002
+  triplet_ratio: 0.065
+  evidence_n: 52
+texture:
+  voice_count: 2.0
+  evidence_n: 52
+form:
+  phrase_len: 1.02
+  repetition_ratio: 0.46
+  unique_motifs: 44.5
+  evidence_n: 52
+provenance:
+  built_from: features
+  scores_analyzed: 52
+  scores_with_harmony: 52
+  min_evidence: 8

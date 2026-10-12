@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "title": "Phil Isaac's -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/philisaacsjig.musicxml"
+  },
+  "global": {
+    "key": "F# minor",
+    "key_sharps": 3,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4529502992
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "C",
+      "bars": "12"
+    },
+    {
+      "section": "D",
+      "bars": "13"
+    },
+    {
+      "section": "J",
+      "bars": "14"
+    },
+    {
+      "section": "K",
+      "bars": "15"
+    },
+    {
+      "section": "L",
+      "bars": "16"
+    },
+    {
+      "section": "M",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 73.9,
+    "stepwise_ratio": 0.629,
+    "leap_ratio": 0.152,
+    "large_leap_ratio": 0.038,
+    "repeated_note_ratio": 0.01,
+    "interval_hist": {
+      "2": 49,
+      "1": 17,
+      "3": 15,
+      "4": 7,
+      "5": 6,
+      "9": 4,
+      "12": 4,
+      "8": 2,
+      "0": 1
+    },
+    "dur_hist": {
+      "8th": 23,
+      "triplet": 33,
+      "dotted_8th": 23,
+      "16th": 23,
+      "whole": 1,
+      "dotted_half": 1,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 6,
+    "degree_hist": {
+      "0": 0.1415,
+      "1": 0.0,
+      "2": 0.1038,
+      "3": 0.2642,
+      "4": 0.0,
+      "5": 0.1415,
+      "6": 0.0,
+      "7": 0.1509,
+      "8": 0.066,
+      "9": 0.0,
+      "10": 0.1321,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": 2.25,
+    "triplet_ratio": 0.3113,
+    "swing_pair_share": 0.6
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "triplet": 33,
+      "8th": 23,
+      "dotted_8th": 23,
+      "16th": 23,
+      "quarter": 2,
+      "whole": 1,
+      "dotted_half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.557,
+      "2": 0.443
+    },
+    "beat1_onset_share": 0.557,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.21,
+    "density_notes_per_bar": 5.89,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

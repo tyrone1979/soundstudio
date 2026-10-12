@@ -1,0 +1,62 @@
+id: chopin-piano
+name: 肖邦钢琴小品
+name_en: Chopin Piano Character Piece
+enabled: true
+version: '1.0'
+dimensions:
+  form: mazurka
+  tempo_energy: moderato
+  mood: lyrical
+  medium: solo_piano
+  tradition: european
+  tonal_language: functional_tonal
+  rhythmic_identity: triple_meter_dance
+  family: romantic
+triggers:
+  keywords:
+  - 肖邦
+  - 玛祖卡
+  - chopin
+  - mazurka
+  style_tags:
+  - chopin
+  - mazurka
+  - piano
+  - romantic
+summary: 肖邦玛祖卡：可解释语法作曲，钢琴右手旋律 + 左手低音-和弦-和弦。
+profile:
+  mode: 大小调交替常见；偶用调式色彩。
+  tempo:
+    unit: quarter_note
+    min: 80
+    max: 144
+    default: 120
+    character: 三拍舞曲，重音常在第二或第三拍。
+  meter:
+    primary: 3/4
+    allowed: [3/4]
+    description: 三拍子。
+  phrase:
+    preferred: [4+4, 8+8]
+    description: 方整乐句。
+  harmony:
+    vocabulary_basic: [i, iv, V, V7, VI, III]
+    progressions: [i–iv–V–i]
+    forbidden: []
+  melody:
+    character: 歌唱性，常带装饰与 Rubato 暗示
+    contour_preferred: [arch, stepwise]
+    range_default: {low: C4, high: A5}
+  texture:
+    primary: melody_plus_oom_pah_pah
+    density: piano_solo
+  color:
+    medium_note: 钢琴大谱表
+    character: 乡土与抒情并存。
+generation:
+  foundation:
+    bars: {default: 32, min: 8, max: 32}
+    complexity: 3
+    instruments_default: [piano, piano]
+  composition:
+    bars_default: 32

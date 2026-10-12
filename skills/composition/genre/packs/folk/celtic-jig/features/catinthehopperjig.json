@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "title": "CAT IN THE HOPPER -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/catinthehopperjig.musicxml"
+  },
+  "global": {
+    "key": "D minor",
+    "key_sharps": -1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 17,
+    "parts": [
+      4469834448
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.235,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B-5"
+    ],
+    "mean_midi": 73.96,
+    "stepwise_ratio": 0.543,
+    "leap_ratio": 0.062,
+    "large_leap_ratio": 0.025,
+    "repeated_note_ratio": 0.198,
+    "interval_hist": {
+      "2": 32,
+      "0": 16,
+      "1": 12,
+      "3": 8,
+      "4": 8,
+      "5": 3,
+      "12": 2
+    },
+    "dur_hist": {
+      "8th": 69,
+      "quarter": 13
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2317,
+      "1": 0.0,
+      "2": 0.0976,
+      "3": 0.1463,
+      "4": 0.0,
+      "5": 0.2195,
+      "6": 0.0,
+      "7": 0.1341,
+      "8": 0.0854,
+      "9": 0.0,
+      "10": 0.0854,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 69,
+      "quarter": 13
+    },
+    "onset_beat_share": {
+      "1": 0.207,
+      "2": 0.183,
+      "3": 0.195,
+      "4": 0.195,
+      "5": 0.049,
+      "6": 0.171
+    },
+    "beat1_onset_share": 0.207,
+    "syncopation_proxy": 0.793,
+    "rest_ratio": 0.069,
+    "density_notes_per_bar": 4.82,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

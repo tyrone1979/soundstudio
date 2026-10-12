@@ -1,0 +1,215 @@
+id: piano-prelude
+name: 钢琴前奏曲
+name_en: Piano Prelude
+enabled: true
+version: '2.1'
+dimensions:
+  form: prelude
+  tempo_energy: moderato
+  mood: lyrical
+  medium: solo_piano
+  tradition: european
+  tonal_language: functional_tonal
+  rhythmic_identity: pulse_ostinato
+  family: academic
+triggers:
+  keywords:
+  - 前奏曲
+  - prelude
+  - 练习曲气质
+  - 钢琴小品
+  style_tags:
+  - prelude
+  - piano
+  - etude_like
+  - academic
+summary: 钢琴前奏曲：统一音型贯穿、短小完整、调性集中、织体即内容。
+profile:
+  mode: 单一调性为主；可短暂离调，结束回主。
+  tonal_center:
+    preferred:
+    - C
+    - G
+    - D
+    - A minor
+    - E minor
+    secondary: []
+    empirical_key_dist:
+      C major: 0.042
+      A minor: 0.042
+      G major: 0.042
+      E minor: 0.083
+      D major: 0.042
+      B minor: 0.042
+      A major: 0.042
+      F# minor: 0.042
+      C# minor: 0.042
+      B major: 0.042
+      G# minor: 0.042
+      F# major: 0.042
+      E- minor: 0.083
+      C# major: 0.042
+      B- minor: 0.042
+      A- major: 0.042
+      F minor: 0.042
+      E- major: 0.042
+      C minor: 0.042
+      G minor: 0.042
+      F major: 0.042
+      D minor: 0.042
+  tempo:
+    unit: quarter_note
+    min: 72
+    max: 126
+    default: 96
+    character: 稳定；服务音型流动。
+  meter:
+    primary: 4/4
+    allowed:
+    - 4/4
+    - 3/4
+    - 6/8
+    description: 固定拍号。
+  rhythm:
+    identity: unified figuration pattern
+    accompaniment:
+      default: ostinato_figuration
+    melodic_preferred:
+    - pattern
+    - arch_over_pattern
+    melodic_avoid:
+    - many_unrelated_textures
+  phrase:
+    preferred:
+    - 8+8
+    - 4+4+8
+    description: 短小完整。
+  cadence:
+    final: 明确收束于主。
+  harmony:
+    vocabulary_basic:
+    - I
+    - IV
+    - V
+    - vi
+    - ii
+    - i
+    progressions:
+    - I–V–vi–IV
+    - i–VI–III–VII
+    - I–IV–V–I
+    harmonic_rhythm: 由音型携带和声变化。
+    harmonic_rhythm_empirical: 语料约 4.38 和弦/小节
+  melody:
+    character: 可藏于音型顶端或内声
+    contour_preferred:
+    - stepwise
+    - wave
+    - arch
+    range_default:
+      low: C4
+      high: C6
+    stepwise_ratio_target: 0.349
+    rules: 语料级进比约 35%；大跳比约 33%。以级进为主。
+    leap_ratio_target: 0.329
+  motif:
+    length_bars:
+      min: 1
+      max: 2
+    traits:
+    - figuration_cell
+  texture:
+    primary: figuration_driven
+    density: consistent
+  register:
+    melody:
+      low: C3
+      high: C6
+    bass:
+      low: C2
+      high: C3
+  dynamics:
+    default:
+      min: p
+      max: mf
+    shape: 渐强渐弱随音型起伏。
+  articulation:
+    melody:
+    - legato
+    - even
+    avoid:
+    - random_accents
+  color: 钢琴独奏；踏板清晰不浑。忌乐队化。
+  instrumentation:
+    preferred:
+    - solo_piano
+    avoid:
+    - orchestra
+  form:
+    foundation_bars: 16
+    full_bars_default: 32
+    full_shapes:
+    - through_composed_short
+    - A-A
+  constraints:
+    must:
+    - 统一音型；调性集中；短小完整。
+    avoid:
+    - 多风格拼贴；无音型中心。
+  priority:
+  - figuration
+  - unity
+  - pianism
+  empirical:
+    source: score_learning
+    total_scores: 24
+    means:
+      tempo: 109.083
+      stepwise_ratio: 0.349
+      leap_ratio: 0.329
+      bass_beat1_ratio: 0.981
+      beat1_onset_share: 0.331
+      density_notes_per_bar: 13.278
+      harmonic_rhythm_chords_per_bar: 4.377
+    updated_at: '2026-09-28T22:46:40'
+    core_rules: []
+    fingerprint: cf3a17ac60b7
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 16
+    complexity: 1
+    instruments_default:
+    - piano
+    required:
+    - figuration
+    - melody_top
+    - cadence
+  composition:
+    bars_default: 32
+    complexity: 2
+    preserve:
+    - meter
+    - tonal_language
+    - melodic_character
+    - rhythmic_identity
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - harmonic_complexity
+    - form
+foundation_score:
+  length: 16
+  key: C_major
+  tempo: 96
+  meter: 4/4
+  map:
+    1-4: 音型确立
+    5-8: 发展
+    9-12: 高潮
+    13-16: 收束
+llm_instruction: 落实前奏曲：一个音型贯穿到底。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

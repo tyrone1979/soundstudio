@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "Mrs Hogan's Goose -- jig",
+    "composer": "J.HAND",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/mrshogansgoosejig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4524753360
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F#4",
+      "F#5"
+    ],
+    "mean_midi": 71.96,
+    "stepwise_ratio": 0.517,
+    "leap_ratio": 0.112,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.101,
+    "interval_hist": {
+      "2": 33,
+      "3": 18,
+      "1": 13,
+      "0": 9,
+      "5": 7,
+      "4": 6,
+      "8": 2,
+      "9": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "8th": 77,
+      "quarter": 9,
+      "0": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.2556,
+      "1": 0.0,
+      "2": 0.2333,
+      "3": 0.1556,
+      "4": 0.0,
+      "5": 0.0889,
+      "6": 0.0,
+      "7": 0.1444,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.1111,
+      "11": 0.0111
+    },
+    "chromatic_ratio": 0.0111,
+    "leading_tone_ratio": 0.0111
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 77,
+      "quarter": 9,
+      "16th": 2,
+      "0": 2
+    },
+    "onset_beat_share": {
+      "1": 0.211,
+      "2": 0.122,
+      "3": 0.178,
+      "4": 0.2,
+      "5": 0.133,
+      "6": 0.156
+    },
+    "beat1_onset_share": 0.211,
+    "syncopation_proxy": 0.789,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

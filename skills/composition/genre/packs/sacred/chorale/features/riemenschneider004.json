@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Es ist das Heil uns kommen her",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider004.musicxml"
+  },
+  "global": {
+    "key": "E major",
+    "key_sharps": 4,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 11,
+    "parts": [
+      4782890384
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 34,
+      "8th": 8,
+      "dotted_8th": 1,
+      "16th": 1,
+      "half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.311,
+      "2": 0.222,
+      "3": 0.222,
+      "4": 0.244
+    },
+    "beat1_onset_share": 0.311,
+    "syncopation_proxy": 0.689,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 4.09,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 9,
+    "chords_estimated": 45,
+    "harmonic_rhythm_chords_per_bar": 4.09,
+    "root_pair_top": {
+      "B-E": 6,
+      "F#-B": 5,
+      "E-B": 3,
+      "B-F#": 3,
+      "A-E": 2,
+      "E-A": 2,
+      "E-C#": 2,
+      "E-D": 1
+    },
+    "root_sample": [
+      "E",
+      "B",
+      "E",
+      "D",
+      "G#",
+      "A",
+      "E",
+      "A",
+      "B",
+      "E",
+      "C#",
+      "F#",
+      "B",
+      "F#",
+      "B",
+      "E",
+      "C#",
+      "A#",
+      "B",
+      "F#",
+      "B",
+      "E",
+      "F#",
+      "B"
+    ],
+    "quality_hist": {
+      "triad": 0.8667,
+      "dominant7": 0.0889,
+      "half_diminished7": 0.0222,
+      "diminished7": 0.0222
+    },
+    "seventh_ratio": 0.1333
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

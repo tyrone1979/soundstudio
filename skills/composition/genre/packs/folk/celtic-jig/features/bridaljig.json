@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "title": "The Bridal -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/bridaljig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4507272528
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "H",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    },
+    {
+      "section": "J",
+      "bars": "16"
+    },
+    {
+      "section": "L",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 73.84,
+    "stepwise_ratio": 0.477,
+    "leap_ratio": 0.081,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.128,
+    "interval_hist": {
+      "2": 28,
+      "3": 16,
+      "1": 13,
+      "0": 11,
+      "4": 11,
+      "5": 7
+    },
+    "dur_hist": {
+      "8th": 79,
+      "quarter": 7,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.2069,
+      "1": 0.0,
+      "2": 0.1264,
+      "3": 0.2299,
+      "4": 0.0,
+      "5": 0.1149,
+      "6": 0.0,
+      "7": 0.1609,
+      "8": 0.0345,
+      "9": 0.0,
+      "10": 0.1264,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 79,
+      "quarter": 7,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.207,
+      "2": 0.138,
+      "3": 0.172,
+      "4": 0.184,
+      "5": 0.138,
+      "6": 0.161
+    },
+    "beat1_onset_share": 0.207,
+    "syncopation_proxy": 0.793,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.83,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

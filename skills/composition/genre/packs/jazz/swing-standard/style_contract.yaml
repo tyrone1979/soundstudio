@@ -1,0 +1,72 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: swing-standard
+family: jazz
+schema: style-contract/v1
+evidence_n: 426
+evidence_weight: 1.0
+tempo:
+  default: 155
+  min: 76
+  max: 236
+  source: empirical
+  evidence_n: 365
+meter:
+  primary: 4/4
+  allowed:
+  - 4/4
+  - 3/4
+  - 6/8
+  - 5/4
+  - 6/4
+  weights:
+    4/4: 0.9836
+    3/4: 0.0094
+    6/8: 0.0023
+    5/4: 0.0023
+    6/4: 0.0023
+  source: empirical
+  evidence_n: 426
+harmony:
+  chords_per_bar: 1.03
+  quality_weights:
+    triad: 0.139
+    dominant7: 0.479
+    major7: 0.089
+    minor7: 0.217
+    diminished7: 0.006
+    half_diminished7: 0.031
+    augmented: 0.009
+    other: 0.03
+  unique_roots_mean: 7.131
+  evidence_n: 426
+melody:
+  stepwise_ratio: 0.455
+  leap_ratio: 0.177
+  repeated_note_ratio: 0.117
+  range_center: 65.345
+  range_width: null
+  mean_midi: 65.345
+  evidence_n: 426
+rhythm:
+  density_notes_per_bar: 1.06
+  beat1_onset_share: 0.788
+  syncopation: 0.212
+  swing_ratio: null
+  swing_pair_share: 0.0
+  triplet_ratio: 0.0
+  evidence_n: 426
+texture:
+  voice_count: 1.0
+  evidence_n: 426
+form:
+  phrase_len: 1.0
+  repetition_ratio: 0.006
+  unique_motifs: 31.0
+  evidence_n: 426
+provenance:
+  built_from: features
+  scores_analyzed: 426
+  scores_with_harmony: 426
+  min_evidence: 8

@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "title": "SWIMMING IN THE GUTTER -- JIG",
+    "composer": "Conn.Regan",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/swimminginthegutterjig.musicxml"
+  },
+  "global": {
+    "key": "D minor",
+    "key_sharps": -1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4523789072
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.211,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F4",
+      "C6"
+    ],
+    "mean_midi": 74.85,
+    "stepwise_ratio": 0.446,
+    "leap_ratio": 0.248,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.05,
+    "interval_hist": {
+      "2": 25,
+      "1": 20,
+      "5": 15,
+      "4": 13,
+      "3": 13,
+      "0": 5,
+      "8": 4,
+      "9": 4,
+      "6": 1,
+      "11": 1
+    },
+    "dur_hist": {
+      "0": 8,
+      "dotted_quarter": 5,
+      "8th": 88,
+      "quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1961,
+      "1": 0.0,
+      "2": 0.1078,
+      "3": 0.2255,
+      "4": 0.0,
+      "5": 0.0588,
+      "6": 0.0,
+      "7": 0.1863,
+      "8": 0.0686,
+      "9": 0.0098,
+      "10": 0.1275,
+      "11": 0.0196
+    },
+    "chromatic_ratio": 0.0294,
+    "leading_tone_ratio": 0.0196
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 88,
+      "0": 8,
+      "dotted_quarter": 5,
+      "quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.245,
+      "2": 0.147,
+      "3": 0.137,
+      "4": 0.196,
+      "5": 0.137,
+      "6": 0.137
+    },
+    "beat1_onset_share": 0.245,
+    "syncopation_proxy": 0.755,
+    "rest_ratio": 0.079,
+    "density_notes_per_bar": 5.37,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 1,
+    "chords_estimated": 1,
+    "harmonic_rhythm_chords_per_bar": 0.05,
+    "root_pair_top": {},
+    "root_sample": [
+      "B-"
+    ],
+    "quality_hist": {
+      "other": 1.0
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

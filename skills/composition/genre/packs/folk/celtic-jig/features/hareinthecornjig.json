@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "title": "Hare in the Corn -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/hareinthecornjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 27,
+    "parts": [
+      4516825872
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1-2"
+    },
+    {
+      "section": "C",
+      "bars": "3"
+    },
+    {
+      "section": "D",
+      "bars": "4"
+    },
+    {
+      "section": "E",
+      "bars": "5"
+    },
+    {
+      "section": "B",
+      "bars": "6"
+    },
+    {
+      "section": "F",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "J",
+      "bars": "11"
+    },
+    {
+      "section": "C",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "I",
+      "bars": "14"
+    },
+    {
+      "section": "J",
+      "bars": "15"
+    },
+    {
+      "section": "F",
+      "bars": "16"
+    },
+    {
+      "section": "G",
+      "bars": "17"
+    },
+    {
+      "section": "L",
+      "bars": "18"
+    },
+    {
+      "section": "M",
+      "bars": "19"
+    },
+    {
+      "section": "N",
+      "bars": "20"
+    },
+    {
+      "section": "C",
+      "bars": "21"
+    },
+    {
+      "section": "O",
+      "bars": "22"
+    },
+    {
+      "section": "M",
+      "bars": "23"
+    },
+    {
+      "section": "P",
+      "bars": "24"
+    },
+    {
+      "section": "Q",
+      "bars": "25"
+    },
+    {
+      "section": "R",
+      "bars": "26"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 18,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.04
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 69.63,
+    "stepwise_ratio": 0.415,
+    "leap_ratio": 0.069,
+    "large_leap_ratio": 0.015,
+    "repeated_note_ratio": 0.115,
+    "interval_hist": {
+      "2": 45,
+      "3": 37,
+      "4": 15,
+      "0": 15,
+      "1": 9,
+      "7": 3,
+      "5": 3,
+      "9": 1,
+      "17": 1,
+      "15": 1
+    },
+    "dur_hist": {
+      "8th": 118,
+      "quarter": 13
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2366,
+      "1": 0.0,
+      "2": 0.1069,
+      "3": 0.0,
+      "4": 0.1603,
+      "5": 0.0534,
+      "6": 0.0,
+      "7": 0.229,
+      "8": 0.0,
+      "9": 0.1756,
+      "10": 0.0305,
+      "11": 0.0076
+    },
+    "chromatic_ratio": 0.0305,
+    "leading_tone_ratio": 0.0076
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 118,
+      "quarter": 13
+    },
+    "onset_beat_share": {
+      "1": 0.206,
+      "2": 0.168,
+      "3": 0.183,
+      "4": 0.183,
+      "5": 0.099,
+      "6": 0.16
+    },
+    "beat1_onset_share": 0.206,
+    "syncopation_proxy": 0.794,
+    "rest_ratio": 0.083,
+    "density_notes_per_bar": 4.85,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

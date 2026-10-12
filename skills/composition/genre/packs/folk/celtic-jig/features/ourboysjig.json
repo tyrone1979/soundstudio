@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "OUR BOYS' -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/ourboysjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4479613456
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 72.5,
+    "stepwise_ratio": 0.526,
+    "leap_ratio": 0.062,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.165,
+    "interval_hist": {
+      "2": 30,
+      "1": 21,
+      "0": 16,
+      "3": 13,
+      "4": 11,
+      "5": 3,
+      "7": 2,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 88,
+      "0": 6,
+      "quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.102,
+      "1": 0.0,
+      "2": 0.0918,
+      "3": 0.2347,
+      "4": 0.0,
+      "5": 0.1531,
+      "6": 0.0,
+      "7": 0.2143,
+      "8": 0.0612,
+      "9": 0.0,
+      "10": 0.1429,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 88,
+      "0": 6,
+      "quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.214,
+      "2": 0.163,
+      "3": 0.163,
+      "4": 0.194,
+      "5": 0.122,
+      "6": 0.143
+    },
+    "beat1_onset_share": 0.214,
+    "syncopation_proxy": 0.786,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.44,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "genre": "symphony",
+  "techniques": {
+    "rhythmic": [
+      {
+        "name": "meter_3/4",
+        "description": "meter=3/4",
+        "frequency": 0.417,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "melodic": [
+      {
+        "name": "stepwise_lyrical_motion",
+        "description": "Mean stepwise_ratio=0.493",
+        "frequency": null,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "harmonic": [],
+    "phrase": [],
+    "accompaniment": [
+      {
+        "name": "bass_emphasizes_beat_1",
+        "description": "bass_emphasizes_beat_1",
+        "frequency": 0.417,
+        "confidence": "medium",
+        "universality": "common"
+      },
+      {
+        "name": "beat1_onset_weight",
+        "description": "beat1_onset_weight",
+        "frequency": 0.958,
+        "confidence": "high",
+        "universality": "core"
+      }
+    ],
+    "orchestration": [],
+    "development": [],
+    "cadence": [],
+    "stylistic_constraints": {
+      "must": [],
+      "should": [],
+      "avoid": []
+    }
+  },
+  "_fallback": true,
+  "_source_stats_total": 24
+}

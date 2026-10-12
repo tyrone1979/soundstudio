@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "GEESE IN THE BOG -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/geeseinthebogjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 17,
+    "parts": [
+      4513728272
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.235,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 70.12,
+    "stepwise_ratio": 0.367,
+    "leap_ratio": 0.071,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.061,
+    "interval_hist": {
+      "3": 34,
+      "2": 32,
+      "4": 15,
+      "0": 6,
+      "5": 4,
+      "1": 4,
+      "7": 1,
+      "10": 1,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 97,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2222,
+      "1": 0.0,
+      "2": 0.0707,
+      "3": 0.0,
+      "4": 0.2424,
+      "5": 0.0404,
+      "6": 0.0,
+      "7": 0.2626,
+      "8": 0.0,
+      "9": 0.1616,
+      "10": 0.0,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 97,
+      "quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.172,
+      "2": 0.172,
+      "3": 0.172,
+      "4": 0.172,
+      "5": 0.152,
+      "6": 0.162
+    },
+    "beat1_onset_share": 0.172,
+    "syncopation_proxy": 0.828,
+    "rest_ratio": 0.01,
+    "density_notes_per_bar": 5.82,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

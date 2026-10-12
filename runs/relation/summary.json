@@ -1,0 +1,30 @@
+{
+ "n_solos": 456,
+ "n_bars": 35412,
+ "n_edges": 8802,
+ "rel": {
+  "introduce": 1073,
+  "cause": 2836,
+  "contrast": 1589,
+  "continue": 776,
+  "sequence": 426,
+  "quote": 1443,
+  "unclear": 659
+ },
+ "conf": {
+  "high": 5307,
+  "medium": 2836,
+  "none": 659
+ },
+ "styles": {
+  "POSTBOP": 147,
+  "HARDBOP": 76,
+  "SWING": 66,
+  "BEBOP": 56,
+  "COOL": 54,
+  "TRADITIONAL": 32,
+  "FUSION": 20,
+  "FREE": 5
+ },
+ "unannotated": 659
+}

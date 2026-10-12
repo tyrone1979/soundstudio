@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "title": "Uncle Tom's Best -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/uncletomsbestjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4458115792
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "L",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    },
+    {
+      "section": "J",
+      "bars": "16"
+    },
+    {
+      "section": "M",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 71.56,
+    "stepwise_ratio": 0.377,
+    "leap_ratio": 0.142,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.038,
+    "interval_hist": {
+      "3": 26,
+      "2": 22,
+      "4": 21,
+      "1": 18,
+      "5": 9,
+      "0": 4,
+      "10": 2,
+      "7": 2,
+      "11": 2
+    },
+    "dur_hist": {
+      "8th": 97,
+      "quarter": 10
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.0935,
+      "1": 0.0,
+      "2": 0.1215,
+      "3": 0.243,
+      "4": 0.0,
+      "5": 0.1402,
+      "6": 0.0,
+      "7": 0.1869,
+      "8": 0.0748,
+      "9": 0.0,
+      "10": 0.1402,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 97,
+      "quarter": 10
+    },
+    "onset_beat_share": {
+      "1": 0.561,
+      "2": 0.439
+    },
+    "beat1_onset_share": 0.561,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.146,
+    "density_notes_per_bar": 5.94,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

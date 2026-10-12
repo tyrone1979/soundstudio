@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "CAMP-MEETING -- JIG No.2.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/campmeetingjigno2.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 3,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 28,
+    "parts": [
+      4473376528
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 23,
+    "repetition_ratio": 0.179,
+    "phrase_len": 1.04
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "A5"
+    ],
+    "mean_midi": 71.26,
+    "stepwise_ratio": 0.274,
+    "leap_ratio": 0.226,
+    "large_leap_ratio": 0.071,
+    "repeated_note_ratio": 0.226,
+    "interval_hist": {
+      "0": 38,
+      "2": 27,
+      "4": 24,
+      "3": 22,
+      "1": 19,
+      "12": 10,
+      "5": 6,
+      "11": 6,
+      "9": 6,
+      "8": 4,
+      "10": 4,
+      "14": 1
+    },
+    "dur_hist": {
+      "quarter": 7,
+      "triplet": 24,
+      "8th": 131,
+      "half": 4,
+      "dotted_quarter": 1,
+      "0": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.0533,
+      "1": 0.0,
+      "2": 0.1065,
+      "3": 0.0,
+      "4": 0.1065,
+      "5": 0.0473,
+      "6": 0.1361,
+      "7": 0.3846,
+      "8": 0.0118,
+      "9": 0.0888,
+      "10": 0.0,
+      "11": 0.0651
+    },
+    "chromatic_ratio": 0.1479,
+    "leading_tone_ratio": 0.0651
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.1437,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 131,
+      "triplet": 24,
+      "quarter": 7,
+      "half": 4,
+      "0": 2,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.568,
+      "2": 0.432
+    },
+    "beat1_onset_share": 0.568,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.174,
+    "density_notes_per_bar": 6.04,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "Good Morrow to Your Night-Cap -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/goodmorrowtoyournightcapjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4435003984
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 72.25,
+    "stepwise_ratio": 0.402,
+    "leap_ratio": 0.195,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.126,
+    "interval_hist": {
+      "2": 30,
+      "3": 16,
+      "5": 15,
+      "0": 11,
+      "4": 8,
+      "1": 5,
+      "8": 1,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 81,
+      "quarter": 7
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1932,
+      "1": 0.0,
+      "2": 0.0795,
+      "3": 0.0,
+      "4": 0.2273,
+      "5": 0.0568,
+      "6": 0.0,
+      "7": 0.2386,
+      "8": 0.0,
+      "9": 0.1705,
+      "10": 0.0,
+      "11": 0.0341
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0341
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 81,
+      "quarter": 7
+    },
+    "onset_beat_share": {
+      "1": 0.193,
+      "2": 0.182,
+      "3": 0.182,
+      "4": 0.182,
+      "5": 0.102,
+      "6": 0.159
+    },
+    "beat1_onset_share": 0.193,
+    "syncopation_proxy": 0.807,
+    "rest_ratio": 0.078,
+    "density_notes_per_bar": 4.89,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

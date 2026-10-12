@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "HUNT THE FOX -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/huntthefoxjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4483360912
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 7,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 71.92,
+    "stepwise_ratio": 0.4,
+    "leap_ratio": 0.067,
+    "large_leap_ratio": 0.017,
+    "repeated_note_ratio": 0.05,
+    "interval_hist": {
+      "3": 24,
+      "2": 20,
+      "4": 5,
+      "1": 4,
+      "0": 3,
+      "5": 2,
+      "10": 1,
+      "16": 1
+    },
+    "dur_hist": {
+      "quarter": 11,
+      "8th": 50
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2131,
+      "1": 0.0,
+      "2": 0.1475,
+      "3": 0.0,
+      "4": 0.2623,
+      "5": 0.0656,
+      "6": 0.0,
+      "7": 0.2295,
+      "8": 0.0,
+      "9": 0.082,
+      "10": 0.0,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 50,
+      "quarter": 11
+    },
+    "onset_beat_share": {
+      "1": 0.131,
+      "2": 0.049,
+      "3": 0.131,
+      "4": 0.131,
+      "5": 0.131,
+      "6": 0.131,
+      "7": 0.131,
+      "8": 0.033,
+      "9": 0.131
+    },
+    "beat1_onset_share": 0.131,
+    "syncopation_proxy": 0.869,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 7.62,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

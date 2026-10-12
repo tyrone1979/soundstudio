@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "The Munster Lass -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/munsterlassjig.musicxml"
+  },
+  "global": {
+    "key": "F major",
+    "key_sharps": -1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4513833296
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 17,
+    "repetition_ratio": 0.056,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "C4",
+      "B-5"
+    ],
+    "mean_midi": 74.34,
+    "stepwise_ratio": 0.707,
+    "leap_ratio": 0.141,
+    "large_leap_ratio": 0.043,
+    "repeated_note_ratio": 0.011,
+    "interval_hist": {
+      "2": 36,
+      "1": 29,
+      "3": 7,
+      "4": 6,
+      "5": 5,
+      "7": 2,
+      "15": 2,
+      "12": 1,
+      "17": 1,
+      "9": 1,
+      "10": 1,
+      "0": 1
+    },
+    "dur_hist": {
+      "8th": 73,
+      "0": 4,
+      "dotted_8th": 5,
+      "16th": 5,
+      "dotted_quarter": 1,
+      "quarter": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 5,
+    "degree_hist": {
+      "0": 0.2688,
+      "1": 0.0,
+      "2": 0.172,
+      "3": 0.0,
+      "4": 0.1613,
+      "5": 0.1075,
+      "6": 0.0,
+      "7": 0.1075,
+      "8": 0.0,
+      "9": 0.0538,
+      "10": 0.0,
+      "11": 0.129
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.129
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 73,
+      "dotted_8th": 5,
+      "16th": 5,
+      "quarter": 5,
+      "0": 4,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.215,
+      "2": 0.172,
+      "3": 0.172,
+      "4": 0.194,
+      "5": 0.108,
+      "6": 0.14
+    },
+    "beat1_onset_share": 0.215,
+    "syncopation_proxy": 0.785,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

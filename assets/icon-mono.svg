@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="ComposerChat icon (mono)">
+  <rect x="24" y="24" width="464" height="464" rx="104" ry="104" fill="#4F46E5"/>
+  <path fill="#FFFFFF" d="M110 184 a44 44 0 0 1 44 -44 h204 a44 44 0 0 1 44 44 v144 a44 44 0 0 1 -44 44 h-150 l-46 44 v-44 h-8 a44 44 0 0 1 -44 -44 z"/>
+  <g fill="#4F46E5">
+    <path d="M216 196 L320 172 L332 196 L228 220 Z"/>
+    <rect x="216" y="196" width="12" height="116" rx="6"/>
+    <rect x="320" y="172" width="12" height="128" rx="6"/>
+    <ellipse cx="196" cy="312" rx="30" ry="22" transform="rotate(-20 196 312)"/>
+    <ellipse cx="300" cy="300" rx="30" ry="22" transform="rotate(-20 300 300)"/>
+  </g>
+</svg>

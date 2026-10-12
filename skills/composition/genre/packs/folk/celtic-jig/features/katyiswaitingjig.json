@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "title": "Kat:y is Waiting -- Jig",
+    "composer": "JAS. HAND.",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/katyiswaitingjig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4434363920
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 17,
+    "repetition_ratio": 0.056,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 70.19,
+    "stepwise_ratio": 0.453,
+    "leap_ratio": 0.242,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.147,
+    "interval_hist": {
+      "2": 30,
+      "0": 14,
+      "1": 13,
+      "3": 11,
+      "7": 8,
+      "5": 8,
+      "9": 4,
+      "4": 4,
+      "10": 2,
+      "12": 1
+    },
+    "dur_hist": {
+      "16th": 5,
+      "8th": 80,
+      "dotted_8th": 3,
+      "0": 4,
+      "quarter": 3,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.1458,
+      "1": 0.0,
+      "2": 0.1042,
+      "3": 0.0,
+      "4": 0.1042,
+      "5": 0.1875,
+      "6": 0.0,
+      "7": 0.2708,
+      "8": 0.0,
+      "9": 0.1458,
+      "10": 0.0417,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0417,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 80,
+      "16th": 5,
+      "0": 4,
+      "dotted_8th": 3,
+      "quarter": 3,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.219,
+      "2": 0.146,
+      "3": 0.156,
+      "4": 0.188,
+      "5": 0.146,
+      "6": 0.146
+    },
+    "beat1_onset_share": 0.219,
+    "syncopation_proxy": 0.781,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.33,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

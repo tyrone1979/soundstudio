@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "title": "BOSTON CALEDONIAN CLUB'S -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/bostoncaledonianclubsjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4520831248
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "F",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "J",
+      "bars": "11"
+    },
+    {
+      "section": "K",
+      "bars": "12"
+    },
+    {
+      "section": "H",
+      "bars": "13"
+    },
+    {
+      "section": "I",
+      "bars": "14"
+    },
+    {
+      "section": "L",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.25,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 73.68,
+    "stepwise_ratio": 0.598,
+    "leap_ratio": 0.103,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.023,
+    "interval_hist": {
+      "2": 39,
+      "3": 18,
+      "1": 13,
+      "4": 6,
+      "5": 5,
+      "0": 2,
+      "7": 2,
+      "12": 1,
+      "11": 1
+    },
+    "dur_hist": {
+      "0": 6,
+      "8th": 63,
+      "16th": 8,
+      "dotted_8th": 8,
+      "dotted_quarter": 1,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.25,
+      "1": 0.0,
+      "2": 0.0795,
+      "3": 0.0,
+      "4": 0.125,
+      "5": 0.0,
+      "6": 0.0,
+      "7": 0.2045,
+      "8": 0.0,
+      "9": 0.1932,
+      "10": 0.0,
+      "11": 0.1477
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1477
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 63,
+      "16th": 8,
+      "dotted_8th": 8,
+      "0": 6,
+      "quarter": 6,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.304,
+      "2": 0.065,
+      "3": 0.174,
+      "4": 0.196,
+      "5": 0.12,
+      "6": 0.141
+    },
+    "beat1_onset_share": 0.304,
+    "syncopation_proxy": 0.696,
+    "rest_ratio": 0.021,
+    "density_notes_per_bar": 5.75,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 2,
+    "chords_estimated": 6,
+    "harmonic_rhythm_chords_per_bar": 0.38,
+    "root_pair_top": {
+      "E-G": 1
+    },
+    "root_sample": [
+      "E",
+      "G"
+    ],
+    "quality_hist": {
+      "other": 0.3333,
+      "triad": 0.6667
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,74 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: british-folk-tune
+family: folk
+schema: style-contract/v1
+evidence_n: 1036
+evidence_weight: 1.0
+tempo:
+  default: 120.0
+  min: 96.0
+  max: 168.0
+  source: expert
+  evidence_n: 1036
+meter:
+  primary: 4/4
+  allowed:
+  - 3/4
+  - 2/2
+  - 2/4
+  - 4/4
+  - 6/8
+  - 6/4
+  - 9/8
+  - 3/2
+  weights:
+    3/4: 0.0579
+    2/2: 0.0068
+    2/4: 0.0396
+    4/4: 0.5203
+    6/8: 0.3571
+    6/4: 0.0019
+    9/8: 0.0135
+    3/2: 0.0029
+  source: empirical
+  evidence_n: 1036
+harmony:
+  chords_per_bar: 1.2
+  quality_weights:
+    triad: 0.783
+    dominant7: 0.211
+    augmented: 0.004
+    other: 0.002
+  unique_roots_mean: 4.569
+  evidence_n: 1022
+melody:
+  stepwise_ratio: 0.53
+  leap_ratio: 0.131
+  repeated_note_ratio: 0.115
+  range_center: 72.475
+  range_width: null
+  mean_midi: 72.475
+  evidence_n: 1036
+rhythm:
+  density_notes_per_bar: 5.81
+  beat1_onset_share: 0.38
+  syncopation: 0.6
+  swing_ratio: 2.25
+  swing_pair_share: 0.002
+  triplet_ratio: 0.013
+  evidence_n: 1036
+texture:
+  voice_count: 1.0
+  evidence_n: 1036
+form:
+  phrase_len: 1.0
+  repetition_ratio: 0.193
+  unique_motifs: 16.0
+  evidence_n: 1036
+provenance:
+  built_from: features
+  scores_analyzed: 1036
+  scores_with_harmony: 1022
+  min_evidence: 8

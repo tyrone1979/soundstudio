@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "title": "Larry O'Gaff -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/larryogaffjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4526343120
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 74.59,
+    "stepwise_ratio": 0.602,
+    "leap_ratio": 0.129,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.032,
+    "interval_hist": {
+      "2": 45,
+      "4": 12,
+      "1": 11,
+      "3": 10,
+      "5": 6,
+      "7": 4,
+      "0": 3,
+      "12": 2
+    },
+    "dur_hist": {
+      "8th": 76,
+      "quarter": 7,
+      "0": 5,
+      "16th": 3,
+      "dotted_8th": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.234,
+      "1": 0.0,
+      "2": 0.1809,
+      "3": 0.0,
+      "4": 0.1915,
+      "5": 0.0745,
+      "6": 0.0,
+      "7": 0.1702,
+      "8": 0.0,
+      "9": 0.0957,
+      "10": 0.0,
+      "11": 0.0532
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0532
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 76,
+      "quarter": 7,
+      "0": 5,
+      "16th": 3,
+      "dotted_8th": 3
+    },
+    "onset_beat_share": {
+      "1": 0.234,
+      "2": 0.106,
+      "3": 0.17,
+      "4": 0.213,
+      "5": 0.128,
+      "6": 0.149
+    },
+    "beat1_onset_share": 0.234,
+    "syncopation_proxy": 0.766,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.22,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

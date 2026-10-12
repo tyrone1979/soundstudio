@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "OVER LAND AND SEA -- JIG",
+    "composer": "J.Hand",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/overlandandseajig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4512189136
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 17,
+    "repetition_ratio": 0.056,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 69.0,
+    "stepwise_ratio": 0.4,
+    "leap_ratio": 0.222,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.144,
+    "interval_hist": {
+      "2": 31,
+      "3": 15,
+      "0": 13,
+      "5": 11,
+      "7": 7,
+      "4": 6,
+      "1": 5,
+      "10": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 74,
+      "dotted_8th": 6,
+      "16th": 6,
+      "quarter": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2857,
+      "1": 0.0,
+      "2": 0.2527,
+      "3": 0.0,
+      "4": 0.1648,
+      "5": 0.033,
+      "6": 0.0,
+      "7": 0.1429,
+      "8": 0.0,
+      "9": 0.0989,
+      "10": 0.022,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.022,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 74,
+      "dotted_8th": 6,
+      "16th": 6,
+      "quarter": 5
+    },
+    "onset_beat_share": {
+      "1": 0.198,
+      "2": 0.176,
+      "3": 0.176,
+      "4": 0.176,
+      "5": 0.121,
+      "6": 0.154
+    },
+    "beat1_onset_share": 0.198,
+    "syncopation_proxy": 0.802,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.06,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

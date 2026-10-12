@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "Golliher's Folic -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/gollihersfolicjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4426491152
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "A5"
+    ],
+    "mean_midi": 69.27,
+    "stepwise_ratio": 0.582,
+    "leap_ratio": 0.077,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.066,
+    "interval_hist": {
+      "2": 43,
+      "3": 14,
+      "4": 11,
+      "1": 10,
+      "0": 6,
+      "7": 3,
+      "5": 2,
+      "6": 2
+    },
+    "dur_hist": {
+      "8th": 64,
+      "dotted_8th": 12,
+      "16th": 12,
+      "quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2283,
+      "1": 0.0,
+      "2": 0.1957,
+      "3": 0.0,
+      "4": 0.1304,
+      "5": 0.1304,
+      "6": 0.0,
+      "7": 0.1739,
+      "8": 0.0,
+      "9": 0.0326,
+      "10": 0.0,
+      "11": 0.1087
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1087
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 64,
+      "dotted_8th": 12,
+      "16th": 12,
+      "quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.196,
+      "2": 0.152,
+      "3": 0.174,
+      "4": 0.174,
+      "5": 0.152,
+      "6": 0.152
+    },
+    "beat1_onset_share": 0.196,
+    "syncopation_proxy": 0.804,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.11,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

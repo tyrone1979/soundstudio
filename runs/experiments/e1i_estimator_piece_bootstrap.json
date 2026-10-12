@@ -1,0 +1,72 @@
+{
+ "question": "JM versus WB with pieces as paired resampling clusters",
+ "setting": {
+  "folds": 10,
+  "position": "full",
+  "ctx_min": 3,
+  "n_boot_piece": 10000,
+  "pairing": "same held-out piece scored by both estimators"
+ },
+ "summary": [
+  {
+   "mode": "major",
+   "jm_lambda": 0.5,
+   "comparison": "JM minus WB",
+   "n_transitions": 8423,
+   "n_pieces": 177,
+   "jm_ppl_pooled": 11.4628,
+   "wb_ppl_pooled": 13.3376,
+   "delta_nats_per_transition": -0.1515,
+   "piece_ci95": [
+    -0.1775,
+    -0.1262
+   ],
+   "piece_p_two_sided": 0.0002
+  },
+  {
+   "mode": "major",
+   "jm_lambda": 0.7,
+   "comparison": "JM minus WB",
+   "n_transitions": 8423,
+   "n_pieces": 177,
+   "jm_ppl_pooled": 12.5763,
+   "wb_ppl_pooled": 13.3376,
+   "delta_nats_per_transition": -0.0588,
+   "piece_ci95": [
+    -0.0708,
+    -0.0471
+   ],
+   "piece_p_two_sided": 0.0002
+  },
+  {
+   "mode": "minor",
+   "jm_lambda": 0.5,
+   "comparison": "JM minus WB",
+   "n_transitions": 7991,
+   "n_pieces": 173,
+   "jm_ppl_pooled": 12.5188,
+   "wb_ppl_pooled": 14.2577,
+   "delta_nats_per_transition": -0.1301,
+   "piece_ci95": [
+    -0.1543,
+    -0.1058
+   ],
+   "piece_p_two_sided": 0.0002
+  },
+  {
+   "mode": "minor",
+   "jm_lambda": 0.7,
+   "comparison": "JM minus WB",
+   "n_transitions": 7991,
+   "n_pieces": 173,
+   "jm_ppl_pooled": 13.7167,
+   "wb_ppl_pooled": 14.2577,
+   "delta_nats_per_transition": -0.0387,
+   "piece_ci95": [
+    -0.0505,
+    -0.027
+   ],
+   "piece_p_two_sided": 0.0002
+  }
+ ]
+}

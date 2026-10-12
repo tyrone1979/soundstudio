@@ -1,0 +1,87 @@
+{
+ "question": "Cadence-distance effect with pieces, not beats, as the resampling unit",
+ "setting": {
+  "folds": 10,
+  "ctx_min": 3,
+  "delta": "full-position minus no-position, nats/beat",
+  "n_boot_piece": 10000
+ },
+ "summary": [
+  {
+   "mode": "major",
+   "smoother": "jm",
+   "n_beats": 8423,
+   "ppl_full": 11.463,
+   "ppl_none": 13.803,
+   "delta_nats": -0.1858,
+   "piece_ci": [
+    -0.2048,
+    -0.1667
+   ],
+   "piece_p": 0.0002,
+   "n_pieces": 177,
+   "beat_ci": [
+    -0.2021,
+    -0.1684
+   ],
+   "beat_p": 0.0
+  },
+  {
+   "mode": "major",
+   "smoother": "wb",
+   "n_beats": 8423,
+   "ppl_full": 13.338,
+   "ppl_none": 16.614,
+   "delta_nats": -0.2196,
+   "piece_ci": [
+    -0.2456,
+    -0.1929
+   ],
+   "piece_p": 0.0002,
+   "n_pieces": 177,
+   "beat_ci": [
+    -0.2449,
+    -0.1944
+   ],
+   "beat_p": 0.0
+  },
+  {
+   "mode": "minor",
+   "smoother": "jm",
+   "n_beats": 7991,
+   "ppl_full": 12.519,
+   "ppl_none": 15.065,
+   "delta_nats": -0.1852,
+   "piece_ci": [
+    -0.2054,
+    -0.1648
+   ],
+   "piece_p": 0.0002,
+   "n_pieces": 173,
+   "beat_ci": [
+    -0.2022,
+    -0.1674
+   ],
+   "beat_p": 0.0
+  },
+  {
+   "mode": "minor",
+   "smoother": "wb",
+   "n_beats": 7991,
+   "ppl_full": 14.258,
+   "ppl_none": 17.845,
+   "delta_nats": -0.2244,
+   "piece_ci": [
+    -0.2504,
+    -0.1984
+   ],
+   "piece_p": 0.0002,
+   "n_pieces": 173,
+   "beat_ci": [
+    -0.248,
+    -0.1993
+   ],
+   "beat_p": 0.0
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "title": "THE NIGHT OF FUN -- JIG.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/nightoffunjigthe.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4490349392
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "G",
+      "bars": "13"
+    },
+    {
+      "section": "K",
+      "bars": "14"
+    },
+    {
+      "section": "L",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.25,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 72.31,
+    "stepwise_ratio": 0.44,
+    "leap_ratio": 0.138,
+    "large_leap_ratio": 0.009,
+    "repeated_note_ratio": 0.083,
+    "interval_hist": {
+      "2": 36,
+      "3": 19,
+      "4": 18,
+      "1": 12,
+      "7": 11,
+      "0": 9,
+      "5": 3,
+      "12": 1
+    },
+    "dur_hist": {
+      "quarter": 30,
+      "8th": 80
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1182,
+      "1": 0.0,
+      "2": 0.2182,
+      "3": 0.1545,
+      "4": 0.0,
+      "5": 0.1818,
+      "6": 0.0,
+      "7": 0.1909,
+      "8": 0.0091,
+      "9": 0.0,
+      "10": 0.1273,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 80,
+      "quarter": 30
+    },
+    "onset_beat_share": {
+      "1": 0.145,
+      "2": 0.018,
+      "3": 0.145,
+      "4": 0.145,
+      "5": 0.036,
+      "6": 0.145,
+      "7": 0.145,
+      "8": 0.1,
+      "9": 0.118
+    },
+    "beat1_onset_share": 0.145,
+    "syncopation_proxy": 0.855,
+    "rest_ratio": 0.028,
+    "density_notes_per_bar": 6.88,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

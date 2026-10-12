@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Dusty Bob's -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/dustybobsjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 22,
+    "parts": [
+      4477590736
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 18,
+    "repetition_ratio": 0.182,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 73.19,
+    "stepwise_ratio": 0.609,
+    "leap_ratio": 0.076,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.217,
+    "interval_hist": {
+      "2": 36,
+      "0": 20,
+      "1": 20,
+      "3": 7,
+      "5": 4,
+      "4": 2,
+      "7": 2,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 72,
+      "quarter": 16,
+      "dotted_quarter": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.0645,
+      "1": 0.0,
+      "2": 0.1613,
+      "3": 0.3226,
+      "4": 0.0,
+      "5": 0.1828,
+      "6": 0.0,
+      "7": 0.1075,
+      "8": 0.0753,
+      "9": 0.0,
+      "10": 0.086,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 72,
+      "quarter": 16,
+      "dotted_quarter": 5
+    },
+    "onset_beat_share": {
+      "1": 0.237,
+      "2": 0.032,
+      "3": 0.161,
+      "4": 0.215,
+      "5": 0.172,
+      "6": 0.183
+    },
+    "beat1_onset_share": 0.237,
+    "syncopation_proxy": 0.763,
+    "rest_ratio": 0.063,
+    "density_notes_per_bar": 4.23,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

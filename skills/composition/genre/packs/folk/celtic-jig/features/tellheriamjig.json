@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "Tell Her I Am -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/tellheriamjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 20,
+    "parts": [
+      4483944848
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.2,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 69.98,
+    "stepwise_ratio": 0.404,
+    "leap_ratio": 0.096,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.096,
+    "interval_hist": {
+      "2": 27,
+      "4": 20,
+      "3": 18,
+      "1": 11,
+      "0": 9,
+      "8": 4,
+      "9": 2,
+      "5": 2,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 84,
+      "quarter": 11
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1789,
+      "1": 0.0,
+      "2": 0.1368,
+      "3": 0.0,
+      "4": 0.2211,
+      "5": 0.1263,
+      "6": 0.0105,
+      "7": 0.1684,
+      "8": 0.0,
+      "9": 0.1368,
+      "10": 0.0,
+      "11": 0.0211
+    },
+    "chromatic_ratio": 0.0105,
+    "leading_tone_ratio": 0.0211
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 84,
+      "quarter": 11
+    },
+    "onset_beat_share": {
+      "1": 0.211,
+      "2": 0.189,
+      "3": 0.189,
+      "4": 0.189,
+      "5": 0.063,
+      "6": 0.158
+    },
+    "beat1_onset_share": 0.211,
+    "syncopation_proxy": 0.789,
+    "rest_ratio": 0.078,
+    "density_notes_per_bar": 4.75,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

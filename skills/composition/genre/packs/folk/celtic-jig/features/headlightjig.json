@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "THE HEADLIGHT -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/headlightjig.musicxml"
+  },
+  "global": {
+    "key": "G minor",
+    "key_sharps": -2,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4523384784
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.211,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G3",
+      "A5"
+    ],
+    "mean_midi": 71.02,
+    "stepwise_ratio": 0.711,
+    "leap_ratio": 0.19,
+    "large_leap_ratio": 0.017,
+    "repeated_note_ratio": 0.008,
+    "interval_hist": {
+      "2": 51,
+      "1": 35,
+      "5": 12,
+      "4": 6,
+      "3": 5,
+      "7": 4,
+      "6": 4,
+      "10": 1,
+      "0": 1,
+      "16": 1,
+      "15": 1
+    },
+    "dur_hist": {
+      "half": 4,
+      "triplet": 39,
+      "quarter": 17,
+      "dotted_quarter": 1,
+      "8th": 6,
+      "dotted_8th": 27,
+      "16th": 28
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1557,
+      "1": 0.0,
+      "2": 0.1311,
+      "3": 0.1557,
+      "4": 0.0164,
+      "5": 0.1557,
+      "6": 0.0082,
+      "7": 0.1803,
+      "8": 0.0738,
+      "9": 0.0164,
+      "10": 0.0902,
+      "11": 0.0164
+    },
+    "chromatic_ratio": 0.0574,
+    "leading_tone_ratio": 0.0164
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.3197,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "triplet": 39,
+      "16th": 28,
+      "dotted_8th": 27,
+      "quarter": 17,
+      "8th": 6,
+      "half": 4,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.656,
+      "2": 0.344
+    },
+    "beat1_onset_share": 0.656,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.051,
+    "density_notes_per_bar": 6.42,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

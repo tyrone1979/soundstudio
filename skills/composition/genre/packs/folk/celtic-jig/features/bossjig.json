@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "title": "THE \"BOSS\" -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/bossjig.musicxml"
+  },
+  "global": {
+    "key": "B- major",
+    "key_sharps": -2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4469075984
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8-10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "H",
+      "bars": "13"
+    },
+    {
+      "section": "K",
+      "bars": "14"
+    },
+    {
+      "section": "L",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.25,
+    "phrase_len": 1.14
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F4",
+      "B-5"
+    ],
+    "mean_midi": 72.58,
+    "stepwise_ratio": 0.34,
+    "leap_ratio": 0.128,
+    "large_leap_ratio": 0.064,
+    "repeated_note_ratio": 0.213,
+    "interval_hist": {
+      "2": 20,
+      "0": 20,
+      "3": 19,
+      "1": 12,
+      "4": 11,
+      "5": 6,
+      "12": 5,
+      "17": 1
+    },
+    "dur_hist": {
+      "0": 6,
+      "quarter": 5,
+      "8th": 84
+    }
+  },
+  "tonal": {
+    "tonic_pc": 10,
+    "degree_hist": {
+      "0": 0.3474,
+      "1": 0.0,
+      "2": 0.1053,
+      "3": 0.0,
+      "4": 0.1368,
+      "5": 0.0211,
+      "6": 0.0,
+      "7": 0.2211,
+      "8": 0.0,
+      "9": 0.0842,
+      "10": 0.0,
+      "11": 0.0842
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0842
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 84,
+      "0": 6,
+      "quarter": 5
+    },
+    "onset_beat_share": {
+      "1": 0.2,
+      "2": 0.137,
+      "3": 0.168,
+      "4": 0.2,
+      "5": 0.147,
+      "6": 0.147
+    },
+    "beat1_onset_share": 0.2,
+    "syncopation_proxy": 0.8,
+    "rest_ratio": 0.021,
+    "density_notes_per_bar": 5.94,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 1,
+    "chords_estimated": 1,
+    "harmonic_rhythm_chords_per_bar": 0.06,
+    "root_pair_top": {},
+    "root_sample": [
+      "G"
+    ],
+    "quality_hist": {
+      "other": 1.0
+    },
+    "seventh_ratio": 0.0
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

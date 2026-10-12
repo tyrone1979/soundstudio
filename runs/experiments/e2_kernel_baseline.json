@@ -1,0 +1,44 @@
+{
+ "summary": {
+  "kernel_no_retry": {
+   "pieces": 20,
+   "harmony_ppl": 300.67,
+   "harmony_ppl_model_penalty": 300.67,
+   "out_of_grammar": 0.59,
+   "chord_repeat": 0.041,
+   "sop_repeat": 0.083,
+   "sop_step": 0.229,
+   "sop_leap": 0.639,
+   "cadence_match": 1.0,
+   "violations_per_100": 445.19,
+   "attempts_mean": 1.0,
+   "attempts_max": 1,
+   "n": 20,
+   "drafts_clean": 0
+  },
+  "grammar_retry": {
+   "pieces": 20,
+   "harmony_ppl": 4.59,
+   "harmony_ppl_model_penalty": 4.59,
+   "out_of_grammar": 0.0,
+   "chord_repeat": 0.064,
+   "sop_repeat": 0.203,
+   "sop_step": 0.711,
+   "sop_leap": 0.013,
+   "cadence_match": 1.0,
+   "violations_per_100": 0.0,
+   "attempts_mean": 1.0,
+   "attempts_max": 1,
+   "n": 20,
+   "drafts_clean": 20
+  }
+ },
+ "violations_reduction_per_100": -445.19,
+ "setting": {
+  "n": 20,
+  "mode": "major",
+  "key": 1,
+  "bars": 12
+ },
+ "note": "kernel =同一 compose() 但 max_tries=1（无 accept/reject 重试）"
+}

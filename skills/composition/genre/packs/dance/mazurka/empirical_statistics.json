@@ -1,0 +1,125 @@
+{
+  "total_scores": 52,
+  "means": {
+    "tempo": 144.84,
+    "stepwise_ratio": 0.51,
+    "leap_ratio": 0.227,
+    "bass_beat1_ratio": 0.897,
+    "beat1_onset_share": 0.401,
+    "density_notes_per_bar": 5.003,
+    "harmonic_rhythm_chords_per_bar": 3.012
+  },
+  "distributions": {
+    "meter": {
+      "3/4": 52
+    },
+    "key": {
+      "A minor": 5,
+      "C major": 7,
+      "F# minor": 3,
+      "C# minor": 5,
+      "E major": 1,
+      "E- minor": 1,
+      "B- major": 2,
+      "D major": 2,
+      "F minor": 3,
+      "A- major": 5,
+      "E- major": 1,
+      "E minor": 2,
+      "G# minor": 1,
+      "G minor": 2,
+      "B- minor": 1,
+      "C minor": 1,
+      "C# major": 2,
+      "B major": 4,
+      "G major": 2,
+      "B minor": 1,
+      "F major": 1
+    }
+  },
+  "rules": [
+    {
+      "rule": "meter=3/4",
+      "evidence_count": 52,
+      "total_scores": 52,
+      "frequency": 1.0,
+      "confidence": "high",
+      "universality": "core",
+      "detail": {
+        "3/4": 52
+      }
+    },
+    {
+      "rule": "key=C major",
+      "evidence_count": 7,
+      "total_scores": 52,
+      "frequency": 0.135,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=A minor",
+      "evidence_count": 5,
+      "total_scores": 52,
+      "frequency": 0.096,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=C# minor",
+      "evidence_count": 5,
+      "total_scores": 52,
+      "frequency": 0.096,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=A- major",
+      "evidence_count": 5,
+      "total_scores": 52,
+      "frequency": 0.096,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=B major",
+      "evidence_count": 4,
+      "total_scores": 52,
+      "frequency": 0.077,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "key=F# minor",
+      "evidence_count": 3,
+      "total_scores": 52,
+      "frequency": 0.058,
+      "confidence": "low",
+      "universality": "optional",
+      "detail": null
+    },
+    {
+      "rule": "bass_emphasizes_beat_1",
+      "evidence_count": 48,
+      "total_scores": 52,
+      "frequency": 0.923,
+      "confidence": "high",
+      "universality": "core",
+      "detail": 0.897
+    },
+    {
+      "rule": "beat1_onset_weight",
+      "evidence_count": 49,
+      "total_scores": 52,
+      "frequency": 0.942,
+      "confidence": "high",
+      "universality": "core",
+      "detail": 0.401
+    }
+  ]
+}

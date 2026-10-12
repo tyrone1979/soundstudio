@@ -1,0 +1,6161 @@
+{
+  "id": "c32a423064",
+  "title": "晨光小夜曲",
+  "updated_at": "2026-09-28T20:25:01",
+  "messages": [
+    {
+      "role": "assistant",
+      "text": "你好！可直接描述想要的曲子；或点选小节/音符后再说怎么改。输入 /help。",
+      "ts": "2026-09-28T20:24:12"
+    },
+    {
+      "role": "user",
+      "text": "写一首明朗的D大调弦乐小夜曲，Allegro",
+      "ts": "2026-09-28T20:24:14"
+    },
+    {
+      "role": "assistant",
+      "text": "路由预览：\n【调用 Skill】\n  · [任务] 整曲创作\n      id: compose-full  pipeline: planner_composer\n  · [风格] 奏鸣曲快板\n      id: genre:academic/sonata-allegro  pipeline: overlay\n  · [风格] 海盗快板\n      id: genre:cinematic/pirate-allegro  pipeline: overlay\n主流程: planner_composer\n创曲中（调用 LLM，通常 1–3 分钟）…",
+      "ts": "2026-09-28T20:24:14",
+      "skills": [
+        "compose-full",
+        "genre:academic/sonata-allegro",
+        "genre:cinematic/pirate-allegro"
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "为弦乐五部而作的 D 大调单乐章小夜曲快板，按呈示主部—呈示副部—展开—再现尾声的奏鸣骨架铺展 32 小节，明朗典雅、终止清晰。\n（已本地强化段落织体对比：高潮段八度加厚 13 个音（旋律声部））\n[Skill: 配器 · 弦乐小夜曲]\n实际小节数：32（规格：classical/string-serenade / ['Exposition-Primary(1-8)', 'Exposition-Secondary(9-16)', 'Development(17-24)', 'Recapitulation-Coda(25-32)']）\n【调用 Skill】\n  · [任务] 配器\n      id: orchestrate  pipeline: planner_composer\n  · [风格] 弦乐小夜曲\n      id: genre:classical/string-serenade  pipeline: overlay\n已载入《晨光小夜曲》（32 小节，♩=132），正在合成音频…\n文件：scores/chats/c32a423064.xml",
+      "ts": "2026-09-28T20:24:42",
+      "skills": [
+        "orchestrate",
+        "genre:classical/string-serenade"
+      ]
+    },
+    {
+      "role": "assistant",
+      "text": "\n🧠 思考过程 / 翻译追溯\n────────────────────────────────\n【意图解析】\n  风格：classical/string-serenade\n  情绪：明亮, 典雅, 清晨, 宫廷小夜曲, cheerful, bright   ← 命中情绪词 ['快板']\n  速度：♩=132 (Allegro)   调式：major   拍号：4/4   曲式：['Exposition-Primary(1-8)', 'Exposition-Secondary(9-16)', 'Development(17-24)', 'Recapitulation-Coda(25-32)']   小节：32\n【情绪 → 参数（本地约束）】\n  命中「快板」→ ♩=132 Allegro · major · flowing · f\n【翻译推理（LLM）】\n  识别为 D 大调弦乐小夜曲快板，弦乐五部（VnI/VnII/Va/Vc/Cb），按 plan 的速度/调式/情绪直接采用 ♩=132 大调快板。四段奏鸣骨架各 8 小节：呈示主部 sparse+arch+octave_pulse，呈示副部转属调 A 大调（+1 升号）flowing+arch+broken_arpeggio，展开段转关系小调 b 小调 fragmented+wave+chromatic_descent，再现尾声回 D 大调 flowing+ascending+末两小节 cadence。用户明确要求不要赋格/复调模仿，故在 cadence 后显式 narrative(appearances=false) 关闭动机变形，最后 finalize。\n【调用的脚本】\n  new_score(♩=132, 4/4, voices=5)\n  set_sections([呈示主部(8)/呈示副部(8)/展开(8)/再现尾声(8)])\n  set_harmony(呈示主部, progression=['I', 'V', 'vi', 'IV', 'I', 'ii', 'V7', 'I'])\n  accompaniment(呈示主部, pattern=octave_pulse, register=low, density=1)\n  melody(呈示主部, register=mid, rhythm=sparse, contour=arch, motif=[[1, 'quarter'], [3, 'eighth'], [5, 'eighth'], [3, 'half']])\n  set_harmony(呈示副部, progression=['I', 'V7', 'I', 'IV'], key_sharps=3, mode=major)\n  accompaniment(呈示副部, pattern=broken_arpeggio, register=low, density=1)\n  melody(呈示副部, register=high, rhythm=flowing, contour=arch)\n  set_harmony(展开, progression=['i', 'VI', 'iv', 'V7'], key_sharps=2, mode=minor)\n  accompaniment(展开, pattern=chromatic_descent, register=low, density=1)\n  melody(展开, register=high, rhythm=fragmented, contour=wave)\n  thicken(展开)\n  set_harmony(再现尾声, progression=['I', 'IV', 'V7', 'I'])\n  accompaniment(再现尾声, pattern=broken_arpeggio, register=low, density=1)\n  melody(再现尾声, register=high, rhythm=flowing, contour=ascending)\n  cadence(再现尾声, bars=2)\n  narrative(appearances=False)\n  finalize",
+      "ts": "2026-09-28T20:24:42"
+    }
+  ],
+  "compose": {
+    "composition_id": "c8e70de8",
+    "revision": 1,
+    "prefs": {
+      "key_sharps": 0,
+      "mode": "major",
+      "tempo": 120,
+      "bars": 32,
+      "meter": "4/4",
+      "style": "弦乐小夜曲",
+      "genre_id": "genre:classical/string-serenade",
+      "instrumentation": "",
+      "fugue": "auto",
+      "voices": 0,
+      "_explicit": {}
+    },
+    "plan": {
+      "title": "晨光小夜曲",
+      "genre": "classical/string-serenade",
+      "mood": [
+        "明亮",
+        "典雅",
+        "清晨",
+        "宫廷小夜曲",
+        "cheerful",
+        "bright"
+      ],
+      "tempo": 132,
+      "meter": "4/4",
+      "key_sharps": 2,
+      "mode": "major",
+      "instrumentation": [
+        "Violin",
+        "Violin",
+        "Viola",
+        "Cello",
+        "Contrabass"
+      ],
+      "form": [
+        "Exposition-Primary(1-8)",
+        "Exposition-Secondary(9-16)",
+        "Development(17-24)",
+        "Recapitulation-Coda(25-32)"
+      ],
+      "bars": 32,
+      "motif": {
+        "character": "明朗上行的四音核心动机构成主部主题，级进为主、跳进点缀，具古典小夜曲的歌唱与推进感",
+        "development": [
+          "repetition",
+          "sequence",
+          "fragmentation",
+          "rhythmic change",
+          "register transfer"
+        ]
+      },
+      "harmony": {
+        "language": "功能性和声，D 大调；副部转属调 A 大调，展开入关系小调 b 小调，再现回归主调并以完全终止收束",
+        "density": "moderate"
+      },
+      "rhythm": {
+        "character": "四段节奏性格依次区分：sparse+arch / flowing+arch / fragmented+wave / flowing+ascending；伴奏以八度脉动、分解琶音与半音下行对比"
+      },
+      "texture": "homophonic",
+      "climax": {
+        "location": "section Development (bars 17-24)",
+        "dynamic": "ff"
+      },
+      "difficulty": "medium",
+      "summary": "为弦乐五部而作的 D 大调单乐章小夜曲快板，按呈示主部—呈示副部—展开—再现尾声的奏鸣骨架铺展 32 小节，明朗典雅、终止清晰。",
+      "edit_intent": null,
+      "user_brief": "【作品】为弦乐合奏而作的单乐章小夜曲快板《晨光小夜曲》，D 大调\n（key_sharps=2, mode=major），4/4，共 32 小节，\n奏鸣骨架：呈示主部—呈示副部—展开—再现尾声。\n\n【编制】弦乐五部（第一小提琴、第二小提琴、中提琴、大提琴、低音提琴）；\n旋律由第一小提琴承担；第二小提琴写和声节奏/对句（禁止整段长音垫）；\n中提琴内声运动；大提琴行走低音；低音提琴根音支撑（含三音；V7 保留七音）。\n不要用管弦双管编制。内核会在 accompaniment 时自动展开内声部角色织体。\n\n【速度】呈示主部 ♩=120 → 呈示副部 ♩=120 → 展开 ♩=126 → 再现尾声 ♩=118。\n四段小节数之和必须等于 32。\n\n【旋律总则｜必须遵守】\n1. 四段 melody 的 rhythm/contour 必须互相区分：依次 sparse+arch / flowing+arch /\n   fragmented+wave / flowing+ascending。\n2. 不要赋格，不要复调模仿，不要卡农；显式 narrative(appearances=false)。\n3. 每段只用本段调内音；展开段可转关系小调。\n4. new_score 须带 style=classical/string-serenade（已学契约），voices=5。\n5. 五部须保持独立运动：VnII/Va 不得整小节同音长音垫。\n\n【第 1 段 · 呈示主部】8 小节 · Allegro ♩=120 · f · D 大调。\n主部主题，和声 I–V–vi–IV–I–ii–V7–I；伴奏 octave_pulse；旋律 sparse、arch。\n\n【第 2 段 · 呈示副部】8 小节 · Allegro ♩=120 · mf · 转属调（+1 升号相对主调）。\n歌唱性副题，和声 I–V7–I–IV；伴奏 broken_arpeggio；旋律 flowing、register=high、arch。\n\n【第 3 段 · 展开】8 小节 · Agitato ♩=126 · ff · 关系小调（mode=minor，按需换调号）。\n旋律 fragmented、wave；和声 i–VI–iv–V7；伴奏 chromatic_descent。\n\n【第 4 段 · 再现尾声】8 小节 · Allegro ♩=118 · f · 回 D 大调。\n旋律 flowing、ascending；和声 I–IV–V7–I；末两小节 cadence(bars=2)。\n\n【不要】不要赋格，不要双管管弦编制，不要用 very_high 音区，不要内声部长音垫。 弦乐小夜曲",
+      "tempo_text": "Allegro",
+      "_emotion_hint": {
+        "group": "fast",
+        "matched": [
+          "快板"
+        ],
+        "bpm": 132,
+        "tempo_text": "Allegro",
+        "mode_bias": "major",
+        "rhythm": "flowing",
+        "dynamics": "f",
+        "contour": "arch"
+      }
+    },
+    "score_spec": {
+      "title": "晨光小夜曲",
+      "key_sharps": 2,
+      "mode": "major",
+      "time_signature": "4/4",
+      "tempo": 132,
+      "bars": 32,
+      "seed": "d035786b",
+      "voices": 5,
+      "fugue": false,
+      "tempo_marks": [
+        [
+          1,
+          "Allegro",
+          120
+        ],
+        [
+          17,
+          "Agitato",
+          126
+        ],
+        [
+          25,
+          "Allegro",
+          118
+        ]
+      ],
+      "meter_changes": [],
+      "key_changes": [
+        [
+          9,
+          3,
+          "major"
+        ],
+        [
+          17,
+          2,
+          "minor"
+        ]
+      ],
+      "parts": [
+        {
+          "name": "Violin",
+          "program": null,
+          "clef": "treble",
+          "events": [
+            [
+              "D5",
+              "quarter",
+              "legato"
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "half",
+              null
+            ],
+            [
+              "C#5",
+              "quarter",
+              "legato"
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "half",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "quarter",
+              "legato"
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "dotted_quarter",
+              null
+            ],
+            [
+              "B4",
+              "half",
+              null
+            ],
+            [
+              "C#5",
+              "quarter",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              "slur-end"
+            ],
+            [
+              "E5",
+              "quarter",
+              "slur-start"
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "half",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "half",
+              null
+            ],
+            [
+              "E5",
+              "quarter",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "16th",
+              null
+            ],
+            [
+              "C#5",
+              "16th",
+              null
+            ],
+            [
+              "D5",
+              "quarter",
+              null
+            ],
+            [
+              "A4",
+              "half",
+              null
+            ],
+            [
+              "C#5",
+              "quarter",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "dotted_quarter",
+              "slur-end"
+            ],
+            [
+              "A5",
+              "eighth",
+              "slur-start"
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "G#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "half",
+              null
+            ],
+            [
+              "G#5",
+              "quarter",
+              null
+            ],
+            [
+              "B5",
+              "half",
+              null
+            ],
+            [
+              "D6",
+              "quarter",
+              null
+            ],
+            [
+              "C#6",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "quarter",
+              null
+            ],
+            [
+              "B5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "quarter",
+              null
+            ],
+            [
+              "F#5",
+              "half",
+              "slur-end"
+            ],
+            [
+              [
+                "C#5",
+                "C#6"
+              ],
+              "quarter",
+              "tenuto"
+            ],
+            [
+              [
+                "B4",
+                "B5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A4",
+                "A5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "A4",
+                "A5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "B4",
+                "B5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A4",
+                "A5"
+              ],
+              "eighth",
+              "accent"
+            ],
+            [
+              [
+                "B4",
+                "B5"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "E5",
+                "E6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "C#5",
+                "C#6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "16th",
+              null
+            ],
+            [
+              null,
+              "16th",
+              null
+            ],
+            [
+              [
+                "A4",
+                "A5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "G#4",
+                "G#5"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C#5",
+                "C#6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              "C6",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "C6",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "eighth",
+              null
+            ],
+            [
+              "C6",
+              "eighth",
+              null
+            ],
+            [
+              "C6",
+              "half",
+              "slur-end"
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F#5",
+                "F#6"
+              ],
+              "quarter",
+              "slur-start"
+            ],
+            [
+              [
+                "B5",
+                "B6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A5",
+                "A6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A5",
+                "A6"
+              ],
+              "eighth",
+              "tenuto"
+            ],
+            [
+              [
+                "B5",
+                "B6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "B5",
+                "B6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A5",
+                "A6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "A5",
+                "A6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "B5",
+                "B6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A5",
+                "A6"
+              ],
+              "eighth",
+              "tenuto"
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "F#5",
+                "F#6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "E5",
+                "E6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "C#5",
+                "C#6"
+              ],
+              "quarter",
+              "accent"
+            ],
+            [
+              [
+                "F#5",
+                "F#6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "E5",
+                "E6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "E5",
+                "E6"
+              ],
+              "eighth",
+              "slur-end"
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "B5",
+                "B6"
+              ],
+              "quarter",
+              "slur-start"
+            ],
+            [
+              [
+                "D6",
+                "D7"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "C#6",
+                "C#7"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "C#6",
+                "C#7"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B5",
+                "B6"
+              ],
+              "eighth",
+              "accent"
+            ],
+            [
+              [
+                "B5",
+                "B6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "A5",
+                "A6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "A5",
+                "A6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "E5",
+                "E6"
+              ],
+              "quarter",
+              "accent"
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "G5",
+                "G6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "F#5",
+                "F#6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              null,
+              "eighth",
+              null
+            ],
+            [
+              [
+                "Bb5",
+                "Bb6"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "C#6",
+                "C#7"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B5",
+                "B6"
+              ],
+              "eighth",
+              null
+            ],
+            [
+              [
+                "F#5",
+                "F#6"
+              ],
+              "quarter",
+              "slur-end"
+            ],
+            [
+              "D5",
+              "quarter",
+              "slur-start"
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "half",
+              null
+            ],
+            [
+              "G5",
+              "quarter",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "quarter",
+              null
+            ],
+            [
+              "E5",
+              "quarter",
+              null
+            ],
+            [
+              "G5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "half",
+              null
+            ],
+            [
+              "E5",
+              "quarter",
+              null
+            ],
+            [
+              "F#5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "quarter",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "quarter",
+              "slur-end"
+            ],
+            [
+              "B5",
+              "eighth",
+              "slur-start"
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "quarter",
+              null
+            ],
+            [
+              "B5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "quarter",
+              null
+            ],
+            [
+              "G5",
+              "quarter",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "B5",
+              "quarter",
+              null
+            ],
+            [
+              "A5",
+              "quarter",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "whole",
+              null
+            ],
+            [
+              [
+                "D5",
+                "D6"
+              ],
+              "whole",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "mf"
+            ],
+            [
+              6,
+              "f"
+            ],
+            [
+              9,
+              "mf"
+            ],
+            [
+              10,
+              "f"
+            ],
+            [
+              13,
+              "ff"
+            ],
+            [
+              16,
+              "f"
+            ],
+            [
+              17,
+              "ff"
+            ],
+            [
+              25,
+              "f"
+            ],
+            [
+              32,
+              "mf"
+            ]
+          ]
+        },
+        {
+          "name": "Violin",
+          "program": null,
+          "clef": "treble",
+          "events": [
+            [
+              "F#5",
+              "eighth",
+              "legato"
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              "legato"
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              "legato"
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "G#5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "G#5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "G#5",
+              "eighth",
+              "accent"
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "G#5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "C#5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "C5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "F#5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "Bb5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "Bb5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "Bb5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "Bb5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "C#5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "F#5",
+              "whole",
+              null
+            ],
+            [
+              "F#5",
+              "whole",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "mf"
+            ],
+            [
+              6,
+              "f"
+            ],
+            [
+              9,
+              "mf"
+            ],
+            [
+              10,
+              "f"
+            ],
+            [
+              13,
+              "ff"
+            ],
+            [
+              16,
+              "f"
+            ],
+            [
+              17,
+              "ff"
+            ],
+            [
+              25,
+              "f"
+            ],
+            [
+              32,
+              "mf"
+            ]
+          ]
+        },
+        {
+          "name": "Viola",
+          "program": null,
+          "clef": "alto",
+          "events": [
+            [
+              "D4",
+              "eighth",
+              "legato"
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "D5",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              "legato"
+            ],
+            [
+              "C#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "C#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              "legato"
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "A5",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "G#4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "G#4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "C#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "C#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "C#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "C#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              "accent"
+            ],
+            [
+              "G#4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "G#4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "C#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "C#4",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "A5",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "A4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "D4",
+              "eighth",
+              null
+            ],
+            [
+              "G5",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              "tenuto"
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "E4",
+              "eighth",
+              null
+            ],
+            [
+              "G4",
+              "eighth",
+              null
+            ],
+            [
+              "B4",
+              "eighth",
+              null
+            ],
+            [
+              "E5",
+              "eighth",
+              null
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "E5",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "Bb4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "C#4",
+              "eighth"
+            ],
+            [
+              "E4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D5",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "F#4",
+              "eighth"
+            ],
+            [
+              "A4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "G4",
+              "eighth"
+            ],
+            [
+              "B4",
+              "eighth"
+            ],
+            [
+              "D4",
+              "eighth"
+            ],
+            [
+              "G5",
+              "eighth"
+            ],
+            [
+              "A4",
+              "whole",
+              null
+            ],
+            [
+              "A4",
+              "whole",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "mf"
+            ],
+            [
+              6,
+              "f"
+            ],
+            [
+              9,
+              "mf"
+            ],
+            [
+              10,
+              "f"
+            ],
+            [
+              13,
+              "ff"
+            ],
+            [
+              16,
+              "f"
+            ],
+            [
+              17,
+              "ff"
+            ],
+            [
+              25,
+              "f"
+            ],
+            [
+              32,
+              "mf"
+            ]
+          ]
+        },
+        {
+          "name": "Cello",
+          "program": null,
+          "clef": "bass",
+          "events": [
+            [
+              "D3",
+              "quarter",
+              "legato"
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              "legato"
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              "legato"
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "E4",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              "accent"
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "E4",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "D4",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "G3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "F#3",
+              "quarter"
+            ],
+            [
+              "C#3",
+              "quarter"
+            ],
+            [
+              "F#3",
+              "quarter"
+            ],
+            [
+              "C#3",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "F#3",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "F#3",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "F#3",
+              "quarter"
+            ],
+            [
+              "C#3",
+              "quarter"
+            ],
+            [
+              "F#3",
+              "quarter"
+            ],
+            [
+              "C#3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "D4",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "D4",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "E4",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "D4",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "D4",
+              "quarter"
+            ],
+            [
+              "A4",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "D4",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "whole",
+              null
+            ],
+            [
+              "D3",
+              "whole",
+              null
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "mf"
+            ],
+            [
+              6,
+              "f"
+            ],
+            [
+              9,
+              "mf"
+            ],
+            [
+              10,
+              "f"
+            ],
+            [
+              13,
+              "ff"
+            ],
+            [
+              16,
+              "f"
+            ],
+            [
+              17,
+              "ff"
+            ],
+            [
+              25,
+              "f"
+            ],
+            [
+              32,
+              "mf"
+            ]
+          ]
+        },
+        {
+          "name": "Contrabass",
+          "program": null,
+          "clef": "bass",
+          "events": [
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter",
+              "legato"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A2",
+                "A3"
+              ],
+              "quarter",
+              "legato"
+            ],
+            [
+              [
+                "A2",
+                "A3"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A2",
+                "A3"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "A2",
+                "A3"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B2",
+                "B3"
+              ],
+              "quarter",
+              "legato"
+            ],
+            [
+              [
+                "B2",
+                "B3"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B2",
+                "B3"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "B2",
+                "B3"
+              ],
+              "quarter",
+              null
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "G2",
+                "G3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "E2",
+                "E3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "E2",
+                "E3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "E2",
+                "E3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "E2",
+                "E3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "A2",
+                "A3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "A2",
+                "A3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "A2",
+                "A3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "A2",
+                "A3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter"
+            ],
+            [
+              [
+                "D2",
+                "D3"
+              ],
+              "quarter"
+            ],
+            [
+              "A2",
+              "quarter"
+            ],
+            [
+              "C#3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "A2",
+              "quarter"
+            ],
+            [
+              "E2",
+              "quarter"
+            ],
+            [
+              "G#3",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "A2",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              "D2",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "C3",
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              "E2",
+              "quarter",
+              "accent"
+            ],
+            [
+              "G#3",
+              "quarter",
+              null
+            ],
+            [
+              "B3",
+              "quarter",
+              null
+            ],
+            [
+              "D3",
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "C#3",
+              "quarter",
+              null
+            ],
+            [
+              "E3",
+              "quarter",
+              null
+            ],
+            [
+              "A2",
+              "quarter",
+              null
+            ],
+            [
+              "D2",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "F#3",
+              "quarter",
+              null
+            ],
+            [
+              "A3",
+              "quarter",
+              null
+            ],
+            [
+              "C3",
+              "quarter",
+              null
+            ],
+            [
+              "B2",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "A#2",
+              "quarter",
+              null
+            ],
+            [
+              "G#2",
+              "quarter",
+              null
+            ],
+            [
+              "G2",
+              "quarter",
+              null
+            ],
+            [
+              "G2",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "F#2",
+              "quarter",
+              null
+            ],
+            [
+              "F2",
+              "quarter",
+              null
+            ],
+            [
+              "E2",
+              "quarter",
+              null
+            ],
+            [
+              "E2",
+              "quarter",
+              "tenuto"
+            ],
+            [
+              "F2",
+              "quarter",
+              null
+            ],
+            [
+              "F2",
+              "quarter",
+              null
+            ],
+            [
+              "F#2",
+              "quarter",
+              null
+            ],
+            [
+              "F#2",
+              "quarter"
+            ],
+            [
+              "G#2",
+              "quarter"
+            ],
+            [
+              "A2",
+              "quarter"
+            ],
+            [
+              "B2",
+              "quarter"
+            ],
+            [
+              "B2",
+              "quarter"
+            ],
+            [
+              "A#2",
+              "quarter"
+            ],
+            [
+              "G#2",
+              "quarter"
+            ],
+            [
+              "G2",
+              "quarter"
+            ],
+            [
+              "G2",
+              "quarter"
+            ],
+            [
+              "F#2",
+              "quarter"
+            ],
+            [
+              "F2",
+              "quarter"
+            ],
+            [
+              "E2",
+              "quarter"
+            ],
+            [
+              "E2",
+              "quarter"
+            ],
+            [
+              "F2",
+              "quarter"
+            ],
+            [
+              "F2",
+              "quarter"
+            ],
+            [
+              "F#2",
+              "quarter"
+            ],
+            [
+              "F#2",
+              "quarter"
+            ],
+            [
+              "C#3",
+              "quarter"
+            ],
+            [
+              "F#2",
+              "quarter"
+            ],
+            [
+              "C#3",
+              "quarter"
+            ],
+            [
+              "D2",
+              "quarter"
+            ],
+            [
+              "F#3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "D2",
+              "quarter"
+            ],
+            [
+              "G2",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "G2",
+              "quarter"
+            ],
+            [
+              "A2",
+              "quarter"
+            ],
+            [
+              "C#3",
+              "quarter"
+            ],
+            [
+              "E3",
+              "quarter"
+            ],
+            [
+              "G3",
+              "quarter"
+            ],
+            [
+              "D2",
+              "quarter"
+            ],
+            [
+              "F#3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "D2",
+              "quarter"
+            ],
+            [
+              "D2",
+              "quarter"
+            ],
+            [
+              "F#3",
+              "quarter"
+            ],
+            [
+              "A3",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "G2",
+              "quarter"
+            ],
+            [
+              "B3",
+              "quarter"
+            ],
+            [
+              "D3",
+              "quarter"
+            ],
+            [
+              "G2",
+              "quarter"
+            ],
+            [
+              "A2",
+              "whole"
+            ],
+            [
+              "D2",
+              "whole"
+            ]
+          ],
+          "dynamics": [
+            [
+              1,
+              "mf"
+            ],
+            [
+              6,
+              "f"
+            ],
+            [
+              9,
+              "mf"
+            ],
+            [
+              10,
+              "f"
+            ],
+            [
+              13,
+              "ff"
+            ],
+            [
+              16,
+              "f"
+            ],
+            [
+              17,
+              "ff"
+            ],
+            [
+              25,
+              "f"
+            ],
+            [
+              32,
+              "mf"
+            ]
+          ]
+        }
+      ],
+      "harmony": {
+        "1": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "2": [
+          "A",
+          "C#",
+          "E"
+        ],
+        "3": [
+          "B",
+          "D",
+          "F#"
+        ],
+        "4": [
+          "G",
+          "B",
+          "D"
+        ],
+        "5": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "6": [
+          "E",
+          "G",
+          "B"
+        ],
+        "7": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "8": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "9": [
+          "A",
+          "C#",
+          "E"
+        ],
+        "10": [
+          "E",
+          "G#",
+          "B",
+          "D"
+        ],
+        "11": [
+          "A",
+          "C#",
+          "E"
+        ],
+        "12": [
+          "D",
+          "F#",
+          "A",
+          "C"
+        ],
+        "13": [
+          "A",
+          "C#",
+          "E"
+        ],
+        "14": [
+          "E",
+          "G#",
+          "B",
+          "D"
+        ],
+        "15": [
+          "A",
+          "C#",
+          "E"
+        ],
+        "16": [
+          "D",
+          "F#",
+          "A",
+          "C"
+        ],
+        "17": [
+          "E",
+          "G",
+          "B"
+        ],
+        "18": [
+          "G",
+          "B",
+          "D"
+        ],
+        "19": [
+          "E",
+          "G",
+          "B"
+        ],
+        "20": [
+          "F#",
+          "Bb",
+          "C#",
+          "E"
+        ],
+        "21": [
+          "B",
+          "D",
+          "F#"
+        ],
+        "22": [
+          "G",
+          "B",
+          "D"
+        ],
+        "23": [
+          "E",
+          "G",
+          "B"
+        ],
+        "24": [
+          "F#",
+          "Bb",
+          "C#",
+          "E"
+        ],
+        "25": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "26": [
+          "G",
+          "B",
+          "D"
+        ],
+        "27": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "28": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "29": [
+          "D",
+          "F#",
+          "A",
+          "B"
+        ],
+        "30": [
+          "G",
+          "B",
+          "D"
+        ],
+        "31": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "32": [
+          "D",
+          "F#",
+          "A"
+        ]
+      },
+      "narrative": {
+        "bars": 32,
+        "climax_bar": 14,
+        "intensity": 1.0,
+        "tension_actual": [
+          0.441,
+          0.4419,
+          0.4432,
+          0.4443,
+          0.4749,
+          0.5053,
+          0.5363,
+          0.5365,
+          0.535,
+          0.5652,
+          0.5641,
+          0.5947,
+          0.5718,
+          0.6119,
+          0.5914,
+          0.5802,
+          0.5055,
+          0.4931,
+          0.4936,
+          0.5262,
+          0.4946,
+          0.4939,
+          0.4957,
+          0.5308,
+          0.5243,
+          0.5148,
+          0.5138,
+          0.5019,
+          0.4914,
+          0.4421,
+          0.404,
+          0.3703
+        ],
+        "tension_target": [
+          0.25,
+          0.2624,
+          0.2875,
+          0.3218,
+          0.3638,
+          0.4126,
+          0.4677,
+          0.5286,
+          0.5949,
+          0.6664,
+          0.7429,
+          0.8241,
+          0.9098,
+          1.0,
+          0.9256,
+          0.8749,
+          0.8304,
+          0.7896,
+          0.7513,
+          0.7149,
+          0.6799,
+          0.6462,
+          0.6135,
+          0.5817,
+          0.5507,
+          0.5204,
+          0.4908,
+          0.4617,
+          0.4331,
+          0.405,
+          0.3773,
+          0.35
+        ],
+        "dynamics": {
+          "1": "mf",
+          "2": "mf",
+          "3": "mf",
+          "4": "mf",
+          "5": "mf",
+          "6": "f",
+          "7": "f",
+          "8": "f",
+          "9": "mf",
+          "10": "f",
+          "11": "f",
+          "12": "f",
+          "13": "ff",
+          "14": "ff",
+          "15": "ff",
+          "16": "f",
+          "17": "ff",
+          "18": "ff",
+          "19": "ff",
+          "20": "ff",
+          "21": "ff",
+          "22": "ff",
+          "23": "ff",
+          "24": "ff",
+          "25": "f",
+          "26": "f",
+          "27": "f",
+          "28": "f",
+          "29": "f",
+          "30": "f",
+          "31": "f",
+          "32": "mf"
+        },
+        "marks": {
+          "1": "legato",
+          "2": "legato",
+          "3": "legato",
+          "11": "tenuto",
+          "12": "tenuto",
+          "13": "tenuto",
+          "14": "accent",
+          "15": "tenuto",
+          "16": "tenuto",
+          "17": "tenuto",
+          "18": "tenuto",
+          "19": "tenuto"
+        },
+        "appearances": [],
+        "surprises": [
+          {
+            "bar": 17,
+            "roman": "iv",
+            "kind": "iv",
+            "note": "同主音小调 iv（色彩转暗）",
+            "weight": 0.55,
+            "applied": true,
+            "notes": [
+              "E",
+              "G",
+              "B"
+            ]
+          }
+        ],
+        "silences": [
+          {
+            "bar": 15,
+            "beats": 1.0,
+            "reason": "高潮后留白：让峰值被\"听见\"，也给出句读",
+            "applied": true
+          }
+        ],
+        "motif_registry": {
+          "motifs": {},
+          "lineage": []
+        },
+        "log": [
+          "高潮定位：第 14 小节（客观张力 0.61，目标 1.00）",
+          "惊喜：第 17 小节 iv（同主音小调 iv（色彩转暗））",
+          "静默：第 15 小节留白 1.0 拍"
+        ],
+        "seed": "93db0399afe7",
+        "source_motif_bar": 1
+      },
+      "subseeds": {
+        "melody": "d48b6447f558",
+        "harmony": "12d05add6087",
+        "texture": "b831dd535a6c",
+        "narrative": "93db0399afe7",
+        "decor": "a2b07f03827e",
+        "rhythm": "e8f31c85f611",
+        "fugue": "68f01cb6f487"
+      },
+      "soft_weights": {},
+      "fugue_roles": [],
+      "style_notes": [
+        "段落 呈示副部 按风格契约加和弦品质：IV→IV7"
+      ],
+      "composer": "translated-kernel"
+    },
+    "last_skill_ids": [
+      "orchestrate",
+      "genre:classical/string-serenade"
+    ],
+    "last_advice": null,
+    "compose_trace": {
+      "user_text": "写一首明朗的D大调弦乐小夜曲，Allegro",
+      "pipeline": "translator（LLM 翻译 + 确定性内核）",
+      "skill_ids": [
+        "orchestrate",
+        "genre:classical/string-serenade"
+      ],
+      "llm_calls": [
+        {
+          "stage": "planner",
+          "title": "Planner（意图解析）",
+          "system": "You are a professional composer and music theorist acting as an Intent Parser.\n\nTransform the user's natural-language request (and optional slash-commands already applied as preferences) into a Composition Plan JSON only.\n\nThink like a composer first: infer genre, mood, form, motif character, harmony language, climax — do NOT invent note lists yet.\n\nOutput ONE JSON object, no Markdown:\n{\n  \"title\": \"string\",\n  \"genre\": \"string\",\n  \"mood\": [\"...\"],\n  \"tempo\": 72,\n  \"meter\": \"4/4\",\n  \"key_sharps\": 0,\n  \"mode\": \"major|minor\",\n  \"instrumentation\": [\"Piano\"] or [\"Violin\",\"Cello\"],\n  \"form\": [\"A\",\"B\",\"A\"],\n  \"bars\": 8,\n  \"motif\": {\"character\": \"...\", \"development\": [\"repetition\",\"sequence\"]},\n  \"harmony\": {\"language\": \"...\", \"density\": \"sparse|moderate|dense\"},\n  \"rhythm\": {\"character\": \"...\"},\n  \"texture\": \"homophonic|polyphonic|sparse|orchestral\",\n  \"climax\": {\"location\": \"section B\", \"dynamic\": \"f\"},\n  \"difficulty\": \"easy|medium\",\n  \"summary\": \"one sentence for the user\",\n  \"edit_intent\": null\n}\nRules:\n- Original music only; no copyrighted melodies.\n- If user is vague, choose musically appropriate defaults.\n- bars: 4–32. Prefer 8–16 for a brand-new short piece.\n- If the user asks to extend/lengthen to N bars (e.g. 扩展到32小节), set bars=N (not 8).\n- If edit_intent is extend/longer and no N given, increase bars vs existing_score (typically +8 to +16, max 32).\n- If edit_intent is rewrit\n…（已截断，完整 4128 字；固定指令模板见 skills/composition/base/ 与内核 kernel_docs）",
+          "user": "{\"user_request\": \"【作品】为弦乐合奏而作的单乐章小夜曲快板《晨光小夜曲》，D 大调\\n（key_sharps=2, mode=major），4/4，共 32 小节，\\n奏鸣骨架：呈示主部—呈示副部—展开—再现尾声。\\n\\n【编制】弦乐五部（第一小提琴、第二小提琴、中提琴、大提琴、低音提琴）；\\n旋律由第一小提琴承担；第二小提琴写和声节奏/对句（禁止整段长音垫）；\\n中提琴内声运动；大提琴行走低音；低音提琴根音支撑（含三音；V7 保留七音）。\\n不要用管弦双管编制。内核会在 accompaniment 时自动展开内声部角色织体。\\n\\n【速度】呈示主部 ♩=120 → 呈示副部 ♩=120 → 展开 ♩=126 → 再现尾声 ♩=118。\\n四段小节数之和必须等于 32。\\n\\n【旋律总则｜必须遵守】\\n1. 四段 melody 的 rhythm/contour 必须互相区分：依次 sparse+arch / flowing+arch /\\n   fragmented+wave / flowing+ascending。\\n2. 不要赋格，不要复调模仿，不要卡农；显式 narrative(appearances=false)。\\n3. 每段只用本段调内音；展开段可转关系小调。\\n4. new_score 须带 style=classical/string-serenade（已学契约），voices=5。\\n5. 五部须保持独立运动：VnII/Va 不得整小节同音长音垫。\\n\\n【第 1 段 · 呈示主部】8 小节 · Allegro ♩=120 · f · D 大调。\\n主部主题，和声 I–V–vi–IV–I–ii–V7–I；伴奏 octave_pulse；旋律 sparse、arch。\\n\\n【第 2 段 · 呈示副部】8 小节 · Allegro ♩=120 · mf · 转属调（+1 升号相对主调）。\\n歌唱性副题，和声 I–V7–I–IV；伴奏 broken_arpeggio；旋律 flowing、register=high、arch。\\n\\n【第 3 段 · 展开】8 小节 · Agitato ♩=126 · ff · 关系小调（mode=minor，按需换调号）。\\n旋律 fragmented、wave；和声 i–VI–iv–V7；伴奏 chromatic_descent。\\n\\n【第 4 段 · 再现尾声】8 小节 · Allegro ♩=118 · f · 回 D 大调。\\n旋律 flowing、ascending；和声 I–IV–V7–I；末两小节 cadence(bars=2)。\\n\\n【不要】不要赋格，不要双管管弦编制，不要用 very_high 音区，不要内声部长音垫。\", \"preferences\": {\"key_sharps\": 0, \"mode\": \"major\", \"tempo\": 120, \"bars\": 8, \"meter\": \"4/4\", \"style\": \"弦乐小夜曲\", \"genre_id\": \"genre:classical/string-serenade\", \"instrumentation\": \"\", \"fugue\": \"auto\", \"voices\": 0, \"_explicit\": {}}, \"edit_intent\": null, \"skills\": [\"orchestrate\", \"genre:classical/string-serenade\"], \"existing_plan\": null, \"revision_edits\": null, \"existing_score_summary\": null}",
+          "assistant": "{\n  \"title\": \"晨光小夜曲\",\n  \"genre\": \"classical/string-serenade\",\n  \"mood\": [\"明亮\", \"典雅\", \"清晨\", \"宫廷小夜曲\"],\n  \"tempo\": 120,\n  \"meter\": \"4/4\",\n  \"key_sharps\": 2,\n  \"mode\": \"major\",\n  \"instrumentation\": [\"Violin\", \"Violin\", \"Viola\", \"Cello\", \"Contrabass\"],\n  \"form\": [\"Exposition-Primary(1-8)\", \"Exposition-Secondary(9-16)\", \"Development(17-24)\", \"Recapitulation-Coda(25-32)\"],\n  \"bars\": 32,\n  \"motif\": {\n    \"character\": \"明朗上行的四音核心动机构成主部主题，级进为主、跳进点缀，具古典小夜曲的歌唱与推进感\",\n    \"development\": [\"repetition\", \"sequence\", \"fragmentation\", \"rhythmic change\", \"register transfer\"]\n  },\n  \"harmony\": {\n    \"language\": \"功能性和声，D 大调；副部转属调 A 大调，展开入关系小调 b 小调，再现回归主调并以完全终止收束\",\n    \"density\": \"moderate\"\n  },\n  \"rhythm\": {\n    \"character\": \"四段节奏性格依次区分：sparse+arch / flowing+arch / fragmented+wave / flowing+ascending；伴奏以八度脉动、分解琶音与半音下行对比\"\n  },\n  \"texture\": \"homophonic\",\n  \"climax\": {\n    \"location\": \"section Development (bars 17-24)\",\n    \"dynamic\": \"ff\"\n  },\n  \"difficulty\": \"medium\",\n  \"summary\": \"为弦乐五部而作的 D 大调单乐章小夜曲快板，按呈示主部—呈示副部—展开—再现尾声的奏鸣骨架铺展 32 小节，明朗典雅、终止清晰。\",\n  \"edit_intent\": null\n}",
+          "parsed": {
+            "title": "晨光小夜曲",
+            "genre": "classical/string-serenade",
+            "mood": [
+              "明亮",
+              "典雅",
+              "清晨",
+              "宫廷小夜曲",
+              "cheerful",
+              "bright"
+            ],
+            "tempo": 132,
+            "meter": "4/4",
+            "key_sharps": 2,
+            "mode": "major",
+            "instrumentation": [
+              "Violin",
+              "Violin",
+              "Viola",
+              "Cello",
+              "Contrabass"
+            ],
+            "form": [
+              "Exposition-Primary(1-8)",
+              "Exposition-Secondary(9-16)",
+              "Development(17-24)",
+              "Recapitulation-Coda(25-32)"
+            ],
+            "bars": 32,
+            "motif": {
+              "character": "明朗上行的四音核心动机构成主部主题，级进为主、跳进点缀，具古典小夜曲的歌唱与推进感",
+              "development": [
+                "repetition",
+                "sequence",
+                "fragmentation",
+                "rhythmic change",
+                "register transfer"
+              ]
+            },
+            "harmony": {
+              "language": "功能性和声，D 大调；副部转属调 A 大调，展开入关系小调 b 小调，再现回归主调并以完全终止收束",
+              "density": "moderate"
+            },
+            "rhythm": {
+              "character": "四段节奏性格依次区分：sparse+arch / flowing+arch / fragmented+wave / flowing+ascending；伴奏以八度脉动、分解琶音与半音下行对比"
+            },
+            "texture": "homophonic",
+            "climax": {
+              "location": "section Development (bars 17-24)",
+              "dynamic": "ff"
+            },
+            "difficulty": "medium",
+            "summary": "为弦乐五部而作的 D 大调单乐章小夜曲快板，按呈示主部—呈示副部—展开—再现尾声的奏鸣骨架铺展 32 小节，明朗典雅、终止清晰。",
+            "edit_intent": null,
+            "user_brief": "【作品】为弦乐合奏而作的单乐章小夜曲快板《晨光小夜曲》，D 大调\n（key_sharps=2, mode=major），4/4，共 32 小节，\n奏鸣骨架：呈示主部—呈示副部—展开—再现尾声。\n\n【编制】弦乐五部（第一小提琴、第二小提琴、中提琴、大提琴、低音提琴）；\n旋律由第一小提琴承担；第二小提琴写和声节奏/对句（禁止整段长音垫）；\n中提琴内声运动；大提琴行走低音；低音提琴根音支撑（含三音；V7 保留七音）。\n不要用管弦双管编制。内核会在 accompaniment 时自动展开内声部角色织体。\n\n【速度】呈示主部 ♩=120 → 呈示副部 ♩=120 → 展开 ♩=126 → 再现尾声 ♩=118。\n四段小节数之和必须等于 32。\n\n【旋律总则｜必须遵守】\n1. 四段 melody 的 rhythm/contour 必须互相区分：依次 sparse+arch / flowing+arch /\n   fragmented+wave / flowing+ascending。\n2. 不要赋格，不要复调模仿，不要卡农；显式 narrative(appearances=false)。\n3. 每段只用本段调内音；展开段可转关系小调。\n4. new_score 须带 style=classical/string-serenade（已学契约），voices=5。\n5. 五部须保持独立运动：VnII/Va 不得整小节同音长音垫。\n\n【第 1 段 · 呈示主部】8 小节 · Allegro ♩=120 · f · D 大调。\n主部主题，和声 I–V–vi–IV–I–ii–V7–I；伴奏 octave_pulse；旋律 sparse、arch。\n\n【第 2 段 · 呈示副部】8 小节 · Allegro ♩=120 · mf · 转属调（+1 升号相对主调）。\n歌唱性副题，和声 I–V7–I–IV；伴奏 broken_arpeggio；旋律 flowing、register=high、arch。\n\n【第 3 段 · 展开】8 小节 · Agitato ♩=126 · ff · 关系小调（mode=minor，按需换调号）。\n旋律 fragmented、wave；和声 i–VI–iv–V7；伴奏 chromatic_descent。\n\n【第 4 段 · 再现尾声】8 小节 · Allegro ♩=118 · f · 回 D 大调。\n旋律 flowing、ascending；和声 I–IV–V7–I；末两小节 cadence(bars=2)。\n\n【不要】不要赋格，不要双管管弦编制，不要用 very_high 音区，不要内声部长音垫。 弦乐小夜曲",
+            "tempo_text": "Allegro",
+            "_emotion_hint": {
+              "group": "fast",
+              "matched": [
+                "快板"
+              ],
+              "bpm": 132,
+              "tempo_text": "Allegro",
+              "mode_bias": "major",
+              "rhythm": "flowing",
+              "dynamics": "f",
+              "contour": "arch"
+            }
+          }
+        },
+        {
+          "stage": "translator",
+          "title": "Translator（脚本翻译）",
+          "system": "# 翻译器（Translator）\n\n你不是作曲家，是**翻译器**：把用户的自然语言音乐需求与 plan 翻译成\n对确定性脚本的调用序列。你**不写任何音符**——所有音符由脚本生成并保证\n正确（时值、调性、织体、力度、终止）。你的职责是选对脚本、给对参数。\n\n## 输出格式（只输出 JSON，不要任何解释文字）\n\n```\n{\"reasoning\": \"用中文简述你如何把需求翻译成参数与脚本（2–5 句）：识别了什么风格/情绪，怎么决定速度/调式/织体，段落如何安排，调用了哪些脚本。\", \"calls\": [{\"script\": \"脚本名\", \"args\": {...}}, ...]}\n```\n\n## 硬规则\n\n1. 调用顺序：`new_score` → `set_sections` → 对每个段落 `{ set_harmony →\n   accompaniment → melody }` →（高潮段可加 `thicken`）→（最后一段可加\n   `cadence`）→（**可选** `narrative(...)`：仅当你需要关掉自动叙事层的\n   动机变形/惊喜和弦时，见下「叙事层」）→ `finalize`\n2. `new_score` 与 `finalize` 必须各恰好一次，且分别在最前/最后\n3. **每个段落**都必须调用 set_harmony / accompaniment / melody，\n   一次都不许漏（漏了 finalize 会报错）\n4. args 必须严格符合脚本文档的字段名与取值范围；不要发明不存在的参数\n5. 脚本执行失败时你会收到错误信息——修正 calls 后完整重新输出\n6. `plan.tempo` / `plan.mode` / `plan.mood` / `plan.tempo_text` /\n   `plan._emotion_hint` 是已解析的**明确约束**（来自用户情绪/速度词或\n   `/tempo`），**优先级最高**——调用 `new_score` / `set_harmony` / `melody`\n   时直接采用，不要用风格基线默认值覆盖。`reasoning` 字段必须如实写出你\n   如何据此翻译，便于用户核查。\n7. **乐器编制**：brief 提到管弦乐/弦乐/铜管/木管/具体乐器（小提琴、长笛、\n   圆号、定音鼓…）或某种编制（弦乐四重奏、铜管五重奏…）时，`new_score`\n   **必须传 `instruments`**（长度=voices，从高音到低音，低音乐器放最后），\n   可用名：flute/oboe/**piccolo**/clarinet/bassoon/horn/trumpet/trombone/\n   tuba/violin/viola/cello/contrabass/timpani/**harp**/piano/soprano/alto/\n   tenor/bass。例：「弦乐四重奏」→ voices=4 +\n   `[\"violin\",\"violin\",\"viola\",\"cello\"]`；「管弦乐小品」→ voices=4 +\n   `[\"flute\",\"violin\",\"cello\",\"timpani\"]` 之类按 brief\n…（已截断，完整 19258 字；固定指令模板见 skills/composition/base/ 与内核 kernel_docs）",
+          "user": "{\"plan\": {\"title\": \"晨光小夜曲\", \"genre\": \"classical/string-serenade\", \"mood\": [\"明亮\", \"典雅\", \"清晨\", \"宫廷小夜曲\", \"cheerful\", \"bright\"], \"tempo\": 132, \"tempo_text\": \"Allegro\", \"meter\": \"4/4\", \"key_sharps\": 2, \"mode\": \"major\", \"_emotion_hint\": {\"group\": \"fast\", \"matched\": [\"快板\"], \"bpm\": 132, \"tempo_text\": \"Allegro\", \"mode_bias\": \"major\", \"rhythm\": \"flowing\", \"dynamics\": \"f\", \"contour\": \"arch\"}, \"instrumentation\": [\"Violin\", \"Violin\", \"Viola\", \"Cello\", \"Contrabass\"], \"form\": [\"Exposition-Primary(1-8)\", \"Exposition-Secondary(9-16)\", \"Development(17-24)\", \"Recapitulation-Coda(25-32)\"], \"bars\": 32, \"motif\": {\"character\": \"明朗上行的四音核心动机构成主部主题，级进为主、跳进点缀，具古典小夜曲的歌唱与推进感\", \"development\": [\"repetition\", \"sequence\", \"fragmentation\", \"rhythmic change\", \"register transfer\"]}, \"harmony\": {\"language\": \"功能性和声，D 大调；副部转属调 A 大调，展开入关系小调 b 小调，再现回归主调并以完全终止收束\", \"density\": \"moderate\"}, \"rhythm\": {\"character\": \"四段节奏性格依次区分：sparse+arch / flowing+arch / fragmented+wave / flowing+ascending；伴奏以八度脉动、分解琶音与半音下行对比\"}, \"texture\": \"homophonic\", \"climax\": {\"location\": \"section Development (bars 17-24)\", \"dynamic\": \"ff\"}, \"summary\": \"为弦乐五部而作的 D 大调单乐章小夜曲快板，按呈示主部—呈示副部—展开—再现尾声的奏鸣骨架铺展 32 小节，明朗典雅、终止清晰。\"}, \"user_brief\": \"【作品】为弦乐合奏而作的单乐章小夜曲快板《晨光小夜曲》，D 大调\\n（key_sharps=2, mode=major），4/4，共 32 小节，\\n奏鸣骨架：呈示主部—呈示副部—展开—再现尾声。\\n\\n【编制】弦乐五部（第一小提琴、第二小提琴、中提琴、大提琴、低音提琴）；\\n旋律由第一小提琴承担；第二小提琴写和声节奏/对句（禁止整段长音垫）；\\n中提琴内声运动；大提琴行走低音；低音提琴根音支撑（含三音；V7 保留七音）。\\n不要用管弦双管编制。内核会在 accompaniment 时自动展开内声部角色织体。\\n\\n【速度】呈示主部 ♩=120 → 呈示副部 ♩=120 → 展开 ♩=126 → 再现尾声 ♩=118。\\n四段小节数之和必须等于 32。\\n\\n【旋律总则｜必须遵守】\\n1. 四段 melody 的 rhythm/contour 必须互相区分：依次 sparse+arch / flowing+arch /\\n   fragmented+wave / flowing+ascending。\\n2. 不要赋格，不要复调模仿，不要卡农；显式 narrative(appearances=false)。\\n3. 每段只用本段调内音；展开段可转关系小调。\\n4. new_score 须带 style=classical/string-serenade（已学契约），voices=5。\\n5. 五部须保持独立运动：VnII/Va 不得整小节同音长音垫。\\n\\n【第 1 段 · 呈示主部】8 小节 · Allegro ♩=120 · f · D 大调。\\n主部主题，和声 I–V–vi–IV–I–ii–V7–I；伴奏 octave_pulse；旋律 sparse、arch。\\n\\n【第 2 段 · 呈示副部】8 小节 · Allegro ♩=120 · mf · 转属调（+1 升号相对主调）。\\n歌唱性副题，和声 I–V7–I–IV；伴奏 broken_arpeggio；旋律 flowing、register=high、arch。\\n\\n【第 3 段 · 展开】8 小节 · Agitato ♩=126 · ff · 关系小调（mode=minor，按需换调号）。\\n旋律 fragmented、wave；和声 i–VI–iv–V7；伴奏 chromatic_descent。\\n\\n【第 4 段 · 再现尾声】8 小节 · Allegro ♩=118 · f · 回 D 大调。\\n旋律 flowing、ascending；和声 I–IV–V7–I；末两小节 cadence(bars=2)。\\n\\n【不要】不要赋格，不要双管管弦编制，不要用 very_high 音区，不要内声部长音垫。 弦乐小夜曲\"}",
+          "assistant": "{\"reasoning\": \"识别为 D 大调弦乐小夜曲快板，弦乐五部（VnI/VnII/Va/Vc/Cb），按 plan 的速度/调式/情绪直接采用 ♩=132 大调快板。四段奏鸣骨架各 8 小节：呈示主部 sparse+arch+octave_pulse，呈示副部转属调 A 大调（+1 升号）flowing+arch+broken_arpeggio，展开段转关系小调 b 小调 fragmented+wave+chromatic_descent，再现尾声回 D 大调 flowing+ascending+末两小节 cadence。用户明确要求不要赋格/复调模仿，故在 cadence 后显式 narrative(appearances=false) 关闭动机变形，最后 finalize。\", \"calls\": [{\"script\": \"new_score\", \"args\": {\"title\": \"晨光小夜曲\", \"key_sharps\": 2, \"mode\": \"major\", \"meter\": \"4/4\", \"tempo\": 132, \"bars\": 32, \"voices\": 5, \"instruments\": [\"violin\", \"violin\", \"viola\", \"cello\", \"contrabass\"], \"solo_instrument\": \"violin\"}}, {\"script\": \"set_sections\", \"args\": {\"sections\": [{\"name\": \"呈示主部\", \"bars\": 8, \"meter\": \"4/4\", \"dynamic\": \"f\", \"tempo_text\": \"Allegro\", \"bpm\": 120}, {\"name\": \"呈示副部\", \"bars\": 8, \"meter\": \"4/4\", \"dynamic\": \"mf\", \"tempo_text\": \"Allegro\", \"bpm\": 120}, {\"name\": \"展开\", \"bars\": 8, \"meter\": \"4/4\", \"dynamic\": \"ff\", \"tempo_text\": \"Agitato\", \"bpm\": 126}, {\"name\": \"再现尾声\", \"bars\": 8, \"meter\": \"4/4\", \"dynamic\": \"f\", \"tempo_text\": \"Allegro\", \"bpm\": 118}]}}, {\"script\": \"set_harmony\", \"args\": {\"section\": \"呈示主部\", \"progression\": [\"I\", \"V\", \"vi\", \"IV\", \"I\", \"ii\", \"V7\", \"I\"]}}, {\"script\": \"accompaniment\", \"args\": {\"section\": \"呈示主部\", \"pattern\": \"octave_pulse\", \"register\": \"low\", \"density\": 1}}, {\"script\": \"melody\", \"args\": {\"section\": \"呈示主部\", \"register\": \"mid\", \"rhythm\": \"sparse\", \"contour\": \"arch\", \"motif\": [[1, \"quarter\"], [3, \"eighth\"], [5, \"eighth\"], [3, \"half\"]]}}, {\"script\": \"set_harmony\", \"args\": {\"section\": \"呈示副部\", \"progression\": [\"I\", \"V7\", \"I\", \"IV\"], \"key_sharps\": 3, \"mode\": \"major\"}}, {\"script\": \"accompaniment\", \"args\": {\"section\": \"呈示副部\", \"pattern\": \"broken_arpeggio\", \"register\": \"low\", \"density\": 1}}, {\"script\": \"melody\", \"args\": {\"section\": \"呈示副部\", \"register\": \"high\", \"rhythm\": \"flowing\", \"contour\": \"arch\"}}, {\"script\": \"set_harmony\", \"args\": {\"section\": \"展开\", \"progression\": [\"i\", \"VI\", \"iv\", \"V7\"], \"key_sharps\": 2, \"mode\": \"minor\"}}, {\"script\": \"accompaniment\", \"args\": {\"section\": \"展开\", \"pattern\": \"chromatic_descent\", \"register\": \"low\", \"density\": 1}}, {\"script\": \"melody\", \"args\": {\"section\": \"展开\", \"register\": \"high\", \"rhythm\": \"fragmented\", \"contour\": \"wave\"}}, {\"script\": \"thicken\", \"args\": {\"section\": \"展开\"}}, {\"script\": \"set_harmony\", \"args\": {\"section\": \"再现尾声\", \"progression\": [\"I\", \"IV\", \"V7\", \"I\"]}}, {\"script\": \"accompaniment\", \"args\": {\"section\": \"再现尾声\", \"pattern\": \"broken_arpeggio\", \"register\": \"low\", \"density\": 1}}, {\"script\": \"melody\", \"args\": {\"section\": \"再现尾声\", \"register\": \"high\", \"rhythm\": \"flowing\", \"contour\": \"ascending\"}}, {\"script\": \"cadence\", \"args\": {\"bars\": 2, \"section\": \"再现尾声\"}}, {\"script\": \"narrative\", \"args\": {\"appearances\": false}}, {\"script\": \"finalize\", \"args\": {}}]}",
+          "parsed": {
+            "reasoning": "识别为 D 大调弦乐小夜曲快板，弦乐五部（VnI/VnII/Va/Vc/Cb），按 plan 的速度/调式/情绪直接采用 ♩=132 大调快板。四段奏鸣骨架各 8 小节：呈示主部 sparse+arch+octave_pulse，呈示副部转属调 A 大调（+1 升号）flowing+arch+broken_arpeggio，展开段转关系小调 b 小调 fragmented+wave+chromatic_descent，再现尾声回 D 大调 flowing+ascending+末两小节 cadence。用户明确要求不要赋格/复调模仿，故在 cadence 后显式 narrative(appearances=false) 关闭动机变形，最后 finalize。",
+            "calls": [
+              {
+                "script": "new_score",
+                "args": {
+                  "title": "晨光小夜曲",
+                  "key_sharps": 2,
+                  "mode": "major",
+                  "meter": "4/4",
+                  "tempo": 132,
+                  "bars": 32,
+                  "voices": 5,
+                  "instruments": [
+                    "violin",
+                    "violin",
+                    "viola",
+                    "cello",
+                    "contrabass"
+                  ],
+                  "solo_instrument": "violin",
+                  "style": "classical/string-serenade"
+                }
+              },
+              {
+                "script": "set_sections",
+                "args": {
+                  "sections": [
+                    {
+                      "name": "呈示主部",
+                      "bars": 8,
+                      "meter": "4/4",
+                      "dynamic": "f",
+                      "tempo_text": "Allegro",
+                      "bpm": 120
+                    },
+                    {
+                      "name": "呈示副部",
+                      "bars": 8,
+                      "meter": "4/4",
+                      "dynamic": "mf",
+                      "tempo_text": "Allegro",
+                      "bpm": 120
+                    },
+                    {
+                      "name": "展开",
+                      "bars": 8,
+                      "meter": "4/4",
+                      "dynamic": "ff",
+                      "tempo_text": "Agitato",
+                      "bpm": 126
+                    },
+                    {
+                      "name": "再现尾声",
+                      "bars": 8,
+                      "meter": "4/4",
+                      "dynamic": "f",
+                      "tempo_text": "Allegro",
+                      "bpm": 118
+                    }
+                  ]
+                }
+              },
+              {
+                "script": "set_harmony",
+                "args": {
+                  "section": "呈示主部",
+                  "progression": [
+                    "I",
+                    "V",
+                    "vi",
+                    "IV",
+                    "I",
+                    "ii",
+                    "V7",
+                    "I"
+                  ]
+                }
+              },
+              {
+                "script": "accompaniment",
+                "args": {
+                  "section": "呈示主部",
+                  "pattern": "octave_pulse",
+                  "register": "low",
+                  "density": 1
+                }
+              },
+              {
+                "script": "melody",
+                "args": {
+                  "section": "呈示主部",
+                  "register": "mid",
+                  "rhythm": "sparse",
+                  "contour": "arch",
+                  "motif": [
+                    [
+                      1,
+                      "quarter"
+                    ],
+                    [
+                      3,
+                      "eighth"
+                    ],
+                    [
+                      5,
+                      "eighth"
+                    ],
+                    [
+                      3,
+                      "half"
+                    ]
+                  ]
+                }
+              },
+              {
+                "script": "set_harmony",
+                "args": {
+                  "section": "呈示副部",
+                  "progression": [
+                    "I",
+                    "V7",
+                    "I",
+                    "IV"
+                  ],
+                  "key_sharps": 3,
+                  "mode": "major"
+                }
+              },
+              {
+                "script": "accompaniment",
+                "args": {
+                  "section": "呈示副部",
+                  "pattern": "broken_arpeggio",
+                  "register": "low",
+                  "density": 1
+                }
+              },
+              {
+                "script": "melody",
+                "args": {
+                  "section": "呈示副部",
+                  "register": "high",
+                  "rhythm": "flowing",
+                  "contour": "arch"
+                }
+              },
+              {
+                "script": "set_harmony",
+                "args": {
+                  "section": "展开",
+                  "progression": [
+                    "i",
+                    "VI",
+                    "iv",
+                    "V7"
+                  ],
+                  "key_sharps": 2,
+                  "mode": "minor"
+                }
+              },
+              {
+                "script": "accompaniment",
+                "args": {
+                  "section": "展开",
+                  "pattern": "chromatic_descent",
+                  "register": "low",
+                  "density": 1
+                }
+              },
+              {
+                "script": "melody",
+                "args": {
+                  "section": "展开",
+                  "register": "high",
+                  "rhythm": "fragmented",
+                  "contour": "wave"
+                }
+              },
+              {
+                "script": "thicken",
+                "args": {
+                  "section": "展开"
+                }
+              },
+              {
+                "script": "set_harmony",
+                "args": {
+                  "section": "再现尾声",
+                  "progression": [
+                    "I",
+                    "IV",
+                    "V7",
+                    "I"
+                  ]
+                }
+              },
+              {
+                "script": "accompaniment",
+                "args": {
+                  "section": "再现尾声",
+                  "pattern": "broken_arpeggio",
+                  "register": "low",
+                  "density": 1
+                }
+              },
+              {
+                "script": "melody",
+                "args": {
+                  "section": "再现尾声",
+                  "register": "high",
+                  "rhythm": "flowing",
+                  "contour": "ascending"
+                }
+              },
+              {
+                "script": "cadence",
+                "args": {
+                  "bars": 2,
+                  "section": "再现尾声"
+                }
+              },
+              {
+                "script": "narrative",
+                "args": {
+                  "appearances": false
+                }
+              },
+              {
+                "script": "finalize",
+                "args": {}
+              }
+            ]
+          }
+        }
+      ],
+      "emotion": {
+        "group": "fast",
+        "matched": [
+          "快板"
+        ],
+        "bpm": 132,
+        "tempo_text": "Allegro",
+        "mode_bias": "major",
+        "rhythm": "flowing",
+        "dynamics": "f",
+        "contour": "arch"
+      },
+      "emotion_applied": true,
+      "constraint_fixes": [],
+      "kernel_calls": [
+        {
+          "script": "new_score",
+          "input": {
+            "title": "晨光小夜曲",
+            "key_sharps": 2,
+            "mode": "major",
+            "meter": "4/4",
+            "tempo": 132,
+            "bars": 32,
+            "voices": 5,
+            "instruments": [
+              "violin",
+              "violin",
+              "viola",
+              "cello",
+              "contrabass"
+            ],
+            "solo_instrument": "violin",
+            "style": "classical/string-serenade"
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 0,
+              "harmony": 0
+            },
+            "note": "建立乐曲：4/4 ♩=132 5声部 major"
+          }
+        },
+        {
+          "script": "set_sections",
+          "input": {
+            "sections": [
+              {
+                "name": "呈示主部",
+                "bars": 8,
+                "meter": "4/4",
+                "dynamic": "f",
+                "tempo_text": "Allegro",
+                "bpm": 120
+              },
+              {
+                "name": "呈示副部",
+                "bars": 8,
+                "meter": "4/4",
+                "dynamic": "mf",
+                "tempo_text": "Allegro",
+                "bpm": 120
+              },
+              {
+                "name": "展开",
+                "bars": 8,
+                "meter": "4/4",
+                "dynamic": "ff",
+                "tempo_text": "Agitato",
+                "bpm": 126
+              },
+              {
+                "name": "再现尾声",
+                "bars": 8,
+                "meter": "4/4",
+                "dynamic": "f",
+                "tempo_text": "Allegro",
+                "bpm": 118
+              }
+            ]
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 0
+            },
+            "note": "分段：呈示主部(8小节)，呈示副部(8小节)，展开(8小节)，再现尾声(8小节)"
+          }
+        },
+        {
+          "script": "set_harmony",
+          "input": {
+            "section": "呈示主部",
+            "progression": [
+              "I",
+              "V",
+              "vi",
+              "IV",
+              "I",
+              "ii",
+              "V7",
+              "I"
+            ]
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 8
+            },
+            "note": "和声：段落呈示主部 进行['I', 'V', 'vi', 'IV', 'I', 'ii', 'V7', 'I']"
+          }
+        },
+        {
+          "script": "accompaniment",
+          "input": {
+            "section": "呈示主部",
+            "pattern": "octave_pulse",
+            "register": "low",
+            "density": 1
+          },
+          "output": {
+            "added_counts": [
+              0,
+              64,
+              64,
+              32,
+              32
+            ],
+            "added_sample": [
+              [],
+              [
+                "F#5:eighth",
+                "D5:eighth",
+                "A5:eighth",
+                "F#5:eighth",
+                "D5:eighth",
+                "A5:eighth",
+                "F#5:eighth",
+                "D5:eighth"
+              ],
+              [
+                "D4:eighth",
+                "F#4:eighth",
+                "A4:eighth",
+                "D5:eighth",
+                "D4:eighth",
+                "F#4:eighth",
+                "A4:eighth",
+                "D5:eighth"
+              ],
+              [
+                "D3:quarter",
+                "A3:quarter",
+                "D3:quarter",
+                "A3:quarter",
+                "A3:quarter",
+                "E3:quarter",
+                "A3:quarter",
+                "E3:quarter"
+              ],
+              [
+                "D2+D3:quarter",
+                "D2+D3:quarter",
+                "D2+D3:quarter",
+                "D2+D3:quarter",
+                "A2+A3:quarter",
+                "A2+A3:quarter",
+                "A2+A3:quarter",
+                "A2+A3:quarter"
+              ]
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 8
+            },
+            "note": "伴奏：段落呈示主部 pattern=octave_pulse register=low density=1"
+          }
+        },
+        {
+          "script": "melody",
+          "input": {
+            "section": "呈示主部",
+            "register": "mid",
+            "rhythm": "sparse",
+            "contour": "arch",
+            "motif": [
+              [
+                1,
+                "quarter"
+              ],
+              [
+                3,
+                "eighth"
+              ],
+              [
+                5,
+                "eighth"
+              ],
+              [
+                3,
+                "half"
+              ]
+            ]
+          },
+          "output": {
+            "added_counts": [
+              35,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [
+                "D5:quarter",
+                "F#5:eighth",
+                "A5:eighth",
+                "F#5:half",
+                "C#5:quarter",
+                "D5:eighth",
+                "E5:half",
+                "D5:eighth"
+              ],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 8
+            },
+            "note": "旋律：段落呈示主部 rhythm=sparse"
+          }
+        },
+        {
+          "script": "set_harmony",
+          "input": {
+            "section": "呈示副部",
+            "progression": [
+              "I",
+              "V7",
+              "I",
+              "IV"
+            ],
+            "key_sharps": 3,
+            "mode": "major"
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 16
+            },
+            "note": "和声：段落呈示副部 进行['I', 'V7', 'I', 'IV']"
+          }
+        },
+        {
+          "script": "accompaniment",
+          "input": {
+            "section": "呈示副部",
+            "pattern": "broken_arpeggio",
+            "register": "low",
+            "density": 1
+          },
+          "output": {
+            "added_counts": [
+              0,
+              64,
+              64,
+              32,
+              32
+            ],
+            "added_sample": [
+              [],
+              [
+                "C#5:eighth",
+                "A5:eighth",
+                "E5:eighth",
+                "C#5:eighth",
+                "A5:eighth",
+                "E5:eighth",
+                "C#5:eighth",
+                "A5:eighth"
+              ],
+              [
+                "A4:eighth",
+                "C#4:eighth",
+                "E4:eighth",
+                "A4:eighth",
+                "A4:eighth",
+                "C#4:eighth",
+                "E4:eighth",
+                "A5:eighth"
+              ],
+              [
+                "A3:quarter",
+                "E3:quarter",
+                "A3:quarter",
+                "E3:quarter",
+                "E3:quarter",
+                "B3:quarter",
+                "E4:quarter",
+                "B3:quarter"
+              ],
+              [
+                "A2:quarter",
+                "C#3:quarter",
+                "E3:quarter",
+                "A2:quarter",
+                "E2:quarter",
+                "G#3:quarter",
+                "B3:quarter",
+                "D3:quarter"
+              ]
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 16
+            },
+            "note": "伴奏：段落呈示副部 pattern=broken_arpeggio register=low density=1"
+          }
+        },
+        {
+          "script": "melody",
+          "input": {
+            "section": "呈示副部",
+            "register": "high",
+            "rhythm": "flowing",
+            "contour": "arch"
+          },
+          "output": {
+            "added_counts": [
+              38,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [
+                "A5:eighth",
+                "A5:eighth",
+                "G#5:eighth",
+                "A5:eighth",
+                "A5:half",
+                "G#5:quarter",
+                "B5:half",
+                "D6:quarter"
+              ],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 16
+            },
+            "note": "旋律：段落呈示副部 rhythm=flowing"
+          }
+        },
+        {
+          "script": "set_harmony",
+          "input": {
+            "section": "展开",
+            "progression": [
+              "i",
+              "VI",
+              "iv",
+              "V7"
+            ],
+            "key_sharps": 2,
+            "mode": "minor"
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 24
+            },
+            "note": "和声：段落展开 进行['i', 'VI', 'iv', 'V7']"
+          }
+        },
+        {
+          "script": "accompaniment",
+          "input": {
+            "section": "展开",
+            "pattern": "chromatic_descent",
+            "register": "low",
+            "density": 1
+          },
+          "output": {
+            "added_counts": [
+              0,
+              64,
+              64,
+              32,
+              32
+            ],
+            "added_sample": [
+              [],
+              [
+                "D5:eighth",
+                "B4:eighth",
+                "F#5:eighth",
+                "D5:eighth",
+                "B4:eighth",
+                "F#5:eighth",
+                "D5:eighth",
+                "B4:eighth"
+              ],
+              [
+                "B4:eighth",
+                "D4:eighth",
+                "F#4:eighth",
+                "B4:eighth",
+                "B4:eighth",
+                "D4:eighth",
+                "F#4:eighth",
+                "B4:eighth"
+              ],
+              [
+                "B3:quarter",
+                "F#3:quarter",
+                "B3:quarter",
+                "F#3:quarter",
+                "G3:quarter",
+                "D3:quarter",
+                "G3:quarter",
+                "D3:quarter"
+              ],
+              [
+                "B2:quarter",
+                "A#2:quarter",
+                "G#2:quarter",
+                "G2:quarter",
+                "G2:quarter",
+                "F#2:quarter",
+                "F2:quarter",
+                "E2:quarter"
+              ]
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 24
+            },
+            "note": "伴奏：段落展开 pattern=chromatic_descent register=low density=1"
+          }
+        },
+        {
+          "script": "melody",
+          "input": {
+            "section": "展开",
+            "register": "high",
+            "rhythm": "fragmented",
+            "contour": "wave"
+          },
+          "output": {
+            "added_counts": [
+              43,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [
+                "None:eighth",
+                "F#5:quarter",
+                "B5:quarter",
+                "A5:eighth",
+                "G5:quarter",
+                "A5:eighth",
+                "B5:eighth",
+                "B5:quarter"
+              ],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 24
+            },
+            "note": "旋律：段落展开 rhythm=fragmented"
+          }
+        },
+        {
+          "script": "thicken",
+          "input": {
+            "section": "展开"
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 24
+            },
+            "note": "加厚：段落展开"
+          }
+        },
+        {
+          "script": "set_harmony",
+          "input": {
+            "section": "再现尾声",
+            "progression": [
+              "I",
+              "IV",
+              "V7",
+              "I"
+            ]
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "和声：段落再现尾声 进行['I', 'IV', 'V7', 'I']"
+          }
+        },
+        {
+          "script": "accompaniment",
+          "input": {
+            "section": "再现尾声",
+            "pattern": "broken_arpeggio",
+            "register": "low",
+            "density": 1
+          },
+          "output": {
+            "added_counts": [
+              0,
+              64,
+              64,
+              32,
+              32
+            ],
+            "added_sample": [
+              [],
+              [
+                "F#5:eighth",
+                "D5:eighth",
+                "A5:eighth",
+                "F#5:eighth",
+                "D5:eighth",
+                "A5:eighth",
+                "F#5:eighth",
+                "D5:eighth"
+              ],
+              [
+                "D4:eighth",
+                "F#4:eighth",
+                "A4:eighth",
+                "D5:eighth",
+                "D4:eighth",
+                "F#4:eighth",
+                "A4:eighth",
+                "D5:eighth"
+              ],
+              [
+                "D3:quarter",
+                "A3:quarter",
+                "D4:quarter",
+                "A3:quarter",
+                "G3:quarter",
+                "D4:quarter",
+                "G3:quarter",
+                "D3:quarter"
+              ],
+              [
+                "D2:quarter",
+                "F#3:quarter",
+                "A3:quarter",
+                "D2:quarter",
+                "G2:quarter",
+                "B3:quarter",
+                "D3:quarter",
+                "G2:quarter"
+              ]
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "伴奏：段落再现尾声 pattern=broken_arpeggio register=low density=1"
+          }
+        },
+        {
+          "script": "melody",
+          "input": {
+            "section": "再现尾声",
+            "register": "high",
+            "rhythm": "flowing",
+            "contour": "ascending"
+          },
+          "output": {
+            "added_counts": [
+              34,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [
+                "D5:quarter",
+                "E5:eighth",
+                "F#5:eighth",
+                "F#5:half",
+                "G5:quarter",
+                "F#5:eighth",
+                "E5:eighth",
+                "D5:quarter"
+              ],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "旋律：段落再现尾声 rhythm=flowing"
+          }
+        },
+        {
+          "script": "cadence",
+          "input": {
+            "bars": 2,
+            "section": "再现尾声"
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "终止：bars=2"
+          }
+        },
+        {
+          "script": "narrative",
+          "input": {
+            "appearances": false
+          },
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "narrative"
+          }
+        },
+        {
+          "script": "finalize",
+          "input": {},
+          "output": {
+            "added_counts": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "added_sample": [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "state_after": {
+              "ts": "4/4",
+              "tempo": 132,
+              "bars": 32,
+              "voices": 5,
+              "sections": 4,
+              "harmony": 32
+            },
+            "note": "收束装配：32小节 / 5声部"
+          }
+        }
+      ],
+      "repair": {
+        "triggered": true,
+        "issues": [
+          "各段织体密度相同且高潮段无八度加厚——安静段（pp/p）须用 half/whole 长音稀疏织体，冲突段用八分音符与休止的碎片化，高潮段旋律以八度和弦（双 pitch 列表）加厚。禁止全曲统一四分（或八分）音符"
+        ]
+      },
+      "result": {
+        "title": "晨光小夜曲",
+        "time_signature": "4/4",
+        "tempo": 132,
+        "mode": "major",
+        "key_sharps": 2,
+        "bars_target": 32,
+        "bars_actual": 32,
+        "voices": 5,
+        "parts": [
+          "Violin",
+          "Violin",
+          "Viola",
+          "Cello",
+          "Contrabass"
+        ],
+        "has_fugue": false,
+        "composer": "translated-kernel"
+      },
+      "generated_at": "2026-09-28T20:24:14",
+      "brief_expand": {
+        "template": "string_serenade",
+        "pack_hint": "string-serenade",
+        "original": "写一首明朗的D大调弦乐小夜曲，Allegro"
+      },
+      "translator_attempts": 1
+    }
+  },
+  "created_at": "2026-09-28T20:24:12"
+}

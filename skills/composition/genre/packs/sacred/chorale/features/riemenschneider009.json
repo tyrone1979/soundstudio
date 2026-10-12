@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "title": "Ermuntre dich, mein schwacher Geist",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider009.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 13,
+    "parts": [
+      4533285200
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 33,
+      "8th": 19,
+      "dotted_quarter": 3,
+      "half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.25,
+      "2": 0.232,
+      "3": 0.268,
+      "4": 0.25
+    },
+    "beat1_onset_share": 0.25,
+    "syncopation_proxy": 0.75,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 4.31,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 9,
+    "chords_estimated": 56,
+    "harmonic_rhythm_chords_per_bar": 4.31,
+    "root_pair_top": {
+      "D-G": 6,
+      "A-D": 4,
+      "C-F#": 3,
+      "F#-G": 3,
+      "G-C": 3,
+      "E-A": 3,
+      "G-E": 2,
+      "E-D": 2
+    },
+    "root_sample": [
+      "G",
+      "E",
+      "D",
+      "G",
+      "A",
+      "D",
+      "A",
+      "D",
+      "B",
+      "C",
+      "F#",
+      "G",
+      "C",
+      "D",
+      "G",
+      "D",
+      "G",
+      "D",
+      "G#",
+      "A",
+      "D#",
+      "E",
+      "A",
+      "E"
+    ],
+    "quality_hist": {
+      "triad": 0.6607,
+      "dominant7": 0.25,
+      "half_diminished7": 0.0357,
+      "major7": 0.0357,
+      "minor7": 0.0179
+    },
+    "seventh_ratio": 0.3393
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "LOONEY McTWOLTER -- JIG.",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/looneymctwolterjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4525232784
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "A",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "E",
+      "bars": "10"
+    },
+    {
+      "section": "G",
+      "bars": "11"
+    },
+    {
+      "section": "H",
+      "bars": "12"
+    },
+    {
+      "section": "I",
+      "bars": "13"
+    },
+    {
+      "section": "J",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 10,
+    "repetition_ratio": 0.375,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "G5"
+    ],
+    "mean_midi": 70.81,
+    "stepwise_ratio": 0.726,
+    "leap_ratio": 0.083,
+    "large_leap_ratio": 0.012,
+    "repeated_note_ratio": 0.06,
+    "interval_hist": {
+      "2": 45,
+      "1": 16,
+      "4": 7,
+      "5": 5,
+      "0": 5,
+      "3": 4,
+      "12": 1,
+      "9": 1
+    },
+    "dur_hist": {
+      "dotted_quarter": 5,
+      "8th": 69,
+      "16th": 4,
+      "0": 2,
+      "quarter": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2,
+      "1": 0.0,
+      "2": 0.1059,
+      "3": 0.0,
+      "4": 0.1412,
+      "5": 0.1059,
+      "6": 0.0,
+      "7": 0.1882,
+      "8": 0.0,
+      "9": 0.1765,
+      "10": 0.0353,
+      "11": 0.0471
+    },
+    "chromatic_ratio": 0.0353,
+    "leading_tone_ratio": 0.0471
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 69,
+      "dotted_quarter": 5,
+      "quarter": 5,
+      "16th": 4,
+      "0": 2
+    },
+    "onset_beat_share": {
+      "1": 0.212,
+      "2": 0.165,
+      "3": 0.165,
+      "4": 0.188,
+      "5": 0.118,
+      "6": 0.153
+    },
+    "beat1_onset_share": 0.212,
+    "syncopation_proxy": 0.788,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.31,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

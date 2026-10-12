@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Garry Owen -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/garryowenjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4507643664
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 73.48,
+    "stepwise_ratio": 0.682,
+    "leap_ratio": 0.059,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.059,
+    "interval_hist": {
+      "2": 40,
+      "1": 18,
+      "3": 9,
+      "4": 8,
+      "0": 5,
+      "5": 3,
+      "8": 1,
+      "10": 1
+    },
+    "dur_hist": {
+      "16th": 4,
+      "8th": 70,
+      "quarter": 12
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1279,
+      "1": 0.0,
+      "2": 0.1628,
+      "3": 0.0,
+      "4": 0.2326,
+      "5": 0.1279,
+      "6": 0.0,
+      "7": 0.1395,
+      "8": 0.0,
+      "9": 0.1163,
+      "10": 0.0,
+      "11": 0.093
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.093
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 70,
+      "quarter": 12,
+      "16th": 4
+    },
+    "onset_beat_share": {
+      "1": 0.233,
+      "2": 0.128,
+      "3": 0.186,
+      "4": 0.186,
+      "5": 0.105,
+      "6": 0.163
+    },
+    "beat1_onset_share": 0.233,
+    "syncopation_proxy": 0.767,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.78,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

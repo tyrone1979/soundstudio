@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "BARNEY'S GOAT -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/barneysgoatjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4522947600
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "F",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "F",
+      "bars": "12"
+    },
+    {
+      "section": "G",
+      "bars": "13"
+    },
+    {
+      "section": "F",
+      "bars": "14"
+    },
+    {
+      "section": "H",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 8,
+    "repetition_ratio": 0.5,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 73.06,
+    "stepwise_ratio": 0.626,
+    "leap_ratio": 0.075,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.131,
+    "interval_hist": {
+      "2": 51,
+      "1": 16,
+      "0": 14,
+      "3": 14,
+      "5": 6,
+      "4": 4,
+      "8": 2
+    },
+    "dur_hist": {
+      "quarter": 32,
+      "8th": 74,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1111,
+      "1": 0.0,
+      "2": 0.1667,
+      "3": 0.0,
+      "4": 0.3333,
+      "5": 0.0556,
+      "6": 0.0,
+      "7": 0.1481,
+      "8": 0.0,
+      "9": 0.1481,
+      "10": 0.0,
+      "11": 0.037
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.037
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 74,
+      "quarter": 32,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.148,
+      "2": 0.056,
+      "3": 0.148,
+      "4": 0.148,
+      "5": 0.0,
+      "6": 0.148,
+      "7": 0.148,
+      "8": 0.074,
+      "9": 0.13
+    },
+    "beat1_onset_share": 0.148,
+    "syncopation_proxy": 0.852,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 6.75,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

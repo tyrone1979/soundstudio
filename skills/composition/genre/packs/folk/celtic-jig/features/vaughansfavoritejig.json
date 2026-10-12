@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "Have a Drink With Me",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/vaughansfavoritejig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4464923216
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 69.9,
+    "stepwise_ratio": 0.467,
+    "leap_ratio": 0.185,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.098,
+    "interval_hist": {
+      "2": 36,
+      "3": 21,
+      "5": 15,
+      "0": 9,
+      "1": 7,
+      "9": 2,
+      "4": 2
+    },
+    "dur_hist": {
+      "16th": 4,
+      "8th": 84,
+      "quarter": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.3011,
+      "1": 0.0,
+      "2": 0.172,
+      "3": 0.0,
+      "4": 0.1183,
+      "5": 0.0215,
+      "6": 0.0,
+      "7": 0.1935,
+      "8": 0.0,
+      "9": 0.172,
+      "10": 0.0,
+      "11": 0.0215
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0215
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 84,
+      "quarter": 5,
+      "16th": 4
+    },
+    "onset_beat_share": {
+      "1": 0.204,
+      "2": 0.172,
+      "3": 0.183,
+      "4": 0.172,
+      "5": 0.118,
+      "6": 0.151
+    },
+    "beat1_onset_share": 0.204,
+    "syncopation_proxy": 0.796,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

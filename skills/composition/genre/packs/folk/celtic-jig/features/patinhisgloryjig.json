@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "Pat: in His Glory -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/patinhisgloryjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4497229904
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 73.44,
+    "stepwise_ratio": 0.607,
+    "leap_ratio": 0.131,
+    "large_leap_ratio": 0.024,
+    "repeated_note_ratio": 0.036,
+    "interval_hist": {
+      "2": 37,
+      "1": 14,
+      "3": 11,
+      "4": 8,
+      "5": 6,
+      "0": 3,
+      "12": 2,
+      "7": 2,
+      "8": 1
+    },
+    "dur_hist": {
+      "8th": 72,
+      "quarter": 12,
+      "0": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1647,
+      "1": 0.0,
+      "2": 0.1059,
+      "3": 0.0,
+      "4": 0.1882,
+      "5": 0.0588,
+      "6": 0.0353,
+      "7": 0.2471,
+      "8": 0.0,
+      "9": 0.1176,
+      "10": 0.0,
+      "11": 0.0824
+    },
+    "chromatic_ratio": 0.0353,
+    "leading_tone_ratio": 0.0824
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 72,
+      "quarter": 12,
+      "0": 1
+    },
+    "onset_beat_share": {
+      "1": 0.212,
+      "2": 0.165,
+      "3": 0.188,
+      "4": 0.2,
+      "5": 0.071,
+      "6": 0.165
+    },
+    "beat1_onset_share": 0.212,
+    "syncopation_proxy": 0.788,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.72,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

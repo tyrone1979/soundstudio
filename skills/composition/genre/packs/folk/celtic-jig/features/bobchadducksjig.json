@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "Bob Chadduck's -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/bobchadducksjig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 3,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4485679440
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "B5"
+    ],
+    "mean_midi": 74.79,
+    "stepwise_ratio": 0.606,
+    "leap_ratio": 0.121,
+    "large_leap_ratio": 0.04,
+    "repeated_note_ratio": 0.051,
+    "interval_hist": {
+      "2": 37,
+      "1": 23,
+      "3": 19,
+      "5": 6,
+      "0": 5,
+      "4": 3,
+      "12": 2,
+      "11": 2,
+      "17": 1,
+      "16": 1
+    },
+    "dur_hist": {
+      "8th": 12,
+      "16th": 70,
+      "ql=0.12": 3,
+      "ql=0.38": 3,
+      "0": 5,
+      "quarter": 4,
+      "ql=0.17": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.24,
+      "1": 0.0,
+      "2": 0.13,
+      "3": 0.0,
+      "4": 0.11,
+      "5": 0.02,
+      "6": 0.03,
+      "7": 0.25,
+      "8": 0.0,
+      "9": 0.1,
+      "10": 0.0,
+      "11": 0.12
+    },
+    "chromatic_ratio": 0.03,
+    "leading_tone_ratio": 0.12
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 70,
+      "8th": 12,
+      "0": 5,
+      "quarter": 4,
+      "ql=0.12": 3,
+      "ql=0.38": 3,
+      "ql=0.17": 3
+    },
+    "onset_beat_share": {
+      "1": 0.55,
+      "2": 0.45
+    },
+    "beat1_onset_share": 0.55,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.078,
+    "density_notes_per_bar": 6.25,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

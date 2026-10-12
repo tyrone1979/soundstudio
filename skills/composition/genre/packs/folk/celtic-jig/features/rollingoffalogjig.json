@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "Rolling off a Log -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/rollingoffalogjig.musicxml"
+  },
+  "global": {
+    "key": "C major",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4491519056
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "J",
+      "bars": "11"
+    },
+    {
+      "section": "K",
+      "bars": "12"
+    },
+    {
+      "section": "L",
+      "bars": "13"
+    },
+    {
+      "section": "I",
+      "bars": "14"
+    },
+    {
+      "section": "J",
+      "bars": "15"
+    },
+    {
+      "section": "K",
+      "bars": "16"
+    },
+    {
+      "section": "M",
+      "bars": "17"
+    },
+    {
+      "section": "N",
+      "bars": "18"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.263,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "A5"
+    ],
+    "mean_midi": 75.77,
+    "stepwise_ratio": 0.622,
+    "leap_ratio": 0.082,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.061,
+    "interval_hist": {
+      "1": 32,
+      "2": 29,
+      "3": 15,
+      "4": 8,
+      "0": 6,
+      "5": 4,
+      "7": 2,
+      "8": 2
+    },
+    "dur_hist": {
+      "8th": 85,
+      "quarter": 6,
+      "0": 6,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 0,
+    "degree_hist": {
+      "0": 0.1313,
+      "1": 0.0101,
+      "2": 0.1111,
+      "3": 0.0101,
+      "4": 0.0707,
+      "5": 0.0303,
+      "6": 0.1111,
+      "7": 0.2929,
+      "8": 0.0,
+      "9": 0.1313,
+      "10": 0.0,
+      "11": 0.101
+    },
+    "chromatic_ratio": 0.1313,
+    "leading_tone_ratio": 0.101
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 85,
+      "quarter": 7,
+      "0": 6,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.19,
+      "2": 0.14,
+      "3": 0.15,
+      "4": 0.24,
+      "5": 0.13,
+      "6": 0.15
+    },
+    "beat1_onset_share": 0.19,
+    "syncopation_proxy": 0.81,
+    "rest_ratio": 0.045,
+    "density_notes_per_bar": 5.26,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "title": "SHUFFLE AND CUT -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/shuffleandcutjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 24,
+    "parts": [
+      4513732688
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "F",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "F",
+      "bars": "12"
+    },
+    {
+      "section": "G",
+      "bars": "13"
+    },
+    {
+      "section": "F",
+      "bars": "14"
+    },
+    {
+      "section": "H",
+      "bars": "15"
+    },
+    {
+      "section": "I",
+      "bars": "16"
+    },
+    {
+      "section": "J",
+      "bars": "17"
+    },
+    {
+      "section": "K",
+      "bars": "18"
+    },
+    {
+      "section": "H",
+      "bars": "19"
+    },
+    {
+      "section": "I",
+      "bars": "20"
+    },
+    {
+      "section": "J",
+      "bars": "21"
+    },
+    {
+      "section": "K",
+      "bars": "22"
+    },
+    {
+      "section": "H",
+      "bars": "23"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.542,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 69.07,
+    "stepwise_ratio": 0.293,
+    "leap_ratio": 0.278,
+    "large_leap_ratio": 0.034,
+    "repeated_note_ratio": 0.088,
+    "interval_hist": {
+      "3": 48,
+      "2": 40,
+      "4": 22,
+      "1": 20,
+      "0": 18,
+      "8": 12,
+      "5": 10,
+      "9": 10,
+      "10": 10,
+      "7": 8,
+      "16": 4,
+      "12": 3
+    },
+    "dur_hist": {
+      "8th": 154,
+      "16th": 28,
+      "quarter": 24
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1845,
+      "1": 0.0,
+      "2": 0.2039,
+      "3": 0.0,
+      "4": 0.2136,
+      "5": 0.0971,
+      "6": 0.0,
+      "7": 0.1262,
+      "8": 0.0,
+      "9": 0.1262,
+      "10": 0.0291,
+      "11": 0.0194
+    },
+    "chromatic_ratio": 0.0291,
+    "leading_tone_ratio": 0.0194
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 154,
+      "16th": 28,
+      "quarter": 24
+    },
+    "onset_beat_share": {
+      "1": 0.136,
+      "2": 0.097,
+      "3": 0.117,
+      "4": 0.136,
+      "5": 0.039,
+      "6": 0.117,
+      "7": 0.146,
+      "8": 0.097,
+      "9": 0.117
+    },
+    "beat1_onset_share": 0.136,
+    "syncopation_proxy": 0.864,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.58,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

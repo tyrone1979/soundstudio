@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "Kitty O'Neil's Champion -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/kittyoneilschampionjig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 3,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 117,
+    "parts": [
+      4500382608
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 64,
+    "repetition_ratio": 0.453,
+    "phrase_len": 1.03
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "B5"
+    ],
+    "mean_midi": 73.6,
+    "stepwise_ratio": 0.562,
+    "leap_ratio": 0.175,
+    "large_leap_ratio": 0.014,
+    "repeated_note_ratio": 0.068,
+    "interval_hist": {
+      "2": 133,
+      "1": 72,
+      "3": 43,
+      "4": 28,
+      "5": 27,
+      "0": 25,
+      "9": 19,
+      "8": 6,
+      "10": 4,
+      "12": 3,
+      "7": 2,
+      "24": 1
+    },
+    "dur_hist": {
+      "quarter": 51,
+      "0": 11,
+      "8th": 94,
+      "dotted_8th": 74,
+      "16th": 74,
+      "triplet": 48,
+      "half": 8,
+      "dotted_quarter": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.1612,
+      "1": 0.0082,
+      "2": 0.1175,
+      "3": 0.0109,
+      "4": 0.2404,
+      "5": 0.0847,
+      "6": 0.0,
+      "7": 0.1585,
+      "8": 0.0109,
+      "9": 0.1257,
+      "10": 0.0,
+      "11": 0.082
+    },
+    "chromatic_ratio": 0.0301,
+    "leading_tone_ratio": 0.082
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.1352,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 94,
+      "dotted_8th": 74,
+      "16th": 74,
+      "quarter": 51,
+      "triplet": 48,
+      "0": 11,
+      "half": 8,
+      "dotted_quarter": 6
+    },
+    "onset_beat_share": {
+      "1": 0.557,
+      "2": 0.443
+    },
+    "beat1_onset_share": 0.557,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.082,
+    "density_notes_per_bar": 3.13,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

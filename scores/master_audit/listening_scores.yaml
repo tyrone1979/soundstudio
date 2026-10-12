@@ -1,0 +1,84 @@
+rubric: runs/listening_rubric.yaml
+note: 填 1–5 整数；保留 null 表示未听。填完后：python master_audit.py --apply-scores /Users/leizhao/Documents/prj/composerchat/scores/master_audit/listening_scores.yaml
+scores:
+  mazurka__0:
+    melody_memorable: null
+    phrase_breath: null
+    harmony_clear: null
+    texture_balance: null
+    genre_identity: null
+    mazurka_accent: null
+    mazurka_dance: null
+    mazurka_piano: null
+  mazurka__1:
+    melody_memorable: null
+    phrase_breath: null
+    harmony_clear: null
+    texture_balance: null
+    genre_identity: null
+    mazurka_accent: null
+    mazurka_dance: null
+    mazurka_piano: null
+  mazurka__2:
+    melody_memorable: null
+    phrase_breath: null
+    harmony_clear: null
+    texture_balance: null
+    genre_identity: null
+    mazurka_accent: null
+    mazurka_dance: null
+    mazurka_piano: null
+  fugue__0:
+    melody_memorable: null
+    phrase_breath: null
+    harmony_clear: null
+    texture_balance: null
+    genre_identity: null
+    fugue_subject: null
+    fugue_answer: null
+    fugue_independence: null
+  fugue__1:
+    melody_memorable: null
+    phrase_breath: null
+    harmony_clear: null
+    texture_balance: null
+    genre_identity: null
+    fugue_subject: null
+    fugue_answer: null
+    fugue_independence: null
+  fugue__2:
+    melody_memorable: null
+    phrase_breath: null
+    harmony_clear: null
+    texture_balance: null
+    genre_identity: null
+    fugue_subject: null
+    fugue_answer: null
+    fugue_independence: null
+  swing-standard__0:
+    melody_memorable: null
+    phrase_breath: null
+    harmony_clear: null
+    texture_balance: null
+    genre_identity: null
+    jazz_walking: null
+    jazz_comping: null
+    jazz_harmony: null
+  swing-standard__1:
+    melody_memorable: null
+    phrase_breath: null
+    harmony_clear: null
+    texture_balance: null
+    genre_identity: null
+    jazz_walking: null
+    jazz_comping: null
+    jazz_harmony: null
+  swing-standard__2:
+    melody_memorable: null
+    phrase_breath: null
+    harmony_clear: null
+    texture_balance: null
+    genre_identity: null
+    jazz_walking: null
+    jazz_comping: null
+    jazz_harmony: null

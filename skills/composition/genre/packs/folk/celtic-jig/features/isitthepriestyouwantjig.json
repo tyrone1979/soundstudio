@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "title": "\"IS IT THE PRIEST YOU WANT?\" -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/isitthepriestyouwantjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4479693840
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "B",
+      "bars": "3"
+    },
+    {
+      "section": "D",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "E",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "L",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    },
+    {
+      "section": "M",
+      "bars": "16"
+    },
+    {
+      "section": "F",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 75.37,
+    "stepwise_ratio": 0.293,
+    "leap_ratio": 0.133,
+    "large_leap_ratio": 0.013,
+    "repeated_note_ratio": 0.28,
+    "interval_hist": {
+      "0": 21,
+      "3": 20,
+      "2": 14,
+      "1": 8,
+      "5": 3,
+      "8": 3,
+      "7": 2,
+      "4": 2,
+      "10": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 52,
+      "quarter": 22,
+      "0": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.2237,
+      "1": 0.0,
+      "2": 0.0789,
+      "3": 0.2368,
+      "4": 0.0,
+      "5": 0.1184,
+      "6": 0.0,
+      "7": 0.1974,
+      "8": 0.0132,
+      "9": 0.0,
+      "10": 0.1316,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 52,
+      "quarter": 22,
+      "0": 2
+    },
+    "onset_beat_share": {
+      "1": 0.25,
+      "2": 0.066,
+      "3": 0.211,
+      "4": 0.224,
+      "5": 0.066,
+      "6": 0.184
+    },
+    "beat1_onset_share": 0.25,
+    "syncopation_proxy": 0.75,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.22,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

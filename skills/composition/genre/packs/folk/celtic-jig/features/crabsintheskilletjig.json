@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "title": "Crabs in the Skillet -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/crabsintheskilletjig.musicxml"
+  },
+  "global": {
+    "key": "F major",
+    "key_sharps": -2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 27,
+    "parts": [
+      4499835152
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "G",
+      "bars": "6"
+    },
+    {
+      "section": "H",
+      "bars": "7"
+    },
+    {
+      "section": "I",
+      "bars": "8"
+    },
+    {
+      "section": "J",
+      "bars": "9"
+    },
+    {
+      "section": "K",
+      "bars": "10"
+    },
+    {
+      "section": "L",
+      "bars": "11"
+    },
+    {
+      "section": "M",
+      "bars": "12"
+    },
+    {
+      "section": "N",
+      "bars": "13"
+    },
+    {
+      "section": "K",
+      "bars": "14"
+    },
+    {
+      "section": "O",
+      "bars": "15"
+    },
+    {
+      "section": "P",
+      "bars": "16"
+    },
+    {
+      "section": "Q",
+      "bars": "17"
+    },
+    {
+      "section": "R",
+      "bars": "18"
+    },
+    {
+      "section": "S",
+      "bars": "19"
+    },
+    {
+      "section": "C",
+      "bars": "20"
+    },
+    {
+      "section": "D",
+      "bars": "21"
+    },
+    {
+      "section": "S",
+      "bars": "22"
+    },
+    {
+      "section": "T",
+      "bars": "23"
+    },
+    {
+      "section": "G",
+      "bars": "24"
+    },
+    {
+      "section": "H",
+      "bars": "25"
+    },
+    {
+      "section": "I",
+      "bars": "26"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 20,
+    "repetition_ratio": 0.259,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "A5"
+    ],
+    "mean_midi": 71.59,
+    "stepwise_ratio": 0.654,
+    "leap_ratio": 0.11,
+    "large_leap_ratio": 0.016,
+    "repeated_note_ratio": 0.087,
+    "interval_hist": {
+      "2": 48,
+      "1": 35,
+      "3": 11,
+      "0": 11,
+      "4": 8,
+      "7": 5,
+      "5": 5,
+      "8": 2,
+      "14": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "dotted_quarter": 4,
+      "quarter": 16,
+      "8th": 108
+    }
+  },
+  "tonal": {
+    "tonic_pc": 5,
+    "degree_hist": {
+      "0": 0.2188,
+      "1": 0.0312,
+      "2": 0.1406,
+      "3": 0.0,
+      "4": 0.1484,
+      "5": 0.0625,
+      "6": 0.0,
+      "7": 0.1484,
+      "8": 0.0,
+      "9": 0.1328,
+      "10": 0.0312,
+      "11": 0.0859
+    },
+    "chromatic_ratio": 0.0625,
+    "leading_tone_ratio": 0.0859
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 108,
+      "quarter": 16,
+      "dotted_quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.211,
+      "2": 0.148,
+      "3": 0.164,
+      "4": 0.211,
+      "5": 0.117,
+      "6": 0.148
+    },
+    "beat1_onset_share": 0.211,
+    "syncopation_proxy": 0.789,
+    "rest_ratio": 0.062,
+    "density_notes_per_bar": 4.74,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

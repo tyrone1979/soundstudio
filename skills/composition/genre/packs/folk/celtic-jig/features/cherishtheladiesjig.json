@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "CHERISH THE LADIES -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/cherishtheladiesjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 27,
+    "parts": [
+      4462849808
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 22,
+    "repetition_ratio": 0.185,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 71.73,
+    "stepwise_ratio": 0.427,
+    "leap_ratio": 0.14,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.126,
+    "interval_hist": {
+      "2": 33,
+      "1": 28,
+      "3": 25,
+      "4": 19,
+      "0": 18,
+      "5": 13,
+      "8": 3,
+      "7": 3,
+      "10": 1
+    },
+    "dur_hist": {
+      "8th": 140,
+      "quarter": 2,
+      "16th": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1944,
+      "1": 0.0,
+      "2": 0.1528,
+      "3": 0.0,
+      "4": 0.2431,
+      "5": 0.1528,
+      "6": 0.0,
+      "7": 0.125,
+      "8": 0.0,
+      "9": 0.0694,
+      "10": 0.0,
+      "11": 0.0625
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0625
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 140,
+      "quarter": 2,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.188,
+      "2": 0.167,
+      "3": 0.174,
+      "4": 0.167,
+      "5": 0.153,
+      "6": 0.153
+    },
+    "beat1_onset_share": 0.188,
+    "syncopation_proxy": 0.812,
+    "rest_ratio": 0.076,
+    "density_notes_per_bar": 5.33,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

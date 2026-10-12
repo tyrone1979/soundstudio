@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "title": "Jersey Lightning -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/jerseylightningjig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4428971024
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "H",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    },
+    {
+      "section": "J",
+      "bars": "16"
+    },
+    {
+      "section": "L",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "D6"
+    ],
+    "mean_midi": 75.41,
+    "stepwise_ratio": 0.574,
+    "leap_ratio": 0.131,
+    "large_leap_ratio": 0.033,
+    "repeated_note_ratio": 0.066,
+    "interval_hist": {
+      "2": 44,
+      "1": 26,
+      "3": 22,
+      "5": 11,
+      "0": 8,
+      "4": 6,
+      "12": 2,
+      "14": 2,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 6,
+      "16th": 33,
+      "0": 8,
+      "ql=0.38": 36,
+      "ql=0.12": 36,
+      "ql=0.17": 3,
+      "dotted_8th": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.1138,
+      "1": 0.0,
+      "2": 0.0894,
+      "3": 0.1789,
+      "4": 0.0,
+      "5": 0.1463,
+      "6": 0.0,
+      "7": 0.2276,
+      "8": 0.1138,
+      "9": 0.0163,
+      "10": 0.1138,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0163,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "ql=0.38": 36,
+      "ql=0.12": 36,
+      "16th": 33,
+      "0": 8,
+      "8th": 6,
+      "ql=0.17": 3,
+      "dotted_8th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.593,
+      "2": 0.407
+    },
+    "beat1_onset_share": 0.593,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.116,
+    "density_notes_per_bar": 6.83,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

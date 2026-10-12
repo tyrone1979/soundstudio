@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "title": "A Drop of Whiskey -- slipjig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/dropofwhiskeyslipjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4500435024
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "C",
+      "bars": "4"
+    },
+    {
+      "section": "E",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8"
+    },
+    {
+      "section": "I",
+      "bars": "9"
+    },
+    {
+      "section": "J",
+      "bars": "10"
+    },
+    {
+      "section": "D",
+      "bars": "11"
+    },
+    {
+      "section": "H",
+      "bars": "12"
+    },
+    {
+      "section": "I",
+      "bars": "13"
+    },
+    {
+      "section": "J",
+      "bars": "14"
+    },
+    {
+      "section": "D",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 10,
+    "repetition_ratio": 0.375,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F#4",
+      "B5"
+    ],
+    "mean_midi": 71.85,
+    "stepwise_ratio": 0.279,
+    "leap_ratio": 0.14,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.029,
+    "interval_hist": {
+      "3": 45,
+      "4": 30,
+      "2": 21,
+      "1": 17,
+      "5": 17,
+      "0": 4,
+      "8": 2
+    },
+    "dur_hist": {
+      "quarter": 11,
+      "8th": 122,
+      "0": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1898,
+      "1": 0.0,
+      "2": 0.1314,
+      "3": 0.0,
+      "4": 0.2993,
+      "5": 0.146,
+      "6": 0.0,
+      "7": 0.1898,
+      "8": 0.0,
+      "9": 0.0146,
+      "10": 0.0,
+      "11": 0.0292
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0292
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 122,
+      "quarter": 11,
+      "0": 4
+    },
+    "onset_beat_share": {
+      "1": 0.146,
+      "2": 0.088,
+      "3": 0.117,
+      "4": 0.117,
+      "5": 0.117,
+      "6": 0.117,
+      "7": 0.117,
+      "8": 0.066,
+      "9": 0.117
+    },
+    "beat1_onset_share": 0.146,
+    "syncopation_proxy": 0.854,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.56,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

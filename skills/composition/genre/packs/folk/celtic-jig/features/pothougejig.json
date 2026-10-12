@@ -1,0 +1,170 @@
+{
+  "metadata": {
+    "title": "POTHOUGE - JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/pothougejig.musicxml"
+  },
+  "global": {
+    "key": "C major",
+    "key_sharps": 0,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4495024720
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "G",
+      "bars": "6"
+    },
+    {
+      "section": "H",
+      "bars": "7"
+    },
+    {
+      "section": "I",
+      "bars": "8"
+    },
+    {
+      "section": "J",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "D",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "J",
+      "bars": "13"
+    },
+    {
+      "section": "I",
+      "bars": "14"
+    },
+    {
+      "section": "D",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 10,
+    "repetition_ratio": 0.375,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "G5"
+    ],
+    "mean_midi": 68.93,
+    "stepwise_ratio": 0.326,
+    "leap_ratio": 0.25,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.144,
+    "interval_hist": {
+      "3": 30,
+      "2": 27,
+      "0": 19,
+      "5": 18,
+      "1": 16,
+      "8": 14,
+      "4": 7,
+      "7": 1
+    },
+    "dur_hist": {
+      "quarter": 11,
+      "8th": 122
+    }
+  },
+  "tonal": {
+    "tonic_pc": 0,
+    "degree_hist": {
+      "0": 0.1729,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.2556,
+      "5": 0.0526,
+      "6": 0.0,
+      "7": 0.2932,
+      "8": 0.0,
+      "9": 0.1579,
+      "10": 0.0,
+      "11": 0.0677
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0677
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 122,
+      "quarter": 11
+    },
+    "onset_beat_share": {
+      "1": 0.12,
+      "2": 0.068,
+      "3": 0.12,
+      "4": 0.12,
+      "5": 0.09,
+      "6": 0.12,
+      "7": 0.12,
+      "8": 0.12,
+      "9": 0.12
+    },
+    "beat1_onset_share": 0.12,
+    "syncopation_proxy": 0.88,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.31,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

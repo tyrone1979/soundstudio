@@ -1,0 +1,205 @@
+id: swing-standard
+name: 摇摆标准曲（爵士）
+name_en: Swing Standard (Jazz)
+enabled: true
+version: '1.3'
+dimensions:
+  form: standard_form
+  tempo_energy: medium_swing
+  mood: urban
+  medium: jazz_combo
+  tradition: jazz
+  tonal_language: extended_functional
+  rhythmic_identity: swing_eighths
+  family: jazz
+triggers:
+  keywords:
+  - 爵士
+  - 摇摆
+  - 标准曲
+  - 爵士标准曲
+  - 七和弦
+  - lead sheet
+  - 爵士即兴
+  - jazz
+  - swing
+  - standard
+  - lead sheet
+  style_tags:
+  - jazz
+  - swing
+  - seventh_chords
+  - ii-V-I
+summary: 摇摆标准曲：旋律 + 标记的爵士 lead sheet 形态，和声以七和弦为默认颗粒，ii–V–I 为进行惯性。
+profile:
+  mode: 大调与小调；大量借用 ii-V 与副属功能。
+  tonal_center:
+    preferred:
+    - Bb major
+    - F major
+    - Eb major
+    - C major
+    secondary:
+    - C minor
+    - G minor
+    - F minor
+    empirical_key_dist:
+      E- major: 0.113
+      A- major: 0.054
+      C major: 0.059
+      C# major: 0.054
+      A minor: 0.026
+      F major: 0.103
+      C minor: 0.082
+      F minor: 0.075
+      G major: 0.026
+      B- major: 0.143
+      D major: 0.019
+      E- minor: 0.04
+      D minor: 0.061
+      F# major: 0.014
+      G minor: 0.049
+      B- minor: 0.056
+      C# minor: 0.007
+      G# minor: 0.007
+      A major: 0.002
+      B major: 0.002
+      F# minor: 0.002
+      E major: 0.002
+      E minor: 0.002
+  tempo:
+    unit: quarter_note
+    min: 92
+    max: 240
+    default: 132
+    character: 中速到快速摇摆；八分音符按长-短奏。
+  meter:
+    primary: 4/4
+    allowed:
+    - 4/4
+    description: 绝大多数为 4/4。
+    empirical_note: 'From 426 scores: 4/4=98%, 3/4=1%, 6/8=0%, 5/4=0%, 6/4=0%'
+  rhythm:
+    identity: swing eighth feel
+    accompaniment:
+      default: walking_bass_and_comping
+    melodic_preferred:
+    - syncopation
+    - bebop_scale_run
+    - off_beat_phrasing
+    melodic_avoid:
+    - square_on_beat_only
+  phrase:
+    length: 4
+    character: 2 或 4 小节为一乐句，AABA/ABAC 主题群；乐句末常留白呼吸， 不规律地落在强拍终止。
+  harmony:
+    vocabulary_basic:
+    - ii7
+    - V7
+    - IM7
+    - vi7
+    - iiø7
+    - V7alt
+    progressions:
+    # 显式七和弦：避免骨架只喂 ii-V-I 三和弦、再靠随机品质改写落到光三和弦
+    - ii7–V7–Imaj7
+    - Imaj7–VI7–ii7–V7
+    - ii7–V7–Imaj7–vi7
+    - Imaj7–ii7–V7–Imaj7
+    forbidden:
+    - bare_triad_only_accompaniment
+    harmonic_rhythm_empirical: 语料约 1.12 和弦/小节
+  melody:
+    character: 切分迁移；前后句型不对称，动机可跨小节
+    contour_preferred:
+    - stepwise
+    - angular
+    - bebop_line
+    range_default:
+      low: C4
+      high: C6
+    stepwise_ratio_target: 0.455
+    rules: 语料级进比约 46%；大跳比约 18%。以级进为主。
+    leap_ratio_target: 0.177
+  texture:
+    primary: melody_plus_chord_symbols
+    density: lead_sheet
+  register:
+    melody:
+      low: C4
+      high: C6
+  color:
+    instrumentation: 铜管（可加弱音器）+ 钢琴 comping + 走动低音 + 鼓刷
+    character: 音响由七和弦与替代和声决定，节奏组保持不间断的摆动。
+  constraints:
+    must:
+    - 和弦默认写成七和弦（ii7 / V7 / IM7 / vi7 / iiø7），不要只用三和弦。
+    - 写上主要的 ii–V–I 进行。
+    - 旋律要有切分感，但必须留下可辨认的动机。
+    - 拍号以 4/4 为主（语料 98%）。
+    avoid:
+    - 只用三和弦伴奏；把爵士写成浪漫时期的和声练习。
+  priority:
+  - seventh_chord_harmony
+  - ii_V_I_motion
+  - swing_feel
+  empirical:
+    source: score_learning
+    total_scores: 426
+    means:
+      tempo: 175.559
+      stepwise_ratio: 0.455
+      leap_ratio: 0.177
+      bass_beat1_ratio: 0.977
+      beat1_onset_share: 0.788
+      density_notes_per_bar: 1.201
+      harmonic_rhythm_chords_per_bar: 1.119
+    updated_at: '2026-09-28T20:37:32'
+    core_rules:
+    - rule: meter=4/4
+      evidence_count: 419
+      total_scores: 426
+      frequency: 0.984
+      confidence: high
+      universality: core
+      detail:
+        4/4: 419
+        3/4: 4
+        6/8: 1
+        5/4: 1
+        6/4: 1
+    - rule: beat1_onset_weight
+      evidence_count: 422
+      total_scores: 426
+      frequency: 0.991
+      confidence: high
+      universality: core
+      detail: 0.788
+    fingerprint: 2e83db9589cc
+generation:
+  foundation:
+    bars:
+      default: 32
+      min: 12
+      max: 32
+    complexity: 3
+    instruments_default:
+    - trumpet
+    - piano
+    - double_bass
+    required:
+    - cadence
+  composition:
+    bars_default: 32
+    complexity: 4
+    preserve:
+    - meter
+    - harmonic_vocabulary
+    - rhythmic_identity
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - form
+llm_instruction: 落实摇摆标准曲：七和弦为基本颗粒、ii–V–I 惯性、旋律切分；和弦标记与伴奏声部要一致。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

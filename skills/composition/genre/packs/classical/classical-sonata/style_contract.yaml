@@ -1,0 +1,90 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: classical-sonata
+family: classical
+schema: style-contract/v1
+evidence_n: 245
+evidence_weight: 1.0
+tempo:
+  default: 112
+  min: 56
+  max: 160
+  source: empirical
+  evidence_n: 238
+meter:
+  primary: 4/4
+  allowed:
+  - 4/4
+  - 2/2
+  - 3/4
+  - 3/8
+  - 6/4
+  - 6/8
+  - 9/8
+  - 2/4
+  - 12/16
+  - 4/2
+  - 6/16
+  - 3/2
+  - 12/8
+  - 9/16
+  weights:
+    4/4: 0.2612
+    2/2: 0.1102
+    3/4: 0.2367
+    3/8: 0.0408
+    6/4: 0.0082
+    6/8: 0.098
+    9/8: 0.0163
+    2/4: 0.2041
+    12/16: 0.0041
+    4/2: 0.0041
+    6/16: 0.0041
+    3/2: 0.0041
+    12/8: 0.0041
+    9/16: 0.0041
+  source: empirical
+  evidence_n: 245
+harmony:
+  chords_per_bar: 2.85
+  quality_weights:
+    triad: 0.651
+    dominant7: 0.059
+    major7: 0.008
+    minor7: 0.012
+    diminished7: 0.017
+    half_diminished7: 0.019
+    augmented: 0.019
+    other: 0.215
+  unique_roots_mean: 12.181
+  evidence_n: 243
+melody:
+  stepwise_ratio: 0.494
+  leap_ratio: 0.23
+  repeated_note_ratio: 0.097
+  range_center: 72.725
+  range_width: null
+  mean_midi: 72.725
+  evidence_n: 245
+rhythm:
+  density_notes_per_bar: 10.17
+  beat1_onset_share: 0.354
+  syncopation: 0.488
+  swing_ratio: 2.25
+  swing_pair_share: 0.013
+  triplet_ratio: 0.047
+  evidence_n: 245
+texture:
+  voice_count: 2.0
+  evidence_n: 245
+form:
+  phrase_len: 1.02
+  repetition_ratio: 0.28
+  unique_motifs: 72.0
+  evidence_n: 245
+provenance:
+  built_from: features
+  scores_analyzed: 245
+  scores_with_harmony: 243
+  min_evidence: 8

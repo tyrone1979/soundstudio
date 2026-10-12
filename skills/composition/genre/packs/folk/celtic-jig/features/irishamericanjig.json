@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "IRISH AMERICAN -- JIG",
+    "composer": "Frank Livingston",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/irishamericanjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4526092816
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.188,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 74.89,
+    "stepwise_ratio": 0.527,
+    "leap_ratio": 0.099,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.099,
+    "interval_hist": {
+      "2": 37,
+      "3": 14,
+      "4": 11,
+      "1": 11,
+      "0": 9,
+      "5": 3,
+      "7": 2,
+      "9": 2,
+      "12": 2
+    },
+    "dur_hist": {
+      "8th": 90,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.2065,
+      "1": 0.0,
+      "2": 0.163,
+      "3": 0.2391,
+      "4": 0.0,
+      "5": 0.087,
+      "6": 0.0,
+      "7": 0.0978,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.1957,
+      "11": 0.0109
+    },
+    "chromatic_ratio": 0.0109,
+    "leading_tone_ratio": 0.0109
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 90,
+      "quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.174,
+      "2": 0.174,
+      "3": 0.174,
+      "4": 0.174,
+      "5": 0.152,
+      "6": 0.152
+    },
+    "beat1_onset_share": 0.174,
+    "syncopation_proxy": 0.826,
+    "rest_ratio": 0.021,
+    "density_notes_per_bar": 5.75,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

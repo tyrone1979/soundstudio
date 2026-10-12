@@ -1,0 +1,101 @@
+{
+ "bach_heldout_major": {
+  "pieces": 18,
+  "harmony_ppl": 20.75,
+  "out_of_grammar": 0.149,
+  "chord_repeat": 0.051,
+  "sop_repeat": 0.224,
+  "sop_step": 0.568,
+  "sop_leap": 0.056,
+  "cadence_match": 0.57,
+  "violations_per_100": 30.53
+ },
+ "bach_heldout_minor": {
+  "pieces": 18,
+  "harmony_ppl": 17.31,
+  "out_of_grammar": 0.13,
+  "chord_repeat": 0.041,
+  "sop_repeat": 0.224,
+  "sop_step": 0.608,
+  "sop_leap": 0.034,
+  "cadence_match": 0.59,
+  "violations_per_100": 25.38
+ },
+ "grammar_major": {
+  "pieces": 20,
+  "harmony_ppl": 4.53,
+  "out_of_grammar": 0.0,
+  "chord_repeat": 0.046,
+  "sop_repeat": 0.216,
+  "sop_step": 0.694,
+  "sop_leap": 0.009,
+  "cadence_match": 1.0,
+  "violations_per_100": 0.0
+ },
+ "grammar_minor": {
+  "pieces": 16,
+  "harmony_ppl": 5.25,
+  "out_of_grammar": 0.0,
+  "chord_repeat": 0.052,
+  "sop_repeat": 0.176,
+  "sop_step": 0.659,
+  "sop_leap": 0.054,
+  "cadence_match": 1.0,
+  "violations_per_100": 0.0
+ },
+ "grammar_major_pickup": {
+  "pieces": 16,
+  "harmony_ppl": 4.9,
+  "out_of_grammar": 0.0,
+  "chord_repeat": 0.07,
+  "sop_repeat": 0.241,
+  "sop_step": 0.658,
+  "sop_leap": 0.009,
+  "cadence_match": 1.0,
+  "violations_per_100": 0.0
+ },
+ "grammar_minor_pickup": {
+  "pieces": 16,
+  "harmony_ppl": 5.89,
+  "out_of_grammar": 0.0,
+  "chord_repeat": 0.034,
+  "sop_repeat": 0.155,
+  "sop_step": 0.675,
+  "sop_leap": 0.052,
+  "cadence_match": 1.0,
+  "violations_per_100": 0.0
+ },
+ "grammar_major_downbeat": {
+  "pieces": 16,
+  "harmony_ppl": 4.55,
+  "out_of_grammar": 0.0,
+  "chord_repeat": 0.061,
+  "sop_repeat": 0.192,
+  "sop_step": 0.654,
+  "sop_leap": 0.026,
+  "cadence_match": 1.0,
+  "violations_per_100": 0.0
+ },
+ "grammar_minor_downbeat": {
+  "pieces": 16,
+  "harmony_ppl": 4.89,
+  "out_of_grammar": 0.0,
+  "chord_repeat": 0.068,
+  "sop_repeat": 0.196,
+  "sop_step": 0.651,
+  "sop_leap": 0.06,
+  "cadence_match": 1.0,
+  "violations_per_100": 0.0
+ },
+ "old_llm_kernel": {
+  "pieces": 3,
+  "harmony_ppl": 50.3,
+  "out_of_grammar": 0.135,
+  "chord_repeat": 0.359,
+  "sop_repeat": 0.369,
+  "sop_step": 0.554,
+  "sop_leap": 0.012,
+  "cadence_match": 0.083,
+  "violations_per_100": 97.92
+ }
+}

@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "LITTLE DIAMOND -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/littlediamondjig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 3,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4469062096
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 8,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "A5"
+    ],
+    "mean_midi": 72.79,
+    "stepwise_ratio": 0.304,
+    "leap_ratio": 0.13,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.152,
+    "interval_hist": {
+      "4": 13,
+      "2": 12,
+      "0": 7,
+      "3": 6,
+      "5": 3,
+      "9": 2,
+      "1": 2,
+      "12": 1
+    },
+    "dur_hist": {
+      "16th": 34,
+      "8th": 6,
+      "ql=0.17": 6,
+      "quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.2766,
+      "1": 0.0,
+      "2": 0.0851,
+      "3": 0.0,
+      "4": 0.2553,
+      "5": 0.0638,
+      "6": 0.0,
+      "7": 0.1915,
+      "8": 0.0,
+      "9": 0.1064,
+      "10": 0.0,
+      "11": 0.0213
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0213
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 34,
+      "8th": 6,
+      "ql=0.17": 6,
+      "quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.574,
+      "2": 0.426
+    },
+    "beat1_onset_share": 0.574,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.156,
+    "density_notes_per_bar": 5.88,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "title": "Puer natus in Bethlehem",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider012.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "3/4",
+    "tempo": null,
+    "bars": 17,
+    "parts": [
+      4774821520
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 17,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 33,
+      "half": 6,
+      "dotted_half": 1
+    },
+    "onset_beat_share": {
+      "1": 0.425,
+      "2": 0.225,
+      "3": 0.35
+    },
+    "beat1_onset_share": 0.425,
+    "syncopation_proxy": 0.575,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 2.35,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 9,
+    "chords_estimated": 40,
+    "harmonic_rhythm_chords_per_bar": 2.35,
+    "root_pair_top": {
+      "A-D": 6,
+      "D-G": 5,
+      "E-A": 4,
+      "G-C": 3,
+      "C-F": 1,
+      "F-C": 1,
+      "C-E": 1,
+      "C-A": 1
+    },
+    "root_sample": [
+      "A",
+      "D",
+      "G",
+      "C",
+      "F",
+      "C",
+      "E",
+      "A",
+      "D",
+      "G",
+      "C",
+      "A",
+      "D",
+      "G",
+      "E",
+      "A",
+      "D",
+      "B",
+      "E",
+      "A",
+      "D",
+      "G",
+      "C",
+      "D"
+    ],
+    "quality_hist": {
+      "triad": 0.725,
+      "dominant7": 0.175,
+      "diminished7": 0.05,
+      "minor7": 0.05
+    },
+    "seventh_ratio": 0.275
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

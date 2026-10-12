@@ -1,0 +1,234 @@
+# 风格维度 taxonomy
+version: "2.2.0"
+
+# 必填分类轴（每个 pack 都要有）
+required_dimensions: [family, form, tempo_energy, mood, medium]
+
+dimensions:
+  family:
+    label: 语汇家族
+    values:
+      academic: { label: 学院古典 }
+      classical: { label: 古典管弦 }
+      dance: { label: 舞曲体裁 }
+      cinematic: { label: 叙事影像 }
+      intimate: { label: 室内抒情 }
+      folk: { label: 民俗民族 }
+      jazz: { label: 爵士 }
+      pop: { label: 流行 }
+      sacred: { label: 宗教仪式 }
+      romantic: { label: 浪漫钢琴 }
+      vocal: { label: 声乐复调 }
+
+  form:
+    label: 体裁形态
+    values:
+      allegro: { label: 快板乐章 }
+      waltz: { label: 圆舞曲 }
+      march: { label: 进行曲 }
+      minuet: { label: 小步舞曲 }
+      polka: { label: 波尔卡 }
+      mazurka: { label: 玛祖卡 }
+      tango: { label: 探戈 }
+      nocturne: { label: 夜曲 }
+      prelude: { label: 前奏曲 }
+      song: { label: 歌曲体 }
+      scherzo: { label: 谐谑曲 }
+      ballade: { label: 叙事曲 }
+      fugue: { label: 赋格 }
+      sonata: { label: 奏鸣曲式 }
+      adagio: { label: 慢板乐章 }
+      fanfare: { label: 号角/号曲 }
+      chase: { label: 追逐动作 }
+      suspense: { label: 悬疑张力 }
+      epic: { label: 史诗对峙 }
+      romance: { label: 浪漫主题 }
+      lullaby: { label: 摇篮曲 }
+      jig: { label: 吉格/捷格 }
+      air: { label: 民谣慢调 }
+      chorale: { label: 众赞歌 }
+      hymn: { label: 圣诗 }
+      free: { label: 自由曲式 }
+      sonata_or_binary: { label: 奏鸣/二部曲式 }
+      sonata_or_rondo: { label: 奏鸣/回旋曲式 }
+      strophic_tune: { label: 分节曲调 }
+      standard_form: { label: 爵士标准曲式 (AABA/ABAC) }
+      verse_chorus: { label: 主副歌体 }
+
+  tempo_energy:
+    label: 速度能量
+    values:
+      lento: { label: 慢板 }
+      andante: { label: 行板 }
+      moderato: { label: 中板 }
+      allegro: { label: 快板 }
+      presto: { label: 急板 }
+      medium: { label: 中速 }
+      medium_swing: { label: 中速摇摆 }
+      varies: { label: 速度多变 }
+      varies_by_movement: { label: 逐乐章变化 }
+
+  mood:
+    label: 情绪色彩
+    values:
+      adventurous: { label: 冒险豪迈 }
+      melancholic: { label: 忧郁沉思 }
+      lyrical: { label: 抒情优美 }
+      heroic: { label: 英雄壮阔 }
+      pastoral: { label: 田园安详 }
+      mysterious: { label: 神秘暧昧 }
+      playful: { label: 俏皮诙谐 }
+      solemn: { label: 庄严肃穆 }
+      tender: { label: 温柔亲切 }
+      tense: { label: 紧绷不安 }
+      triumphant: { label: 凯旋辉煌 }
+      classical_balance: { label: 均衡典雅 }
+      grand: { label: 宏大堂皇 }
+      rustic: { label: 乡土质朴 }
+      urban: { label: 都市律动 }
+      contemporary: { label: 当代通俗 }
+
+  medium:
+    label: 媒介织体
+    values:
+      solo_piano: { label: 钢琴独奏 }
+      chamber: { label: 室内乐 }
+      strings: { label: 弦乐组 }
+      orchestra: { label: 管弦乐 }
+      mixed: { label: 混合编制 }
+      choir: { label: 合唱/人声 }
+      piano_or_chamber: { label: 钢琴或小编制 }
+      full_orchestra: { label: 全编制管弦 }
+      melody_instrument: { label: 单声旋律乐器 }
+      jazz_combo: { label: 爵士小乐队 }
+      band_and_voice: { label: 乐队 + 人声 }
+
+  # 可选扩展轴（有则校验取值）
+  tradition:
+    label: 传统渊源
+    optional: true
+    values:
+      european: { label: 欧洲 }
+      east_asian: { label: 东亚 }
+      american: { label: 美洲 }
+      celtic: { label: 凯尔特 }
+      latin: { label: 拉丁 }
+      hybrid: { label: 融合 }
+      western_classical: { label: 西方古典 }
+      british_isles: { label: 不列颠群岛 }
+      jazz: { label: 爵士乐传统 }
+      anglo_american_pop: { label: 英美流行 }
+
+  tonal_language:
+    label: 调性语言
+    optional: true
+    values:
+      functional_tonal: { label: 功能和声 }
+      modal: { label: 调式 }
+      pentatonic: { label: 五声 }
+      chromatic: { label: 半音化 }
+      mixed: { label: 混合 }
+      modal_diatonic: { label: 调式 / 自然音 }
+      extended_functional: { label: 扩展功能和声 }
+      diatonic_loop: { label: 循环自然音 }
+
+  rhythmic_identity:
+    label: 节奏身份
+    optional: true
+    values:
+      triple_meter_dance: { label: 三拍子舞曲 }
+      duple_march: { label: 二拍进行 }
+      compound_flow: { label: 复拍流动 }
+      free_rubato: { label: 自由弹性 }
+      groove: { label: 律动型 }
+      dotted_drive: { label: 附点推进 }
+      syncopated_dance: { label: 切分舞步 }
+      pulse_ostinato: { label: 持续律动型 }
+      metrical_clear: { label: 规整节拍 }
+      mixed_orchestral: { label: 管弦混合节奏 }
+      dance_rhythm: { label: 舞曲律动 }
+      swing_eighths: { label: 摇摆八分 }
+      backbeat_groove: { label: 反拍律动 }
+
+# profile 必填顶层键（值可为字符串或结构化对象）
+profile_required: [mode, tempo, meter, phrase, harmony, melody, texture, color]
+
+# 注入 LLM 时各阶段优先字段（去重后的最优子集）
+inject:
+  # translator = 新创作主路径（LLM 翻译器 → 确定性内核）。翻译器不写音符，
+  # 只把风格画像翻译成脚本参数，所以取「能被脚本参数化」的字段。
+  translator:
+    - mode
+    - tonal_center
+    - tempo
+    - meter
+    - rhythm
+    - phrase
+    - harmony
+    - melody
+    - register
+    - instrumentation
+    - dynamics
+    - texture
+    - color
+    - form
+    - constraints
+    - generation
+    - llm_instruction
+  planner:
+    - mode
+    - tempo
+    - meter
+    - rhythm
+    - phrase
+    - cadence
+    - harmony
+    - form
+    - constraints
+    - generation
+    - llm_instruction
+  composer:
+    - mode
+    - tempo
+    - meter
+    - rhythm
+    - phrase
+    - harmony
+    - melody
+    - motif
+    - texture
+    - register
+    - dynamics
+    - articulation
+    - instrumentation
+    - color
+    - constraints
+    - foundation_score
+    - llm_instruction
+  selection_measure:
+    - meter
+    - rhythm
+    - harmony
+    - melody
+    - texture
+    - constraints
+  selection_symbol:
+    - melody
+    - articulation
+    - constraints
+  compact:
+    - mode
+    - tempo
+    - meter
+    - rhythm
+    - phrase
+    - harmony
+    - melody
+    - texture
+    - color
+    - constraints
+
+routing:
+  primary_axis: family
+  match_fields: [keywords, style_tags]
+  max_active_packs: 2

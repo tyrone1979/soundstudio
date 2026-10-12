@@ -1,0 +1,65 @@
+{
+  "n_seeds": 12,
+  "rows": [
+    {
+      "label": "Piano sonata, allegro",
+      "style": "sonata",
+      "sub": "allegro",
+      "corpus_rate": 0.1447,
+      "before_recalled": 16,
+      "before_tot": 288,
+      "before_rate": 0.05555555555555555,
+      "after_recalled": 37,
+      "after_tot": 288,
+      "after_rate": 0.1284722222222222
+    },
+    {
+      "label": "Symphony, allegro",
+      "style": "symphony",
+      "sub": "allegro",
+      "corpus_rate": 0.2429,
+      "before_recalled": 24,
+      "before_tot": 288,
+      "before_rate": 0.08333333333333333,
+      "after_recalled": 35,
+      "after_tot": 288,
+      "after_rate": 0.12152777777777778
+    },
+    {
+      "label": "Waltz",
+      "style": "folk",
+      "sub": "waltz",
+      "corpus_rate": 0.4485,
+      "before_recalled": 104,
+      "before_tot": 288,
+      "before_rate": 0.3611111111111111,
+      "after_recalled": 133,
+      "after_tot": 288,
+      "after_rate": 0.4618055555555556
+    },
+    {
+      "label": "Chopin mazurka",
+      "style": "chopin",
+      "sub": "mazurka",
+      "corpus_rate": 0.3267,
+      "before_recalled": 48,
+      "before_tot": 288,
+      "before_rate": 0.16666666666666666,
+      "after_recalled": 86,
+      "after_tot": 288,
+      "after_rate": 0.2986111111111111
+    },
+    {
+      "label": "Madrigal",
+      "style": "madrigal",
+      "sub": "madrigal",
+      "corpus_rate": 0.1881,
+      "before_recalled": 0,
+      "before_tot": 288,
+      "before_rate": 0.0,
+      "after_recalled": 32,
+      "after_tot": 288,
+      "after_rate": 0.1111111111111111
+    }
+  ]
+}

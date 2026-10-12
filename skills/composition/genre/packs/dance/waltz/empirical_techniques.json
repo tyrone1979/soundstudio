@@ -1,0 +1,53 @@
+{
+  "genre": "waltz",
+  "techniques": {
+    "rhythmic": [
+      {
+        "name": "meter_3/4",
+        "description": "meter=3/4",
+        "frequency": 1.0,
+        "confidence": "high",
+        "universality": "core"
+      }
+    ],
+    "melodic": [
+      {
+        "name": "stepwise_lyrical_motion",
+        "description": "Mean stepwise_ratio=0.546",
+        "frequency": null,
+        "confidence": "medium",
+        "universality": "common"
+      }
+    ],
+    "harmonic": [],
+    "phrase": [],
+    "accompaniment": [
+      {
+        "name": "bass_emphasizes_beat_1",
+        "description": "bass_emphasizes_beat_1",
+        "frequency": 1.0,
+        "confidence": "high",
+        "universality": "core"
+      },
+      {
+        "name": "beat1_onset_weight",
+        "description": "beat1_onset_weight",
+        "frequency": 1.0,
+        "confidence": "high",
+        "universality": "core"
+      }
+    ],
+    "orchestration": [],
+    "development": [],
+    "cadence": [],
+    "stylistic_constraints": {
+      "must": [
+        "Use meter 3/4"
+      ],
+      "should": [],
+      "avoid": []
+    }
+  },
+  "_fallback": true,
+  "_source_stats_total": 52
+}

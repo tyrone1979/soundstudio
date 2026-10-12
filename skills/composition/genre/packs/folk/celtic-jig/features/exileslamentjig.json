@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "title": "Exile's Lament -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/exileslamentjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4526418960
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 73.6,
+    "stepwise_ratio": 0.435,
+    "leap_ratio": 0.098,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.174,
+    "interval_hist": {
+      "2": 27,
+      "4": 16,
+      "0": 16,
+      "1": 13,
+      "3": 11,
+      "5": 6,
+      "9": 2,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 89,
+      "quarter": 2,
+      "16th": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.3226,
+      "1": 0.0,
+      "2": 0.1505,
+      "3": 0.0,
+      "4": 0.2473,
+      "5": 0.043,
+      "6": 0.0,
+      "7": 0.129,
+      "8": 0.0,
+      "9": 0.043,
+      "10": 0.0,
+      "11": 0.0645
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0645
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 89,
+      "quarter": 2,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.194,
+      "2": 0.172,
+      "3": 0.172,
+      "4": 0.172,
+      "5": 0.129,
+      "6": 0.161
+    },
+    "beat1_onset_share": 0.194,
+    "syncopation_proxy": 0.806,
+    "rest_ratio": 0.087,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

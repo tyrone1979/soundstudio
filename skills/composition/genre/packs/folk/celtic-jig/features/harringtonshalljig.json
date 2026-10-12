@@ -1,0 +1,180 @@
+{
+  "metadata": {
+    "title": "Harrington's Hall -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/harringtonshalljig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4513398928
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "F",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8"
+    },
+    {
+      "section": "I",
+      "bars": "9"
+    },
+    {
+      "section": "J",
+      "bars": "10"
+    },
+    {
+      "section": "K",
+      "bars": "11"
+    },
+    {
+      "section": "L",
+      "bars": "12"
+    },
+    {
+      "section": "M",
+      "bars": "13"
+    },
+    {
+      "section": "F",
+      "bars": "14"
+    },
+    {
+      "section": "C",
+      "bars": "15"
+    },
+    {
+      "section": "G",
+      "bars": "16"
+    },
+    {
+      "section": "H",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.278,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A4",
+      "A5"
+    ],
+    "mean_midi": 75.62,
+    "stepwise_ratio": 0.449,
+    "leap_ratio": 0.157,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.169,
+    "interval_hist": {
+      "1": 22,
+      "2": 18,
+      "0": 15,
+      "3": 11,
+      "4": 9,
+      "5": 5,
+      "7": 5,
+      "8": 2,
+      "9": 2
+    },
+    "dur_hist": {
+      "8th": 74,
+      "quarter": 8,
+      "dotted_8th": 2,
+      "16th": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2667,
+      "1": 0.0,
+      "2": 0.1222,
+      "3": 0.0,
+      "4": 0.2556,
+      "5": 0.1111,
+      "6": 0.0,
+      "7": 0.1444,
+      "8": 0.0,
+      "9": 0.0222,
+      "10": 0.0,
+      "11": 0.0778
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0778
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 74,
+      "quarter": 8,
+      "16th": 6,
+      "dotted_8th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.2,
+      "2": 0.144,
+      "3": 0.2,
+      "4": 0.178,
+      "5": 0.122,
+      "6": 0.156
+    },
+    "beat1_onset_share": 0.2,
+    "syncopation_proxy": 0.8,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

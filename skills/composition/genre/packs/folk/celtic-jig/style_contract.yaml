@@ -1,0 +1,70 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: celtic-jig
+family: folk
+schema: style-contract/v1
+evidence_n: 613
+evidence_weight: 1.0
+tempo:
+  default: 116.0
+  min: 104.0
+  max: 126.0
+  source: expert
+  evidence_n: 613
+meter:
+  primary: 6/8
+  allowed:
+  - 9/8
+  - 2/4
+  - 6/8
+  - 2/2
+  - 6/4
+  - 12/8
+  weights:
+    9/8: 0.0653
+    2/4: 0.044
+    6/8: 0.8646
+    2/2: 0.0228
+    6/4: 0.0016
+    12/8: 0.0016
+  source: empirical
+  evidence_n: 613
+harmony:
+  chords_per_bar: 1.22
+  quality_weights:
+    triad: 0.766
+    dominant7: 0.203
+    augmented: 0.005
+    other: 0.026
+  unique_roots_mean: 4.635
+  evidence_n: 348
+melody:
+  stepwise_ratio: 0.506
+  leap_ratio: 0.131
+  repeated_note_ratio: 0.122
+  range_center: 72.7
+  range_width: null
+  mean_midi: 72.7
+  evidence_n: 613
+rhythm:
+  density_notes_per_bar: 5.56
+  beat1_onset_share: 0.298
+  syncopation: 0.672
+  swing_ratio: 2.25
+  swing_pair_share: 0.005
+  triplet_ratio: 0.004
+  evidence_n: 613
+texture:
+  voice_count: 1.0
+  evidence_n: 613
+form:
+  phrase_len: 1.0
+  repetition_ratio: 0.197
+  unique_motifs: 15.0
+  evidence_n: 613
+provenance:
+  built_from: features
+  scores_analyzed: 613
+  scores_with_harmony: 348
+  min_evidence: 8

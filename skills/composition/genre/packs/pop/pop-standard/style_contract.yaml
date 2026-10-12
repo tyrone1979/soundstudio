@@ -1,0 +1,75 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: pop-standard
+family: pop
+schema: style-contract/v1
+evidence_n: 210
+evidence_weight: 1.0
+tempo:
+  default: 112.0
+  min: 76.0
+  max: 156.0
+  source: expert
+  evidence_n: 210
+meter:
+  primary: 4/4
+  allowed:
+  - 4/4
+  - 2/4
+  - 3/4
+  - 12/8
+  - 6/8
+  - 6/4
+  - 7/4
+  weights:
+    4/4: 0.9048
+    2/4: 0.0143
+    3/4: 0.0143
+    12/8: 0.0476
+    6/8: 0.0095
+    6/4: 0.0048
+    7/4: 0.0048
+  source: empirical
+  evidence_n: 210
+harmony:
+  chords_per_bar: 0.8
+  quality_weights:
+    triad: 0.717
+    dominant7: 0.161
+    major7: 0.034
+    minor7: 0.073
+    half_diminished7: 0.001
+    augmented: 0.001
+    other: 0.014
+  unique_roots_mean: 5.267
+  evidence_n: 210
+melody:
+  stepwise_ratio: 0.33
+  leap_ratio: 0.168
+  repeated_note_ratio: 0.377
+  range_center: 58.14
+  range_width: null
+  mean_midi: 58.14
+  evidence_n: 210
+rhythm:
+  density_notes_per_bar: 4.38
+  beat1_onset_share: 0.32
+  syncopation: 0.674
+  swing_ratio: 2.0
+  swing_pair_share: 0.006
+  triplet_ratio: 0.015
+  evidence_n: 210
+texture:
+  voice_count: 1.0
+  evidence_n: 210
+form:
+  phrase_len: 1.02
+  repetition_ratio: 0.336
+  unique_motifs: 42.0
+  evidence_n: 210
+provenance:
+  built_from: features
+  scores_analyzed: 210
+  scores_with_harmony: 210
+  min_evidence: 8

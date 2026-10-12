@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "title": "Hang Fire -- Jig",
+    "composer": "W. H. WHIDDON",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/hangfirejig.musicxml"
+  },
+  "global": {
+    "key": "A major",
+    "key_sharps": 3,
+    "meter": "2/4",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4497308688
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.211,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "A5"
+    ],
+    "mean_midi": 72.94,
+    "stepwise_ratio": 0.337,
+    "leap_ratio": 0.129,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.02,
+    "interval_hist": {
+      "3": 34,
+      "2": 21,
+      "4": 18,
+      "1": 13,
+      "7": 7,
+      "5": 5,
+      "0": 2,
+      "9": 1
+    },
+    "dur_hist": {
+      "8th": 29,
+      "16th": 69,
+      "ql=0.12": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.1667,
+      "1": 0.0,
+      "2": 0.1765,
+      "3": 0.0,
+      "4": 0.1471,
+      "5": 0.0882,
+      "6": 0.0,
+      "7": 0.1765,
+      "8": 0.0,
+      "9": 0.098,
+      "10": 0.0,
+      "11": 0.1471
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1471
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "16th": 69,
+      "8th": 29,
+      "ql=0.12": 4
+    },
+    "onset_beat_share": {
+      "1": 0.598,
+      "2": 0.402
+    },
+    "beat1_onset_share": 0.598,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.151,
+    "density_notes_per_bar": 5.37,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

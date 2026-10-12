@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "O'CONNELL'S WELCOME -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/oconnellswelcomejig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4516178640
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.188,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 74.26,
+    "stepwise_ratio": 0.663,
+    "leap_ratio": 0.06,
+    "large_leap_ratio": 0.012,
+    "repeated_note_ratio": 0.096,
+    "interval_hist": {
+      "2": 29,
+      "1": 26,
+      "3": 9,
+      "0": 8,
+      "4": 6,
+      "5": 2,
+      "10": 1,
+      "12": 1,
+      "9": 1
+    },
+    "dur_hist": {
+      "8th": 78,
+      "quarter": 4,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2381,
+      "1": 0.0,
+      "2": 0.1548,
+      "3": 0.0,
+      "4": 0.1548,
+      "5": 0.1071,
+      "6": 0.0238,
+      "7": 0.1548,
+      "8": 0.0,
+      "9": 0.0595,
+      "10": 0.0,
+      "11": 0.1071
+    },
+    "chromatic_ratio": 0.0238,
+    "leading_tone_ratio": 0.1071
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 78,
+      "quarter": 4,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.19,
+      "2": 0.19,
+      "3": 0.19,
+      "4": 0.19,
+      "5": 0.119,
+      "6": 0.119
+    },
+    "beat1_onset_share": 0.19,
+    "syncopation_proxy": 0.81,
+    "rest_ratio": 0.042,
+    "density_notes_per_bar": 5.25,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

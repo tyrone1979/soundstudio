@@ -1,0 +1,106 @@
+{
+ "question": "Diversity and distributional fit of SATB drafts vs held-out Bach (same draft seeds as e2_satb).",
+ "setting": {
+  "grid": "beat level",
+  "window_for_chord_counts": 48,
+  "draft_seeds": "eval{mode}{i}",
+  "total_bars": 12
+ },
+ "arms": {
+  "bach_heldout_major": {
+   "pieces": 18,
+   "ambitus": {
+    "S": 11.778,
+    "A": 11.444,
+    "T": 12.222,
+    "B": 17.167
+   },
+   "chord_entropy": 3.087,
+   "chord_types": 13.222,
+   "sop_4gram_repeat": 0.092,
+   "cross_piece_jaccard": 0.031,
+   "sop_interval_dist": {
+    "0": 0.1952,
+    "1": 0.155,
+    "2": 0.4411,
+    "3": 0.1058,
+    "4": 0.0387,
+    "5": 0.0477,
+    "7": 0.0119,
+    "8": 0.0015,
+    "10": 0.0015,
+    "12": 0.0015
+   },
+   "sop_interval_js": 0.0
+  },
+  "grammar_drafts_major": {
+   "pieces": 20,
+   "ambitus": {
+    "S": 10.15,
+    "A": 9.45,
+    "T": 10.45,
+    "B": 13.35
+   },
+   "chord_entropy": 2.483,
+   "chord_types": 10.45,
+   "sop_4gram_repeat": 0.135,
+   "cross_piece_jaccard": 0.095,
+   "sop_interval_dist": {
+    "0": 0.1068,
+    "1": 0.1222,
+    "2": 0.656,
+    "3": 0.0783,
+    "4": 0.0178,
+    "5": 0.019
+   },
+   "sop_interval_js": 0.0433
+  },
+  "bach_heldout_minor": {
+   "pieces": 18,
+   "ambitus": {
+    "S": 11.833,
+    "A": 10.833,
+    "T": 11.667,
+    "B": 17.611
+   },
+   "chord_entropy": 3.429,
+   "chord_types": 16.333,
+   "sop_4gram_repeat": 0.113,
+   "cross_piece_jaccard": 0.025,
+   "sop_interval_dist": {
+    "0": 0.2194,
+    "1": 0.2459,
+    "2": 0.3638,
+    "3": 0.0943,
+    "4": 0.0353,
+    "5": 0.0368,
+    "7": 0.0044
+   },
+   "sop_interval_js": 0.0
+  },
+  "grammar_drafts_minor": {
+   "pieces": 16,
+   "ambitus": {
+    "S": 13.625,
+    "A": 11.562,
+    "T": 12.625,
+    "B": 15.125
+   },
+   "chord_entropy": 3.383,
+   "chord_types": 14.375,
+   "sop_4gram_repeat": 0.027,
+   "cross_piece_jaccard": 0.024,
+   "sop_interval_dist": {
+    "0": 0.0826,
+    "1": 0.2162,
+    "2": 0.5616,
+    "3": 0.0751,
+    "4": 0.0255,
+    "5": 0.033,
+    "7": 0.0045,
+    "9": 0.0015
+   },
+   "sop_interval_js": 0.0414
+  }
+ }
+}

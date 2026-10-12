@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "title": "Teddy Malos' -- Jig",
+    "composer": "J. HAND",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/teddymalosjig.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4513662864
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 17,
+    "repetition_ratio": 0.056,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 73.37,
+    "stepwise_ratio": 0.5,
+    "leap_ratio": 0.185,
+    "large_leap_ratio": 0.054,
+    "repeated_note_ratio": 0.076,
+    "interval_hist": {
+      "2": 34,
+      "3": 16,
+      "1": 12,
+      "0": 7,
+      "4": 6,
+      "9": 4,
+      "8": 4,
+      "12": 3,
+      "5": 2,
+      "7": 1,
+      "13": 1,
+      "14": 1
+    },
+    "dur_hist": {
+      "8th": 87,
+      "quarter": 2,
+      "dotted_quarter": 2,
+      "0": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 4,
+    "degree_hist": {
+      "0": 0.1075,
+      "1": 0.043,
+      "2": 0.1183,
+      "3": 0.2903,
+      "4": 0.0,
+      "5": 0.129,
+      "6": 0.0,
+      "7": 0.086,
+      "8": 0.0968,
+      "9": 0.0,
+      "10": 0.129,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.043,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 87,
+      "quarter": 2,
+      "dotted_quarter": 2,
+      "0": 2
+    },
+    "onset_beat_share": {
+      "1": 0.194,
+      "2": 0.204,
+      "3": 0.172,
+      "4": 0.172,
+      "5": 0.129,
+      "6": 0.129
+    },
+    "beat1_onset_share": 0.194,
+    "syncopation_proxy": 0.806,
+    "rest_ratio": 0.067,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

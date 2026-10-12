@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "An Wasserfluessen Babylon",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider005.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4483011600
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 18,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 55,
+      "8th": 17,
+      "half": 2,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.28,
+      "2": 0.227,
+      "3": 0.24,
+      "4": 0.253
+    },
+    "beat1_onset_share": 0.28,
+    "syncopation_proxy": 0.72,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 4.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 8,
+    "chords_estimated": 75,
+    "harmonic_rhythm_chords_per_bar": 4.17,
+    "root_pair_top": {
+      "D-G": 8,
+      "G-C": 7,
+      "A-D": 6,
+      "E-A": 5,
+      "C-D": 4,
+      "D-E": 3,
+      "G-D": 3,
+      "C-G": 3
+    },
+    "root_sample": [
+      "G",
+      "C",
+      "D",
+      "E",
+      "D",
+      "A",
+      "D",
+      "G",
+      "D",
+      "G",
+      "C",
+      "G",
+      "C",
+      "D",
+      "G",
+      "D",
+      "B",
+      "C",
+      "D",
+      "G",
+      "D",
+      "G",
+      "C",
+      "G"
+    ],
+    "quality_hist": {
+      "triad": 0.76,
+      "dominant7": 0.1733,
+      "minor7": 0.04,
+      "half_diminished7": 0.0267
+    },
+    "seventh_ratio": 0.24
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

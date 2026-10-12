@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "title": "CASTLE GARDEN -- JIG",
+    "composer": "Harry Carleton",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/castlegardenjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4474576784
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "E",
+      "bars": "13"
+    },
+    {
+      "section": "H",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    },
+    {
+      "section": "K",
+      "bars": "16"
+    },
+    {
+      "section": "F",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.389,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 71.94,
+    "stepwise_ratio": 0.495,
+    "leap_ratio": 0.172,
+    "large_leap_ratio": 0.022,
+    "repeated_note_ratio": 0.054,
+    "interval_hist": {
+      "1": 24,
+      "2": 22,
+      "5": 13,
+      "3": 13,
+      "4": 13,
+      "0": 5,
+      "12": 2,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 92,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.3723,
+      "1": 0.0,
+      "2": 0.0851,
+      "3": 0.0,
+      "4": 0.117,
+      "5": 0.0426,
+      "6": 0.0,
+      "7": 0.1596,
+      "8": 0.0,
+      "9": 0.0638,
+      "10": 0.0,
+      "11": 0.1596
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.1596
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 92,
+      "quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.191,
+      "2": 0.17,
+      "3": 0.17,
+      "4": 0.17,
+      "5": 0.149,
+      "6": 0.149
+    },
+    "beat1_onset_share": 0.191,
+    "syncopation_proxy": 0.809,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.22,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

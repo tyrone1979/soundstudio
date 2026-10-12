@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "title": "PADDY O'CARROL'S -- JIG",
+    "composer": "J.Oswald.",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/paddyocarrolsjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4434390992
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "H",
+      "bars": "14"
+    },
+    {
+      "section": "I",
+      "bars": "15"
+    },
+    {
+      "section": "L",
+      "bars": "16"
+    },
+    {
+      "section": "F",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "A5"
+    ],
+    "mean_midi": 69.11,
+    "stepwise_ratio": 0.447,
+    "leap_ratio": 0.117,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.106,
+    "interval_hist": {
+      "2": 32,
+      "3": 16,
+      "4": 15,
+      "1": 10,
+      "0": 10,
+      "5": 8,
+      "19": 1,
+      "9": 1,
+      "7": 1
+    },
+    "dur_hist": {
+      "16th": 4,
+      "8th": 88,
+      "quarter": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2421,
+      "1": 0.0,
+      "2": 0.1895,
+      "3": 0.0,
+      "4": 0.2632,
+      "5": 0.0632,
+      "6": 0.0,
+      "7": 0.1684,
+      "8": 0.0,
+      "9": 0.0211,
+      "10": 0.0,
+      "11": 0.0526
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0526
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 88,
+      "16th": 4,
+      "quarter": 3
+    },
+    "onset_beat_share": {
+      "1": 0.211,
+      "2": 0.168,
+      "3": 0.168,
+      "4": 0.168,
+      "5": 0.137,
+      "6": 0.147
+    },
+    "beat1_onset_share": 0.211,
+    "syncopation_proxy": 0.789,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.28,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "Close to the Floor -- Jig",
+    "composer": "J. HAND",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/closetothefloorjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4521921680
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G3",
+      "B5"
+    ],
+    "mean_midi": 70.29,
+    "stepwise_ratio": 0.448,
+    "leap_ratio": 0.146,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.073,
+    "interval_hist": {
+      "2": 28,
+      "3": 17,
+      "1": 15,
+      "4": 15,
+      "5": 13,
+      "0": 7,
+      "7": 1
+    },
+    "dur_hist": {
+      "16th": 11,
+      "dotted_8th": 7,
+      "8th": 76,
+      "0": 1,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2474,
+      "1": 0.0,
+      "2": 0.1237,
+      "3": 0.0,
+      "4": 0.2062,
+      "5": 0.1031,
+      "6": 0.0,
+      "7": 0.1649,
+      "8": 0.0,
+      "9": 0.0825,
+      "10": 0.0,
+      "11": 0.0722
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0722
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 76,
+      "16th": 11,
+      "dotted_8th": 7,
+      "quarter": 2,
+      "0": 1
+    },
+    "onset_beat_share": {
+      "1": 0.216,
+      "2": 0.165,
+      "3": 0.165,
+      "4": 0.165,
+      "5": 0.144,
+      "6": 0.144
+    },
+    "beat1_onset_share": 0.216,
+    "syncopation_proxy": 0.784,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.39,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "api_key": "sk-your-key-here",
+  "base_url": "https://api.openai.com/v1",
+  "model": "gpt-4o-mini",
+  "_comment": "OpenAI-compatible API. Pipeline: plan -> compose JSON -> local MusicXML -> validate/repair"
+}

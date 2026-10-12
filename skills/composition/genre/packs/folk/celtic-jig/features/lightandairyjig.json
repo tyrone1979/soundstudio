@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "title": "LIGHT AND AIRY -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/lightandairyjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 24,
+    "parts": [
+      4486937936
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "G",
+      "bars": "8"
+    },
+    {
+      "section": "H",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "D",
+      "bars": "11"
+    },
+    {
+      "section": "G",
+      "bars": "12"
+    },
+    {
+      "section": "J",
+      "bars": "13"
+    },
+    {
+      "section": "F",
+      "bars": "14"
+    },
+    {
+      "section": "D",
+      "bars": "15"
+    },
+    {
+      "section": "K",
+      "bars": "16"
+    },
+    {
+      "section": "L",
+      "bars": "17"
+    },
+    {
+      "section": "M",
+      "bars": "18"
+    },
+    {
+      "section": "D",
+      "bars": "19"
+    },
+    {
+      "section": "N",
+      "bars": "20"
+    },
+    {
+      "section": "O",
+      "bars": "21"
+    },
+    {
+      "section": "F",
+      "bars": "22"
+    },
+    {
+      "section": "D",
+      "bars": "23"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.375,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "B5"
+    ],
+    "mean_midi": 73.7,
+    "stepwise_ratio": 0.382,
+    "leap_ratio": 0.195,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.057,
+    "interval_hist": {
+      "2": 31,
+      "3": 26,
+      "4": 19,
+      "1": 16,
+      "5": 10,
+      "8": 8,
+      "0": 7,
+      "9": 6
+    },
+    "dur_hist": {
+      "dotted_quarter": 3,
+      "8th": 107,
+      "quarter": 14
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2339,
+      "1": 0.0,
+      "2": 0.1129,
+      "3": 0.0,
+      "4": 0.2903,
+      "5": 0.1129,
+      "6": 0.0,
+      "7": 0.1694,
+      "8": 0.0,
+      "9": 0.0645,
+      "10": 0.0,
+      "11": 0.0161
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0161
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 107,
+      "quarter": 14,
+      "dotted_quarter": 3
+    },
+    "onset_beat_share": {
+      "1": 0.194,
+      "2": 0.121,
+      "3": 0.169,
+      "4": 0.194,
+      "5": 0.129,
+      "6": 0.194
+    },
+    "beat1_onset_share": 0.194,
+    "syncopation_proxy": 0.806,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "title": "THE OLD DUTCH CHURN -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/olddutchchurnjig.musicxml"
+  },
+  "global": {
+    "key": "G minor",
+    "key_sharps": -2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4487105040
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "D",
+      "bars": "7"
+    },
+    {
+      "section": "F",
+      "bars": "8"
+    },
+    {
+      "section": "G",
+      "bars": "9"
+    },
+    {
+      "section": "H",
+      "bars": "10"
+    },
+    {
+      "section": "I",
+      "bars": "11"
+    },
+    {
+      "section": "J",
+      "bars": "12"
+    },
+    {
+      "section": "G",
+      "bars": "13"
+    },
+    {
+      "section": "K",
+      "bars": "14"
+    },
+    {
+      "section": "L",
+      "bars": "15"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.25,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F4",
+      "B-5"
+    ],
+    "mean_midi": 74.33,
+    "stepwise_ratio": 0.381,
+    "leap_ratio": 0.15,
+    "large_leap_ratio": 0.009,
+    "repeated_note_ratio": 0.115,
+    "interval_hist": {
+      "2": 33,
+      "3": 28,
+      "7": 14,
+      "0": 13,
+      "4": 12,
+      "1": 10,
+      "5": 2,
+      "15": 1
+    },
+    "dur_hist": {
+      "quarter": 22,
+      "8th": 88,
+      "dotted_quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2018,
+      "1": 0.0,
+      "2": 0.1053,
+      "3": 0.193,
+      "4": 0.0,
+      "5": 0.114,
+      "6": 0.0,
+      "7": 0.2105,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.1667,
+      "11": 0.0088
+    },
+    "chromatic_ratio": 0.0088,
+    "leading_tone_ratio": 0.0088
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 88,
+      "quarter": 22,
+      "dotted_quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.14,
+      "2": 0.035,
+      "3": 0.14,
+      "4": 0.14,
+      "5": 0.053,
+      "6": 0.14,
+      "7": 0.14,
+      "8": 0.105,
+      "9": 0.105
+    },
+    "beat1_onset_share": 0.14,
+    "syncopation_proxy": 0.86,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 7.12,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

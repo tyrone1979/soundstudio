@@ -1,0 +1,14 @@
+{
+  "title": "Eine kleine Nachtmusik K.525 (GT excerpt)",
+  "bars": 20,
+  "voices": 4,
+  "seed": "ec86629999da",
+  "source_hash": "b58165b410e3dfa8",
+  "instruments": [
+    "violin",
+    "violin",
+    "viola",
+    "cello"
+  ],
+  "format": "zh_score_description_v1"
+}

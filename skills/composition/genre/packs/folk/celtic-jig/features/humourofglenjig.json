@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "HUMOUR OF GLEN- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/humourofglenjig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4500232272
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 72.07,
+    "stepwise_ratio": 0.573,
+    "leap_ratio": 0.145,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.103,
+    "interval_hist": {
+      "2": 40,
+      "1": 27,
+      "3": 15,
+      "0": 12,
+      "5": 10,
+      "4": 6,
+      "8": 5,
+      "10": 1,
+      "9": 1
+    },
+    "dur_hist": {
+      "8th": 56,
+      "16th": 56,
+      "quarter": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.1695,
+      "1": 0.0,
+      "2": 0.0678,
+      "3": 0.2458,
+      "4": 0.0,
+      "5": 0.0932,
+      "6": 0.0,
+      "7": 0.2203,
+      "8": 0.0678,
+      "9": 0.0,
+      "10": 0.0847,
+      "11": 0.0508
+    },
+    "chromatic_ratio": 0.0508,
+    "leading_tone_ratio": 0.0508
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 56,
+      "16th": 56,
+      "quarter": 6
+    },
+    "onset_beat_share": {
+      "1": 0.186,
+      "2": 0.22,
+      "3": 0.22,
+      "4": 0.136,
+      "5": 0.102,
+      "6": 0.136
+    },
+    "beat1_onset_share": 0.186,
+    "syncopation_proxy": 0.814,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 6.56,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

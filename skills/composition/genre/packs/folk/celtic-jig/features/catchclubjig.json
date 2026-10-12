@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "CATCH CLUB -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/catchclubjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4516187280
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 73.98,
+    "stepwise_ratio": 0.594,
+    "leap_ratio": 0.146,
+    "large_leap_ratio": 0.031,
+    "repeated_note_ratio": 0.146,
+    "interval_hist": {
+      "2": 44,
+      "0": 14,
+      "1": 13,
+      "5": 9,
+      "3": 7,
+      "4": 4,
+      "12": 3,
+      "10": 2
+    },
+    "dur_hist": {
+      "8th": 85,
+      "quarter": 4,
+      "16th": 6,
+      "0": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2474,
+      "1": 0.0,
+      "2": 0.1546,
+      "3": 0.0,
+      "4": 0.1649,
+      "5": 0.1443,
+      "6": 0.0,
+      "7": 0.1546,
+      "8": 0.0,
+      "9": 0.0928,
+      "10": 0.0,
+      "11": 0.0412
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0412
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 85,
+      "16th": 6,
+      "quarter": 4,
+      "0": 2
+    },
+    "onset_beat_share": {
+      "1": 0.216,
+      "2": 0.165,
+      "3": 0.165,
+      "4": 0.165,
+      "5": 0.124,
+      "6": 0.165
+    },
+    "beat1_onset_share": 0.216,
+    "syncopation_proxy": 0.784,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.39,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

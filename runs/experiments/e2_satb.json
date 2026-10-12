@@ -1,0 +1,204 @@
+{
+ "question": "Executability and load-bearingness of the acquired constraint set (RQ2), scored by one checker.",
+ "setting": {
+  "checker": "grammar/check.py:check_satb, published evaluation config (ranges 0-127 so R05 is off, tb_max=24)",
+  "search_layer_tb_max": 19,
+  "draft_seeds": {
+   "major": "evalmajor{i}, i=0..19",
+   "minor": "evalminor{i}, i=0..15",
+   "control": "kern{i}, i=0..19"
+  },
+  "total_bars": 12,
+  "single_run": true
+ },
+ "arms": {
+  "bach_heldout_major": {
+   "pieces": 18,
+   "harmony_ppl": 20.75,
+   "harmony_ppl_model_penalty": 20.45,
+   "out_of_grammar": 0.149,
+   "chord_repeat": 0.051,
+   "sop_repeat": 0.224,
+   "sop_step": 0.568,
+   "sop_leap": 0.056,
+   "cadence_match": 0.57,
+   "violations_per_100": 17.82,
+   "by_rule": {
+    "R01": 24,
+    "R02": 6,
+    "R03": 33,
+    "R03/R04": 50,
+    "R05": 0,
+    "R06": 6,
+    "R07": 25,
+    "R08": 8,
+    "R09": 47
+   },
+   "by_rule_per_100": {
+    "R01": 2.15,
+    "R02": 0.54,
+    "R03": 2.95,
+    "R03/R04": 4.48,
+    "R05": 0.0,
+    "R06": 0.54,
+    "R07": 2.24,
+    "R08": 0.72,
+    "R09": 4.21
+   }
+  },
+  "bach_heldout_minor": {
+   "pieces": 18,
+   "harmony_ppl": 17.31,
+   "harmony_ppl_model_penalty": 17.15,
+   "out_of_grammar": 0.13,
+   "chord_repeat": 0.041,
+   "sop_repeat": 0.224,
+   "sop_step": 0.608,
+   "sop_leap": 0.034,
+   "cadence_match": 0.59,
+   "violations_per_100": 15.81,
+   "by_rule": {
+    "R01": 33,
+    "R02": 2,
+    "R03": 23,
+    "R03/R04": 25,
+    "R05": 0,
+    "R06": 1,
+    "R07": 21,
+    "R08": 14,
+    "R09": 28
+   },
+   "by_rule_per_100": {
+    "R01": 3.55,
+    "R02": 0.22,
+    "R03": 2.47,
+    "R03/R04": 2.69,
+    "R05": 0.0,
+    "R06": 0.11,
+    "R07": 2.26,
+    "R08": 1.51,
+    "R09": 3.01
+   }
+  },
+  "grammar_drafts_major": {
+   "pieces": 20,
+   "harmony_ppl": 5.17,
+   "harmony_ppl_model_penalty": 5.17,
+   "out_of_grammar": 0.0,
+   "chord_repeat": 0.042,
+   "sop_repeat": 0.107,
+   "sop_step": 0.778,
+   "sop_leap": 0.019,
+   "cadence_match": 1.0,
+   "violations_per_100": 0.0,
+   "by_rule": {
+    "R01": 0,
+    "R02": 0,
+    "R03": 0,
+    "R03/R04": 0,
+    "R05": 0,
+    "R06": 0,
+    "R07": 0,
+    "R08": 0,
+    "R09": 0
+   },
+   "by_rule_per_100": {
+    "R01": 0.0,
+    "R02": 0.0,
+    "R03": 0.0,
+    "R03/R04": 0.0,
+    "R05": 0.0,
+    "R06": 0.0,
+    "R07": 0.0,
+    "R08": 0.0,
+    "R09": 0.0
+   },
+   "attempts_mean": 1.0,
+   "attempts_max": 1,
+   "first_seed_rate": 1.0,
+   "drafts_clean": 20
+  },
+  "grammar_drafts_minor": {
+   "pieces": 16,
+   "harmony_ppl": 6.89,
+   "harmony_ppl_model_penalty": 6.89,
+   "out_of_grammar": 0.0,
+   "chord_repeat": 0.031,
+   "sop_repeat": 0.083,
+   "sop_step": 0.778,
+   "sop_leap": 0.039,
+   "cadence_match": 1.0,
+   "violations_per_100": 0.0,
+   "by_rule": {
+    "R01": 0,
+    "R02": 0,
+    "R03": 0,
+    "R03/R04": 0,
+    "R05": 0,
+    "R06": 0,
+    "R07": 0,
+    "R08": 0,
+    "R09": 0
+   },
+   "by_rule_per_100": {
+    "R01": 0.0,
+    "R02": 0.0,
+    "R03": 0.0,
+    "R03/R04": 0.0,
+    "R05": 0.0,
+    "R06": 0.0,
+    "R07": 0.0,
+    "R08": 0.0,
+    "R09": 0.0
+   },
+   "attempts_mean": 1.0,
+   "attempts_max": 1,
+   "first_seed_rate": 1.0,
+   "drafts_clean": 16
+  },
+  "unconstrained_control": {
+   "pieces": 20,
+   "harmony_ppl": 336.36,
+   "harmony_ppl_model_penalty": 336.36,
+   "out_of_grammar": 0.614,
+   "chord_repeat": 0.016,
+   "sop_repeat": 0.043,
+   "sop_step": 0.341,
+   "sop_leap": 0.476,
+   "cadence_match": 1.0,
+   "violations_per_100": 487.23,
+   "by_rule": {
+    "R01": 978,
+    "R02": 120,
+    "R03": 840,
+    "R03/R04": 887,
+    "R05": 0,
+    "R06": 187,
+    "R07": 312,
+    "R08": 631,
+    "R09": 586
+   },
+   "by_rule_per_100": {
+    "R01": 104.94,
+    "R02": 12.88,
+    "R03": 90.13,
+    "R03/R04": 95.17,
+    "R05": 0.0,
+    "R06": 20.06,
+    "R07": 33.48,
+    "R08": 67.7,
+    "R09": 62.88
+   },
+   "drafts_clean": 0,
+   "attempts_mean": 1.0,
+   "attempts_max": 1
+  }
+ },
+ "control_switches": {
+  "NEG": "set to 0.0 (DP transition layer)",
+  "HARD_CONSTRAINTS": "set to False (candidate-construction layer)",
+  "max_tries": 1,
+  "accept_any": true,
+  "note": "three switches move together; the attested-bigram rule R10 is released along with the voice-leading predicates, which is why out_of_grammar rises from 0.00 to 0.59"
+ }
+}

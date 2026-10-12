@@ -1,0 +1,245 @@
+id: fugue
+name: 赋格
+name_en: Fugue
+enabled: true
+version: '2.1'
+dimensions:
+  form: fugue
+  tempo_energy: moderato
+  mood: solemn
+  medium: solo_piano
+  tradition: european
+  tonal_language: functional_tonal
+  rhythmic_identity: pulse_ostinato
+  family: academic
+triggers:
+  keywords:
+  - 赋格
+  - fugue
+  - 主题答题
+  - 巴赫风格赋格
+  style_tags:
+  - fugue
+  - fugal
+  - baroque
+  - academic
+summary: 赋格：可辨主题、答题入度、对位织体、调性逻辑，忌只堆和弦。
+# 注意：不要把「对位 / counterpoint」列为触发词——第一类 1:1 对位不是赋格。
+profile:
+  mode: 大小调皆可；呈示主→属答题；中间部可近关系转调，结束回主。
+  tonal_center:
+    preferred:
+    - C
+    - G
+    - D
+    - A minor
+    - D minor
+    secondary: []
+    empirical_key_dist:
+      C major: 0.042
+      C minor: 0.042
+      C# major: 0.042
+      C# minor: 0.042
+      D major: 0.042
+      D minor: 0.042
+      E- major: 0.042
+      E- minor: 0.042
+      E major: 0.042
+      E minor: 0.042
+      F major: 0.042
+      F minor: 0.042
+      F# major: 0.042
+      F# minor: 0.062
+      G major: 0.042
+      G minor: 0.042
+      A- major: 0.042
+      G# minor: 0.062
+      A major: 0.021
+      A minor: 0.042
+      B- major: 0.042
+      B- minor: 0.042
+      B major: 0.021
+      B minor: 0.042
+  tempo:
+    unit: quarter_note
+    min: 72
+    max: 112
+    default: 88
+    character: 稳定脉搏；勿浪漫自由散板主导。
+  meter:
+    primary: 4/4
+    allowed:
+    - 4/4
+    - 3/4
+    - 6/8
+    description: 稳定拍号。
+  rhythm:
+    identity: subject rhythmic fingerprint + steady pulse
+    accompaniment:
+      default: contrapuntal_entries
+    melodic_preferred:
+    - subject_head
+    - sequence
+    - suspension
+    melodic_avoid:
+    - block_chord_hymn_only
+  phrase:
+    preferred:
+    - subject_length_clear
+    description: 主题长度清晰可记。
+  cadence:
+    eight_bar: tonal_cadence
+    final: 主调巩固。
+  harmony:
+    vocabulary_basic:
+    - I
+    - V
+    - IV
+    - ii
+    - vi
+    - i
+    vocabulary_extended:
+    - suspension
+    - passing_dissonance
+    progressions:
+    - tonal_entries
+    - sequence_chains
+    forbidden:
+    - homophonic_only_no_entries
+    harmonic_rhythm_empirical: 语料约 6.20 和弦/小节
+  melody:
+    character: 主题轮廓鲜明；声部独立可唱
+    contour_preferred:
+    - stepwise
+    - distinct_subject
+    - step_leap_balance
+    range_default:
+      low: C3
+      high: C6
+    rules: 语料级进比约 64%；大跳比约 14%。以级进为主。 至少暗示两声部以上进入。
+    stepwise_ratio_target: 0.636
+    leap_ratio_target: 0.14
+  motif:
+    length_bars:
+      min: 1
+      max: 3
+    traits:
+    - subject
+    - answerable
+    develop:
+    - real_or_tonal_answer
+    - stretto_suggest
+    - sequence
+    rule: 主题必须可识别并再进入。
+  texture:
+    primary: polyphonic
+    density: 2_to_4_voices
+    hierarchy:
+    - subject
+    - countersubject
+    - free_voice
+    voice_leading: 声部独立；控制不协和解决。
+  register:
+    melody:
+      low: C3
+      high: C6
+    bass:
+      low: C2
+      high: C4
+  dynamics:
+    default:
+      min: mp
+      max: mf
+    shape: 以织体密度塑造高潮。
+  articulation:
+    melody:
+    - legato
+    - clear_attack
+    avoid:
+    - pedal_smear
+  color: 键盘/室内对位语汇；声部清晰。忌交响轰鸣掩盖对位。
+  instrumentation:
+    preferred:
+    - solo_piano
+    - organ_style
+    - string_quartet
+    avoid:
+    - drums
+  form:
+    foundation_bars: 16
+    full_bars_default: 48
+    full_shapes:
+    - exposition_middle_final
+    rule: 底座完成主题+至少一次答题进入。
+  constraints:
+    must:
+    - 可辨主题；对位进入；调性逻辑。
+    - 旋律以级进为主（语料 85%，均值 stepwise≈0.636）。
+    avoid:
+    - 只有柱式和弦；无主题重复进入。
+  priority:
+  - subject
+  - entries
+  - counterpoint
+  - tonality
+  empirical:
+    source: score_learning
+    total_scores: 48
+    means:
+      tempo: 85.979
+      stepwise_ratio: 0.636
+      leap_ratio: 0.14
+      bass_beat1_ratio: 0.94
+      beat1_onset_share: 0.317
+      density_notes_per_bar: 20.198
+      harmonic_rhythm_chords_per_bar: 6.203
+    updated_at: '2026-09-28T20:33:27'
+    core_rules:
+    - rule: melody_stepwise_tendency
+      evidence_count: 41
+      total_scores: 48
+      frequency: 0.854
+      confidence: high
+      universality: core
+      detail: 0.636
+    fingerprint: 0ee57ce38c69
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 16
+    complexity: 3
+    instruments_default:
+    - piano
+    required:
+    - subject
+    - answer_entry
+    - bass
+    - cadence
+  composition:
+    bars_default: 48
+    complexity: 4
+    preserve:
+    - meter
+    - tonal_language
+    - melodic_character
+    - rhythmic_identity
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - harmonic_complexity
+    - form
+foundation_score:
+  length: 16
+  key: C_major
+  tempo: 88
+  meter: 4/4
+  map:
+    1-4: 主题
+    5-8: 答题进入
+    9-12: 对题/自由
+    13-16: 巩固
+llm_instruction: 落实赋格：主题→答题进入→对位。勿只写‘赋格’二字。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

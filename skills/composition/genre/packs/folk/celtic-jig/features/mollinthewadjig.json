@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "Moll in the Wad -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/mollinthewadjig.musicxml"
+  },
+  "global": {
+    "key": "G minor",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4471850896
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 16,
+    "repetition_ratio": 0.111,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F4",
+      "B-5"
+    ],
+    "mean_midi": 74.18,
+    "stepwise_ratio": 0.44,
+    "leap_ratio": 0.27,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.1,
+    "interval_hist": {
+      "2": 26,
+      "1": 18,
+      "3": 13,
+      "0": 10,
+      "5": 9,
+      "8": 7,
+      "4": 6,
+      "7": 6,
+      "9": 5
+    },
+    "dur_hist": {
+      "8th": 92,
+      "quarter": 4,
+      "dotted_quarter": 2,
+      "0": 3
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.198,
+      "1": 0.0,
+      "2": 0.1386,
+      "3": 0.2178,
+      "4": 0.0594,
+      "5": 0.0792,
+      "6": 0.0,
+      "7": 0.1485,
+      "8": 0.0099,
+      "9": 0.0,
+      "10": 0.1089,
+      "11": 0.0396
+    },
+    "chromatic_ratio": 0.099,
+    "leading_tone_ratio": 0.0396
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 92,
+      "quarter": 4,
+      "0": 3,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.178,
+      "2": 0.158,
+      "3": 0.158,
+      "4": 0.208,
+      "5": 0.139,
+      "6": 0.158
+    },
+    "beat1_onset_share": 0.178,
+    "syncopation_proxy": 0.822,
+    "rest_ratio": 0.019,
+    "density_notes_per_bar": 5.61,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

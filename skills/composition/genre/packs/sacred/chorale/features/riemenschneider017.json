@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Erschienen ist der herrliche Tag",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider017.musicxml"
+  },
+  "global": {
+    "key": "E minor",
+    "key_sharps": 1,
+    "meter": "3/4",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4548132048
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 18,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 37,
+      "half": 5,
+      "dotted_half": 2,
+      "8th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.391,
+      "2": 0.261,
+      "3": 0.348
+    },
+    "beat1_onset_share": 0.391,
+    "syncopation_proxy": 0.609,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 2.56,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 9,
+    "chords_estimated": 46,
+    "harmonic_rhythm_chords_per_bar": 2.56,
+    "root_pair_top": {
+      "E-A": 5,
+      "B-E": 5,
+      "D-G": 4,
+      "A-D": 3,
+      "E-B": 3,
+      "A-B": 1,
+      "D-E": 1,
+      "A-E": 1
+    },
+    "root_sample": [
+      "E",
+      "A",
+      "B",
+      "E",
+      "A",
+      "D",
+      "E",
+      "A",
+      "E",
+      "A",
+      "D#",
+      "E",
+      "B",
+      "C#",
+      "F#",
+      "B",
+      "E",
+      "D",
+      "G",
+      "A",
+      "D",
+      "G",
+      "E",
+      "A"
+    ],
+    "quality_hist": {
+      "triad": 0.7826,
+      "minor7": 0.0435,
+      "major7": 0.0217,
+      "half_diminished7": 0.0217,
+      "dominant7": 0.1304
+    },
+    "seventh_ratio": 0.2174
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

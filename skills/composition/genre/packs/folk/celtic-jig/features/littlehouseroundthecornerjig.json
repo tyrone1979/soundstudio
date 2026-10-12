@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "Little House Round the Corner -- Jig",
+    "composer": "J. HAND.",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/littlehouseroundthecornerjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4480407952
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 17,
+    "repetition_ratio": 0.056,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "A5"
+    ],
+    "mean_midi": 72.3,
+    "stepwise_ratio": 0.476,
+    "leap_ratio": 0.117,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.039,
+    "interval_hist": {
+      "2": 35,
+      "3": 21,
+      "4": 17,
+      "1": 14,
+      "5": 9,
+      "0": 4,
+      "7": 3
+    },
+    "dur_hist": {
+      "8th": 87,
+      "0": 9,
+      "dotted_8th": 2,
+      "16th": 4,
+      "quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.25,
+      "1": 0.0,
+      "2": 0.1827,
+      "3": 0.0,
+      "4": 0.2115,
+      "5": 0.1154,
+      "6": 0.0,
+      "7": 0.1635,
+      "8": 0.0,
+      "9": 0.0288,
+      "10": 0.0,
+      "11": 0.0481
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0481
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 87,
+      "0": 9,
+      "16th": 4,
+      "dotted_8th": 2,
+      "quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.26,
+      "2": 0.154,
+      "3": 0.154,
+      "4": 0.163,
+      "5": 0.135,
+      "6": 0.135
+    },
+    "beat1_onset_share": 0.26,
+    "syncopation_proxy": 0.74,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.78,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

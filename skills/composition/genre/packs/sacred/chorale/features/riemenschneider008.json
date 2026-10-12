@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Freuet euch, ihr Christen alle",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider008.musicxml"
+  },
+  "global": {
+    "key": "F minor",
+    "key_sharps": -4,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 20,
+    "parts": [
+      4538033616
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 17,
+    "repetition_ratio": 0.15,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 35,
+      "8th": 18,
+      "half": 15,
+      "dotted_quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.278,
+      "2": 0.264,
+      "3": 0.306,
+      "4": 0.153
+    },
+    "beat1_onset_share": 0.278,
+    "syncopation_proxy": 0.722,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 3.6,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 8,
+    "chords_estimated": 72,
+    "harmonic_rhythm_chords_per_bar": 3.6,
+    "root_pair_top": {
+      "C-F": 8,
+      "G-C": 5,
+      "F-B-": 4,
+      "F-G": 4,
+      "B--E-": 3,
+      "E--A-": 3,
+      "A--D-": 3,
+      "G-A-": 2
+    },
+    "root_sample": [
+      "F",
+      "B-",
+      "F",
+      "G",
+      "C",
+      "F",
+      "G",
+      "A-",
+      "B-",
+      "E-",
+      "A-",
+      "D-",
+      "G",
+      "C",
+      "D-",
+      "G",
+      "C",
+      "F",
+      "B-",
+      "E-",
+      "A-",
+      "D-",
+      "B-",
+      "C"
+    ],
+    "quality_hist": {
+      "triad": 0.7639,
+      "dominant7": 0.1528,
+      "half_diminished7": 0.0694,
+      "minor7": 0.0139
+    },
+    "seventh_ratio": 0.2361
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

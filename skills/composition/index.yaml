@@ -1,0 +1,147 @@
+version: "1.0.0"
+# 任务 Skill 清单。风格包见 genre/packs/（按 taxonomy 维度分类），勿再写 genre-* 到本文件。
+skills:
+  - id: compose-full
+    name: 整曲创作
+    enabled: true
+    priority: 100
+    pipeline: planner_composer
+    # inject：把本 skill 的 SKILL.md 正文注入到列出的提示词阶段（没有对应
+    # <stage>.md 时回退用它）。'translator' 是「LLM 翻译器 + 确定性内核」新创作
+    # 路径的主入口——不声明 inject 的任务 Skill 在该路径上不注入任何内容。
+    inject: [translator]
+    triggers:
+      selection: none
+      commands: []
+      edit_intents: []
+      keywords: []
+
+  - id: edit-measure
+    name: 选中小节改写
+    enabled: true
+    priority: 200
+    pipeline: selection_measure
+    triggers:
+      selection: measure
+      commands: []
+      edit_intents: []
+      keywords: []
+
+  - id: edit-symbol
+    name: 选中符号改写
+    enabled: true
+    priority: 210
+    pipeline: selection_symbol
+    triggers:
+      selection: symbol
+      commands: []
+      edit_intents: []
+      keywords: []
+
+  - id: extend-form
+    name: 加长 / 续写
+    enabled: true
+    priority: 150
+    pipeline: planner_composer
+    triggers:
+      selection: none
+      commands: ["/extend", "/longer"]
+      edit_intents: [extend, longer]
+      keywords: [加长, 续写, 延长, 扩展, extend, longer]
+
+  - id: develop-motif
+    name: 动机发展
+    enabled: true
+    priority: 150
+    pipeline: planner_composer
+    triggers:
+      selection: none
+      commands: ["/develop", "/variation"]
+      edit_intents: [develop, variation]
+      keywords: [发展, 变奏, 动机]
+
+  - id: orchestrate
+    name: 配器
+    enabled: true
+    priority: 150
+    pipeline: planner_composer
+    triggers:
+      selection: none
+      commands: ["/orchestrate"]
+      edit_intents: [orchestrate]
+      keywords: [配器, 管弦, orchestrat]
+
+  - id: transpose-key
+    name: 移调
+    enabled: true
+    priority: 150
+    pipeline: planner_composer
+    triggers:
+      selection: none
+      commands: ["/transpose"]
+      edit_intents: [transpose]
+      keywords: [移调, transpose]
+
+  - id: harmonize
+    name: 和声填充
+    enabled: true
+    priority: 140
+    pipeline: planner_composer
+    triggers:
+      selection: none
+      commands: ["/harmonize"]
+      edit_intents: [harmonize]
+      keywords: [和声, harmonize]
+
+  - id: simplify
+    name: 简化
+    enabled: true
+    priority: 130
+    pipeline: planner_composer
+    triggers:
+      selection: none
+      commands: ["/simplify", "/shorter"]
+      edit_intents: [simplify, shorter]
+      keywords: [简化, 简短]
+
+  - id: complexify
+    name: 复杂化
+    enabled: true
+    priority: 130
+    pipeline: planner_composer
+    triggers:
+      selection: none
+      commands: ["/complexify", "/rewrite"]
+      edit_intents: [complexify, rewrite]
+      keywords: [复杂, 重写, 整曲重写, 全面修改, rewrite, complexify]
+
+  - id: score-analysis
+    name: 修改建议
+    enabled: true
+    priority: 180
+    pipeline: advice
+    triggers:
+      selection: none
+      commands: ["/advice"]
+      edit_intents: [advice]
+      keywords:
+        - 修改建议
+        - 改进建议
+        - 有什么问题
+        - 如何更丰富
+        - 如何让乐谱更丰富
+        - 分析乐谱
+        - 评价乐谱
+        - advice
+        - critique
+
+  - id: repair-timing
+    name: 时值修复
+    enabled: true
+    priority: 300
+    pipeline: repair
+    triggers:
+      selection: none
+      commands: []
+      edit_intents: []
+      keywords: []

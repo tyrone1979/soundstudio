@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "title": "Emon Acnuck -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/emonacnuckjig.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4530865872
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "B",
+      "bars": "3"
+    },
+    {
+      "section": "D",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "B",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "J",
+      "bars": "13"
+    },
+    {
+      "section": "G",
+      "bars": "14"
+    },
+    {
+      "section": "H",
+      "bars": "15"
+    },
+    {
+      "section": "K",
+      "bars": "16"
+    },
+    {
+      "section": "E",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.389,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "E4",
+      "A5"
+    ],
+    "mean_midi": 71.98,
+    "stepwise_ratio": 0.441,
+    "leap_ratio": 0.097,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.172,
+    "interval_hist": {
+      "2": 33,
+      "3": 27,
+      "0": 16,
+      "1": 8,
+      "5": 8,
+      "7": 1
+    },
+    "dur_hist": {
+      "8th": 86,
+      "quarter": 4,
+      "16th": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 9,
+    "degree_hist": {
+      "0": 0.3085,
+      "1": 0.0,
+      "2": 0.0426,
+      "3": 0.1383,
+      "4": 0.0,
+      "5": 0.1277,
+      "6": 0.0,
+      "7": 0.1809,
+      "8": 0.0106,
+      "9": 0.0213,
+      "10": 0.1702,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0213,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 86,
+      "quarter": 4,
+      "16th": 4
+    },
+    "onset_beat_share": {
+      "1": 0.202,
+      "2": 0.17,
+      "3": 0.17,
+      "4": 0.17,
+      "5": 0.128,
+      "6": 0.16
+    },
+    "beat1_onset_share": 0.202,
+    "syncopation_proxy": 0.798,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.22,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

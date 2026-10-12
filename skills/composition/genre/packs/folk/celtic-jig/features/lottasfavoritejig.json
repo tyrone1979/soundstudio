@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "title": "Lotta's Favorite -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/lottasfavoritejig.musicxml"
+  },
+  "global": {
+    "key": "B minor",
+    "key_sharps": 2,
+    "meter": "2/2",
+    "tempo": null,
+    "bars": 19,
+    "parts": [
+      4469260816
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.211,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "A3",
+      "B5"
+    ],
+    "mean_midi": 72.08,
+    "stepwise_ratio": 0.593,
+    "leap_ratio": 0.142,
+    "large_leap_ratio": 0.018,
+    "repeated_note_ratio": 0.018,
+    "interval_hist": {
+      "2": 47,
+      "1": 20,
+      "3": 18,
+      "5": 11,
+      "4": 10,
+      "12": 2,
+      "0": 2,
+      "7": 2,
+      "8": 1
+    },
+    "dur_hist": {
+      "quarter": 6,
+      "dotted_half": 2,
+      "triplet": 20,
+      "8th": 12,
+      "ql=0.17": 2,
+      "dotted_8th": 35,
+      "16th": 35,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 11,
+    "degree_hist": {
+      "0": 0.1404,
+      "1": 0.0,
+      "2": 0.0526,
+      "3": 0.1754,
+      "4": 0.0,
+      "5": 0.1316,
+      "6": 0.0,
+      "7": 0.2193,
+      "8": 0.1228,
+      "9": 0.0,
+      "10": 0.1491,
+      "11": 0.0088
+    },
+    "chromatic_ratio": 0.0088,
+    "leading_tone_ratio": 0.0088
+  },
+  "groove": {
+    "swing_ratio": 2.25,
+    "triplet_ratio": 0.1754,
+    "swing_pair_share": 0.7143
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "dotted_8th": 35,
+      "16th": 35,
+      "triplet": 20,
+      "8th": 12,
+      "quarter": 6,
+      "dotted_half": 2,
+      "ql=0.17": 2,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.544,
+      "2": 0.456
+    },
+    "beat1_onset_share": 0.544,
+    "syncopation_proxy": 0.0,
+    "rest_ratio": 0.137,
+    "density_notes_per_bar": 6.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

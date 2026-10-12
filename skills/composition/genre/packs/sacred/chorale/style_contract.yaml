@@ -1,0 +1,66 @@
+# 确定性风格契约 —— 数值由程序读取并约束生成，不是提示词。
+# schema: style-contract/v1
+# evidence_n 为该字段的语料样本数；低于 min_evidence 的字段不生效。
+pack_id: chorale
+family: sacred
+schema: style-contract/v1
+evidence_n: 24
+evidence_weight: 1.0
+tempo:
+  default: 76.0
+  min: 66.0
+  max: 88.0
+  source: expert
+  evidence_n: 24
+meter:
+  primary: 4/4
+  allowed:
+  - 4/4
+  - 3/4
+  weights:
+    4/4: 0.75
+    3/4: 0.25
+  source: empirical
+  evidence_n: 24
+harmony:
+  chords_per_bar: 3.935
+  quality_weights:
+    triad: 0.771
+    dominant7: 0.132
+    major7: 0.005
+    minor7: 0.033
+    diminished7: 0.019
+    half_diminished7: 0.024
+    augmented: 0.003
+    other: 0.013
+  unique_roots_mean: 8.708
+  evidence_n: 24
+melody:
+  stepwise_ratio: 0.12
+  leap_ratio: 0.008
+  repeated_note_ratio: 0.015
+  range_center: 70.41
+  range_width: null
+  mean_midi: 70.41
+  evidence_n: 24
+rhythm:
+  density_notes_per_bar: 3.97
+  beat1_onset_share: 0.33
+  syncopation: 0.67
+  swing_ratio: null
+  swing_pair_share: 0.0
+  triplet_ratio: 0.0
+  evidence_n: 24
+texture:
+  voice_count: 1.0
+  evidence_n: 24
+form:
+  phrase_len: 1.0
+  repetition_ratio: 0.025
+  unique_motifs: 13.0
+  evidence_n: 24
+provenance:
+  built_from: features
+  scores_analyzed: 24
+  scores_with_harmony: 24
+  min_evidence: 8

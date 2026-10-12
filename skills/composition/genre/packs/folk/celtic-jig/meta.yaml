@@ -1,0 +1,226 @@
+id: celtic-jig
+name: 凯尔特吉格
+name_en: Celtic Jig
+enabled: true
+version: '2.6'
+dimensions:
+  form: jig
+  tempo_energy: allegro
+  mood: playful
+  medium: chamber
+  tradition: celtic
+  tonal_language: modal
+  rhythmic_identity: compound_flow
+  family: folk
+triggers:
+  keywords:
+  - 吉格
+  - jig
+  - 爱尔兰
+  - 凯尔特
+  - fiddle
+  - 捷格
+  style_tags:
+  - jig
+  - celtic
+  - irish
+  - folk
+  - compound
+summary: 凯尔特吉格：6/8 轻快、调式色彩、小提琴/笛语汇、反复舞曲结构。
+profile:
+  mode: 大调或多利亚/混合利底亚色彩；少厚重半音。
+  tonal_center:
+    preferred:
+    - D
+    - G
+    - A
+    - E minor dorian
+    secondary: []
+    empirical_key_dist:
+      D major: 0.279
+      G minor: 0.015
+      G major: 0.263
+      E minor: 0.127
+      F# minor: 0.011
+      A major: 0.106
+      B- major: 0.008
+      A minor: 0.062
+      C major: 0.044
+      D minor: 0.018
+      F major: 0.02
+      B minor: 0.046
+      E major: 0.002
+  tempo:
+    unit: dotted_quarter
+    min: 104
+    max: 126
+    default: 116
+    character: 轻快舞步。
+  meter:
+    primary: 6/8
+    allowed:
+    - 6/8
+    forbidden:
+    - 4/4 waltz_feel
+    empirical_note: 'From 613 scores: 9/8=7%, 2/4=4%, 6/8=86%, 2/2=2%, 6/4=0%, 12/8=0%'
+  rhythm:
+    identity: jig compound bounce 1-&-a 2-&-a
+    accompaniment:
+      default: boom_chuck_light
+    melodic_preferred:
+    - eighth_streams
+    - turn
+    melodic_avoid:
+    - slow_air_only
+  phrase:
+    preferred:
+    - 8+8
+    description: AABB 意识。
+  cadence:
+    eight_bar: modal_or_V–I
+    final: 回骨干。
+  harmony:
+    vocabulary_basic:
+    - I
+    - VII
+    - vi
+    - V
+    - IV
+    progressions:
+    - I–VII–I
+    - I–V–I
+    - i–VII–i
+    harmonic_rhythm_empirical: 语料约 1.20 和弦/小节
+  melody:
+    character: 琴声滚动、装饰、可反复
+    ornamentation:
+    - cut
+    - roll_suggest
+    - grace
+    range_default:
+      low: D4
+      high: B5
+    stepwise_ratio_target: 0.506
+    contour_preferred:
+    - stepwise
+    - balanced
+    rules: 语料级进比约 51%；大跳比约 13%。以级进为主。
+    leap_ratio_target: 0.131
+  motif:
+    length_bars:
+      min: 2
+      max: 4
+    traits:
+    - dance
+    - jig
+  texture:
+    primary: melody_plus_light_groove
+    density: light
+  register:
+    melody:
+      low: D4
+      high: B5
+    bass:
+      low: D2
+      high: D3
+  dynamics:
+    default:
+      min: mp
+      max: f
+    shape: 舞曲起伏。
+  articulation:
+    melody:
+    - light
+    - articulate_eighths
+    avoid:
+    - heavy_legato_pad
+  color: 小提琴/笛/吉他或钢琴模拟；忌交响厚堆。
+  instrumentation:
+    preferred:
+    - fiddle
+    - flute
+    - guitar_style
+    - piano
+    avoid:
+    - full_orchestra_tutti
+  form:
+    foundation_bars: 16
+    full_bars_default: 32
+    full_shapes:
+    - AABB
+    - ABAB
+  constraints:
+    must:
+    - 6/8 吉格律动；可舞。
+    - 拍号以 6/8 为主（语料 86%）。
+    avoid:
+    - 慢调 air 当成吉格；抄袭可识别传统曲调。
+  priority:
+  - compound_bounce
+  - modal_color
+  - dance
+  empirical:
+    source: score_learning
+    total_scores: 613
+    means:
+      tempo: 76.667
+      stepwise_ratio: 0.506
+      leap_ratio: 0.131
+      bass_beat1_ratio: null
+      beat1_onset_share: 0.298
+      density_notes_per_bar: 5.681
+      harmonic_rhythm_chords_per_bar: 1.2
+    updated_at: '2026-09-28T20:34:12'
+    core_rules:
+    - rule: meter=6/8
+      evidence_count: 530
+      total_scores: 613
+      frequency: 0.865
+      confidence: high
+      universality: core
+      detail:
+        9/8: 40
+        2/4: 27
+        6/8: 530
+        2/2: 14
+        6/4: 1
+        12/8: 1
+    fingerprint: 74feabbcb89c
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 16
+    complexity: 2
+    instruments_default:
+    - violin
+    - piano
+    required:
+    - jig_melody
+    - 6_8_pulse
+    - phrase
+  composition:
+    bars_default: 32
+    complexity: 3
+    preserve:
+    - meter
+    - tonal_language
+    - melodic_character
+    - rhythmic_identity
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - harmonic_complexity
+    - form
+foundation_score:
+  length: 16
+  key: D_major
+  tempo: 116
+  meter: 6/8
+  map:
+    1-8: A
+    9-16: B
+llm_instruction: 落实吉格：6/8 轻快滚动。勿抄传统名曲原谱。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

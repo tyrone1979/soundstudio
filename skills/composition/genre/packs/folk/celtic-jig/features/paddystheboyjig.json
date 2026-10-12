@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "\"PADDY'S THE BOY\"- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/paddystheboyjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 0,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4493118160
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 14,
+    "repetition_ratio": 0.222,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F4",
+      "A5"
+    ],
+    "mean_midi": 71.44,
+    "stepwise_ratio": 0.6,
+    "leap_ratio": 0.024,
+    "large_leap_ratio": 0.012,
+    "repeated_note_ratio": 0.082,
+    "interval_hist": {
+      "2": 38,
+      "1": 13,
+      "3": 13,
+      "4": 12,
+      "0": 7,
+      "7": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "16th": 2,
+      "dotted_quarter": 3,
+      "8th": 76,
+      "quarter": 5
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2326,
+      "1": 0.0,
+      "2": 0.1744,
+      "3": 0.0,
+      "4": 0.1395,
+      "5": 0.1395,
+      "6": 0.0,
+      "7": 0.1395,
+      "8": 0.0,
+      "9": 0.0465,
+      "10": 0.1047,
+      "11": 0.0233
+    },
+    "chromatic_ratio": 0.1047,
+    "leading_tone_ratio": 0.0233
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 76,
+      "quarter": 5,
+      "dotted_quarter": 3,
+      "16th": 2
+    },
+    "onset_beat_share": {
+      "1": 0.221,
+      "2": 0.128,
+      "3": 0.151,
+      "4": 0.186,
+      "5": 0.151,
+      "6": 0.163
+    },
+    "beat1_onset_share": 0.221,
+    "syncopation_proxy": 0.779,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.78,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

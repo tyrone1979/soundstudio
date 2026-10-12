@@ -1,0 +1,233 @@
+{
+ "source": "skills/composition/genre/packs/sacred/chorale/grammar.yaml",
+ "n_rules": 287,
+ "existing_kind_hist": {
+  "半终止 HC": 103,
+  "离调终止（副属→目标）": 54,
+  "完全正格终止 PAC": 52,
+  "不完全正格终止 IAC": 18,
+  "其他终止": 12,
+  "主和弦终止": 11,
+  "变格终止 PC": 11,
+  "转调终止（离调后变格终止）": 10,
+  "离调半终止（停于副属）": 7,
+  "阻碍终止 DC": 5,
+  "转调终止（离调后完全终止）": 4
+ },
+ "judged_hist": {
+  "半终止 HC": 103,
+  "离调终止（副属→目标）": 54,
+  "完全正格终止 PAC": 52,
+  "不完全正格终止 IAC": 18,
+  "其他终止": 12,
+  "主和弦终止": 11,
+  "变格终止 PC": 11,
+  "转调终止（离调后变格终止）": 10,
+  "离调半终止（停于副属）": 7,
+  "阻碍终止 DC": 5,
+  "转调终止（离调后完全终止）": 4
+ },
+ "n_existing_unclassified": 12,
+ "n_resolvable_by_rule_table": 0,
+ "n_still_unknown": 12,
+ "agreement_on_labelled": {
+  "n": 275,
+  "agree": 275,
+  "rate": 1.0
+ },
+ "resolvable": [],
+ "still_unknown": [
+  {
+   "id": "C108",
+   "mode": "major",
+   "chords": [
+    "9:m:1",
+    "0:M7:0",
+    "9:m:0"
+   ],
+   "soprano": [
+    4,
+    0
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C126",
+   "mode": "major",
+   "chords": [
+    "9:m:0",
+    "7:m7:3",
+    "5:M:0"
+   ],
+   "soprano": [
+    0,
+    0
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C141",
+   "mode": "major",
+   "chords": [
+    "9:m7:1",
+    "2:M:0",
+    "4:m:0"
+   ],
+   "soprano": [
+    6,
+    7
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C228",
+   "mode": "minor",
+   "chords": [
+    "3:M:2",
+    "7:m:1",
+    "3:M:0"
+   ],
+   "soprano": [
+    2,
+    3
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C230",
+   "mode": "minor",
+   "chords": [
+    "3:M:0",
+    "3:M:0",
+    "3:M:0"
+   ],
+   "soprano": [
+    7,
+    7
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C233",
+   "mode": "minor",
+   "chords": [
+    "3:M:1",
+    "5:7:3",
+    "3:M:0"
+   ],
+   "soprano": [
+    5,
+    7
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C261",
+   "mode": "minor",
+   "chords": [
+    "10:M:0",
+    "10:M:0",
+    "10:M:0"
+   ],
+   "soprano": [
+    2,
+    5
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C265",
+   "mode": "minor",
+   "chords": [
+    "7:m:0",
+    "0:m7:1",
+    "10:M:0"
+   ],
+   "soprano": [
+    0,
+    2
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C268",
+   "mode": "minor",
+   "chords": [
+    "5:m:0",
+    "2:m:1",
+    "10:M:0"
+   ],
+   "soprano": [
+    9,
+    10
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C276",
+   "mode": "minor",
+   "chords": [
+    "0:m:0",
+    "2:h7:1",
+    "8:M:0"
+   ],
+   "soprano": [
+    2,
+    0
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 3
+  },
+  {
+   "id": "C282",
+   "mode": "minor",
+   "chords": [
+    "5:m:1",
+    "7:m7:3",
+    "5:m:0"
+   ],
+   "soprano": [
+    7,
+    0
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  },
+  {
+   "id": "C285",
+   "mode": "minor",
+   "chords": [
+    "0:m:0",
+    "2:m7:0",
+    "5:m:0"
+   ],
+   "soprano": [
+    2,
+    0
+   ],
+   "kind": "其他终止",
+   "judged": "其他终止",
+   "n": 2
+  }
+ ]
+}

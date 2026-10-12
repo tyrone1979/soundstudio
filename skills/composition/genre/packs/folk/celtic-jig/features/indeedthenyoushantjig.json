@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "title": "\"Indeed! Then You Shant\" -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/indeedthenyoushantjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4528037648
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "D",
+      "bars": "3"
+    },
+    {
+      "section": "E",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "F",
+      "bars": "6"
+    },
+    {
+      "section": "G",
+      "bars": "7"
+    },
+    {
+      "section": "H",
+      "bars": "8"
+    },
+    {
+      "section": "A",
+      "bars": "9"
+    },
+    {
+      "section": "I",
+      "bars": "10"
+    },
+    {
+      "section": "J",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "K",
+      "bars": "13"
+    },
+    {
+      "section": "I",
+      "bars": "14"
+    },
+    {
+      "section": "J",
+      "bars": "15"
+    },
+    {
+      "section": "L",
+      "bars": "16"
+    },
+    {
+      "section": "H",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 12,
+    "repetition_ratio": 0.333,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F#4",
+      "B5"
+    ],
+    "mean_midi": 71.74,
+    "stepwise_ratio": 0.726,
+    "leap_ratio": 0.095,
+    "large_leap_ratio": 0.012,
+    "repeated_note_ratio": 0.071,
+    "interval_hist": {
+      "2": 35,
+      "1": 26,
+      "5": 6,
+      "0": 6,
+      "4": 5,
+      "3": 4,
+      "7": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "8th": 74,
+      "quarter": 11
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.2235,
+      "1": 0.0,
+      "2": 0.1882,
+      "3": 0.0,
+      "4": 0.2471,
+      "5": 0.1176,
+      "6": 0.0,
+      "7": 0.1059,
+      "8": 0.0,
+      "9": 0.0471,
+      "10": 0.0,
+      "11": 0.0706
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0706
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 74,
+      "quarter": 11
+    },
+    "onset_beat_share": {
+      "1": 0.212,
+      "2": 0.188,
+      "3": 0.188,
+      "4": 0.188,
+      "5": 0.059,
+      "6": 0.165
+    },
+    "beat1_onset_share": 0.212,
+    "syncopation_proxy": 0.788,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 4.72,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

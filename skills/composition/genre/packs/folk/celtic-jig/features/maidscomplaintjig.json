@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "THE MAID'S COMPLAINT -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/maidscomplaintjig.musicxml"
+  },
+  "global": {
+    "key": "D minor",
+    "key_sharps": -1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 10,
+    "parts": [
+      4527144720
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 8,
+    "repetition_ratio": 0.2,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "F4",
+      "A5"
+    ],
+    "mean_midi": 74.9,
+    "stepwise_ratio": 0.565,
+    "leap_ratio": 0.072,
+    "large_leap_ratio": 0.014,
+    "repeated_note_ratio": 0.13,
+    "interval_hist": {
+      "2": 25,
+      "1": 14,
+      "3": 11,
+      "0": 9,
+      "4": 5,
+      "8": 2,
+      "5": 2,
+      "16": 1
+    },
+    "dur_hist": {
+      "quarter": 12,
+      "8th": 54,
+      "dotted_quarter": 4
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1571,
+      "1": 0.0,
+      "2": 0.1857,
+      "3": 0.3143,
+      "4": 0.0,
+      "5": 0.1,
+      "6": 0.0,
+      "7": 0.1429,
+      "8": 0.0,
+      "9": 0.0,
+      "10": 0.1,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 54,
+      "quarter": 12,
+      "dotted_quarter": 4
+    },
+    "onset_beat_share": {
+      "1": 0.143,
+      "2": 0.057,
+      "3": 0.143,
+      "4": 0.143,
+      "5": 0.057,
+      "6": 0.143,
+      "7": 0.143,
+      "8": 0.086,
+      "9": 0.086
+    },
+    "beat1_onset_share": 0.143,
+    "syncopation_proxy": 0.857,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 7.0,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "Puss in the Corner -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/pussinthecornerjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "6/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4515236496
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 15,
+    "repetition_ratio": 0.167,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "C#4",
+      "A5"
+    ],
+    "mean_midi": 70.13,
+    "stepwise_ratio": 0.25,
+    "leap_ratio": 0.098,
+    "large_leap_ratio": 0.011,
+    "repeated_note_ratio": 0.087,
+    "interval_hist": {
+      "3": 38,
+      "4": 14,
+      "2": 13,
+      "1": 10,
+      "0": 8,
+      "5": 8,
+      "19": 1
+    },
+    "dur_hist": {
+      "16th": 6,
+      "quarter": 6,
+      "8th": 81
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2043,
+      "1": 0.0,
+      "2": 0.129,
+      "3": 0.0,
+      "4": 0.2151,
+      "5": 0.1183,
+      "6": 0.0,
+      "7": 0.1935,
+      "8": 0.0,
+      "9": 0.043,
+      "10": 0.0,
+      "11": 0.0968
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0968
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 81,
+      "16th": 6,
+      "quarter": 6
+    },
+    "onset_beat_share": {
+      "1": 0.226,
+      "2": 0.129,
+      "3": 0.172,
+      "4": 0.172,
+      "5": 0.151,
+      "6": 0.151
+    },
+    "beat1_onset_share": 0.226,
+    "syncopation_proxy": 0.774,
+    "rest_ratio": 0.068,
+    "density_notes_per_bar": 5.17,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

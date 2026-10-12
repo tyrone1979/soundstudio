@@ -1,0 +1,176 @@
+id: british-folk-tune
+name: 英伦爱尔兰曲调
+name_en: British & Irish Folk Tune
+enabled: true
+version: '1.2'
+dimensions:
+  form: strophic_tune
+  tempo_energy: allegro
+  mood: rustic
+  medium: melody_instrument
+  tradition: british_isles
+  tonal_language: modal_diatonic
+  rhythmic_identity: dance_rhythm
+  family: folk
+triggers:
+  keywords:
+  - 民谣曲调
+  - 吉格
+  - 里尔舞曲
+  - 号管舞曲
+  - 英伦民谣
+  - 爱尔兰风
+  - 凯尔特
+  - jig
+  - reel
+  - hornpipe
+  - slip jig
+  style_tags:
+  - folk_tune
+  - british_isles
+  - dance_tune
+  - abc_tradition
+summary: 英伦/爱尔兰民谣舞曲：8 小节方整乐句对、鲜明舞波动律、单一旋律线加可选项持续低音。
+profile:
+  mode: 常用自然小调、多利亚、混合利底亚；少用强烈导音。
+  tonal_center:
+    preferred:
+    - D major
+    - G major
+    - D dorian
+    - G major pentatonic-like
+    secondary:
+    - A dorian
+    - E minor
+    - D mixolydian
+    empirical_key_dist:
+      C major: 0.041
+      D major: 0.312
+      G major: 0.282
+      A major: 0.116
+      G minor: 0.018
+      F major: 0.023
+      A minor: 0.046
+      E minor: 0.097
+      D minor: 0.017
+      B minor: 0.035
+      B- major: 0.005
+      F# minor: 0.007
+      B major: 0.001
+  tempo:
+    unit: quarter_note
+    min: 96
+    max: 168
+    default: 120
+    character: 舞曲性；因体裁（jig/reel/hornpipe）大幅波动。
+  meter:
+    primary: 6/8
+    allowed:
+    - 6/8
+    - 4/4
+    - 2/4
+    - 9/8
+    description: jig 多为 6/8 与 9/8，reel 为 4/4，hornpipe 为 4/4。
+  rhythm:
+    identity: dance pattern driven
+    accompaniment:
+      default: drone_or_none
+      alternatives:
+      - guitar_or_bouzouki
+    melodic_preferred:
+    - even_note_run
+    - stepwise
+    - repeated_bar_pattern
+    melodic_avoid:
+    - rubato_free
+  phrase:
+    preferred:
+    - 4+4
+    description: A 段 + B 段各 8 小节，各自反复，是标准 doubled tune 形态。
+  cadence:
+    eight_bar: half_or_full
+    final: 完全终止或回主终止。
+  harmony:
+    vocabulary_basic:
+    - I
+    - IV
+    - V
+    - vi
+    - ii
+    progressions:
+    - I–V–I
+    - I–IV–I–V
+    forbidden:
+    - dense_chromatic_harmony
+    harmonic_rhythm_empirical: 语料约 1.22 和弦/小节
+  melody:
+    character: 单线条主导；大量级进与小跳，重复音型推动
+    contour_preferred:
+    - stepwise
+    - balanced
+    range_default:
+      low: D4
+      high: A5
+    stepwise_ratio_target: 0.53
+    rules: 语料级进比约 53%；大跳比约 13%。以级进为主。
+    leap_ratio_target: 0.131
+  texture:
+    primary: monophonic_tune
+    density: single_line
+  register:
+    melody:
+      low: D4
+      high: A5
+  color:
+    instrumentation: 单声旋律乐器（提琴/哨笛/风笛类）
+    character: 不加和声铺底；重复音型与装饰音是唯一色彩手段。
+  constraints:
+    must:
+    - 单一旋律线为骨架；和声不要压过旋律。
+    - 乐句方整（多为 8 小节段落）。
+    avoid:
+    - 过度半音化；摇摆不准之类的书写。
+  priority:
+  - melodic_contour
+  - dance_pulse
+  - phrase_regularity
+  empirical:
+    source: score_learning
+    total_scores: 1036
+    means:
+      tempo: 180.0
+      stepwise_ratio: 0.53
+      leap_ratio: 0.131
+      bass_beat1_ratio: 0.999
+      beat1_onset_share: 0.38
+      density_notes_per_bar: 5.91
+      harmonic_rhythm_chords_per_bar: 1.216
+    updated_at: '2026-09-28T20:42:29'
+    core_rules: []
+    fingerprint: 8b465a8cbc4e
+generation:
+  foundation:
+    bars:
+      default: 16
+      min: 8
+      max: 16
+    complexity: 2
+    instruments_default:
+    - flute
+    - violin
+    required:
+    - cadence
+  composition:
+    bars_default: 32
+    complexity: 3
+    preserve:
+    - meter
+    - melodic_character
+    - rhythmic_identity
+    may_change:
+    - key
+    - instrumentation
+    - register
+    - dynamics
+    - form
+llm_instruction: 落实英伦/爱尔兰曲调：单一旋律骨架、方整舞曲乐句、自然音级为主，重复音型推动。仅原创。 落实语料实证：级进为主、核心拍号、功能和声终止；勿背诵训练曲旋律。

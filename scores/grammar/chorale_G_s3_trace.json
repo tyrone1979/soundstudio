@@ -1,0 +1,1062 @@
+{
+ "plan": {
+  "n": 6,
+  "targets": [
+   "0:M",
+   "0:M",
+   "0:M",
+   "0:M",
+   "7:M",
+   "0:M"
+  ],
+  "plan_rules": [
+   "F003",
+   "F001",
+   "Barform（复用第 1 句）",
+   "Barform（复用第 2 句）",
+   "F007",
+   "F004"
+  ],
+  "barform": true,
+  "bars": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "layout": "pickup"
+ },
+ "phrases": [
+  {
+   "phrase": 1,
+   "bars": 2,
+   "target": "I",
+   "plan_rule": "F003",
+   "formula": "C005",
+   "formula_say": "V – V7 – I（女高音 2→1，完全正格终止 PAC）",
+   "contour": "M004",
+   "contour_name": "上行，幅度 3 半音",
+   "harmony": "I V I V I6 V V7 I"
+  },
+  {
+   "phrase": 2,
+   "bars": 2,
+   "target": "I",
+   "plan_rule": "F001",
+   "formula": "C001",
+   "formula_say": "ii65 – V – I（女高音 2→1，完全正格终止 PAC）",
+   "contour": "M001",
+   "contour_name": "拱形（高点在中段，幅度 4 半音）",
+   "harmony": "I ii I6 IV6 I ii65 V I"
+  },
+  {
+   "phrase": 3,
+   "bars": 2,
+   "target": "I",
+   "plan_rule": "Barform（复用第 1 句）",
+   "formula": "C005",
+   "formula_say": "V – V7 – I（女高音 2→1，完全正格终止 PAC）",
+   "contour": "M004",
+   "contour_name": "上行，幅度 3 半音",
+   "harmony": "I V I V I6 V V7 I"
+  },
+  {
+   "phrase": 4,
+   "bars": 2,
+   "target": "I",
+   "plan_rule": "Barform（复用第 2 句）",
+   "formula": "C001",
+   "formula_say": "ii65 – V – I（女高音 2→1，完全正格终止 PAC）",
+   "contour": "M001",
+   "contour_name": "拱形（高点在中段，幅度 4 半音）",
+   "harmony": "I ii I6 IV6 I ii65 V I"
+  },
+  {
+   "phrase": 5,
+   "bars": 2,
+   "target": "V",
+   "plan_rule": "F007",
+   "formula": "C051",
+   "formula_say": "I – I6 – V（女高音 3→2，半终止 HC）",
+   "contour": "M002",
+   "contour_name": "下行，幅度 4 半音",
+   "harmony": "I V6 V I6 ii42 I I6 V"
+  },
+  {
+   "phrase": 6,
+   "bars": 2,
+   "target": "I",
+   "plan_rule": "F004",
+   "formula": "C004",
+   "formula_say": "I64 – V – I（女高音 2→1，完全正格终止 PAC）",
+   "contour": "M005",
+   "contour_name": "拱形（高点在中段，幅度 7 半音）",
+   "harmony": "V I V6 I IV6 I64 V I"
+  }
+ ],
+ "seed_used": "3",
+ "beats": [
+  {
+   "bar": 0,
+   "beat": 4,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H001",
+   "harmony_rule": "H001",
+   "pos": "start"
+  },
+  {
+   "bar": 1,
+   "beat": 1,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    64,
+    null,
+    null
+   ],
+   "rule": "H006",
+   "harmony_rule": "H006",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 1,
+   "beat": 2,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H617",
+   "harmony_rule": "H617",
+   "pos": "mid_w"
+  },
+  {
+   "bar": 1,
+   "beat": 3,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    48
+   ],
+   "rule": "H601",
+   "harmony_rule": "H601",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 1,
+   "beat": 4,
+   "roman": "I6",
+   "midi": [
+    71,
+    67,
+    62,
+    47
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    48
+   ],
+   "rule": "H070",
+   "harmony_rule": "H070",
+   "pos": "cad3"
+  },
+  {
+   "bar": 2,
+   "beat": 1,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    48
+   ],
+   "rule": "C005",
+   "harmony_rule": "H057",
+   "pos": "cad2"
+  },
+  {
+   "bar": 2,
+   "beat": 2,
+   "roman": "V7",
+   "midi": [
+    69,
+    66,
+    60,
+    50
+   ],
+   "eighth": [
+    null,
+    64,
+    null,
+    null
+   ],
+   "rule": "C005",
+   "harmony_rule": "H036",
+   "pos": "cad1"
+  },
+  {
+   "bar": 2,
+   "beat": 3,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "C005",
+   "harmony_rule": "H062",
+   "pos": "cad0"
+  },
+  {
+   "bar": 2,
+   "beat": 4,
+   "roman": "I",
+   "midi": [
+    71,
+    67,
+    62,
+    43
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H018",
+   "harmony_rule": "H018",
+   "pos": "start"
+  },
+  {
+   "bar": 3,
+   "beat": 1,
+   "roman": "ii",
+   "midi": [
+    72,
+    64,
+    57,
+    45
+   ],
+   "eighth": [
+    null,
+    66,
+    null,
+    null
+   ],
+   "rule": "H003",
+   "harmony_rule": "H003",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 3,
+   "beat": 2,
+   "roman": "I6",
+   "midi": [
+    74,
+    67,
+    62,
+    47
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H119",
+   "harmony_rule": "H119",
+   "pos": "mid_w"
+  },
+  {
+   "bar": 3,
+   "beat": 3,
+   "roman": "IV6",
+   "midi": [
+    72,
+    67,
+    64,
+    52
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    54
+   ],
+   "rule": "H611",
+   "harmony_rule": "H611",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 3,
+   "beat": 4,
+   "roman": "I",
+   "midi": [
+    71,
+    67,
+    62,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H483",
+   "harmony_rule": "H483",
+   "pos": "cad3"
+  },
+  {
+   "bar": 4,
+   "beat": 1,
+   "roman": "ii65",
+   "midi": [
+    72,
+    67,
+    57,
+    48
+   ],
+   "eighth": [
+    71,
+    null,
+    null,
+    null
+   ],
+   "rule": "C001",
+   "harmony_rule": "H108",
+   "pos": "cad2"
+  },
+  {
+   "bar": 4,
+   "beat": 2,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    64,
+    null,
+    null
+   ],
+   "rule": "C001",
+   "harmony_rule": "H026",
+   "pos": "cad1"
+  },
+  {
+   "bar": 4,
+   "beat": 3,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "C001",
+   "harmony_rule": "H007",
+   "pos": "cad0"
+  },
+  {
+   "bar": 4,
+   "beat": 4,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    64,
+    null,
+    null
+   ],
+   "rule": "H002",
+   "harmony_rule": "H002",
+   "pos": "start"
+  },
+  {
+   "bar": 5,
+   "beat": 1,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    64,
+    60,
+    null
+   ],
+   "rule": "H003",
+   "harmony_rule": "H003",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 5,
+   "beat": 2,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    64,
+    null,
+    null
+   ],
+   "rule": "H617",
+   "harmony_rule": "H617",
+   "pos": "mid_w"
+  },
+  {
+   "bar": 5,
+   "beat": 3,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H601",
+   "harmony_rule": "H601",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 5,
+   "beat": 4,
+   "roman": "I6",
+   "midi": [
+    71,
+    67,
+    62,
+    47
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    48
+   ],
+   "rule": "H070",
+   "harmony_rule": "H070",
+   "pos": "cad3"
+  },
+  {
+   "bar": 6,
+   "beat": 1,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    48
+   ],
+   "rule": "C005",
+   "harmony_rule": "H057",
+   "pos": "cad2"
+  },
+  {
+   "bar": 6,
+   "beat": 2,
+   "roman": "V7",
+   "midi": [
+    69,
+    66,
+    60,
+    50
+   ],
+   "eighth": [
+    null,
+    64,
+    null,
+    null
+   ],
+   "rule": "C005",
+   "harmony_rule": "H036",
+   "pos": "cad1"
+  },
+  {
+   "bar": 6,
+   "beat": 3,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "C005",
+   "harmony_rule": "H062",
+   "pos": "cad0"
+  },
+  {
+   "bar": 6,
+   "beat": 4,
+   "roman": "I",
+   "midi": [
+    71,
+    67,
+    62,
+    43
+   ],
+   "eighth": [
+    null,
+    66,
+    null,
+    null
+   ],
+   "rule": "H018",
+   "harmony_rule": "H018",
+   "pos": "start"
+  },
+  {
+   "bar": 7,
+   "beat": 1,
+   "roman": "ii",
+   "midi": [
+    72,
+    64,
+    57,
+    45
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H003",
+   "harmony_rule": "H003",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 7,
+   "beat": 2,
+   "roman": "I6",
+   "midi": [
+    74,
+    67,
+    62,
+    47
+   ],
+   "eighth": [
+    null,
+    66,
+    null,
+    null
+   ],
+   "rule": "H119",
+   "harmony_rule": "H119",
+   "pos": "mid_w"
+  },
+  {
+   "bar": 7,
+   "beat": 3,
+   "roman": "IV6",
+   "midi": [
+    72,
+    67,
+    64,
+    52
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H611",
+   "harmony_rule": "H611",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 7,
+   "beat": 4,
+   "roman": "I",
+   "midi": [
+    71,
+    67,
+    62,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H483",
+   "harmony_rule": "H483",
+   "pos": "cad3"
+  },
+  {
+   "bar": 8,
+   "beat": 1,
+   "roman": "ii65",
+   "midi": [
+    72,
+    67,
+    57,
+    48
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "C001",
+   "harmony_rule": "H108",
+   "pos": "cad2"
+  },
+  {
+   "bar": 8,
+   "beat": 2,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    64,
+    60,
+    null
+   ],
+   "rule": "C001",
+   "harmony_rule": "H026",
+   "pos": "cad1"
+  },
+  {
+   "bar": 8,
+   "beat": 3,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "C001",
+   "harmony_rule": "H007",
+   "pos": "cad0"
+  },
+  {
+   "bar": 8,
+   "beat": 4,
+   "roman": "I",
+   "midi": [
+    71,
+    67,
+    62,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H002",
+   "harmony_rule": "H002",
+   "pos": "start"
+  },
+  {
+   "bar": 9,
+   "beat": 1,
+   "roman": "V6",
+   "midi": [
+    69,
+    62,
+    57,
+    54
+   ],
+   "eighth": [
+    null,
+    null,
+    55,
+    52
+   ],
+   "rule": "H003",
+   "harmony_rule": "H003",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 9,
+   "beat": 2,
+   "roman": "V",
+   "midi": [
+    69,
+    62,
+    54,
+    50
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    48
+   ],
+   "rule": "H045",
+   "harmony_rule": "H045",
+   "pos": "mid_w"
+  },
+  {
+   "bar": 9,
+   "beat": 3,
+   "roman": "I6",
+   "midi": [
+    71,
+    62,
+    55,
+    47
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    45
+   ],
+   "rule": "H106",
+   "harmony_rule": "H106",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 9,
+   "beat": 4,
+   "roman": "ii42",
+   "midi": [
+    72,
+    69,
+    57,
+    43
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H069",
+   "harmony_rule": "H069",
+   "pos": "cad3"
+  },
+  {
+   "bar": 10,
+   "beat": 1,
+   "roman": "I",
+   "midi": [
+    71,
+    67,
+    62,
+    43
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "C051",
+   "harmony_rule": "H311",
+   "pos": "cad2"
+  },
+  {
+   "bar": 10,
+   "beat": 2,
+   "roman": "I6",
+   "midi": [
+    71,
+    67,
+    62,
+    47
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    48
+   ],
+   "rule": "C051",
+   "harmony_rule": "H240",
+   "pos": "cad1"
+  },
+  {
+   "bar": 10,
+   "beat": 3,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "C051",
+   "harmony_rule": "H081",
+   "pos": "cad0"
+  },
+  {
+   "bar": 10,
+   "beat": 4,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H034",
+   "harmony_rule": "H034",
+   "pos": "start"
+  },
+  {
+   "bar": 11,
+   "beat": 1,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H011",
+   "harmony_rule": "H011",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 11,
+   "beat": 2,
+   "roman": "V6",
+   "midi": [
+    69,
+    62,
+    57,
+    54
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H008",
+   "harmony_rule": "H008",
+   "pos": "mid_w"
+  },
+  {
+   "bar": 11,
+   "beat": 3,
+   "roman": "I",
+   "midi": [
+    71,
+    67,
+    62,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    54
+   ],
+   "rule": "H035",
+   "harmony_rule": "H035",
+   "pos": "mid_s"
+  },
+  {
+   "bar": 11,
+   "beat": 4,
+   "roman": "IV6",
+   "midi": [
+    72,
+    67,
+    60,
+    52
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "H029",
+   "harmony_rule": "H029",
+   "pos": "cad3"
+  },
+  {
+   "bar": 12,
+   "beat": 1,
+   "roman": "I64",
+   "midi": [
+    71,
+    67,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "C004",
+   "harmony_rule": "H047",
+   "pos": "cad2"
+  },
+  {
+   "bar": 12,
+   "beat": 2,
+   "roman": "V",
+   "midi": [
+    69,
+    66,
+    62,
+    50
+   ],
+   "eighth": [
+    null,
+    null,
+    60,
+    null
+   ],
+   "rule": "C004",
+   "harmony_rule": "H143",
+   "pos": "cad1"
+  },
+  {
+   "bar": 12,
+   "beat": 3,
+   "roman": "I",
+   "midi": [
+    67,
+    62,
+    59,
+    55
+   ],
+   "eighth": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "rule": "C004",
+   "harmony_rule": "H042",
+   "pos": "cad0"
+  }
+ ]
+}

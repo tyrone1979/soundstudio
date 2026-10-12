@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "title": "113. Ihr Gestirn', ihr hohen L\\u3fte",
+    "composer": "Bach, Johann Sebastian",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/bwv366.musicxml"
+  },
+  "global": {
+    "key": "D minor",
+    "key_sharps": -1,
+    "meter": "3/4",
+    "tempo": null,
+    "bars": 16,
+    "parts": [
+      4787856464,
+      4788126736,
+      4793120016,
+      4789136464
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.188,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "F5"
+    ],
+    "mean_midi": 70.44,
+    "stepwise_ratio": 0.613,
+    "leap_ratio": 0.065,
+    "large_leap_ratio": 0.032,
+    "repeated_note_ratio": 0.194,
+    "interval_hist": {
+      "2": 12,
+      "1": 7,
+      "0": 6,
+      "3": 4,
+      "5": 1,
+      "12": 1
+    },
+    "dur_hist": {
+      "half": 12,
+      "quarter": 16,
+      "dotted_half": 2,
+      "dotted_quarter": 1,
+      "8th": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.2188,
+      "1": 0.0,
+      "2": 0.0938,
+      "3": 0.1562,
+      "4": 0.0,
+      "5": 0.1875,
+      "6": 0.0,
+      "7": 0.125,
+      "8": 0.0312,
+      "9": 0.0,
+      "10": 0.0938,
+      "11": 0.0938
+    },
+    "chromatic_ratio": 0.0938,
+    "leading_tone_ratio": 0.0938
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": null
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 73,
+      "8th": 60,
+      "half": 32,
+      "dotted_half": 6,
+      "dotted_quarter": 4,
+      "dotted_8th": 1,
+      "16th": 1
+    },
+    "onset_beat_share": {
+      "1": 0.418,
+      "2": 0.203,
+      "3": 0.379
+    },
+    "beat1_onset_share": 0.418,
+    "syncopation_proxy": 0.582,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 11.06,
+    "bass_beat1_ratio": 1.0
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 9,
+    "chords_estimated": 68,
+    "harmonic_rhythm_chords_per_bar": 4.25,
+    "root_pair_top": {
+      "A-D": 4,
+      "D-A": 3,
+      "C-F": 3,
+      "D-E": 2,
+      "E-D": 2,
+      "D-B-": 2,
+      "B--E": 2,
+      "E-F": 2
+    },
+    "root_sample": [
+      "D",
+      "E",
+      "D",
+      "G",
+      "C#",
+      "D",
+      "B-",
+      "E",
+      "F",
+      "D",
+      "A",
+      "D",
+      "A",
+      "D",
+      "A",
+      "D",
+      "E",
+      "D",
+      "B-",
+      "F",
+      "G",
+      "C",
+      "F",
+      "C"
+    ],
+    "quality_hist": {
+      "triad": 0.7353,
+      "other": 0.1029,
+      "minor7": 0.0441,
+      "major7": 0.0147,
+      "augmented": 0.0147,
+      "dominant7": 0.0294,
+      "half_diminished7": 0.0441,
+      "diminished7": 0.0147
+    },
+    "seventh_ratio": 0.1471
+  },
+  "texture": {
+    "voice_count": 4,
+    "bass_part": null
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "title": "Aus tiefer Not schrei ich zu dir 1",
+    "composer": "J. S. Bach",
+    "genre_hint": "chorale",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/chorale/riemenschneider010.musicxml"
+  },
+  "global": {
+    "key": "A minor",
+    "key_sharps": 0,
+    "meter": "4/4",
+    "tempo": null,
+    "bars": 13,
+    "parts": [
+      4755248464
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 13,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": null,
+    "mean_midi": null,
+    "stepwise_ratio": 0.0,
+    "leap_ratio": 0.0,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.0,
+    "interval_hist": {},
+    "dur_hist": {}
+  },
+  "tonal": null,
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "quarter": 28,
+      "half": 8,
+      "8th": 8,
+      "whole": 1
+    },
+    "onset_beat_share": {
+      "1": 0.289,
+      "2": 0.2,
+      "3": 0.289,
+      "4": 0.222
+    },
+    "beat1_onset_share": 0.289,
+    "syncopation_proxy": 0.711,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 3.46,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": true,
+    "source": "chordify",
+    "unique_roots": 9,
+    "chords_estimated": 45,
+    "harmonic_rhythm_chords_per_bar": 3.46,
+    "root_pair_top": {
+      "E-A": 5,
+      "G-C": 4,
+      "A-G": 3,
+      "G-D": 3,
+      "A-E": 3,
+      "C-G": 3,
+      "F-C": 2,
+      "D-E": 2
+    },
+    "root_sample": [
+      "E",
+      "A",
+      "G#",
+      "A",
+      "G",
+      "C",
+      "F#",
+      "E",
+      "A",
+      "G",
+      "C",
+      "F",
+      "C",
+      "D",
+      "E",
+      "A",
+      "G",
+      "A",
+      "F#",
+      "G",
+      "D",
+      "B",
+      "E",
+      "A"
+    ],
+    "quality_hist": {
+      "dominant7": 0.1556,
+      "triad": 0.8444
+    },
+    "seventh_ratio": 0.1556
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

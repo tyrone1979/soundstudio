@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "Off She Goes -- Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/offshegoesjig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "12/8",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4471430096
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 8,
+    "repetition_ratio": 0.0,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "B5"
+    ],
+    "mean_midi": 74.09,
+    "stepwise_ratio": 0.426,
+    "leap_ratio": 0.059,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.015,
+    "interval_hist": {
+      "4": 19,
+      "2": 17,
+      "3": 15,
+      "1": 12,
+      "5": 2,
+      "8": 1,
+      "0": 1,
+      "9": 1
+    },
+    "dur_hist": {
+      "quarter": 15,
+      "8th": 36,
+      "dotted_quarter": 6,
+      "dotted_8th": 6,
+      "16th": 6
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1739,
+      "1": 0.0,
+      "2": 0.087,
+      "3": 0.0,
+      "4": 0.2464,
+      "5": 0.1594,
+      "6": 0.0,
+      "7": 0.1594,
+      "8": 0.0,
+      "9": 0.1014,
+      "10": 0.0,
+      "11": 0.0725
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0725
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 36,
+      "quarter": 15,
+      "dotted_quarter": 6,
+      "dotted_8th": 6,
+      "16th": 6
+    },
+    "onset_beat_share": {
+      "1": 0.116,
+      "2": 0.043,
+      "3": 0.116,
+      "4": 0.116,
+      "5": 0.0,
+      "6": 0.116,
+      "7": 0.116,
+      "8": 0.116,
+      "9": 0.116,
+      "10": 0.116,
+      "11": 0.0,
+      "12": 0.029
+    },
+    "beat1_onset_share": 0.116,
+    "syncopation_proxy": 0.884,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 8.62,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

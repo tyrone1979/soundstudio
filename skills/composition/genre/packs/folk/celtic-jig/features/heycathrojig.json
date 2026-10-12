@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "title": "HEY, CA' THRO' -- JIG",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/heycathrojig.musicxml"
+  },
+  "global": {
+    "key": "D major",
+    "key_sharps": 2,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 8,
+    "parts": [
+      4479100816
+    ]
+  },
+  "form": [],
+  "form_metrics": {
+    "method": "no_clear_repetition",
+    "unique_motifs": 7,
+    "repetition_ratio": 0.125,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "D4",
+      "E5"
+    ],
+    "mean_midi": 68.3,
+    "stepwise_ratio": 0.423,
+    "leap_ratio": 0.212,
+    "large_leap_ratio": 0.019,
+    "repeated_note_ratio": 0.096,
+    "interval_hist": {
+      "2": 16,
+      "3": 8,
+      "1": 6,
+      "4": 6,
+      "0": 5,
+      "10": 4,
+      "5": 2,
+      "8": 2,
+      "9": 2,
+      "12": 1
+    },
+    "dur_hist": {
+      "dotted_8th": 7,
+      "16th": 7,
+      "8th": 22,
+      "quarter": 15,
+      "dotted_quarter": 2
+    }
+  },
+  "tonal": {
+    "tonic_pc": 2,
+    "degree_hist": {
+      "0": 0.1509,
+      "1": 0.0,
+      "2": 0.1321,
+      "3": 0.0,
+      "4": 0.3396,
+      "5": 0.0943,
+      "6": 0.0,
+      "7": 0.1887,
+      "8": 0.0,
+      "9": 0.0943,
+      "10": 0.0,
+      "11": 0.0
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 22,
+      "quarter": 15,
+      "dotted_8th": 7,
+      "16th": 7,
+      "dotted_quarter": 2
+    },
+    "onset_beat_share": {
+      "1": 0.151,
+      "2": 0.019,
+      "3": 0.151,
+      "4": 0.151,
+      "5": 0.113,
+      "6": 0.151,
+      "7": 0.151,
+      "8": 0.038,
+      "9": 0.075
+    },
+    "beat1_onset_share": 0.151,
+    "syncopation_proxy": 0.849,
+    "rest_ratio": 0.0,
+    "density_notes_per_bar": 6.62,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}

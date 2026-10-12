@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "title": "The Time of Day Jig",
+    "composer": "Music21",
+    "genre_hint": "celtic-jig",
+    "source": "/Users/leizhao/Documents/prj/composerchat/scores/corpus/m21_by_genre/celtic-jig/timeofdayjig.musicxml"
+  },
+  "global": {
+    "key": "G major",
+    "key_sharps": 1,
+    "meter": "9/8",
+    "tempo": null,
+    "bars": 18,
+    "parts": [
+      4465665424
+    ]
+  },
+  "form": [
+    {
+      "section": "A",
+      "bars": "0"
+    },
+    {
+      "section": "B",
+      "bars": "1"
+    },
+    {
+      "section": "C",
+      "bars": "2"
+    },
+    {
+      "section": "B",
+      "bars": "3"
+    },
+    {
+      "section": "D",
+      "bars": "4"
+    },
+    {
+      "section": "B",
+      "bars": "5"
+    },
+    {
+      "section": "C",
+      "bars": "6"
+    },
+    {
+      "section": "B",
+      "bars": "7"
+    },
+    {
+      "section": "E",
+      "bars": "8"
+    },
+    {
+      "section": "F",
+      "bars": "9"
+    },
+    {
+      "section": "G",
+      "bars": "10"
+    },
+    {
+      "section": "H",
+      "bars": "11"
+    },
+    {
+      "section": "I",
+      "bars": "12"
+    },
+    {
+      "section": "J",
+      "bars": "13"
+    },
+    {
+      "section": "K",
+      "bars": "14"
+    },
+    {
+      "section": "H",
+      "bars": "15"
+    },
+    {
+      "section": "I",
+      "bars": "16"
+    },
+    {
+      "section": "J",
+      "bars": "17"
+    }
+  ],
+  "form_metrics": {
+    "method": "motif_repetition",
+    "unique_motifs": 11,
+    "repetition_ratio": 0.389,
+    "phrase_len": 1.0
+  },
+  "melody": {
+    "part": null,
+    "range": [
+      "G4",
+      "A5"
+    ],
+    "mean_midi": 73.35,
+    "stepwise_ratio": 0.657,
+    "leap_ratio": 0.12,
+    "large_leap_ratio": 0.0,
+    "repeated_note_ratio": 0.13,
+    "interval_hist": {
+      "2": 57,
+      "1": 14,
+      "0": 14,
+      "3": 10,
+      "5": 9,
+      "8": 4
+    },
+    "dur_hist": {
+      "8th": 75,
+      "quarter": 33,
+      "dotted_quarter": 1
+    }
+  },
+  "tonal": {
+    "tonic_pc": 7,
+    "degree_hist": {
+      "0": 0.1468,
+      "1": 0.0,
+      "2": 0.1284,
+      "3": 0.0,
+      "4": 0.211,
+      "5": 0.0734,
+      "6": 0.0,
+      "7": 0.2385,
+      "8": 0.0,
+      "9": 0.1651,
+      "10": 0.0,
+      "11": 0.0367
+    },
+    "chromatic_ratio": 0.0,
+    "leading_tone_ratio": 0.0367
+  },
+  "groove": {
+    "swing_ratio": null,
+    "triplet_ratio": 0.0,
+    "swing_pair_share": 0.0
+  },
+  "rhythm": {
+    "dur_hist_global": {
+      "8th": 75,
+      "quarter": 33,
+      "dotted_quarter": 1
+    },
+    "onset_beat_share": {
+      "1": 0.165,
+      "2": 0.073,
+      "3": 0.147,
+      "4": 0.147,
+      "5": 0.037,
+      "6": 0.147,
+      "7": 0.147,
+      "8": 0.018,
+      "9": 0.119
+    },
+    "beat1_onset_share": 0.165,
+    "syncopation_proxy": 0.835,
+    "rest_ratio": 0.065,
+    "density_notes_per_bar": 6.06,
+    "bass_beat1_ratio": null
+  },
+  "harmony": {
+    "available": false,
+    "error": "no valid chords"
+  },
+  "texture": {
+    "voice_count": 1,
+    "bass_part": null
+  }
+}
